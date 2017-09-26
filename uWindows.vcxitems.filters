@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{43333bd0-fe5a-46d6-926f-ada46da27e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Adafruit_GFX_Library">
+      <UniqueIdentifier>{ea3dfa0d-9b99-48c4-ac94-92a7682fac20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Adafruit_GFX_Library\Fonts">
+      <UniqueIdentifier>{baeb307d-d8db-49c6-9308-b36a2abbf072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Adafruit_RA8875">
+      <UniqueIdentifier>{03825ce0-d40e-42b8-b8d4-aada28208d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\GD3">
+      <UniqueIdentifier>{1f4fb6ed-7582-4082-8bff-af1e45e16d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\GD3\transports">
+      <UniqueIdentifier>{3e0dfd84-7f0c-4554-91d8-0a4b0993aae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\SDFat">
+      <UniqueIdentifier>{feaf8bcd-77cf-4029-82b9-eb5525f750e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\SDFat\FatLib">
+      <UniqueIdentifier>{582b5848-3b8a-4d56-a489-b5cf2810b92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\SDFat\SdCard">
+      <UniqueIdentifier>{c97d1908-4114-4787-91af-d99613a18d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\SDFat\SpiDriver">
+      <UniqueIdentifier>{a4957b19-e38a-4524-9c6f-187f19caccca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\SDFat\SpiDriver\boards">
+      <UniqueIdentifier>{0488221b-38db-4ad0-b0ea-7da07ab513ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{dce31b4d-9e17-4a4e-b4bc-832149d402d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Driver">
+      <UniqueIdentifier>{72353c7c-fb2d-40f0-9451-8b7f02e37922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Images">
+      <UniqueIdentifier>{fa00a6bc-e72d-4eae-bdc9-bf805bd4659e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIElements">
+      <UniqueIdentifier>{8b2d888c-8c92-4219-bf72-aede7129f2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIElements\ControlDisplay">
+      <UniqueIdentifier>{25f19ebf-ee1e-4cec-8bff-e2995c1ad594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIElements\FT8XX">
+      <UniqueIdentifier>{08a6803b-3cd1-4818-b12c-a082a8db7707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIElements\FT8XX\Fonts">
+      <UniqueIdentifier>{3071ccf1-a864-4c56-9a84-79ced2b0eda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIElements\RA8875">
+      <UniqueIdentifier>{58040cf3-2fbe-4ea6-961d-99cf27353968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIElements\RA8875\Fonts">
+      <UniqueIdentifier>{740c60c4-0c20-4beb-bd91-d789310ece32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIPages">
+      <UniqueIdentifier>{5c16084a-4348-4daf-9dd0-c2103f649bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UIElements\ActiveButtons">
+      <UniqueIdentifier>{e66c5740-b4df-4ca5-981e-3b11bd6515d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{be0521a6-bb18-4117-bdf5-265a98f9451c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WindowManager">
+      <UniqueIdentifier>{0b2d6421-a52d-4b75-9bae-82b59e95d360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{87056964-3189-400c-9bd5-5d7c4f022104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Driver">
+      <UniqueIdentifier>{92664a3a-c5fb-4ca6-82f9-efea6a0a9d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\WindowManager">
+      <UniqueIdentifier>{1600cd8a-2975-4554-898f-634ef5e12500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utility">
+      <UniqueIdentifier>{208c634b-e38e-4e82-86ee-fa9071af9a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UIPages">
+      <UniqueIdentifier>{d35b9f2c-b3b4-4383-827b-6e57f688f3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UIElements">
+      <UniqueIdentifier>{85eabbe5-c0d8-4bf5-ac93-9fafa40abbc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UIElements\ControlDisplay">
+      <UniqueIdentifier>{c7c462e3-07ab-44b9-a1f5-447556197594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UIElements\FT8XX">
+      <UniqueIdentifier>{f3318f9a-c848-4076-9a5e-6c43a1612069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UIElements\RA8875">
+      <UniqueIdentifier>{ed256578-1600-4236-8f36-b6c3981085fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Adafruit_GFX.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMono12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMono18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMono24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMono9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBold12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBold18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBold24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBold9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoOblique12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoOblique18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoOblique24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoOblique9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSans12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSans18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSans24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSans9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBold12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBold18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBold24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBold9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansOblique12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansOblique18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansOblique24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansOblique9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerif12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerif18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerif24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerif9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBold12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBold18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBold24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBold9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifItalic12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifItalic18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifItalic24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifItalic9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\Org_01.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\Picopixel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\TomThumb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\gfxfont.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Adafruit_GFX.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\glcdfont.c" />
+  </ItemGroup>
+</Project>

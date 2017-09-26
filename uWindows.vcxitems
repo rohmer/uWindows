@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{8b71aeb2-f9a9-40a1-a6fb-5c043a46a07a}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Adafruit_GFX.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMono12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMono18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMono24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMono9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBold12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBold18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBold24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBold9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoBoldOblique9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoOblique12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoOblique18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoOblique24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeMonoOblique9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSans12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSans18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSans24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSans9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBold12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBold18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBold24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBold9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansBoldOblique9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansOblique12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansOblique18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansOblique24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSansOblique9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerif12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerif18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerif24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerif9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBold12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBold18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBold24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBold9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifBoldItalic9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifItalic12pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifItalic18pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifItalic24pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\FreeSerifItalic9pt7b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\Org_01.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\Picopixel.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Fonts\TomThumb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\gfxfont.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Adafruit_GFX.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\glcdfont.c" />
+  </ItemGroup>
+</Project>
