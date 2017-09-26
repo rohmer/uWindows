@@ -1,0 +1,6 @@
+<map id="StdioStream::ferror" name="StdioStream::ferror">
+<area shape="rect" id="node2" href="$d2/de6/class_stdio_stream.html#a7ce32ec7ea3f2fd8ea42b9633890f1c0" title="StdioStream::fflush" alt="" coords="184,31,316,57"/>
+<area shape="rect" id="node3" href="$d3/d51/class_fat_file.html#a67f3dc4896c542d695e11aac927f585e" title="FatFile::sync" alt="" coords="364,31,463,57"/>
+<area shape="rect" id="node4" href="$d3/d51/class_fat_file.html#acc5a87da1a5c8cb9758bfeaa7ae47b57" title="FatFile::isFile" alt="" coords="515,5,617,32"/>
+<area shape="rect" id="node5" href="$d3/d51/class_fat_file.html#a8b8a2850c086d3ce79bee64a23fbf7a6" title="FatFile::isOpen" alt="" coords="511,56,621,83"/>
+</map>

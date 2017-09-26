@@ -1,0 +1,12 @@
+<map id="UIElement" name="UIElement">
+<area shape="rect" id="node2" href="$d4/d3b/class_home_screen.html" title="The home screen for the PiMower A screen is an element that contains the window and all the elements ..." alt="" coords="5,439,131,560"/>
+<area shape="rect" id="node3" href="$d9/d21/class_screen_saver.html" title="{ScreenSaver\n||+ ScreenSaver()\l+ Update()\l+ ProcessTouch()\l}" alt="" coords="155,446,280,553"/>
+<area shape="rect" id="node4" href="$d1/d95/class_settings_button.html" title="{SettingsButton\n||+ SettingsButton()\l+ Update()\l+ ProcessTouch()\l+ ~SettingsButton()\l}" alt="" coords="304,439,440,560"/>
+<area shape="rect" id="node5" href="$d1/d0d/class_u_i_active_button.html" title="{UIActiveButton\n||}" alt="" coords="464,461,571,538"/>
+<area shape="rect" id="node6" href="$da/d03/class_u_i_button.html" title="{UIButton\n||+ UIButton()\l+ ProcessTouch()\l+ Update()\l+ SetButtonText()\l+ SetVerticalAlignment()\l}" alt="" coords="595,431,759,567"/>
+<area shape="rect" id="node7" href="$de/dcc/class_u_i_check_box.html" title="{UICheckBox\n||+ UICheckBox()\l+ ~UICheckBox()\l+ ProcessTouch()\l+ Update()\l}" alt="" coords="784,439,909,560"/>
+<area shape="rect" id="node8" href="$dc/d7a/class_u_i_element_graph.html" title="{UIElementGraph\n||+ UIElementGraph()\l+ ProcessTouch()\l+ Update()\l+ GetValues()\l+ AddValue()\l}" alt="" coords="934,431,1071,567"/>
+<area shape="rect" id="node9" href="$da/d7d/class_u_i_radio_button.html" title="{UIRadioButton\n||+ UIRadioButton()\l+ Update()\l+ SetText()\l+ SetChecked()\l+ IsChecked()\l+ ProcessTouch()\l}" alt="" coords="1096,424,1221,575"/>
+<area shape="rect" id="node10" href="$dc/d61/class_u_i_radio_group.html" title="UIRadioGroup is a container class, some differences from other UIElements " alt="" coords="1245,417,1397,582"/>
+<area shape="rect" id="node11" href="$df/dab/class_u_i_window.html" title="{UIWindow\n||+ UIWindow()\l+ Update()\l+ SetWindowTitle()\l+ SetTitleBar()\l+ SetCloseIcon()\l+ SetHasChrome()\l+ SetModal()\l+ SetCornerRadius()\l+ AddChildElement()\l+ ProcessTouch()\l}" alt="" coords="1422,395,1565,604"/>
+</map>

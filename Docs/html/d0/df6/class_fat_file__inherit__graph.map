@@ -1,0 +1,8 @@
+<map id="FatFile" name="FatFile">
+<area shape="rect" id="node2" href="$dc/dcb/class_fat_stream_base.html" title="Base class for C++ style streams. " alt="" coords="104,483,217,560"/>
+<area shape="rect" id="node6" href="$d5/dea/class_sd_base_file.html" title="Class for backward compatibility. " alt="" coords="242,475,351,567"/>
+<area shape="rect" id="node7" href="$d2/de6/class_stdio_stream.html" title="StdioStream implements a minimal stdio stream. " alt="" coords="375,409,490,633"/>
+<area shape="rect" id="node3" href="$d7/df9/classfstream.html" title="file input/output stream. " alt="" coords="5,681,92,832"/>
+<area shape="rect" id="node4" href="$d0/d68/classifstream.html" title="file input stream. " alt="" coords="117,689,205,825"/>
+<area shape="rect" id="node5" href="$d9/d93/classofstream.html" title="file output stream. " alt="" coords="229,681,321,832"/>
+</map>

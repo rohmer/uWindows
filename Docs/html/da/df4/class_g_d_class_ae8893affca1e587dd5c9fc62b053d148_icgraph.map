@@ -1,0 +1,6 @@
+<map id="GDClass::ClearColorRGB" name="GDClass::ClearColorRGB">
+<area shape="rect" id="node2" href="$d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="224,31,391,57"/>
+<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#ad5a879639dd6a4ac45de21f8eea719ca" title="FT8XXDriver::fillScreen" alt="" coords="232,81,383,108"/>
+<area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="463,5,577,32"/>
+<area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="439,56,601,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="UIPrimitives::CircleFlat" name="UIPrimitives::CircleFlat">
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="219,5,334,32"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="216,56,337,83"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="207,107,347,133"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a633c344df45d3ac7483a8615160552f3" title="GDClass::PointSize" alt="" coords="207,157,346,184"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="211,208,342,235"/>
+</map>

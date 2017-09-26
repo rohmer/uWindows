@@ -1,0 +1,7 @@
+<map id="UIElement::Update" name="UIElement::Update">
+<area shape="rect" id="node2" href="$de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="202,5,345,32"/>
+<area shape="rect" id="node3" href="$dc/d61/class_u_i_radio_group.html#ab62f34079999788a2c858452d71164b9" title="The standard update is fine for this, as the only displayable objects in this are children ..." alt="" coords="198,56,349,83"/>
+<area shape="rect" id="node4" href="$d1/d4c/class_u_i_element.html#a92959c8ebf69189fbb1801858ff017ff" title="UIElement::UpdateChildren" alt="" coords="184,107,363,133"/>
+<area shape="rect" id="node5" href="$da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="423,81,545,108"/>
+<area shape="rect" id="node6" href="$d4/d3b/class_home_screen.html#a6982b67a9940279b909f3dda2faf1597" title="HomeScreen::Update" alt="" coords="411,132,557,159"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ios::clear" name="ios::clear">
+<area shape="rect" id="node2" href="$d7/df9/classfstream.html#a682b278a6a299ffb21b8737717ff12bf" title="fstream::clear" alt="" coords="131,5,233,32"/>
+<area shape="rect" id="node3" href="$d9/d93/classofstream.html#a09edfdb3dbda20aff105e751001313f0" title="ofstream::clear" alt="" coords="128,56,236,83"/>
+<area shape="rect" id="node4" href="$d0/d91/classibufstream.html#a1d7bae17d9d2c79218085251946f322a" title="ibufstream::init" alt="" coords="129,107,235,133"/>
+<area shape="rect" id="node5" href="$d0/d91/classibufstream.html#a819561105ef7dc3828e0cfedfed708d8" title="ibufstream::ibufstream" alt="" coords="288,81,439,108"/>
+<area shape="rect" id="node6" href="$df/d20/classobufstream.html#a7af0555c5c08ebf9cbc70fc5e2f67db7" title="obufstream::obufstream" alt="" coords="284,132,443,159"/>
+</map>

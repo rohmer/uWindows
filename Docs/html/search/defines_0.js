@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['_5f_5farm_5f_5f',['__ARM__',['../d9/d71/_8buildtest_8vsarduino_8h.html#af23257c9931a58ed0929ee4bebe4ab3d',1,'__ARM__():&#160;.buildtest.vsarduino.h'],['../d9/d71/_8buildtest_8vsarduino_8h.html#a5144286cd63b294154788dfb0730d9cf',1,'__arm__():&#160;.buildtest.vsarduino.h']]],
+  ['_5f_5fasm',['__ASM',['../d9/d71/_8buildtest_8vsarduino_8h.html#a1378040bcf22428955c6e3ce9c2053cd',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fasm_5f_5f',['__asm__',['../d9/d71/_8buildtest_8vsarduino_8h.html#a2982fd921bfec096f995c53980bcfc19',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fattr_5fconst_5f_5f',['__ATTR_CONST__',['../d9/d71/_8buildtest_8vsarduino_8h.html#a87f6b1b3880d945610873b9da382e5d4',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fattr_5fpure_5f_5f',['__ATTR_PURE__',['../d9/d71/_8buildtest_8vsarduino_8h.html#a536d41f7767c0a501c4f9aa625ef0c58',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fattribute_5f_5f',['__attribute__',['../d9/d71/_8buildtest_8vsarduino_8h.html#aa91ecb5e9664312d1f3d8f13b5ee97fb',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fbuiltin_5fva_5flist',['__builtin_va_list',['../d9/d71/_8buildtest_8vsarduino_8h.html#afab4ecd5c0381d185c437b4010b1517d',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fcplusplus',['__cplusplus',['../d9/d71/_8buildtest_8vsarduino_8h.html#a1b391bc7ed92f79666c4a5d840aa1edd',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fextension_5f_5f',['__extension__',['../d9/d71/_8buildtest_8vsarduino_8h.html#a586c6a171eb0104d519dc0eda5284ef7',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5finline',['__INLINE',['../d9/d71/_8buildtest_8vsarduino_8h.html#ade2d8d7118f8ff49547f60aa0c3382bb',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5finline_5f_5f',['__inline__',['../d9/d71/_8buildtest_8vsarduino_8h.html#a9f04218fe09e6ee659e045b2f11542ed',1,'__inline__():&#160;.buildtest.vsarduino.h'],['../d9/d71/_8buildtest_8vsarduino_8h.html#a9f04218fe09e6ee659e045b2f11542ed',1,'__inline__():&#160;.buildtest.vsarduino.h']]],
+  ['_5f_5fint32_5ftype_5f_5f',['__INT32_TYPE__',['../d9/d71/_8buildtest_8vsarduino_8h.html#a72f76585ea7d1131d4e9be0110fb0ec3',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fintptr_5ftype_5f_5f',['__INTPTR_TYPE__',['../d9/d71/_8buildtest_8vsarduino_8h.html#a4ca36196b9f45fa67a0b23c43c658aa1',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fsam3x8e_5f_5f',['__SAM3X8E__',['../d9/d71/_8buildtest_8vsarduino_8h.html#a6c7e5e414d9a770532312e0fe5a86044',1,'.buildtest.vsarduino.h']]],
+  ['_5f_5fvolatile_5f_5f',['__volatile__',['../d9/d71/_8buildtest_8vsarduino_8h.html#a64fa3037957156c60db536aad57ae07e',1,'.buildtest.vsarduino.h']]],
+  ['_5fadafruit_5fra8875_5fh',['_ADAFRUIT_RA8875_H',['../d9/daf/_adafruit___r_a8875_8h.html#af058af54b054d26f15078c097116d73a',1,'Adafruit_RA8875.h']]],
+  ['_5fgd3_5fh_5fincluded',['_GD3_H_INCLUDED',['../df/de7/_g_d3_8h.html#a59093002ffc14616acfac16c93684457',1,'GD3.h']]],
+  ['_5fhave_5fstdc',['_HAVE_STDC',['../d9/d71/_8buildtest_8vsarduino_8h.html#acdc0c0c7f1cc65c68d41829c94b27306',1,'.buildtest.vsarduino.h']]],
+  ['_5fpragma',['_Pragma',['../d9/d71/_8buildtest_8vsarduino_8h.html#aaf039321959eb68c3bd0d1820810b6d3',1,'.buildtest.vsarduino.h']]],
+  ['_5fswap_5fint16_5ft',['_swap_int16_t',['../d1/de6/_adafruit___g_f_x_8cpp.html#a4e000513b9464b4b8a13b6ac95f87f80',1,'Adafruit_GFX.cpp']]],
+  ['_5fvmdebug',['_VMDEBUG',['../d9/d71/_8buildtest_8vsarduino_8h.html#adc7c8f72d80604df68661282febe1c97',1,'.buildtest.vsarduino.h']]]
+];

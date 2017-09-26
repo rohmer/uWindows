@@ -1,0 +1,11 @@
+<map id="GDClass::ColorMask" name="GDClass::ColorMask">
+<area shape="rect" id="node2" href="$d9/d69/class_poly.html#ad0dd1e12fa2a59df2828ef8a72b0a662" title="Poly::begin" alt="" coords="240,56,327,83"/>
+<area shape="rect" id="node8" href="$d5/deb/class_u_i_primitives.html#a7b4f0a86a7622ffc6b836c2e370ed8dd" title="UIPrimitives::CircleOutline" alt="" coords="197,107,369,133"/>
+<area shape="rect" id="node9" href="$d6/d63/class_f_t8_x_x_driver.html#a418ddbdb2d073a94438d2ea4f07078f3" title="FT8XXDriver::drawCircle" alt="" coords="204,157,363,184"/>
+<area shape="rect" id="node10" href="$d9/d69/class_poly.html#a3bcb54c9e37aecb7d560ecd09a7fb10c" title="Poly::finish" alt="" coords="240,208,327,235"/>
+<area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a9a359931a69e62d655416c360416d821" title="FT8XXDriver::fillTriangle" alt="" coords="417,5,572,32"/>
+<area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a84979b3f6473f7c796937f71ebbaabf0" title="FT8XXDriver::fillQuad" alt="" coords="424,56,565,83"/>
+<area shape="rect" id="node6" href="$d5/deb/class_u_i_primitives.html#aa546a0792e7b77249895a4734e841705" title="UIPrimitives::Polygon" alt="" coords="422,107,567,133"/>
+<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="620,56,783,83"/>
+<area shape="rect" id="node7" href="$d9/d3f/class_compass.html#a08c2b2cc24d4520eecdc7a907e350472" title="Compass::Draw" alt="" coords="644,107,759,133"/>
+</map>

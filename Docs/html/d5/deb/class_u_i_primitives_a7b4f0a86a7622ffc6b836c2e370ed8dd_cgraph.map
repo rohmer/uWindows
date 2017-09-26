@@ -1,0 +1,15 @@
+<map id="UIPrimitives::CircleOutline" name="UIPrimitives::CircleOutline">
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="461,21,575,48"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a6aa6970a58dbc22ce6fb171019a1518d" title="GDClass::BlendFunc" alt="" coords="239,46,383,73"/>
+<area shape="rect" id="node4" href="$d2/d01/_f_t8_x_x_2_u_i_primitives_8cpp.html#ae7518c27dbdbde5f08f51f4f7121f121" title="circle" alt="" coords="285,97,338,124"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="453,148,583,174"/>
+<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="255,198,367,225"/>
+<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a35be1f2003e7e8b393d3e1899f2cf133" title="GDClass::ColorMask" alt="" coords="239,249,383,276"/>
+<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="241,300,381,326"/>
+<area shape="rect" id="node10" href="$dc/de9/class_driver_base.html#a3b6b30844cda1b57940bfe6c0d7c38aa" title="DriverBase::height" alt="" coords="248,350,375,377"/>
+<area shape="rect" id="node12" href="$da/df4/class_g_d_class.html#a28bec46e1c76d237eac4e977afe3f578" title="GDClass::RestoreContext" alt="" coords="225,401,397,428"/>
+<area shape="rect" id="node13" href="$da/df4/class_g_d_class.html#ad1d4a0f50d4828acbdb29ee06d4f19ba" title="GDClass::SaveContext" alt="" coords="234,452,389,478"/>
+<area shape="rect" id="node14" href="$dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf" title="DriverBase::width" alt="" coords="250,502,373,529"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a633c344df45d3ac7483a8615160552f3" title="GDClass::PointSize" alt="" coords="449,97,587,124"/>
+<area shape="rect" id="node11" href="$dc/de9/class_driver_base.html#a8d9f805d559da4200bd853f0531073c4" title="DriverBase::textWrite" alt="" coords="445,350,591,377"/>
+</map>

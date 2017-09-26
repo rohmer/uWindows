@@ -1,0 +1,22 @@
+<map id="UICheckBox::Update" name="UICheckBox::Update">
+<area shape="rect" id="node2" href="$db/d77/class_check_box.html#abe381c7ad751036c24f066fceed91e9c" title="CheckBox::Draw" alt="" coords="217,284,336,311"/>
+<area shape="rect" id="node19" href="$dc/de9/class_driver_base.html#a4127d060ef4e6ca306bb56f2376d7448" title="DriverBase::setTextSize" alt="" coords="196,335,357,361"/>
+<area shape="rect" id="node20" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="226,385,327,412"/>
+<area shape="rect" id="node21" href="$d1/d4c/class_u_i_element.html#ae7a76be901cacb3b87ec1637c5e22a6e" title="UIElement::Update" alt="" coords="211,436,342,463"/>
+<area shape="rect" id="node3" href="$d5/deb/class_u_i_primitives.html#a49f38e977199427ef6b44441e25c8a19" title="UIPrimitives::FlatPanel" alt="" coords="416,95,569,121"/>
+<area shape="rect" id="node7" href="$d4/d96/class_font_helper.html#a73c19d5c6909ad334efd782446835f05" title="FontHelper::GetTextRect" alt="" coords="629,157,795,184"/>
+<area shape="rect" id="node8" href="$d5/deb/class_u_i_primitives.html#a88f51a11be6d5178c194fcc2e16afe04" title="UIPrimitives::RaisedPanel" alt="" coords="407,309,578,336"/>
+<area shape="rect" id="node15" href="$d5/deb/class_u_i_primitives.html#ac93c7c5bee948d728ecebeea99e6f194" title="UIPrimitives::SunkenPanel" alt="" coords="405,360,580,387"/>
+<area shape="rect" id="node16" href="$d5/deb/class_u_i_primitives.html#a11ff2d3dcd855c73177dca55c2f1d434" title="UIPrimitives::Text" alt="" coords="431,259,554,285"/>
+<area shape="rect" id="node18" href="$d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="429,411,556,437"/>
+<area shape="rect" id="node4" href="$dc/de9/class_driver_base.html#a3a37969d7cb893b2c478aa053beb03ae" title="DriverBase::colorA" alt="" coords="647,5,777,32"/>
+<area shape="rect" id="node5" href="$dc/de9/class_driver_base.html#abc3ccb77fffe30dc1e2fc65cb42d20c5" title="DriverBase::fillRoundRect" alt="" coords="628,56,796,83"/>
+<area shape="rect" id="node6" href="$dc/de9/class_driver_base.html#abde0e3c4deba9df843004c5a09b06284" title="DriverBase::fillRect" alt="" coords="647,107,777,133"/>
+<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="651,309,773,336"/>
+<area shape="rect" id="node10" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="655,512,769,539"/>
+<area shape="rect" id="node11" href="$da/df4/class_g_d_class.html#afbb12db41b3a6a89f3e8666a323ec2e0" title="GDClass::VertexFormat" alt="" coords="631,360,793,387"/>
+<area shape="rect" id="node12" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="642,259,782,285"/>
+<area shape="rect" id="node13" href="$da/df4/class_g_d_class.html#a4139b47a6859cce023afe504ae89b1ad" title="GDClass::LineWidth" alt="" coords="642,411,782,437"/>
+<area shape="rect" id="node14" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="647,461,777,488"/>
+<area shape="rect" id="node17" href="$da/df4/class_g_d_class.html#a8af7d326a481930f04f38882987da67b" title="GDClass::cmd_text" alt="" coords="644,208,780,235"/>
+</map>

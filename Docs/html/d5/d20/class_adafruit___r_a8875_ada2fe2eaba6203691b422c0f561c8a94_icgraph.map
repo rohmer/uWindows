@@ -1,0 +1,26 @@
+<map id="Adafruit_RA8875::writeData" name="Adafruit_RA8875::writeData">
+<area shape="rect" id="node2" href="$d5/d20/class_adafruit___r_a8875.html#a1c5cb990bb00eb69dcd0e32fda9c0452" title="Adafruit_RA8875::drawLine" alt="" coords="254,45,433,71"/>
+<area shape="rect" id="node5" href="$d5/d20/class_adafruit___r_a8875.html#a37e83a3d738fbb9c7109b2242b3ebee1" title="Adafruit_RA8875::fillCurve" alt="" coords="258,95,429,122"/>
+<area shape="rect" id="node6" href="$d5/d20/class_adafruit___r_a8875.html#a01abba90019ca97eb0fc4658ad8aa944" title="Adafruit_RA8875::fillRect" alt="" coords="260,146,427,173"/>
+<area shape="rect" id="node7" href="$d5/d20/class_adafruit___r_a8875.html#a214eb74511139c5a0cdb62b051655f8a" title="Adafruit_RA8875::graphicsMode" alt="" coords="239,197,447,223"/>
+<area shape="rect" id="node8" href="$d5/d20/class_adafruit___r_a8875.html#ab80403cb248d78d78aae92ad5e40166c" title="Adafruit_RA8875::softReset" alt="" coords="509,306,692,333"/>
+<area shape="rect" id="node9" href="$d5/d20/class_adafruit___r_a8875.html#ac1e58c35a5179a7590507c0ac132da74" title="Adafruit_RA8875::textColor" alt="" coords="254,298,433,325"/>
+<area shape="rect" id="node10" href="$d5/d20/class_adafruit___r_a8875.html#a960a7ed5b834a0d058059cbc15412387" title="Adafruit_RA8875::textEnlarge" alt="" coords="247,349,440,375"/>
+<area shape="rect" id="node11" href="$d5/d20/class_adafruit___r_a8875.html#a4213dbf041641172b7bac40e3b451da5" title="Adafruit_RA8875::textMode" alt="" coords="253,399,434,426"/>
+<area shape="rect" id="node12" href="$d5/d20/class_adafruit___r_a8875.html#a9bf7b027ee1a23f514d16995171dd027" title="Adafruit_RA8875::textSet\lCursor" alt="" coords="259,451,428,492"/>
+<area shape="rect" id="node13" href="$d5/d20/class_adafruit___r_a8875.html#adcb9cc6b7e2b4d03a32a5fc87e033164" title="Adafruit_RA8875::textTransparent" alt="" coords="235,517,452,543"/>
+<area shape="rect" id="node14" href="$d5/d20/class_adafruit___r_a8875.html#af2b427d3d6e429aeccbeb956c4159456" title="Adafruit_RA8875::textWrite" alt="" coords="253,567,433,594"/>
+<area shape="rect" id="node15" href="$d5/d20/class_adafruit___r_a8875.html#a2e6a3f2fd43716ddb5c279e0a456369f" title="Adafruit_RA8875::writeReg" alt="" coords="255,618,432,645"/>
+<area shape="rect" id="node3" href="$d5/d20/class_adafruit___r_a8875.html#abc5c2d8c1cc17dcfdfd8029808bc9331" title="Adafruit_RA8875::drawFast\lHLine" alt="" coords="511,5,691,47"/>
+<area shape="rect" id="node4" href="$d5/d20/class_adafruit___r_a8875.html#a220058cb510ac11f659b002e17cedaac" title="Adafruit_RA8875::drawFast\lVLine" alt="" coords="511,71,691,112"/>
+<area shape="rect" id="node16" href="$d5/d20/class_adafruit___r_a8875.html#a807ac7af98da8800090badbc7ef8c333" title="Adafruit_RA8875::setXY" alt="" coords="520,415,681,442"/>
+<area shape="rect" id="node18" href="$d5/d20/class_adafruit___r_a8875.html#a0823c85097d1383ceb8b0b11c9c44e8d" title="Adafruit_RA8875::drawPixel" alt="" coords="509,466,692,493"/>
+<area shape="rect" id="node19" href="$d5/d20/class_adafruit___r_a8875.html#a01818bca3c07064255d7d1dda0feac10" title="Adafruit_RA8875::GPIOX" alt="" coords="517,517,684,543"/>
+<area shape="rect" id="node20" href="$d5/d20/class_adafruit___r_a8875.html#ae5ec83867df1220ae6247fc614e3b61f" title="Adafruit_RA8875::PWM1config" alt="" coords="500,567,701,594"/>
+<area shape="rect" id="node21" href="$d5/d20/class_adafruit___r_a8875.html#a49df93bf32be7e85fbb0370ce9fe2f95" title="Adafruit_RA8875::PWM2config" alt="" coords="500,618,701,645"/>
+<area shape="rect" id="node22" href="$d5/d20/class_adafruit___r_a8875.html#a16c340772d8f313e1ec937058b6dbdd7" title="Adafruit_RA8875::touchEnable" alt="" coords="501,669,700,695"/>
+<area shape="rect" id="node23" href="$d5/d20/class_adafruit___r_a8875.html#a04a9dc3c75a81429b27630470da8f95d" title="Adafruit_RA8875::touchRead" alt="" coords="506,719,695,746"/>
+<area shape="rect" id="node24" href="$d5/d20/class_adafruit___r_a8875.html#ac8b6193126c329a2e45e9f962dc4b30e" title="Adafruit_RA8875::displayOn" alt="" coords="508,770,693,797"/>
+<area shape="rect" id="node25" href="$d5/d20/class_adafruit___r_a8875.html#a20b6b7c127c9247918ac745c002adaba" title="Adafruit_RA8875::sleep" alt="" coords="521,821,680,847"/>
+<area shape="rect" id="node17" href="$d5/d20/class_adafruit___r_a8875.html#a73de58d696d6b55d9e571e5073d50ae5" title="Adafruit_RA8875::getPixel" alt="" coords="749,415,924,442"/>
+</map>

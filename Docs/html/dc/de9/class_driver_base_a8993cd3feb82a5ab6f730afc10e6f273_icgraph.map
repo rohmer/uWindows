@@ -1,0 +1,5 @@
+<map id="DriverBase::swapDisplay" name="DriverBase::swapDisplay">
+<area shape="rect" id="node2" href="$dc/de9/class_driver_base.html#ac68b568316d8cbb5717c640b53fd8ab2" title="DriverBase::getBackground\lColor" alt="" coords="219,5,397,47"/>
+<area shape="rect" id="node4" href="$d9/d21/class_screen_saver.html#a1231c010aa77404953535fc409382083" title="ScreenSaver::ScreenSaver" alt="" coords="220,71,396,98"/>
+<area shape="rect" id="node3" href="$dc/de9/class_driver_base.html#aec77a4ac64a3185bb0c5e789a77df107" title="DriverBase::colorInterpolation565" alt="" coords="445,13,656,39"/>
+</map>

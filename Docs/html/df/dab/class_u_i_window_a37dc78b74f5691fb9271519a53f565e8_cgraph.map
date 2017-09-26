@@ -1,0 +1,9 @@
+<map id="UIWindow::AddChildElement" name="UIWindow::AddChildElement">
+<area shape="rect" id="node2" href="$d1/d4c/class_u_i_element.html#ab012fc7a49ca1fd6d669bc74d18060a8" title="UIElement::GetLocation" alt="" coords="241,5,401,32"/>
+<area shape="rect" id="node3" href="$dc/de9/class_driver_base.html#a3b6b30844cda1b57940bfe6c0d7c38aa" title="DriverBase::height" alt="" coords="258,56,385,83"/>
+<area shape="rect" id="node5" href="$d1/d4c/class_u_i_element.html#a0270b834d6fdf077db7ab241f6e7421e" title="UIElement::SetLocation" alt="" coords="242,107,401,133"/>
+<area shape="rect" id="node6" href="$d1/d4c/class_u_i_element.html#ae5df92881598efcef3cd803ef9ef3a12" title="UIElement::SetParent" alt="" coords="247,157,395,184"/>
+<area shape="rect" id="node7" href="$d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="258,208,385,235"/>
+<area shape="rect" id="node8" href="$dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf" title="DriverBase::width" alt="" coords="260,259,383,285"/>
+<area shape="rect" id="node4" href="$dc/de9/class_driver_base.html#a8d9f805d559da4200bd853f0531073c4" title="DriverBase::textWrite" alt="" coords="449,56,595,83"/>
+</map>

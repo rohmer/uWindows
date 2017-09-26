@@ -1,0 +1,6 @@
+<map id="FatCache::lbn" name="FatCache::lbn">
+<area shape="rect" id="node2" href="$d2/def/class_fat_cache.html#ac2bb0b8f2ce3ab5cd86cf30b4a663cea" title="FatCache::read" alt="" coords="338,5,449,32"/>
+<area shape="rect" id="node3" href="$d2/def/class_fat_cache.html#a4d76d4f46ce5994f6fc4678a7b4f8cf1" title="FatCache::sync" alt="" coords="158,31,273,57"/>
+<area shape="rect" id="node4" href="$d9/d27/class_fat_volume.html#a8088aa74cf601996905dadd2eea6966c" title="FatVolume::wipe" alt="" coords="156,81,275,108"/>
+<area shape="rect" id="node5" href="$d7/d44/class_fat_file_system.html#a36d7831f92acfbfef1c4a24dd7103dc4" title="FatFileSystem::wipe" alt="" coords="323,81,464,108"/>
+</map>

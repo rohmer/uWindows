@@ -1,0 +1,26 @@
+var structfat__boot =
+[
+    [ "bootCode", "db/d31/structfat__boot.html#acf9f5d9f61a6e680e11849f957ecf782", null ],
+    [ "bootSectorSig0", "db/d31/structfat__boot.html#a7951b888af4f357b84dd40af2ef7f29d", null ],
+    [ "bootSectorSig1", "db/d31/structfat__boot.html#afe8f58668ff594bb2022ce7c06b7726c", null ],
+    [ "bootSignature", "db/d31/structfat__boot.html#a712dc388c530e91e4a692e7102d6bdc8", null ],
+    [ "bytesPerSector", "db/d31/structfat__boot.html#a60b2461f8ebf0ad295a95094e1bd7d65", null ],
+    [ "driveNumber", "db/d31/structfat__boot.html#aebd280b93563b75b9612d3db844b0d16", null ],
+    [ "fatCount", "db/d31/structfat__boot.html#a04d3b6a45acf28a80ff909dc1b33da2f", null ],
+    [ "fileSystemType", "db/d31/structfat__boot.html#aee529e32908406866f3ec3c17c4632fa", null ],
+    [ "headCount", "db/d31/structfat__boot.html#ae31da876cd9f48de5268a129218df2c2", null ],
+    [ "hidddenSectors", "db/d31/structfat__boot.html#a18f1b4c245fe7bd09f5a9430c005e23a", null ],
+    [ "jump", "db/d31/structfat__boot.html#a83f9f2d1d0130f25f34c90dfc82e3751", null ],
+    [ "mediaType", "db/d31/structfat__boot.html#a63eaf7185663369af2527309634d3c90", null ],
+    [ "oemId", "db/d31/structfat__boot.html#adc034212201e879fea1eb44db43e55a5", null ],
+    [ "reserved1", "db/d31/structfat__boot.html#affa7e6efb3ccea19ba7ea0ddadce7463", null ],
+    [ "reservedSectorCount", "db/d31/structfat__boot.html#a13f272a8f780fb43a400f873a3fd7b73", null ],
+    [ "rootDirEntryCount", "db/d31/structfat__boot.html#a2124f89e12307df944f08e6657dbf4af", null ],
+    [ "sectorsPerCluster", "db/d31/structfat__boot.html#ab3063726125b16a2ccad719548d79abd", null ],
+    [ "sectorsPerFat16", "db/d31/structfat__boot.html#a0d5ab13399759acfa571e49b85600db1", null ],
+    [ "sectorsPerTrack", "db/d31/structfat__boot.html#a6d5ceaf374e0607be8b8162bf657f282", null ],
+    [ "totalSectors16", "db/d31/structfat__boot.html#ac8bd40dd9186882e423e10b0c83e89b7", null ],
+    [ "totalSectors32", "db/d31/structfat__boot.html#addeb2dd8f78418edbf544303d44133e2", null ],
+    [ "volumeLabel", "db/d31/structfat__boot.html#a9ee733f1b1abc0210ec8f9676bba2218", null ],
+    [ "volumeSerialNumber", "db/d31/structfat__boot.html#ac05e88a0d27f0340ba008834361d2b20", null ]
+];

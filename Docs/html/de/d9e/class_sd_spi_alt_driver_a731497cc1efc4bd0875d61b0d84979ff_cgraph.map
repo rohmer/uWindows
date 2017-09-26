@@ -1,0 +1,10 @@
+<map id="SdSpiAltDriver::unselect" name="SdSpiAltDriver::unselect">
+<area shape="rect" id="node2" href="$de/d5a/class_sd_spi_lib_driver.html#aeb8263fb0eaca724af90830e90ddd044" title="SdSpiLibDriver::activate" alt="" coords="236,5,395,32"/>
+<area shape="rect" id="node3" href="$de/d5a/class_sd_spi_lib_driver.html#a5863b84f8f277b7a926e915cdc378957" title="SdSpiLibDriver::begin" alt="" coords="243,56,388,83"/>
+<area shape="rect" id="node4" href="$de/d5a/class_sd_spi_lib_driver.html#a120d6b78f9dad6837d10b45b76d32c82" title="SdSpiLibDriver::deactivate" alt="" coords="229,107,401,133"/>
+<area shape="rect" id="node5" href="$de/d5a/class_sd_spi_lib_driver.html#acab44a1709ed382264e0844a544526d7" title="SdSpiLibDriver::receive" alt="" coords="238,157,393,184"/>
+<area shape="rect" id="node6" href="$de/d5a/class_sd_spi_lib_driver.html#af24e0b0555b068d059b895314a77785d" title="SdSpiLibDriver::select" alt="" coords="241,208,390,235"/>
+<area shape="rect" id="node7" href="$de/d5a/class_sd_spi_lib_driver.html#aed31a7a2cc1b07200f6b295659b39a26" title="SdSpiLibDriver::send" alt="" coords="244,259,387,285"/>
+<area shape="rect" id="node8" href="$de/d5a/class_sd_spi_lib_driver.html#a99fb51a9a567923fa7f87374e0aa124f" title="SdSpiLibDriver::setSpiSettings" alt="" coords="216,309,415,336"/>
+<area shape="rect" id="node9" href="$de/d5a/class_sd_spi_lib_driver.html#a593b443dca85fe4de76ab06547233429" title="SdSpiLibDriver::unselect" alt="" coords="234,360,397,387"/>
+</map>

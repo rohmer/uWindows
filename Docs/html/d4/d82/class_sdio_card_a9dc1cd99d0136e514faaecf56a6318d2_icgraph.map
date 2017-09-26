@@ -1,0 +1,4 @@
+<map id="SdioCard::readData" name="SdioCard::readData">
+<area shape="rect" id="node2" href="$d6/d23/class_sdio_card_e_x.html#a49609f0409ef01284bc83b10a8ec5efe" title="SdioCardEX::readBlock" alt="" coords="188,5,345,32"/>
+<area shape="rect" id="node3" href="$d6/d23/class_sdio_card_e_x.html#a1b50db2f87246f4ff1af4782152c5fee" title="SdioCardEX::readBlocks" alt="" coords="393,5,557,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="SdSpiCard::readData" name="SdSpiCard::readData">
+<area shape="rect" id="node2" href="$d9/da3/_sys_call_8h.html#a7a1c5babdcf00c78d4d2e6a012bd9e68" title="curTimeMS" alt="" coords="221,5,309,32"/>
+<area shape="rect" id="node3" href="$db/d9b/class_sd_spi_card.html#aa12ad53111abcb187d3c6119a3a77592" title="SdSpiCard::error" alt="" coords="206,56,325,83"/>
+<area shape="rect" id="node4" href="$db/d9b/class_sd_spi_card.html#a1033a4a68d38f52dddf6a1764fcca3e1" title="SdSpiCard::spiStop" alt="" coords="197,107,333,133"/>
+</map>

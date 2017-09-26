@@ -1,0 +1,6 @@
+<map id="DriverBase::touchEnable" name="DriverBase::touchEnable">
+<area shape="rect" id="node2" href="$dc/de9/class_driver_base.html#a8efce86a4f97812d48aa955fe62cb681" title="DriverBase::isLandscape" alt="" coords="217,24,383,51"/>
+<area shape="rect" id="node3" href="$d3/d84/class_numeric_entry.html#a4173b9529720e933c3fa66dafba75ddd" title="NumericEntry::Draw" alt="" coords="671,24,809,51"/>
+<area shape="rect" id="node4" href="$d3/d84/class_numeric_entry.html#a24ab2c12d05b05795f50e4d512a187ec" title="Processes the touch point " alt="" coords="431,24,623,51"/>
+<area shape="rect" id="node5" href="$d3/d84/class_numeric_entry.html#ab163b4d6818d54304d3c699eb74910cf" title="NumericEntry::UpdateInput" alt="" coords="437,75,616,101"/>
+</map>

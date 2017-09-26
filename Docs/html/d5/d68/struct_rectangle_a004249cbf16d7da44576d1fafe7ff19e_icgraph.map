@@ -1,0 +1,12 @@
+<map id="Rectangle::contains" name="Rectangle::contains">
+<area shape="rect" id="node2" href="$d5/d68/struct_rectangle.html#a7dff47f43fb5bdddc6ebc791cea7721c" title="Rectangle::add" alt="" coords="476,19,585,46"/>
+<area shape="rect" id="node4" href="$d1/d95/class_settings_button.html#a528b13c2e7486a88d63df041cecb2448" title="SettingsButton::ProcessTouch" alt="" coords="191,44,389,71"/>
+<area shape="rect" id="node5" href="$de/dcc/class_u_i_check_box.html#af8e5315890971c67a3f075f459d1a369" title="UICheckBox::ProcessTouch" alt="" coords="197,95,383,122"/>
+<area shape="rect" id="node6" href="$da/d7d/class_u_i_radio_button.html#a04629b79a984640714ac03fc617a20f9" title="UIRadioButton::ProcessTouch" alt="" coords="192,146,388,172"/>
+<area shape="rect" id="node8" href="$d3/d84/class_numeric_entry.html#a24ab2c12d05b05795f50e4d512a187ec" title="Processes the touch point " alt="" coords="194,196,386,223"/>
+<area shape="rect" id="node9" href="$dc/d61/class_u_i_radio_group.html#acceeaa7c9f31faa25b8458712582a8f4" title="UIRadioGroup::ProcessTouch" alt="" coords="193,247,387,274"/>
+<area shape="rect" id="node10" href="$df/dab/class_u_i_window.html#a19c8c22163a700de1592753ed27d3ade" title="UIWindow::ProcessTouch" alt="" coords="205,298,375,324"/>
+<area shape="rect" id="node3" href="$dc/d61/class_u_i_radio_group.html#a88d608f52a5c69e7734a4cdd87ed7582" title="UIRadioGroup::AddRadioButton" alt="" coords="672,70,876,96"/>
+<area shape="rect" id="node7" href="$da/d7d/class_u_i_radio_button.html#a2f7e2b72a96eedaa382814d29a5ac329" title="UIRadioButton::IsChecked" alt="" coords="443,120,618,147"/>
+<area shape="rect" id="node11" href="$df/dab/class_u_i_window.html#a20bc4a4bc92870e069cbcba5406a4bb8" title="UIWindow::SetCornerRadius" alt="" coords="437,298,624,324"/>
+</map>

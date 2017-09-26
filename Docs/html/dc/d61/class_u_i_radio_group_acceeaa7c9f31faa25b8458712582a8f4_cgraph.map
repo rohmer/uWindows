@@ -1,0 +1,7 @@
+<map id="UIRadioGroup::ProcessTouch" name="UIRadioGroup::ProcessTouch">
+<area shape="rect" id="node2" href="$d5/d68/struct_rectangle.html#a004249cbf16d7da44576d1fafe7ff19e" title="Rectangle::contains" alt="" coords="269,5,406,32"/>
+<area shape="rect" id="node3" href="$d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="253,56,421,83"/>
+<area shape="rect" id="node4" href="$d1/d4c/class_u_i_element.html#afcb636fd0ecd5a040de43c44ec94a8a8" title="UIElement::GetElementType" alt="" coords="476,161,663,188"/>
+<area shape="rect" id="node5" href="$d1/d4c/class_u_i_element.html#ab012fc7a49ca1fd6d669bc74d18060a8" title="UIElement::GetLocation" alt="" coords="257,157,417,184"/>
+<area shape="rect" id="node6" href="$dc/d61/class_u_i_radio_group.html#ae1f3a257612243f3083b2b66f2004ae3" title="UIRadioGroup::SetSelected\lButton" alt="" coords="247,209,428,250"/>
+</map>

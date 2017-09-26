@@ -1,0 +1,8 @@
+<map id="FatFile::dirSize" name="FatFile::dirSize">
+<area shape="rect" id="node2" href="$d9/d27/class_fat_volume.html#af6ab43bc0853febb38298406c4067a43" title="FatVolume::blocksPerCluster" alt="" coords="166,5,358,32"/>
+<area shape="rect" id="node3" href="$d3/d51/class_fat_file.html#a933360b20b496421b2bd9ee7a95563a6" title="FatFile::isDir" alt="" coords="214,56,310,83"/>
+<area shape="rect" id="node4" href="$d3/d51/class_fat_file.html#a8fda8004720ec4cc55710869dbb52e35" title="FatFile::isRoot32" alt="" coords="201,107,323,133"/>
+<area shape="rect" id="node5" href="$d3/d51/class_fat_file.html#a0cc65089f7ce6c1ff92edbf0bff59dee" title="FatFile::isRootFixed" alt="" coords="193,157,331,184"/>
+<area shape="rect" id="node6" href="$d9/d27/class_fat_volume.html#a31d0efaf3e47c9342da0dfb3735eecf1" title="FatVolume::rootDirEntryCount" alt="" coords="164,208,360,235"/>
+<area shape="rect" id="node7" href="$d9/d27/class_fat_volume.html#a372f1f1fab71f5744eaf538156abe64d" title="FatVolume::rootDirStart" alt="" coords="183,259,341,285"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="GDClass::StencilOp" name="GDClass::StencilOp">
+<area shape="rect" id="node2" href="$d9/d69/class_poly.html#ad0dd1e12fa2a59df2828ef8a72b0a662" title="Poly::begin" alt="" coords="192,56,279,83"/>
+<area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a9a359931a69e62d655416c360416d821" title="FT8XXDriver::fillTriangle" alt="" coords="327,5,481,32"/>
+<area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a84979b3f6473f7c796937f71ebbaabf0" title="FT8XXDriver::fillQuad" alt="" coords="333,56,475,83"/>
+<area shape="rect" id="node6" href="$d5/deb/class_u_i_primitives.html#aa546a0792e7b77249895a4734e841705" title="UIPrimitives::Polygon" alt="" coords="331,107,477,133"/>
+<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="529,56,692,83"/>
+<area shape="rect" id="node7" href="$d9/d3f/class_compass.html#a08c2b2cc24d4520eecdc7a907e350472" title="Compass::Draw" alt="" coords="553,107,668,133"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d1/d4c/class_u_i_element.html" title="UIElement" alt="" coords="5,233,88,260"/>
+<area shape="rect" id="node2" href="$d4/d3b/class_home_screen.html" title="The home screen for the PiMower A screen is an element that contains the window and all the elements ..." alt="" coords="146,5,243,32"/>
+<area shape="rect" id="node3" href="$d9/d21/class_screen_saver.html" title="ScreenSaver" alt="" coords="147,56,242,83"/>
+<area shape="rect" id="node4" href="$d1/d95/class_settings_button.html" title="SettingsButton" alt="" coords="141,107,249,133"/>
+<area shape="rect" id="node5" href="$d1/d0d/class_u_i_active_button.html" title="UIActiveButton" alt="" coords="141,157,248,184"/>
+<area shape="rect" id="node6" href="$da/d03/class_u_i_button.html" title="UIButton" alt="" coords="159,208,231,235"/>
+<area shape="rect" id="node7" href="$de/dcc/class_u_i_check_box.html" title="UICheckBox" alt="" coords="147,259,242,285"/>
+<area shape="rect" id="node8" href="$dc/d7a/class_u_i_element_graph.html" title="UIElementGraph" alt="" coords="136,309,253,336"/>
+<area shape="rect" id="node9" href="$da/d7d/class_u_i_radio_button.html" title="UIRadioButton" alt="" coords="142,360,247,387"/>
+<area shape="rect" id="node10" href="$dc/d61/class_u_i_radio_group.html" title="UIRadioGroup is a container class, some differences from other UIElements " alt="" coords="143,411,246,437"/>
+<area shape="rect" id="node11" href="$df/dab/class_u_i_window.html" title="UIWindow" alt="" coords="155,461,235,488"/>
+</map>

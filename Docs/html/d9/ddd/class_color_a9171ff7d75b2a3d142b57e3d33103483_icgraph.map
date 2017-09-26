@@ -1,0 +1,6 @@
+<map id="Color::GetColor565" name="Color::GetColor565">
+<area shape="rect" id="node2" href="$d9/ddd/class_color.html#ac950d95465ec8f74bf8e591e597bea57" title="Color::Color565" alt="" coords="185,31,296,57"/>
+<area shape="rect" id="node5" href="$d9/ddd/class_color.html#a0e9fc6be9e30aaf9aec7071dd4e0992d" title="Color::GetColor" alt="" coords="185,81,296,108"/>
+<area shape="rect" id="node3" href="$d9/ddd/class_color.html#a9d3c1e082c4bd0ef10e9189db3a22910" title="Color::ColorToGrayscale" alt="" coords="344,5,507,32"/>
+<area shape="rect" id="node4" href="$d9/ddd/class_color.html#ae4969b31decd873257309d0baa813ff6" title="Color::CombineColor" alt="" coords="355,56,496,83"/>
+</map>

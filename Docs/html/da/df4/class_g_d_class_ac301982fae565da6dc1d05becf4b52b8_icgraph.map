@@ -1,0 +1,11 @@
+<map id="GDClass::wr" name="GDClass::wr">
+<area shape="rect" id="node2" href="$d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="158,5,325,32"/>
+<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="148,56,335,83"/>
+<area shape="rect" id="node6" href="$d6/d63/class_f_t8_x_x_driver.html#a0fc14e4b6ce1d0dcfbdc0801efd88513" title="FT8XXDriver::displayPower" alt="" coords="154,107,329,133"/>
+<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="179,157,303,184"/>
+<area shape="rect" id="node10" href="$d6/d63/class_f_t8_x_x_driver.html#a62c91df9c5b87a4ef8a7d5bd22f701c2" title="FT8XXDriver::touchEnable" alt="" coords="156,208,327,235"/>
+<area shape="rect" id="node3" href="$d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="383,19,580,61"/>
+<area shape="rect" id="node4" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="628,27,803,53"/>
+<area shape="rect" id="node7" href="$d6/d63/class_f_t8_x_x_driver.html#a400b3a3156e35ecdfa7bcf839f484329" title="FT8XXDriver::displaySleep" alt="" coords="395,107,567,133"/>
+<area shape="rect" id="node9" href="$d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="424,157,539,184"/>
+</map>

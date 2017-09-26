@@ -1,0 +1,6 @@
+<map id="UIPrimitives::Text" name="UIPrimitives::Text">
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a8af7d326a481930f04f38882987da67b" title="GDClass::cmd_text" alt="" coords="191,5,327,32"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="199,56,320,83"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="189,107,329,133"/>
+<area shape="rect" id="node5" href="$d4/d96/class_font_helper.html#a73c19d5c6909ad334efd782446835f05" title="FontHelper::GetTextRect" alt="" coords="176,157,343,184"/>
+</map>

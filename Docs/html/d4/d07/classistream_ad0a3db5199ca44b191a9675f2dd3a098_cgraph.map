@@ -1,0 +1,8 @@
+<map id="istream::gcount" name="istream::gcount">
+<area shape="rect" id="node2" href="$d4/d07/classistream.html#a7ea6a5edd6b44a6e1ed297fb278b5d52" title="istream::getline" alt="" coords="165,5,276,32"/>
+<area shape="rect" id="node5" href="$d4/d07/classistream.html#a12597b03d86b66047a5581bbd26eb032" title="istream::ignore" alt="" coords="167,107,275,133"/>
+<area shape="rect" id="node6" href="$d4/d07/classistream.html#a4022265e0ede3698454f1ff59348c14a" title="istream::peek" alt="" coords="170,56,271,83"/>
+<area shape="rect" id="node3" href="$df/d02/classios.html#aee5d194656bdfb0c8621b23ea2f51afb" title="ios::setstate" alt="" coords="331,56,426,83"/>
+<area shape="rect" id="node4" href="$d4/dc1/classios__base.html#a2a73a30a8b157cc1cc92bb55b0a62e4a" title="ios_base::flags" alt="" coords="324,5,433,32"/>
+<area shape="rect" id="node7" href="$df/d02/classios.html#a78be4e3069a644ff36d83a70b080c321" title="ios::bad" alt="" coords="345,107,413,133"/>
+</map>

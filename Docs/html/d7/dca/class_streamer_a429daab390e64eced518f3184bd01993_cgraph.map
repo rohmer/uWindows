@@ -1,0 +1,13 @@
+<map id="Streamer::begin" name="Streamer::begin">
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a9f6705e1b0af82cba2c0e4782f6c3727" title="GDClass::__end" alt="" coords="172,5,289,32"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#aa433a6a478dc95712e73e3e55b4a29d8" title="GDClass::resume" alt="" coords="168,56,293,83"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="169,132,293,159"/>
+<area shape="rect" id="node3" href="$d3/d2e/class_g_d_transport.html#a612e8cfb0e21fc13f7417be7674b9edc" title="GDTransport::__end" alt="" coords="345,5,484,32"/>
+<area shape="rect" id="node5" href="$d3/d2e/class_g_d_transport.html#ad461023d617d303d36df8152bf2c62d9" title="GDTransport::resume" alt="" coords="341,56,488,83"/>
+<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="367,107,462,133"/>
+<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#ad8c68c4c916f9d0f2ff634b231cba7fa" title="GDClass::wr16" alt="" coords="360,157,469,184"/>
+<area shape="rect" id="node11" href="$da/df4/class_g_d_class.html#ac82e0611ecfb01f867d354189cc2db98" title="GDClass::wr32" alt="" coords="360,208,469,235"/>
+<area shape="rect" id="node8" href="$d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="543,107,659,133"/>
+<area shape="rect" id="node10" href="$d3/d2e/class_g_d_transport.html#a72d164a6f4b81e026e3c891732d61ad2" title="GDTransport::wr16" alt="" coords="536,157,667,184"/>
+<area shape="rect" id="node12" href="$d3/d2e/class_g_d_transport.html#a87d9c22767d132a692fe0f2e752023cd" title="GDTransport::wr32" alt="" coords="536,208,667,235"/>
+</map>

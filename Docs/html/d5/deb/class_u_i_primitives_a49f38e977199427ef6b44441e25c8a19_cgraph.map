@@ -1,0 +1,5 @@
+<map id="UIPrimitives::FlatPanel" name="UIPrimitives::FlatPanel">
+<area shape="rect" id="node2" href="$dc/de9/class_driver_base.html#a3a37969d7cb893b2c478aa053beb03ae" title="DriverBase::colorA" alt="" coords="226,5,355,32"/>
+<area shape="rect" id="node3" href="$dc/de9/class_driver_base.html#abde0e3c4deba9df843004c5a09b06284" title="DriverBase::fillRect" alt="" coords="225,56,356,83"/>
+<area shape="rect" id="node4" href="$dc/de9/class_driver_base.html#abc3ccb77fffe30dc1e2fc65cb42d20c5" title="DriverBase::fillRoundRect" alt="" coords="207,107,375,133"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="DriverBase::colorA" name="DriverBase::colorA">
+<area shape="rect" id="node2" href="$d5/deb/class_u_i_primitives.html#a49f38e977199427ef6b44441e25c8a19" title="UIPrimitives::FlatPanel" alt="" coords="195,284,349,311"/>
+<area shape="rect" id="node17" href="$dc/de9/class_driver_base.html#ac68b568316d8cbb5717c640b53fd8ab2" title="DriverBase::getBackground\lColor" alt="" coords="183,433,361,474"/>
+<area shape="rect" id="node3" href="$d4/d77/class_button.html#a83978196eeff06d7ad8cca291442e367" title="Button::Draw" alt="" coords="466,5,563,32"/>
+<area shape="rect" id="node5" href="$db/d77/class_check_box.html#abe381c7ad751036c24f066fceed91e9c" title="CheckBox::Draw" alt="" coords="455,56,574,83"/>
+<area shape="rect" id="node7" href="$dc/d58/class_drop_down_list.html#a556b11edd886b69ace16cd64dcd0a523" title="DropDownList::Draw" alt="" coords="445,107,584,133"/>
+<area shape="rect" id="node8" href="$dc/d58/class_drop_down_list.html#a42ad113275e52197afe30c00be057f5d" title="DropDownList::DrawExpanded" alt="" coords="668,132,865,159"/>
+<area shape="rect" id="node9" href="$db/d0a/class_icon_button.html#add32e4abe8403a22b33b15574b0bceb8" title="IconButton::Draw" alt="" coords="454,208,575,235"/>
+<area shape="rect" id="node11" href="$d3/d84/class_numeric_entry.html#a4173b9529720e933c3fa66dafba75ddd" title="NumericEntry::Draw" alt="" coords="697,309,836,336"/>
+<area shape="rect" id="node12" href="$d3/d84/class_numeric_entry.html#a9455ed8a08529ce82eecb683ba3d0508" title="NumericEntry::DrawKeys" alt="" coords="431,309,599,336"/>
+<area shape="rect" id="node13" href="$d3/d84/class_numeric_entry.html#ab163b4d6818d54304d3c699eb74910cf" title="NumericEntry::UpdateInput" alt="" coords="425,360,604,387"/>
+<area shape="rect" id="node14" href="$d1/d4e/class_progress_bar.html#ad3d29d1500045a08b6680c7e0e45e106" title="ProgressBar::Draw" alt="" coords="449,411,580,437"/>
+<area shape="rect" id="node15" href="$dc/d65/class_slider.html#a5354db1e2e91cd62fe53e012313f06a3" title="Slider::Draw" alt="" coords="469,461,561,488"/>
+<area shape="rect" id="node16" href="$d9/dbf/class_window.html#a7a3973ccc03badb504ded08e2a985583" title="Window::Draw" alt="" coords="462,512,567,539"/>
+<area shape="rect" id="node4" href="$da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="706,5,827,32"/>
+<area shape="rect" id="node6" href="$de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="695,56,838,83"/>
+<area shape="rect" id="node10" href="$d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1" title="SettingsButton::Update" alt="" coords="688,208,845,235"/>
+<area shape="rect" id="node18" href="$dc/de9/class_driver_base.html#aec77a4ac64a3185bb0c5e789a77df107" title="DriverBase::colorInterpolation565" alt="" coords="409,563,620,589"/>
+</map>

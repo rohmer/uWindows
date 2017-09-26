@@ -1,0 +1,10 @@
+<map id="Adafruit_GFX::drawTriangle" name="Adafruit_GFX::drawTriangle">
+<area shape="rect" id="node2" href="$d9/d97/class_adafruit___g_f_x.html#aa0ff662c2b2b48c3bac51f98c777776d" title="Adafruit_GFX::drawLine" alt="" coords="232,81,389,108"/>
+<area shape="rect" id="node3" href="$d9/d97/class_adafruit___g_f_x.html#a4d42e7cc577c1eb5b06fe656786c9c79" title="Adafruit_GFX::drawFastHLine" alt="" coords="437,30,629,57"/>
+<area shape="rect" id="node4" href="$d9/d97/class_adafruit___g_f_x.html#ab9be8787f3683151e86c1f3b5c8685d6" title="Adafruit_GFX::endWrite" alt="" coords="679,81,838,108"/>
+<area shape="rect" id="node5" href="$d9/d97/class_adafruit___g_f_x.html#aa991435d3d38f6818fc93f9370c0b3e5" title="Adafruit_GFX::startWrite" alt="" coords="677,132,840,158"/>
+<area shape="rect" id="node6" href="$d9/d97/class_adafruit___g_f_x.html#ae1e5204b9251a04a57c821f69a8e638b" title="Adafruit_GFX::writeLine" alt="" coords="680,30,837,57"/>
+<area shape="rect" id="node9" href="$d9/d97/class_adafruit___g_f_x.html#a1cffbb1d69c5faf49cd0cff27686a837" title="Adafruit_GFX::drawFastVLine" alt="" coords="437,81,629,108"/>
+<area shape="rect" id="node7" href="$d9/d97/class_adafruit___g_f_x.html#ab66a1577ec595a254e4492d641b36fd8" title="Adafruit_GFX::writePixel" alt="" coords="888,30,1051,57"/>
+<area shape="rect" id="node8" href="$d9/d97/class_adafruit___g_f_x.html#ab7fbf72885c873266f9c7eb53b5c8896" title="Adafruit_GFX::drawPixel" alt="" coords="1099,30,1261,57"/>
+</map>

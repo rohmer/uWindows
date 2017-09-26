@@ -1,0 +1,4 @@
+<map id="UICheckBox::ProcessTouch" name="UICheckBox::ProcessTouch">
+<area shape="rect" id="node2" href="$d5/d68/struct_rectangle.html#a004249cbf16d7da44576d1fafe7ff19e" title="Rectangle::contains" alt="" coords="241,5,379,32"/>
+<area shape="rect" id="node3" href="$d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="239,80,381,107"/>
+</map>

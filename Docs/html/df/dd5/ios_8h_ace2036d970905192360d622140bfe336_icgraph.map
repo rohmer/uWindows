@@ -1,0 +1,7 @@
+<map id="hex" name="hex">
+<area shape="rect" id="node2" href="$d3/d51/class_fat_file.html#ac837a537fbcca14c7aa390c5fc9f4e7c" title="FatFile::remove" alt="" coords="96,56,207,83"/>
+<area shape="rect" id="node3" href="$d3/d51/class_fat_file.html#afe820bbb056863e91ec482961c8dc695" title="FatFile::remove" alt="" coords="277,5,388,32"/>
+<area shape="rect" id="node4" href="$d3/d51/class_fat_file.html#a4b42f2454ff462555c07ea094a92a1e0" title="FatFile::rename" alt="" coords="276,56,389,83"/>
+<area shape="rect" id="node6" href="$d7/d44/class_fat_file_system.html#abf7d7d0dab43083d5be10d70ff4669e4" title="FatFileSystem::remove" alt="" coords="255,107,411,133"/>
+<area shape="rect" id="node5" href="$d7/d44/class_fat_file_system.html#a0187891a24017b41bd7c5ba63e659e65" title="FatFileSystem::rename" alt="" coords="459,56,617,83"/>
+</map>

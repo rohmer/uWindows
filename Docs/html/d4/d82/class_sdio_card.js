@@ -1,0 +1,28 @@
+var class_sdio_card =
+[
+    [ "begin", "d4/d82/class_sdio_card.html#ac749bdad92a4465d062f5d21a7f4faf5", null ],
+    [ "cardSize", "d4/d82/class_sdio_card.html#a3d8f9a92f7faec77094ec65e6c41dd45", null ],
+    [ "erase", "d4/d82/class_sdio_card.html#a1ce82b035257790ed8e4a9be3d966b80", null ],
+    [ "errorCode", "d4/d82/class_sdio_card.html#a4ff272009a24fc4078ac87c2d87ccd16", null ],
+    [ "errorData", "d4/d82/class_sdio_card.html#a8251b9aa0d623487e80cf908fc1625b5", null ],
+    [ "errorLine", "d4/d82/class_sdio_card.html#aafa9feb1b5a90f3cf96456b6b286bfdf", null ],
+    [ "isBusy", "d4/d82/class_sdio_card.html#a560bdfc96932d073c2b0610600560f78", null ],
+    [ "kHzSdClk", "d4/d82/class_sdio_card.html#a3532a1a4b8a43a51ed9b5853186203cb", null ],
+    [ "readBlock", "d4/d82/class_sdio_card.html#ac94605c428fa9258106835cceec470d8", null ],
+    [ "readBlocks", "d4/d82/class_sdio_card.html#a7de36d26a01dc39b7dc122c54ee03b12", null ],
+    [ "readCID", "d4/d82/class_sdio_card.html#add77777fbcf91cc41e8ec62fda169e79", null ],
+    [ "readCSD", "d4/d82/class_sdio_card.html#a1da0ca418c153e24b4e13b4c1e20d450", null ],
+    [ "readData", "d4/d82/class_sdio_card.html#a9dc1cd99d0136e514faaecf56a6318d2", null ],
+    [ "readOCR", "d4/d82/class_sdio_card.html#adc583f7a27f57ce55ce474b1379b9303", null ],
+    [ "readStart", "d4/d82/class_sdio_card.html#a73beed782d16173b2e7b0e29c663f6fb", null ],
+    [ "readStart", "d4/d82/class_sdio_card.html#a788171db84a1d724808d56ab9608e3a4", null ],
+    [ "readStop", "d4/d82/class_sdio_card.html#a5bd3f206d790149340783135d08eb701", null ],
+    [ "syncBlocks", "d4/d82/class_sdio_card.html#affcd36a5c3a42042fe24716671f06632", null ],
+    [ "type", "d4/d82/class_sdio_card.html#a2151106a93280ae41bab654428214661", null ],
+    [ "writeBlock", "d4/d82/class_sdio_card.html#ae53e5f72ddf9ace3f47774d968e064ed", null ],
+    [ "writeBlocks", "d4/d82/class_sdio_card.html#a8b811f875497e90e75fbe6c2d41d89cb", null ],
+    [ "writeData", "d4/d82/class_sdio_card.html#a8467e7ffafa45ff930b38a6f18e9547a", null ],
+    [ "writeStart", "d4/d82/class_sdio_card.html#a6216b2b1c42bd585669955f774292f78", null ],
+    [ "writeStart", "d4/d82/class_sdio_card.html#a55b31eb21c986c8476bf42e975801e05", null ],
+    [ "writeStop", "d4/d82/class_sdio_card.html#acb560c2ea1f30c646b96f02e728b0fe1", null ]
+];

@@ -1,0 +1,8 @@
+<map id="Color::CombineColor" name="Color::CombineColor">
+<area shape="rect" id="node2" href="$d9/ddd/class_color.html#ac950d95465ec8f74bf8e591e597bea57" title="Color::Color565" alt="" coords="237,31,348,57"/>
+<area shape="rect" id="node6" href="$d9/ddd/class_color.html#aa5821731bc061bb2be95547137106650" title="Color::Color565ToRGB" alt="" coords="439,119,592,145"/>
+<area shape="rect" id="node7" href="$d9/ddd/class_color.html#a973b8a2262f6ab7dde0b3d3f4689888c" title="Color::ColorToGrayscaleValue" alt="" coords="195,132,391,159"/>
+<area shape="rect" id="node3" href="$d9/ddd/class_color.html#a013bafacf1908e84ff2e32ef24511349" title="Color::Color32To565" alt="" coords="446,5,585,32"/>
+<area shape="rect" id="node4" href="$d9/ddd/class_color.html#a9171ff7d75b2a3d142b57e3d33103483" title="Color::GetColor565" alt="" coords="449,56,581,83"/>
+<area shape="rect" id="node5" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="640,56,741,83"/>
+</map>

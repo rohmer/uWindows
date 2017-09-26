@@ -1,0 +1,6 @@
+<map id="fastDigitalRead" name="fastDigitalRead">
+<area shape="rect" id="node2" href="$db/dbb/class_soft_s_p_i.html#a1b5b7ef5f34ab792893b520bafb3029d" title="SoftSPI::__attribute__" alt="" coords="168,5,317,32"/>
+<area shape="rect" id="node3" href="$dc/dc3/class_digital_pin.html#a8db3de077c6fdc128f2a755ef44a4580" title="DigitalPin::__attribute__" alt="" coords="163,56,323,83"/>
+<area shape="rect" id="node4" href="$d5/d36/group__digital_pin.html#gab94b2d5546c83bf3288ff5271406f07b" title="fastDigitalToggle" alt="" coords="184,107,301,133"/>
+<area shape="rect" id="node5" href="$dc/dc3/class_digital_pin.html#a2241ba366410e362e614e9e67c8c1c5a" title="DigitalPin::__attribute__" alt="" coords="371,107,531,133"/>
+</map>

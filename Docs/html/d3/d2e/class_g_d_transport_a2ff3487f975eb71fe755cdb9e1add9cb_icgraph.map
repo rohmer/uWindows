@@ -1,0 +1,6 @@
+<map id="GDTransport::getfree" name="GDTransport::getfree">
+<area shape="rect" id="node2" href="$d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="201,5,344,32"/>
+<area shape="rect" id="node3" href="$d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="201,56,344,83"/>
+<area shape="rect" id="node4" href="$d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="196,107,349,133"/>
+<area shape="rect" id="node5" href="$d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="207,157,338,184"/>
+</map>

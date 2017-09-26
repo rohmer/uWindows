@@ -1,0 +1,11 @@
+<map id="FatFile::open" name="FatFile::open">
+<area shape="rect" id="node2" href="$d3/d51/class_fat_file.html#afd16af325e0642e4bff6430b7d8bb18b" title="FatFile::close" alt="" coords="164,5,265,32"/>
+<area shape="rect" id="node4" href="$d3/d51/class_fat_file.html#a8b8a2850c086d3ce79bee64a23fbf7a6" title="FatFile::isOpen" alt="" coords="509,56,620,83"/>
+<area shape="rect" id="node6" href="$d3/d51/class_fat_file.html#a933360b20b496421b2bd9ee7a95563a6" title="FatFile::isDir" alt="" coords="167,107,263,133"/>
+<area shape="rect" id="node7" href="$d3/d51/class_fat_file.html#a5f64576d3d19177ab3cf3812b69abdfa" title="FatFile::open" alt="" coords="165,157,264,184"/>
+<area shape="rect" id="node9" href="$d3/d51/class_fat_file.html#a7e0c0548fed3a69e7284b91b694439d4" title="FatFile::openRoot" alt="" coords="152,208,277,235"/>
+<area shape="rect" id="node3" href="$d3/d51/class_fat_file.html#a67f3dc4896c542d695e11aac927f585e" title="FatFile::sync" alt="" coords="344,5,443,32"/>
+<area shape="rect" id="node5" href="$d3/d51/class_fat_file.html#acc5a87da1a5c8cb9758bfeaa7ae47b57" title="FatFile::isFile" alt="" coords="514,5,615,32"/>
+<area shape="rect" id="node8" href="$d7/d44/class_fat_file_system.html#acf257d02b7166683bda2abc5058004bf" title="FatFileSystem::vwd" alt="" coords="325,132,461,159"/>
+<area shape="rect" id="node10" href="$d9/d27/class_fat_volume.html#a0d736f0e8f03476b896307fbe5427376" title="FatVolume::fatType" alt="" coords="326,233,461,260"/>
+</map>

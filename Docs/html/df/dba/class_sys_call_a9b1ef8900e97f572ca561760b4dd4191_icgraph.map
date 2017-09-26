@@ -1,0 +1,5 @@
+<map id="SysCall::halt" name="SysCall::halt">
+<area shape="rect" id="node2" href="$d9/d36/class_sd_file_system.html#ae1f79a2974ebe134e70f898c32d97e98" title="SdFileSystem\&lt; SdSpiCardEX\l \&gt;::errorHalt" alt="" coords="149,5,344,47"/>
+<area shape="rect" id="node3" href="$d9/d36/class_sd_file_system.html#a24bd0f699cf0fe11fd2148b15c49251a" title="SdFileSystem\&lt; SdSpiCardEX\l \&gt;::initErrorHalt" alt="" coords="149,71,344,112"/>
+<area shape="rect" id="node4" href="$d9/d36/class_sd_file_system.html#ad9855d33ebd465715b706d0926291b13" title="SdFileSystem\&lt; SdSpiCardEX\l \&gt;::initErrorPrint" alt="" coords="149,136,344,177"/>
+</map>

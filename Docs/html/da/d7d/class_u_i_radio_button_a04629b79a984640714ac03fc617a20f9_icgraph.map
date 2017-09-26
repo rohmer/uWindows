@@ -1,0 +1,4 @@
+<map id="UIRadioButton::ProcessTouch" name="UIRadioButton::ProcessTouch">
+<area shape="rect" id="node2" href="$da/d7d/class_u_i_radio_button.html#a2f7e2b72a96eedaa382814d29a5ac329" title="UIRadioButton::IsChecked" alt="" coords="249,5,424,32"/>
+<area shape="rect" id="node3" href="$dc/d61/class_u_i_radio_group.html#a88d608f52a5c69e7734a4cdd87ed7582" title="UIRadioGroup::AddRadioButton" alt="" coords="472,5,676,32"/>
+</map>

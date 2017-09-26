@@ -1,0 +1,7 @@
+<map id="DriverBase::colorInterpolation565" name="DriverBase::colorInterpolation565">
+<area shape="rect" id="node2" href="$dc/de9/class_driver_base.html#a1e2fed84be970830b0f90ddef1c4fbbf" title="DriverBase::Color565" alt="" coords="282,5,425,32"/>
+<area shape="rect" id="node3" href="$dc/de9/class_driver_base.html#ac68b568316d8cbb5717c640b53fd8ab2" title="DriverBase::getBackground\lColor" alt="" coords="264,57,443,98"/>
+<area shape="rect" id="node4" href="$dc/de9/class_driver_base.html#a8993cd3feb82a5ab6f730afc10e6f273" title="DriverBase::swapDisplay" alt="" coords="491,13,656,40"/>
+<area shape="rect" id="node5" href="$dc/de9/class_driver_base.html#a3a37969d7cb893b2c478aa053beb03ae" title="DriverBase::colorA" alt="" coords="509,64,638,91"/>
+<area shape="rect" id="node6" href="$dc/de9/class_driver_base.html#a32ae6bac67c977d5dd0145c53d2d1e8d" title="DriverBase::clearScreen" alt="" coords="493,115,654,141"/>
+</map>

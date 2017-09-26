@@ -1,0 +1,6 @@
+<map id="FT8XXDriver::drawLine" name="FT8XXDriver::drawLine">
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="215,5,330,32"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="203,56,343,83"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a4139b47a6859cce023afe504ae89b1ad" title="GDClass::LineWidth" alt="" coords="203,107,343,133"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="207,157,338,184"/>
+</map>

@@ -1,0 +1,3 @@
+<map id="FT8XXDriver" name="FT8XXDriver">
+<area shape="rect" id="node2" href="$dc/de9/class_driver_base.html" title="{DriverBase\n|# driverType\l# tftWidth\l# tftHeight\l# rotation\l# backgroundColor\l|+ DriverBase()\l+ Init()\l+ drawPixel()\l+ drawLine()\l+ setRotation()\l+ getRotation()\l+ isLandscape()\l+ invertDisplay()\l+ fillRect()\l+ fillScreen()\land 54 more...\l}" alt="" coords="5,5,136,288"/>
+</map>

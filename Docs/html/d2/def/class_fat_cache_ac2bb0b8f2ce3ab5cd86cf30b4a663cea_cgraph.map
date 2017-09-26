@@ -1,0 +1,5 @@
+<map id="FatCache::read" name="FatCache::read">
+<area shape="rect" id="node2" href="$d2/def/class_fat_cache.html#a9f981b53e212f79937e5f6381b169374" title="FatCache::lbn" alt="" coords="361,5,463,32"/>
+<area shape="rect" id="node3" href="$d2/def/class_fat_cache.html#a4d76d4f46ce5994f6fc4678a7b4f8cf1" title="FatCache::sync" alt="" coords="164,56,279,83"/>
+<area shape="rect" id="node4" href="$d9/d27/class_fat_volume.html#adb87da3b10344f28a92dfade492b8398" title="FatVolume::blocksPerFat" alt="" coords="327,56,497,83"/>
+</map>

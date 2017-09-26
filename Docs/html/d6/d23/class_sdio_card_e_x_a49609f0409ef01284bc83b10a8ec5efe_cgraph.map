@@ -1,0 +1,7 @@
+<map id="SdioCardEX::readBlock" name="SdioCardEX::readBlock">
+<area shape="rect" id="node2" href="$d4/d82/class_sdio_card.html#a9dc1cd99d0136e514faaecf56a6318d2" title="SdioCard::readData" alt="" coords="227,5,361,32"/>
+<area shape="rect" id="node3" href="$d4/d82/class_sdio_card.html#a73beed782d16173b2e7b0e29c663f6fb" title="SdioCard::readStart" alt="" coords="226,56,362,83"/>
+<area shape="rect" id="node4" href="$d6/d23/class_sdio_card_e_x.html#a02699a39ef940441ef0f1049742c5aa7" title="SdioCardEX::syncBlocks" alt="" coords="211,107,377,133"/>
+<area shape="rect" id="node5" href="$d4/d82/class_sdio_card.html#a5bd3f206d790149340783135d08eb701" title="SdioCard::readStop" alt="" coords="427,81,561,108"/>
+<area shape="rect" id="node6" href="$d4/d82/class_sdio_card.html#acb560c2ea1f30c646b96f02e728b0fe1" title="SdioCard::writeStop" alt="" coords="425,132,563,159"/>
+</map>

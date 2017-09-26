@@ -1,0 +1,5 @@
+<map id="DriverBase::getBackgroundColor" name="DriverBase::getBackgroundColor">
+<area shape="rect" id="node2" href="$dc/de9/class_driver_base.html#a32ae6bac67c977d5dd0145c53d2d1e8d" title="DriverBase::clearScreen" alt="" coords="234,5,395,32"/>
+<area shape="rect" id="node3" href="$dc/de9/class_driver_base.html#a3a37969d7cb893b2c478aa053beb03ae" title="DriverBase::colorA" alt="" coords="250,56,379,83"/>
+<area shape="rect" id="node4" href="$dc/de9/class_driver_base.html#a8993cd3feb82a5ab6f730afc10e6f273" title="DriverBase::swapDisplay" alt="" coords="232,107,397,133"/>
+</map>

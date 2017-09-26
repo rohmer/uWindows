@@ -1,0 +1,11 @@
+<map id="WindowManager::DeleteElement" name="WindowManager::DeleteElement">
+<area shape="rect" id="node2" href="$d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="317,5,406,32"/>
+<area shape="rect" id="node3" href="$d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="264,56,459,83"/>
+<area shape="rect" id="node4" href="$d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="277,107,445,133"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="278,157,445,184"/>
+<area shape="rect" id="node6" href="$d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="507,157,677,184"/>
+<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="725,157,837,184"/>
+<area shape="rect" id="node8" href="$d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="887,107,1017,133"/>
+<area shape="rect" id="node9" href="$d3/d2e/class_g_d_transport.html#a52cbc0db79905474bb3d6120020e5a1b" title="GDTransport::rd32" alt="" coords="888,157,1016,184"/>
+<area shape="rect" id="node10" href="$d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="885,208,1019,235"/>
+</map>

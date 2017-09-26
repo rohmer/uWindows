@@ -1,0 +1,11 @@
+<map id="UIPrimitives::SunkenPanel" name="UIPrimitives::SunkenPanel">
+<area shape="rect" id="node2" href="$db/d77/class_check_box.html#abe381c7ad751036c24f066fceed91e9c" title="CheckBox::Draw" alt="" coords="258,5,377,32"/>
+<area shape="rect" id="node4" href="$d1/d4e/class_progress_bar.html#ad3d29d1500045a08b6680c7e0e45e106" title="ProgressBar::Draw" alt="" coords="252,56,383,83"/>
+<area shape="rect" id="node5" href="$d3/d84/class_numeric_entry.html#a4173b9529720e933c3fa66dafba75ddd" title="NumericEntry::Draw" alt="" coords="464,132,603,159"/>
+<area shape="rect" id="node6" href="$db/d0a/class_icon_button.html#add32e4abe8403a22b33b15574b0bceb8" title="IconButton::Draw" alt="" coords="257,208,378,235"/>
+<area shape="rect" id="node8" href="$d4/d77/class_button.html#a83978196eeff06d7ad8cca291442e367" title="Button::Draw" alt="" coords="269,259,366,285"/>
+<area shape="rect" id="node10" href="$d3/d84/class_numeric_entry.html#ab163b4d6818d54304d3c699eb74910cf" title="NumericEntry::UpdateInput" alt="" coords="228,157,407,184"/>
+<area shape="rect" id="node3" href="$de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="462,5,605,32"/>
+<area shape="rect" id="node7" href="$d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1" title="SettingsButton::Update" alt="" coords="455,208,612,235"/>
+<area shape="rect" id="node9" href="$da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="473,259,594,285"/>
+</map>

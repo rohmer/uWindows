@@ -1,0 +1,6 @@
+<map id="StdioStream::fgetc" name="StdioStream::fgetc">
+<area shape="rect" id="node2" href="$d2/de6/class_stdio_stream.html#aa240c1021a1aad1cc57f63a483541dc7" title="StdioStream::fgets" alt="" coords="185,5,316,32"/>
+<area shape="rect" id="node3" href="$d2/de6/class_stdio_stream.html#a4ffc37225fb6deed98905aa71d1f9c4b" title="StdioStream::fopen" alt="" coords="184,56,317,83"/>
+<area shape="rect" id="node4" href="$d3/d51/class_fat_file.html#a5f64576d3d19177ab3cf3812b69abdfa" title="FatFile::open" alt="" coords="365,56,464,83"/>
+<area shape="rect" id="node5" href="$d7/d44/class_fat_file_system.html#acf257d02b7166683bda2abc5058004bf" title="FatFileSystem::vwd" alt="" coords="512,56,648,83"/>
+</map>

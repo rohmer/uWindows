@@ -1,0 +1,9 @@
+<map id="GDClass::StencilFunc" name="GDClass::StencilFunc">
+<area shape="rect" id="node2" href="$d9/d69/class_poly.html#ad0dd1e12fa2a59df2828ef8a72b0a662" title="Poly::begin" alt="" coords="204,56,291,83"/>
+<area shape="rect" id="node8" href="$d9/d69/class_poly.html#a3bcb54c9e37aecb7d560ecd09a7fb10c" title="Poly::finish" alt="" coords="204,107,291,133"/>
+<area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a9a359931a69e62d655416c360416d821" title="FT8XXDriver::fillTriangle" alt="" coords="339,5,493,32"/>
+<area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a84979b3f6473f7c796937f71ebbaabf0" title="FT8XXDriver::fillQuad" alt="" coords="345,56,487,83"/>
+<area shape="rect" id="node6" href="$d5/deb/class_u_i_primitives.html#aa546a0792e7b77249895a4734e841705" title="UIPrimitives::Polygon" alt="" coords="343,107,489,133"/>
+<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="541,56,704,83"/>
+<area shape="rect" id="node7" href="$d9/d3f/class_compass.html#a08c2b2cc24d4520eecdc7a907e350472" title="Compass::Draw" alt="" coords="565,107,680,133"/>
+</map>

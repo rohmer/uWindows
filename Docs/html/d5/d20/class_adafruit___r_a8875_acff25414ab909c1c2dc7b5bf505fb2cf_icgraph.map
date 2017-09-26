@@ -1,0 +1,11 @@
+<map id="Adafruit_RA8875::readReg" name="Adafruit_RA8875::readReg">
+<area shape="rect" id="node2" href="$d5/d20/class_adafruit___r_a8875.html#a7effb4b2bb86a9d8b695d089706c001c" title="Adafruit_RA8875::begin" alt="" coords="248,5,407,32"/>
+<area shape="rect" id="node3" href="$d5/d20/class_adafruit___r_a8875.html#ac5d283dee07e8da46e71a1de1394d1c3" title="Adafruit_RA8875::touched" alt="" coords="241,56,414,83"/>
+<area shape="rect" id="node4" href="$d5/d20/class_adafruit___r_a8875.html#a16c340772d8f313e1ec937058b6dbdd7" title="Adafruit_RA8875::touchEnable" alt="" coords="228,107,427,133"/>
+<area shape="rect" id="node5" href="$d5/d20/class_adafruit___r_a8875.html#a04a9dc3c75a81429b27630470da8f95d" title="Adafruit_RA8875::touchRead" alt="" coords="233,157,422,184"/>
+<area shape="rect" id="node6" href="$d5/d20/class_adafruit___r_a8875.html#ad926379389b044ab1aca6a3d4e2c5afd" title="Adafruit_RA8875::waitPoll" alt="" coords="241,208,413,235"/>
+<area shape="rect" id="node7" href="$d5/d20/class_adafruit___r_a8875.html#a1c5cb990bb00eb69dcd0e32fda9c0452" title="Adafruit_RA8875::drawLine" alt="" coords="475,183,653,209"/>
+<area shape="rect" id="node10" href="$d5/d20/class_adafruit___r_a8875.html#a37e83a3d738fbb9c7109b2242b3ebee1" title="Adafruit_RA8875::fillCurve" alt="" coords="479,233,649,260"/>
+<area shape="rect" id="node8" href="$d5/d20/class_adafruit___r_a8875.html#abc5c2d8c1cc17dcfdfd8029808bc9331" title="Adafruit_RA8875::drawFast\lHLine" alt="" coords="701,143,881,185"/>
+<area shape="rect" id="node9" href="$d5/d20/class_adafruit___r_a8875.html#a220058cb510ac11f659b002e17cedaac" title="Adafruit_RA8875::drawFast\lVLine" alt="" coords="701,209,881,250"/>
+</map>

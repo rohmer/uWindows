@@ -1,0 +1,13 @@
+<map id="UIWindow::SetCornerRadius" name="UIWindow::SetCornerRadius">
+<area shape="rect" id="node2" href="$df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="240,157,428,184"/>
+<area shape="rect" id="node10" href="$df/dab/class_u_i_window.html#a19c8c22163a700de1592753ed27d3ade" title="UIWindow::ProcessTouch" alt="" coords="249,309,419,336"/>
+<area shape="rect" id="node3" href="$d1/d4c/class_u_i_element.html#ab012fc7a49ca1fd6d669bc74d18060a8" title="UIElement::GetLocation" alt="" coords="476,5,636,32"/>
+<area shape="rect" id="node4" href="$dc/de9/class_driver_base.html#a3b6b30844cda1b57940bfe6c0d7c38aa" title="DriverBase::height" alt="" coords="493,56,619,83"/>
+<area shape="rect" id="node6" href="$d1/d4c/class_u_i_element.html#a0270b834d6fdf077db7ab241f6e7421e" title="UIElement::SetLocation" alt="" coords="477,107,635,133"/>
+<area shape="rect" id="node7" href="$d1/d4c/class_u_i_element.html#ae5df92881598efcef3cd803ef9ef3a12" title="UIElement::SetParent" alt="" coords="482,157,630,184"/>
+<area shape="rect" id="node8" href="$d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="493,208,619,235"/>
+<area shape="rect" id="node9" href="$dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf" title="DriverBase::width" alt="" coords="495,259,617,285"/>
+<area shape="rect" id="node5" href="$dc/de9/class_driver_base.html#a8d9f805d559da4200bd853f0531073c4" title="DriverBase::textWrite" alt="" coords="684,56,829,83"/>
+<area shape="rect" id="node11" href="$d5/d68/struct_rectangle.html#a004249cbf16d7da44576d1fafe7ff19e" title="Rectangle::contains" alt="" coords="487,309,625,336"/>
+<area shape="rect" id="node12" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="505,360,607,387"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="GDTransport::finish" name="GDTransport::finish">
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a4a67996c7221b7855768e2d4215584f5" title="GDClass::finish" alt="" coords="202,5,314,32"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="187,56,329,83"/>
+<area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="385,31,529,57"/>
+<area shape="rect" id="node7" href="$d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="377,81,537,108"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="585,49,783,90"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="831,56,1005,83"/>
+</map>

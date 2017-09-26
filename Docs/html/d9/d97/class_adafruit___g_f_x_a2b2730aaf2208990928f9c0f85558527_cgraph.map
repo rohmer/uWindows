@@ -1,0 +1,10 @@
+<map id="Adafruit_GFX::fillScreen" name="Adafruit_GFX::fillScreen">
+<area shape="rect" id="node2" href="$d9/d97/class_adafruit___g_f_x.html#aa43cf1dfe6c17d040a0f1fd5ffbe9d69" title="Adafruit_GFX::fillRect" alt="" coords="212,56,357,83"/>
+<area shape="rect" id="node3" href="$d9/d97/class_adafruit___g_f_x.html#ab9be8787f3683151e86c1f3b5c8685d6" title="Adafruit_GFX::endWrite" alt="" coords="887,5,1046,32"/>
+<area shape="rect" id="node4" href="$d9/d97/class_adafruit___g_f_x.html#aa991435d3d38f6818fc93f9370c0b3e5" title="Adafruit_GFX::startWrite" alt="" coords="885,107,1048,133"/>
+<area shape="rect" id="node5" href="$d9/d97/class_adafruit___g_f_x.html#ae12d09670433af17e666a203b51715f7" title="Adafruit_GFX::writeFastVLine" alt="" coords="405,56,597,83"/>
+<area shape="rect" id="node6" href="$d9/d97/class_adafruit___g_f_x.html#a1cffbb1d69c5faf49cd0cff27686a837" title="Adafruit_GFX::drawFastVLine" alt="" coords="645,56,837,83"/>
+<area shape="rect" id="node7" href="$d9/d97/class_adafruit___g_f_x.html#ae1e5204b9251a04a57c821f69a8e638b" title="Adafruit_GFX::writeLine" alt="" coords="888,56,1045,83"/>
+<area shape="rect" id="node8" href="$d9/d97/class_adafruit___g_f_x.html#ab66a1577ec595a254e4492d641b36fd8" title="Adafruit_GFX::writePixel" alt="" coords="1096,56,1259,83"/>
+<area shape="rect" id="node9" href="$d9/d97/class_adafruit___g_f_x.html#ab7fbf72885c873266f9c7eb53b5c8896" title="Adafruit_GFX::drawPixel" alt="" coords="1307,56,1469,83"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="FatVolume::blocksPerCluster" name="FatVolume::blocksPerCluster">
+<area shape="rect" id="node2" href="$d3/d51/class_fat_file.html#aa367708bcc8bc0e0c45c0c2a812c65da" title="FatFile::contiguousRange" alt="" coords="245,5,416,32"/>
+<area shape="rect" id="node3" href="$d3/d51/class_fat_file.html#ae2ed15f05c9ccbce355e7a8d3ce8382d" title="FatFile::dirSize" alt="" coords="275,56,386,83"/>
+<area shape="rect" id="node4" href="$d3/d51/class_fat_file.html#a200e6e0553d5b709520c9dfac9ef77dd" title="FatFile::read" alt="" coords="283,107,378,133"/>
+<area shape="rect" id="node5" href="$d3/d51/class_fat_file.html#a0ab9df44a9ee4b6eb0a78f15f1e30004" title="FatFile::write" alt="" coords="282,157,379,184"/>
+</map>

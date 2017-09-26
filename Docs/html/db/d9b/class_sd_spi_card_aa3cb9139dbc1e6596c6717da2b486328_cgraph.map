@@ -1,0 +1,6 @@
+<map id="SdSpiCard::isBusy" name="SdSpiCard::isBusy">
+<area shape="rect" id="node2" href="$d9/da3/_sys_call_8h.html#a7a1c5babdcf00c78d4d2e6a012bd9e68" title="curTimeMS" alt="" coords="210,5,298,32"/>
+<area shape="rect" id="node3" href="$db/d9b/class_sd_spi_card.html#aa39feb6ebb269071ac6843a424ac311c" title="SdSpiCard::spiStart" alt="" coords="185,56,323,83"/>
+<area shape="rect" id="node4" href="$db/d9b/class_sd_spi_card.html#a1033a4a68d38f52dddf6a1764fcca3e1" title="SdSpiCard::spiStop" alt="" coords="186,107,322,133"/>
+<area shape="rect" id="node5" href="$df/dba/class_sys_call.html#a2219ba5ea8e411b022a3a00df5f380e0" title="SysCall::yield" alt="" coords="203,157,305,184"/>
+</map>

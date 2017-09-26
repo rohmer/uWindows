@@ -1,0 +1,9 @@
+<map id="UIPrimitives::DrawLine" name="UIPrimitives::DrawLine">
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="228,5,343,32"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#abebcc8a077049eb968072b24c63c9fa6" title="GDClass::BitmapHandle" alt="" coords="204,56,367,83"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a08258c6dc9b3f8b301e733aaf5312a24" title="GDClass::Cell" alt="" coords="233,107,337,133"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="225,157,346,184"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="215,208,355,235"/>
+<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#a4139b47a6859cce023afe504ae89b1ad" title="GDClass::LineWidth" alt="" coords="215,259,355,285"/>
+<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="220,309,351,336"/>
+</map>

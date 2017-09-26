@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['o_5faccmode',['O_ACCMODE',['../da/d0b/_fat_api_constants_8h.html#abba5e8d74f0748f007496b0542843f73',1,'FatApiConstants.h']]],
+  ['o_5fappend',['O_APPEND',['../da/d0b/_fat_api_constants_8h.html#ab41c9616f57921adb0cc826955ee7190',1,'FatApiConstants.h']]],
+  ['o_5fat_5fend',['O_AT_END',['../da/d0b/_fat_api_constants_8h.html#a813ebf7fbce55a7338b39019f007ac0e',1,'FatApiConstants.h']]],
+  ['o_5fcreat',['O_CREAT',['../da/d0b/_fat_api_constants_8h.html#adc01d3caed1ddc3a08dcf2c5ac689bf1',1,'FatApiConstants.h']]],
+  ['o_5fdata',['o_data',['../df/d4a/classsdcard.html#a99f188a5808bc5c301d816c7d0f73eec',1,'sdcard']]],
+  ['o_5fexcl',['O_EXCL',['../da/d0b/_fat_api_constants_8h.html#ae5a74e1c28460140f2a173f8f0caa824',1,'FatApiConstants.h']]],
+  ['o_5ffat',['o_fat',['../df/d4a/classsdcard.html#ac4c541420fd75b490b1e104023995e27',1,'sdcard']]],
+  ['o_5fpartition',['o_partition',['../df/d4a/classsdcard.html#ae739768f33f60d87bafe7eb4a0ec5e20',1,'sdcard']]],
+  ['o_5frdonly',['O_RDONLY',['../da/d0b/_fat_api_constants_8h.html#a591ac533aa6fcbc045c497752f4c0e1b',1,'FatApiConstants.h']]],
+  ['o_5frdwr',['O_RDWR',['../da/d0b/_fat_api_constants_8h.html#ac7695b276073dd825a5c8152a4347598',1,'FatApiConstants.h']]],
+  ['o_5fread',['O_READ',['../da/d0b/_fat_api_constants_8h.html#adc130698d7cf9a54eb21894f634f5e13',1,'FatApiConstants.h']]],
+  ['o_5froot',['o_root',['../df/d4a/classsdcard.html#aaec9672397680a7e318a557a0382dc9f',1,'sdcard']]],
+  ['o_5fsync',['O_SYNC',['../da/d0b/_fat_api_constants_8h.html#a1ddbf0997fb6d9f3bb81807e211ab789',1,'FatApiConstants.h']]],
+  ['o_5ftrunc',['O_TRUNC',['../da/d0b/_fat_api_constants_8h.html#a6d6780259260986edde84af5fb4c2c5e',1,'FatApiConstants.h']]],
+  ['o_5fwrite',['O_WRITE',['../da/d0b/_fat_api_constants_8h.html#ab83455d2f1710bb68b546bc50fa3391e',1,'FatApiConstants.h']]],
+  ['o_5fwronly',['O_WRONLY',['../da/d0b/_fat_api_constants_8h.html#acb4e7f4183bb6684dc569d7c576b4943',1,'FatApiConstants.h']]],
+  ['oct',['oct',['../d4/dc1/classios__base.html#a4155540f8d3ffdb8d25a2f50ee4df08f',1,'ios_base']]],
+  ['oemid',['oemId',['../db/d31/structfat__boot.html#adc034212201e879fea1eb44db43e55a5',1,'fat_boot::oemId()'],['../db/d76/structfat32__boot.html#af623a473a960ea20904dce0edfb6bb9d',1,'fat32_boot::oemId()'],['../d6/d96/_fat_structs_8h.html#a9c423397154f11b5108165f058d64c03',1,'oemId():&#160;FatStructs.h']]],
+  ['offset',['offset',['../d0/dbb/class_reader.html#ae41f3bf6d3beb2bb55cbe428528cf8b3',1,'Reader']]],
+  ['oid',['oid',['../d1/db8/struct_c_i_d.html#a12cb950aa46c62c8af1e530006f97031',1,'CID::oid()'],['../da/d88/_sd_info_8h.html#a0e7c3c74464b5888d6e4dde057c4d2c9',1,'oid():&#160;SdInfo.h']]],
+  ['ord',['ord',['../d5/d0e/structlong_directory_entry.html#a1b65e85dd63d0708cd1b875ce4e5e338',1,'longDirectoryEntry::ord()'],['../d6/d96/_fat_structs_8h.html#ae204655dc23be1d048e8bebf2dfa5089',1,'ord():&#160;FatStructs.h']]],
+  ['out',['out',['../d4/dc1/classios__base.html#a4c1d517774c0d11af3424e90395f26ae',1,'ios_base']]]
+];

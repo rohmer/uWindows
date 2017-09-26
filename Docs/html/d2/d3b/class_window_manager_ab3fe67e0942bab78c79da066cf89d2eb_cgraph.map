@@ -1,0 +1,7 @@
+<map id="WindowManager::Update" name="WindowManager::Update">
+<area shape="rect" id="node2" href="$d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="220,56,391,83"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="439,56,551,83"/>
+<area shape="rect" id="node4" href="$d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="600,5,731,32"/>
+<area shape="rect" id="node5" href="$d3/d2e/class_g_d_transport.html#a52cbc0db79905474bb3d6120020e5a1b" title="GDTransport::rd32" alt="" coords="601,56,729,83"/>
+<area shape="rect" id="node6" href="$d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="599,107,732,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Adafruit_GFX" name="Adafruit_GFX">
+<area shape="rect" id="node3" href="$d5/d20/class_adafruit___r_a8875.html" title="{Adafruit_RA8875\n||+ Adafruit_RA8875()\l+ begin()\l+ softReset()\l+ displayOn()\l+ sleep()\l+ textMode()\l+ textSetCursor()\l+ textColor()\l+ textTransparent()\l+ textEnlarge()\land 38 more...\l}" alt="" coords="5,579,144,803"/>
+<area shape="rect" id="node4" href="$dc/db3/class_g_f_xcanvas1.html" title="{GFXcanvas1\n||+ GFXcanvas1()\l+ ~GFXcanvas1()\l+ drawPixel()\l+ fillScreen()\l+ getBuffer()\l}" alt="" coords="168,623,291,759"/>
+<area shape="rect" id="node5" href="$d2/de2/class_g_f_xcanvas16.html" title="{GFXcanvas16\n||}" alt="" coords="315,652,416,729"/>
+</map>

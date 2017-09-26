@@ -1,0 +1,6 @@
+<map id="Rectangle::add" name="Rectangle::add">
+<area shape="rect" id="node2" href="$d5/d68/struct_rectangle.html#a004249cbf16d7da44576d1fafe7ff19e" title="Rectangle::contains" alt="" coords="179,5,317,32"/>
+<area shape="rect" id="node3" href="$d5/d68/struct_rectangle.html#a49fe4b22dc099f789bf958816bc50095" title="Rectangle::normalizeRect" alt="" coords="163,56,333,83"/>
+<area shape="rect" id="node4" href="$d5/d68/struct_rectangle.html#a5e47ba695f8e9709fa51c43b71825f2a" title="Rectangle::occludes" alt="" coords="178,107,318,133"/>
+<area shape="rect" id="node5" href="$d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="185,157,311,184"/>
+</map>
