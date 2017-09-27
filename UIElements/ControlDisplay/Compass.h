@@ -12,8 +12,9 @@ class Compass
 {
 public:
 	static Rectangle Draw(DriverBase &tft, Rectangle location, float direction,
-		tColor controlColor, tColor pointerColor, eUITextFont controlFont,		
-		bool showNSEW=true, tColor textColor = Color::White);
+		tColor controlColor, tColor pointerColor, eUITextFont controlFont,
+		bool showDegrees, eUITextFont degreeFont, tColor degreeColor, tColor degreeBGColor,
+		bool showNSEW = true, tColor textColor = Color::White);
 private:
 	enum eAngle
 	{

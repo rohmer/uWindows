@@ -3,6 +3,9 @@
 #include <sstream>
 #include "Arduino.h"
 
+#undef max
+#undef min
+
 #ifndef LOGGING_ENABLED
 class Logger
 {

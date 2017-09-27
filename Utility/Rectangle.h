@@ -1,6 +1,8 @@
 #pragma once
 #include "Point.h"
 #include "Logger.h"
+#include <cmath>
+
 struct Rectangle
 {
 public:

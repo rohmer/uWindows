@@ -62,7 +62,7 @@ Rectangle DropDownList::Draw(DriverBase &tft, uint16_t x, uint16_t y, uint16_t w
 Rectangle DropDownList::DrawExpanded(DriverBase &tft, uint16_t x, uint16_t y, uint16_t width, uint16_t height,
 		uint32_t textColor, uint32_t controlBGColor, uint32_t dropDownControlColor, uint8_t alpha,
 		uint8_t cornerRadius, eUITextFont font,	std::vector<std::string> items, uint8_t selectedIndex, 
-		bool is3D=true)
+		bool is3D)
 {
 	// First we can use the Draw command, since that part is the same
 	Rectangle r=Draw(tft, x, y, width, height, textColor, controlBGColor, dropDownControlColor, 
@@ -112,7 +112,7 @@ Rectangle DropDownList::DrawExpanded(DriverBase &tft, uint16_t x, uint16_t y, ui
 int16_t DropDownList::ProcessTouch(bool isExpanded, Point pt, DriverBase &tft, uint16_t x,
 		uint16_t y, uint16_t width, uint16_t height, uint32_t textColor, uint32_t controlBGColor,
 		uint32_t dropDownControlColor, uint8_t alpha, uint8_t cornerRadius, eUITextFont font,	
-		std::vector<std::string> items, uint8_t selectedIndex, bool is3D=true)
+		std::vector<std::string> items, uint8_t selectedIndex, bool is3D)
 {
 
 }

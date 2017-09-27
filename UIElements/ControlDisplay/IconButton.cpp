@@ -3,8 +3,8 @@
 #ifdef useIconButton
 Rectangle IconButton::Draw(DriverBase &tft, bool sunken, uint16_t x, uint16_t y, uint16_t width,
 	uint16_t height, uint8_t iconHandle, Rectangle iconSize, int32_t textColor, uint32_t buttonColor, 
-	eUITextFont font, std::string text, bool is3D = true, uint8_t cornerRadius = 4, uint8_t alpha = 255,
-	eVertAlign vertAlign = eVertAlign::Top)
+	eUITextFont font, std::string text, bool is3D, uint8_t cornerRadius, uint8_t alpha,
+	eVertAlign vertAlign)
 {
 	Rectangle r;
 	if (is3D)

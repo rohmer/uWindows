@@ -211,7 +211,7 @@ public:
 #ifdef FT8XX
 		return color;
 #endif
-		return(GetColor565(color));
+		return(static_cast<ColorDefs>(GetColor565(color)));
 	}
 
 	inline static uint32_t Color565To32(uint16_t inputColor)

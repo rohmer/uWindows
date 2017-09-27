@@ -3,7 +3,7 @@
 Rectangle Compass::Draw(DriverBase &tft, Rectangle location, float direction,
 	tColor controlColor, tColor pointerColor, eUITextFont controlFont,
 	bool showDegrees, eUITextFont degreeFont, tColor degreeColor, tColor degreeBGColor,
-	bool showNSEW = true, tColor textColor=Color::White)
+	bool showNSEW, tColor textColor)
 {	
 	uint16_t shownDirection = angleMath(direction, -15);	
 

@@ -41,8 +41,8 @@ Rectangle NumericEntry::Draw(DriverBase &tft, uint16_t x, uint16_t y, uint16_t c
 }
 
 void NumericEntry::DrawKeys(DriverBase &tft, uint16_t x, uint16_t y, uint16_t controlColor,
-	uint16_t textColor, eUITextFont font, bool is3D = true, bool periodActive = true,
-	bool singleDecimal = true)
+	uint16_t textColor, eUITextFont font, bool is3D, bool periodActive,
+	bool singleDecimal)
 {
 	// The keys are in this arrangement
 	// 123
@@ -151,7 +151,8 @@ void NumericEntry::DrawKeys(DriverBase &tft, uint16_t x, uint16_t y, uint16_t co
 			UIPrimitives::Text(tft, textColor, 255, keyRect.center().x, keyRect.center().y-fontRect.height/2, font, is3D, keyText);
 		else
 		{
-			fontRect = FontHelper::GetTextRect(tft, keyText, font-1, Point(0, 0));
+			uint8_t fontNum = static_cast<uint8_t>(font) - 1;
+			fontRect = FontHelper::GetTextRect(tft, keyText, static_cast<eUITextFont>(fontNum), Point(0, 0));
 			UIPrimitives::Text(tft, textColor, 255, keyRect.center().x, keyRect.center().y-fontRect.height/2, font - 1, is3D, keyText);
 
 		}

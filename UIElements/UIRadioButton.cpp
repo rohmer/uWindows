@@ -1,8 +1,8 @@
 #include "UIRadioButton.h"
 
 UIRadioButton::UIRadioButton(DriverBase &tft, Rectangle location, std::string text, bool checked, eUITextFont textFont,
-	tColor textColor, uint8_t textScale, tColor controlColor, tColor checkColor, bool is3D = true,
-	bool textToRight = true, std::string elementName = "")
+	tColor textColor, uint8_t textScale, tColor controlColor, tColor checkColor, bool is3D,
+	bool textToRight, std::string elementName)
 	: UIElement(tft,location,elementName, eElementType::RadioButton)
 {
 	this->buttonText = text;

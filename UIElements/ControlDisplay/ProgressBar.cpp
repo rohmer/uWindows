@@ -2,7 +2,7 @@
 
 Rectangle ProgressBar::Draw(DriverBase &tft, uint16_t x, uint16_t y, uint16_t width,
 	uint16_t height, uint8_t progress, int32_t textColor, uint32_t barBGColor, uint32_t barProgressColor, 
-	eUITextFont font, bool is3D = true, uint8_t cornerRadius = 4, uint8_t alpha = 255)
+	eUITextFont font, bool is3D, uint8_t cornerRadius, uint8_t alpha)
 {
 	bool horiz = (width >= height);
 	if (horiz)
@@ -46,7 +46,7 @@ Rectangle ProgressBar::Draw(DriverBase &tft, uint16_t x, uint16_t y, uint16_t wi
 
 Rectangle ProgressBar::Draw(DriverBase &tft, uint16_t x, uint16_t y, uint16_t width,
 	uint16_t height, uint8_t progress, uint32_t barBGColor, uint32_t barProgressColor,
-	bool is3D = true, uint8_t cornerRadius = 4, uint8_t alpha = 255)
+	bool is3D, uint8_t cornerRadius, uint8_t alpha)
 {
 #ifdef DEBUG
 	Logger::Trace("ProgressBar::Dar(TFT,%d,%d,%d,%d,%d,%d,%d,%s,%d,%d)",

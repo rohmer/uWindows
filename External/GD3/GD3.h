@@ -9,13 +9,16 @@
 
 #ifndef _GD3_H_INCLUDED
 #define _GD3_H_INCLUDED
-
+/*#ifndef min
 #define min(a,b) ((a) < (b) ? (a) : (b))
+#endif
+#ifndef max
 #define max(a,b) \
    ({ __typeof__ (a) _a = (a); \
        __typeof__ (b) _b = (b); \
      _a > _b ? _a : _b; })
-
+#endif
+*/
 #include "../../Options.h"
 
 #if defined(RASPBERRY_PI) || defined(DUMPDEV)
@@ -23,7 +26,10 @@
 #endif
 
 #include "Arduino.h"
+#undef min
+#undef max
 #include <stdarg.h>
+#include <algorithm>
 
 #define RGB(r, g, b)    ((uint32_t)((((r) & 0xffL) << 16) | (((g) & 0xffL) << 8) | ((b) & 0xffL)))
 #define F8(x)           (int((x) * 256L))
@@ -1044,19 +1050,19 @@ class Poly {
       GD.StencilFunc(ALWAYS, 255, 255);
     }
     void v(int _x, int _y) {
-      x0 = min(x0, _x >> 4);
-      x1 = max(x1, _x >> 4);
-      y0 = min(y0, _y >> 4);
-      y1 = max(y1, _y >> 4);
+      x0 = Min(x0, _x >> 4);
+      x1 = Max(x1, _x >> 4);
+      y0 = Min(y0, _y >> 4);
+      y1 = Max(y1, _y >> 4);
       x[n] = _x;
       y[n] = _y;
       n++;
     }
     void paint() {
-      x0 = max(0, x0);
-      y0 = max(0, y0);
-      x1 = min(16 * 800, x1);
-      y1 = min(16 * 480, y1);
+      x0 = Max(0, x0);
+      y0 = Max(0, y0);
+      x1 = Min(16 * 800, x1);
+      y1 = Min(16 * 480, y1);
       GD.ScissorXY(x0, y0);
       GD.ScissorSize(x1 - x0 + 1, y1 - y0 + 1);
       GD.Begin(EDGE_STRIP_B);

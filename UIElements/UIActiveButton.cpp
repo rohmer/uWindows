@@ -4,7 +4,7 @@
 
 UIActiveButton::UIActiveButton(DriverBase &tft, Rectangle location, std::string buttonText, eUITextFont font,
 	tColor textColor, uint8_t textScale, tColor buttonBGColor, uint8_t cornerRadius,
-	bool is3D, bool raised, uint16_t updateInMillis, std::string elementName = "", uint8_t alpha) :
+	bool is3D, bool raised, uint16_t updateInMillis, std::string elementNam, uint8_t alpha) :
 	UIElement(tft, location, elementName, eElementType::ActiveButton)
 {
 	this->buttonText = buttonText;

@@ -2,7 +2,7 @@
 UICheckBox::UICheckBox(DriverBase &tft, Rectangle location, std::string boxText, bool checked,
 	eUITextFont textFont, tColor textColor, uint8_t textScale, tColor boxColor,
 	tColor boxShadowColor, uint8_t boxShadowSize, uint8_t boxBorderSize,
-	tColor  boxCheckColor, bool hasRoundCorners, uint8_t cornerRadius, std::string elementName = "") :
+	tColor  boxCheckColor, bool hasRoundCorners, uint8_t cornerRadius, std::string elementName):
 	UIElement(tft, location, elementName, eElementType::CheckBox)
 {	
 	this->isChecked = checked;

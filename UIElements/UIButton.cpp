@@ -3,9 +3,9 @@
 #ifdef useButton
 
 UIButton::UIButton(DriverBase &tft, Rectangle location, std::string buttonText, eUITextFont font,
-	tColor textColor, uint8_t textScale, tColor buttonBGColor, uint8_t cornerRadius = 4,
-	bool is3D = true, bool raised = true, std::string elementName = "", uint8_t alpha,
-	eVertAlign textVertAlign = eVertAlign::Middle) :	
+	tColor textColor, uint8_t textScale, tColor buttonBGColor, uint8_t cornerRadius,
+	bool is3D, bool raised, std::string elementName, uint8_t alpha,
+	eVertAlign textVertAlign) :	
 	UIElement(tft, location,elementName, eElementType::Button)
 {
 	this->buttonText = buttonText;

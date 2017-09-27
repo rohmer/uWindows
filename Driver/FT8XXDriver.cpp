@@ -1,7 +1,7 @@
 #include "FT8XXDriver.h"
 
 #ifdef FT8XX
-FT8XXDriver::FT8XXDriver(uint16_t width, uint16_t height, uint8_t cs = 10, uint8_t rst = 9) :
+FT8XXDriver::FT8XXDriver(uint16_t width, uint16_t height, uint8_t cs, uint8_t rst) :
 	DriverBase(width, height,eDriverType::DriverFT8XX)
 {
 	GD.begin();
@@ -17,7 +17,7 @@ FT8XXDriver::FT8XXDriver() :
 	GD.begin();
 }
 
-void FT8XXDriver::Init(uint16_t width, uint16_t height, uint8_t cs = 10, uint8_t rst = 9)
+void FT8XXDriver::Init(uint16_t width, uint16_t height, uint8_t cs, uint8_t rst)
 {
 	this->tftWidth = width; 
 	this->tftHeight = height;	
@@ -416,7 +416,8 @@ void FT8XXDriver::textWrite(uint16_t x, uint16_t y, eUITextFont font, uint32_t t
 	GD.cmd_text(x, y, font, justification, text.c_str());	
 }
 
-void FT8XXDriver::fillQuad(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, int16_t x3, int16_t y3, uint32_t color, bool triangled = true)
+void FT8XXDriver::fillQuad(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, int16_t x3, int16_t y3, 
+	uint32_t color, bool triangled)
 {
 	GD.ColorRGB(color);
 	Poly po;
@@ -433,7 +434,7 @@ void FT8XXDriver::swapDisplay()
 	GD.swap();
 }
 
-void FT8XXDriver::clearScreen(uint32_t clearToColor = Color::Black)
+void FT8XXDriver::clearScreen(uint32_t clearToColor)
 {
 	GD.ClearColorRGB(clearToColor);
 	GD.Clear();

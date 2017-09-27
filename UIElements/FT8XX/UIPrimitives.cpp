@@ -57,7 +57,7 @@ Rectangle  UIPrimitives::RaisedPanel(DriverBase &tft, uint16_t x, uint16_t y, ui
 }
 
 Rectangle UIPrimitives::FlatPanel(DriverBase &tft, uint16_t x, uint16_t y, uint16_t width, uint16_t height,
-	uint8_t cornerRadius, uint32_t color, uint8_t alpha = 255)
+	uint8_t cornerRadius, uint32_t color, uint8_t alpha)
 {
 	tft.colorA(alpha);
 	if (cornerRadius > 0)

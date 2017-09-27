@@ -2,8 +2,8 @@
 
 WindowManager *WindowManager::s_instance;
 
-WindowManager::WindowManager(const uint8_t cs, const uint8_t rst, const uint8_t mosi = 11,
-	const uint8_t sclk = 13, const uint8_t miso = 12, eLCDSizes lcdSize = eLCDSizes::lcd800x480)
+WindowManager::WindowManager(const uint8_t cs, const uint8_t rst, const uint8_t mosi,
+	const uint8_t sclk, const uint8_t miso, eLCDSizes lcdSize)
 {
 #ifdef RA8875
 	if (lcdSize == eLCDSizes::lcd800x480)

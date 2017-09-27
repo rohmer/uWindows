@@ -2,7 +2,6 @@
 #include "../../Options.h"
 
 #ifdef FT8XX
-#include "StandardCplusplus.h"
 #include "../../External/GD3/GD3.h"
 #include "Fonts.h"
 #include "../../Utility/FontHelper.h"
@@ -10,6 +9,7 @@
 #include "../../Driver/DriverBase.h"
 #include "Arduino.h"
 #include "../../Utility/Color.h"
+#include <vector>
 
 // TODO: Copy ALL of these to RA8875
 // Defines different drawing primitives used in a bunch of other elements

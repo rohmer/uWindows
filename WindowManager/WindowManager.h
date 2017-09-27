@@ -1,8 +1,9 @@
 #pragma once
-#include "../UIElements/UIWindow.h"
+#include <algorithm>
 #include <map>
 #include <vector>
-#include <algorithm>
+#include "../UIElements/UIWindow.h"
+
 
 #ifdef FT8XX
 #include "../Driver/FT8XXDriver.h"

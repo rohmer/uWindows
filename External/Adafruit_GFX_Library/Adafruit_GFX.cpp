@@ -62,10 +62,6 @@ POSSIBILITY OF SUCH DAMAGE.
  #define pgm_read_pointer(addr) ((void *)pgm_read_word(addr))
 #endif
 
-#ifndef min
-#define min(a,b) (((a) < (b)) ? (a) : (b))
-#endif
-
 #ifndef _swap_int16_t
 #define _swap_int16_t(a, b) { int16_t t = a; a = b; b = t; }
 #endif

@@ -4,8 +4,8 @@
 UIElementGraph::UIElementGraph(DriverBase &tft, Rectangle location, CircularMinMaxBuffer &inValues,
 	std::string itemLabel, eUITextFont font,
 	tColor textColor, uint8_t textScale, tColor graphColor, tColor bgColor,
-	eGraphType graphType = eGraphType::BarGraph,
-	uint8_t cornerRadius = 4, std::string elementName = "", uint8_t alpha = 255) :
+	eGraphType graphType,
+	uint8_t cornerRadius, std::string elementName, uint8_t alpha) :
 	UIElement(tft, location, elementName, eElementType::NotInteractive), values(inValues)	
 {
 	this->itemLabel = itemLabel;

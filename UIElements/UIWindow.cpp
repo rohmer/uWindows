@@ -1,7 +1,7 @@
 #include "UIWindow.h"
 
 UIWindow::UIWindow(DriverBase &tft, Rectangle location, eUITextFont titleBarFont,
-	std::string titleText = "", bool hasTitleBar, bool hasCloseIcon,
+	std::string titleText, bool hasTitleBar, bool hasCloseIcon,
 	bool hasChrome, bool isModal, bool is3D, tColor  titleBarColor ,	
 	tColor  titleTextColor,	tColor  chromeColor, tColor  windowColor, 
 	uint8_t cornerRadius, std::string elementName)

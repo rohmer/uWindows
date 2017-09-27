@@ -2,7 +2,7 @@
 
 Rectangle CheckBox::Draw(DriverBase &tft, bool sunken, bool isChecked, uint16_t x, uint16_t y,
 	uint32_t textColor, uint32_t uncheckedColor, uint32_t checkColor, eUITextFont font,
-	std::string text, bool textRight = true, bool is3D = true, uint8_t cornerRadius)
+	std::string text, bool textRight, bool is3D, uint8_t cornerRadius)
 {
 	// We need the size of the text, to get the size of the radio button
 	Rectangle r = FontHelper::GetTextRect(tft, text, font, Point(x, y));
