@@ -17,5 +17,9 @@ var logo__assets_8h =
     [ "TWO_CELLS", "d2/dbb/logo__assets_8h.html#a0b19a4909cdd86e4fe50f99a2edf7293", null ],
     [ "TWO_HANDLE", "d2/dbb/logo__assets_8h.html#a1dbee5a9e6c755c1960d4d553e132fe4", null ],
     [ "TWO_HEIGHT", "d2/dbb/logo__assets_8h.html#a2cca4c1cf06365b13ae2dc0eeba270cb", null ],
-    [ "TWO_WIDTH", "d2/dbb/logo__assets_8h.html#ace6db4eae3ddf8a7d1c75211d86f3059", null ]
+    [ "TWO_WIDTH", "d2/dbb/logo__assets_8h.html#ace6db4eae3ddf8a7d1c75211d86f3059", null ],
+    [ "GAMEDUINO_SHAPE", "d2/dbb/logo__assets_8h.html#a5a8a03e224f332d726e54209af921036", null ],
+    [ "OSHW_SHAPE", "d2/dbb/logo__assets_8h.html#a7411af42620f146a27c69f81c03f6fba", null ],
+    [ "PERSONAL_SHAPE", "d2/dbb/logo__assets_8h.html#a73bd896cc977a77a3610fd7e72e160e6", null ],
+    [ "TWO_SHAPE", "d2/dbb/logo__assets_8h.html#aba19379b24ecfbe9b804a95d0a94fd5a", null ]
 ];

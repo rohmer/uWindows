@@ -5,5 +5,7 @@ var _fonts_2_g_d2_files_2_crimson_text__bold_italic9_8h =
     [ "CRIMSONTEXT_BOLDITALIC_HANDLE", "d3/d55/_fonts_2_g_d2_files_2_crimson_text-_bold_italic9_8h.html#a89bbebe478bc06232a48945fed45d9a7", null ],
     [ "CRIMSONTEXT_BOLDITALIC_HEIGHT", "d3/d55/_fonts_2_g_d2_files_2_crimson_text-_bold_italic9_8h.html#a7c65dfb3a937b59ea92ab2bb3cea8999", null ],
     [ "CRIMSONTEXT_BOLDITALIC_WIDTH", "d3/d55/_fonts_2_g_d2_files_2_crimson_text-_bold_italic9_8h.html#a1926b5de35d0670e0b7f3248bb59715c", null ],
-    [ "LOAD_ASSETS", "d3/d55/_fonts_2_g_d2_files_2_crimson_text-_bold_italic9_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ]
+    [ "LOAD_ASSETS", "d3/d55/_fonts_2_g_d2_files_2_crimson_text-_bold_italic9_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ],
+    [ "__assets", "d3/d55/_fonts_2_g_d2_files_2_crimson_text-_bold_italic9_8h.html#ae6aeb4edd687ece63eca85626e4a882e", null ],
+    [ "CRIMSONTEXT_BOLDITALIC_SHAPE", "d3/d55/_fonts_2_g_d2_files_2_crimson_text-_bold_italic9_8h.html#aa324829e8e9dbee2ea9412f9d6ae9948", null ]
 ];

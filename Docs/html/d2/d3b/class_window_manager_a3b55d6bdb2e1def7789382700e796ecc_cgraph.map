@@ -1,13 +1,28 @@
 <map id="WindowManager::MoveControlToFront" name="WindowManager::MoveControlToFront">
-<area shape="rect" id="node2" href="$d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="261,5,427,32"/>
-<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="251,56,437,83"/>
-<area shape="rect" id="node6" href="$d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="272,107,416,133"/>
-<area shape="rect" id="node10" href="$d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="264,157,424,184"/>
-<area shape="rect" id="node11" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="293,208,395,235"/>
-<area shape="rect" id="node12" href="$d3/d42/class_logger.html#a10e3c0f647678365b77770cfc3ec151d" title="Logger::Warn" alt="" coords="294,259,394,285"/>
-<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="509,56,604,83"/>
-<area shape="rect" id="node4" href="$d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="685,56,801,83"/>
-<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="485,107,628,133"/>
-<area shape="rect" id="node8" href="$d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="676,107,809,133"/>
-<area shape="rect" id="node9" href="$d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="679,157,807,184"/>
+<area shape="rect" id="node2" href="$d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="251,339,471,365"/>
+<area shape="rect" id="node27" href="$d3/d42/class_logger.html#a10e3c0f647678365b77770cfc3ec151d" title="Logger::Warn" alt="" coords="311,389,411,416"/>
+<area shape="rect" id="node3" href="$d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="571,288,661,315"/>
+<area shape="rect" id="node4" href="$d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="519,339,713,365"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="533,389,699,416"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="761,187,968,213"/>
+<area shape="rect" id="node19" href="$d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="781,389,948,416"/>
+<area shape="rect" id="node22" href="$d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="779,465,950,492"/>
+<area shape="rect" id="node7" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="1066,5,1167,32"/>
+<area shape="rect" id="node8" href="$d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="1023,56,1210,83"/>
+<area shape="rect" id="node11" href="$d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="1033,107,1200,133"/>
+<area shape="rect" id="node12" href="$d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="1045,157,1189,184"/>
+<area shape="rect" id="node16" href="$d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="1016,209,1217,250"/>
+<area shape="rect" id="node17" href="$d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="1037,275,1197,301"/>
+<area shape="rect" id="node18" href="$d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="1033,325,1201,352"/>
+<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="1289,107,1384,133"/>
+<area shape="rect" id="node10" href="$d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="1465,107,1581,133"/>
+<area shape="rect" id="node13" href="$da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="1265,157,1408,184"/>
+<area shape="rect" id="node14" href="$d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="1456,157,1589,184"/>
+<area shape="rect" id="node15" href="$d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="1459,208,1587,235"/>
+<area shape="rect" id="node20" href="$da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="1061,376,1173,403"/>
+<area shape="rect" id="node21" href="$da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="1031,427,1202,453"/>
+<area shape="rect" id="node23" href="$da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="1061,477,1173,504"/>
+<area shape="rect" id="node24" href="$d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1271,452,1402,479"/>
+<area shape="rect" id="node25" href="$d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="1270,503,1403,529"/>
+<area shape="rect" id="node26" href="$d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="1457,503,1588,529"/>
 </map>

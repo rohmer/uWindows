@@ -9,16 +9,15 @@
 <area shape="rect" id="node17" href="$d4/d96/class_font_helper.html#a73c19d5c6909ad334efd782446835f05" title="FontHelper::GetTextRect" alt="" coords="439,588,605,615"/>
 <area shape="rect" id="node18" href="$d3/dfd/class_circular_min_max_buffer.html#acda37125cdecceb0a0947db4e3da4f77" title="CircularMinMaxBuffer\l::GetValues" alt="" coords="233,471,378,513"/>
 <area shape="rect" id="node19" href="$d5/deb/class_u_i_primitives.html#a88f51a11be6d5178c194fcc2e16afe04" title="UIPrimitives::RaisedPanel" alt="" coords="220,420,391,447"/>
-<area shape="rect" id="node21" href="$d5/deb/class_u_i_primitives.html#a11ff2d3dcd855c73177dca55c2f1d434" title="UIPrimitives::Text" alt="" coords="244,537,367,564"/>
-<area shape="rect" id="node23" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="255,639,356,665"/>
-<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="461,260,583,287"/>
-<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="452,368,592,395"/>
-<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a4139b47a6859cce023afe504ae89b1ad" title="GDClass::LineWidth" alt="" coords="452,313,592,340"/>
-<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#abebcc8a077049eb968072b24c63c9fa6" title="GDClass::BitmapHandle" alt="" coords="441,107,603,133"/>
-<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a08258c6dc9b3f8b301e733aaf5312a24" title="GDClass::Cell" alt="" coords="470,56,574,83"/>
-<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="465,208,579,235"/>
-<area shape="rect" id="node10" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="457,157,587,184"/>
+<area shape="rect" id="node20" href="$d5/deb/class_u_i_primitives.html#a11ff2d3dcd855c73177dca55c2f1d434" title="UIPrimitives::Text" alt="" coords="244,537,367,564"/>
+<area shape="rect" id="node22" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="255,639,356,665"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="461,412,583,439"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="452,273,592,300"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a4139b47a6859cce023afe504ae89b1ad" title="GDClass::LineWidth" alt="" coords="452,353,592,380"/>
+<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#abebcc8a077049eb968072b24c63c9fa6" title="GDClass::BitmapHandle" alt="" coords="441,56,603,83"/>
+<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a08258c6dc9b3f8b301e733aaf5312a24" title="GDClass::Cell" alt="" coords="470,107,574,133"/>
+<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="465,157,579,184"/>
+<area shape="rect" id="node10" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="457,208,587,235"/>
 <area shape="rect" id="node12" href="$da/df4/class_g_d_class.html#a633c344df45d3ac7483a8615160552f3" title="GDClass::PointSize" alt="" coords="453,5,591,32"/>
-<area shape="rect" id="node20" href="$da/df4/class_g_d_class.html#afbb12db41b3a6a89f3e8666a323ec2e0" title="GDClass::VertexFormat" alt="" coords="441,420,603,447"/>
-<area shape="rect" id="node22" href="$da/df4/class_g_d_class.html#a8af7d326a481930f04f38882987da67b" title="GDClass::cmd_text" alt="" coords="454,537,590,564"/>
+<area shape="rect" id="node21" href="$da/df4/class_g_d_class.html#a8af7d326a481930f04f38882987da67b" title="GDClass::cmd_text" alt="" coords="454,537,590,564"/>
 </map>

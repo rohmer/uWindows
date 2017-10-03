@@ -1,15 +1,15 @@
 <map id="UIElements/UICheckBox.h" name="UIElements/UICheckBox.h">
-<area shape="rect" id="node2" href="$d4/dbb/_options_8h.html" title="../Options.h" alt="" coords="177,557,268,584"/>
-<area shape="rect" id="node6" href="$d9/df8/_color_8h.html" title="../Utility/Color.h" alt="" coords="820,386,932,413"/>
-<area shape="rect" id="node11" href="$d6/d17/_u_i_element_8h.html" title="UIElement.h" alt="" coords="1007,80,1100,107"/>
-<area shape="rect" id="node25" href="$d3/d23/_check_box_8h.html" title="ControlDisplay/CheckBox.h" alt="" coords="432,80,613,107"/>
-<area shape="rect" id="node8" href="$d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="960,475,1032,502"/>
-<area shape="rect" id="node13" href="$db/def/_rectangle_8h.html" title="../Utility/Rectangle.h" alt="" coords="1007,304,1147,331"/>
-<area shape="rect" id="node15" href="$dd/db4/_driver_base_8h.html" title="../Driver/DriverBase.h" alt="" coords="637,304,779,331"/>
-<area shape="rect" id="node22" href="$d1/d90/_f_t8_x_x_2_u_i_primitives_8h.html" title="FT8XX/UIPrimitives.h" alt="" coords="452,155,593,181"/>
-<area shape="rect" id="node14" href="$d1/d18/_point_8h.html" title="Point.h" alt="" coords="1007,386,1070,413"/>
-<area shape="rect" id="node17" href="$de/d9a/_f_t8_x_x_2_fonts_8h.html" title="../UIElements/FT8XX\l/Fonts.h" alt="" coords="245,379,387,420"/>
-<area shape="rect" id="node19" href="$df/de7/_g_d3_8h.html" title="../../External/GD3\l/GD3.h" alt="" coords="569,468,693,509"/>
-<area shape="rect" id="node21" href="$da/dcd/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular12_8h.html" title="Fonts\\aileronRegular12.h" alt="" coords="326,475,493,502"/>
-<area shape="rect" id="node24" href="$d9/d86/_font_helper_8h.html" title="../../Utility/FontHelper.h" alt="" coords="673,229,831,256"/>
+<area shape="rect" id="node2" href="$d4/dbb/_options_8h.html" title="../Options.h" alt="" coords="178,557,268,584"/>
+<area shape="rect" id="node6" href="$d9/df8/_color_8h.html" title="../Utility/Color.h" alt="" coords="235,386,347,413"/>
+<area shape="rect" id="node11" href="$d6/d17/_u_i_element_8h.html" title="UIElement.h" alt="" coords="878,80,971,107"/>
+<area shape="rect" id="node26" href="$d3/d23/_check_box_8h.html" title="ControlDisplay/CheckBox.h" alt="" coords="44,80,226,107"/>
+<area shape="rect" id="node8" href="$d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="871,475,943,502"/>
+<area shape="rect" id="node13" href="$db/def/_rectangle_8h.html" title="../Utility/Rectangle.h" alt="" coords="830,304,970,331"/>
+<area shape="rect" id="node16" href="$dd/db4/_driver_base_8h.html" title="../Driver/DriverBase.h" alt="" coords="397,304,540,331"/>
+<area shape="rect" id="node24" href="$d1/d90/_f_t8_x_x_2_u_i_primitives_8h.html" title="FT8XX/UIPrimitives.h" alt="" coords="559,155,700,181"/>
+<area shape="rect" id="node14" href="$d1/d18/_point_8h.html" title="Point.h" alt="" coords="1009,386,1072,413"/>
+<area shape="rect" id="node18" href="$de/d9a/_f_t8_x_x_2_fonts_8h.html" title="../UIElements/FT8XX\l/Fonts.h" alt="" coords="507,379,648,420"/>
+<area shape="rect" id="node20" href="$df/de7/_g_d3_8h.html" title="../../External/GD3\l/GD3.h" alt="" coords="669,468,793,509"/>
+<area shape="rect" id="node23" href="$da/dcd/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular12_8h.html" title="Fonts\\aileronRegular12.h" alt="" coords="478,475,645,502"/>
+<area shape="rect" id="node25" href="$d9/d86/_font_helper_8h.html" title="../../Utility/FontHelper.h" alt="" coords="435,229,592,256"/>
 </map>

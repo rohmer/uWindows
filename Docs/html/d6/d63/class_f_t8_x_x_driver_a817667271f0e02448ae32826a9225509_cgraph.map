@@ -20,7 +20,7 @@
 <area shape="rect" id="node16" href="$da/df4/class_g_d_class.html#ace31572ddd6acd80500ab07a0a489161" title="GDClass::StencilOp" alt="" coords="663,411,802,437"/>
 <area shape="rect" id="node17" href="$da/df4/class_g_d_class.html#a0b326431c88aaac15cc3aff4f61e58ab" title="GDClass::StencilFunc" alt="" coords="657,461,808,488"/>
 <area shape="rect" id="node21" href="$da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="468,563,580,589"/>
-<area shape="rect" id="node22" href="$d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="667,512,798,539"/>
-<area shape="rect" id="node23" href="$d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="666,563,799,589"/>
-<area shape="rect" id="node24" href="$d3/d2e/class_g_d_transport.html#a52cbc0db79905474bb3d6120020e5a1b" title="GDTransport::rd32" alt="" coords="669,613,797,640"/>
+<area shape="rect" id="node22" href="$d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="667,537,798,564"/>
+<area shape="rect" id="node23" href="$d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="666,588,799,615"/>
+<area shape="rect" id="node24" href="$d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="856,588,987,615"/>
 </map>

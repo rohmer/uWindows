@@ -7,7 +7,7 @@ var dir_6020f26f2ac41254ba671cd291ac0b19 =
       [ "Adafruit_GFX", "d9/d97/class_adafruit___g_f_x.html", "d9/d97/class_adafruit___g_f_x" ],
       [ "Adafruit_GFX_Button", "de/d70/class_adafruit___g_f_x___button.html", "de/d70/class_adafruit___g_f_x___button" ],
       [ "GFXcanvas1", "dc/db3/class_g_f_xcanvas1.html", "dc/db3/class_g_f_xcanvas1" ],
-      [ "GFXcanvas16", "d2/de2/class_g_f_xcanvas16.html", null ]
+      [ "GFXcanvas16", "d2/de2/class_g_f_xcanvas16.html", "d2/de2/class_g_f_xcanvas16" ]
     ] ],
     [ "gfxfont.h", "d6/dfa/gfxfont_8h.html", [
       [ "GFXglyph", "d5/d63/struct_g_f_xglyph.html", "d5/d63/struct_g_f_xglyph" ],

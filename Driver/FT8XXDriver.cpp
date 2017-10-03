@@ -33,7 +33,7 @@ void FT8XXDriver::drawPixel(int16_t x, int16_t y, uint32_t color)
 {
 	GD.ColorRGB(color);
 	GD.Begin(POINTS);
-	GD.Vertex2ii(x, y);	
+	GD.Vertex2f(x*16, y*16);	
 }
 
 void FT8XXDriver::drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint32_t color)
@@ -123,8 +123,8 @@ void FT8XXDriver::fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint32_t 
 {
 	GD.ColorRGB(color);
 	GD.Begin(RECTS);
-	GD.Vertex2ii(x, y);
-	GD.Vertex2ii(x + w, y + h);	
+	GD.Vertex2f(x*16, y*16);
+	GD.Vertex2f((x + w)*16, (y + h)*16);	
 	GD.End();
 }
 
@@ -140,11 +140,11 @@ void FT8XXDriver::drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint32_t 
 	GD.Begin(LINE_STRIP);
 	GD.ColorRGB(color);
 	GD.LineWidth(16);
-	GD.Vertex2ii(x, y);
-	GD.Vertex2ii(x + w, y);
-	GD.Vertex2ii(x + w, y + h);
-	GD.Vertex2ii(x, y + h);
-	GD.Vertex2ii(x, y);	
+	GD.Vertex2f(x*16, y*16);
+	GD.Vertex2f((x + w)*16, y*16);
+	GD.Vertex2f((x + w)*16,(y + h)*16);
+	GD.Vertex2f(x*16, (y + h)*16);
+	GD.Vertex2f(x*16, y*16);	
 }
 
 void FT8XXDriver::drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint32_t color, uint8_t lineWidth)
@@ -152,11 +152,11 @@ void FT8XXDriver::drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint32_t 
 	GD.Begin(LINE_STRIP);
 	GD.ColorRGB(color);
 	GD.LineWidth(16*lineWidth);
-	GD.Vertex2ii(x, y);
-	GD.Vertex2ii(x + w, y);
-	GD.Vertex2ii(x + w, y + h);
-	GD.Vertex2ii(x, y + h);
-	GD.Vertex2ii(x, y);	
+	GD.Vertex2f(x * 16, y * 16);
+	GD.Vertex2f((x + w) * 16, y * 16);
+	GD.Vertex2f((x + w) * 16, (y + h) * 16);
+	GD.Vertex2f(x * 16, (y + h) * 16);
+	GD.Vertex2f(x * 16, y * 16);
 }
 
 void FT8XXDriver::fillCircle(int16_t x0, int16_t y0, int16_t r, uint32_t color)
@@ -164,7 +164,7 @@ void FT8XXDriver::fillCircle(int16_t x0, int16_t y0, int16_t r, uint32_t color)
 	GD.Begin(POINTS);
 	GD.ColorRGB(color);
 	GD.PointSize(16 * r);
-	GD.Vertex2ii(x0, y0);	
+	GD.Vertex2f(x0*16, y0*16);	
 }
 
 void FT8XXDriver::drawCircle(int16_t x0, int16_t y0, int16_t r, uint32_t color)
@@ -179,16 +179,16 @@ void FT8XXDriver::drawCircle(int16_t x0, int16_t y0, int16_t r, uint32_t color, 
 	GD.Begin(POINTS);
 	GD.ColorRGB(color);
 	GD.PointSize(16 * r);
-	GD.Vertex2ii(x0, y0);
+	GD.Vertex2f(x0*16, y0*16);
 	GD.BlendFunc(ZERO, ONE_MINUS_SRC_ALPHA);
 	GD.PointSize(16 * (r - lineWidth));
-	GD.Vertex2ii(x0, y0);
+	GD.Vertex2f(x0*16, y0*16);
 	GD.ColorMask(1, 1, 1, 0);
 	GD.BlendFunc(DST_ALPHA, ONE);
 	GD.ColorRGB(0x808080);
 	GD.Begin(RECTS); // Visit every pixel on the screen
-	GD.Vertex2ii(0, 0);
-	GD.Vertex2ii(tftWidth, tftHeight);	
+	GD.Vertex2f(0, 0);
+	GD.Vertex2f(tftWidth*16, tftHeight*16);	
 }
 
 void FT8XXDriver::drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1,
@@ -203,9 +203,9 @@ void FT8XXDriver::drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1,
 	GD.Begin(LINE_STRIP);
 	GD.ColorRGB(color);
 	GD.LineWidth(16 * lineWidth);
-	GD.Vertex2ii(x0, y0);
-	GD.Vertex2ii(x1, y1);
-	GD.Vertex2ii(x2, y2);	
+	GD.Vertex2f(x0 * 16, y0 * 16);
+	GD.Vertex2f(x1 * 16, y1 * 16);
+	GD.Vertex2f(x2*16, y2 * 16);
 }
 
 void FT8XXDriver::fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1,

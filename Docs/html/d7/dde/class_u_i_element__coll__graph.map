@@ -1,5 +1,5 @@
 <map id="UIElement" name="UIElement">
-<area shape="rect" id="node3" title="STL class. " alt="" coords="5,587,119,665"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="5,595,119,672"/>
 <area shape="rect" id="node5" href="$d5/d68/struct_rectangle.html" title="{Rectangle\n|+ x1\l+ y1\l+ x2\l+ y2\l+ width\l+ height\l|+ Rectangle()\l+ Rectangle()\l+ hasArea()\l+ center()\l+ normalizeRect()\l+ normalizeRect()\l+ add()\l+ update()\l+ contains()\l+ occludes()\l}" alt="" coords="99,147,225,429"/>
 <area shape="rect" id="node6" title="STL class. " alt="" coords="249,249,329,327"/>
 <area shape="rect" id="node7" title="STL class. " alt="" coords="225,5,352,97"/>

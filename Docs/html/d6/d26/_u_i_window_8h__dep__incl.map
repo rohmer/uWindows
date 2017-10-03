@@ -1,9 +1,8 @@
 <map id="UIElements/UIWindow.h" name="UIElements/UIWindow.h">
-<area shape="rect" id="node2" href="$d8/dab/_f_t8_x_x_2_u_i_window_8cpp.html" title="UIElements/FT8XX/UIWindow.cpp" alt="" coords="5,87,221,114"/>
-<area shape="rect" id="node3" href="$dd/db9/_u_i_elements_8h.html" title="UIElements/UIElements.h" alt="" coords="245,87,416,114"/>
-<area shape="rect" id="node4" href="$dd/d22/_home_screen_8h.html" title="UIElements/UIPages\l/HomeScreen.h" alt="" coords="441,80,583,121"/>
-<area shape="rect" id="node6" href="$df/d5e/_u_i_window_8cpp.html" title="UIElements/UIWindow.cpp" alt="" coords="608,87,784,114"/>
-<area shape="rect" id="node7" href="$de/d83/_window_manager_8h.html" title="WindowManager/WindowManager.h" alt="" coords="808,87,1037,114"/>
-<area shape="rect" id="node5" href="$d1/d7a/_home_screen_8cpp.html" title="UIElements/UIPages\l/HomeScreen.cpp" alt="" coords="441,169,583,211"/>
-<area shape="rect" id="node8" href="$d8/d8c/_window_mananger_8cpp.html" title="WindowManager/WindowMananger.cpp" alt="" coords="797,177,1048,203"/>
+<area shape="rect" id="node2" href="$dd/db9/_u_i_elements_8h.html" title="UIElements/UIElements.h" alt="" coords="5,87,176,114"/>
+<area shape="rect" id="node3" href="$dd/d22/_home_screen_8h.html" title="UIElements/UIPages\l/HomeScreen.h" alt="" coords="201,80,343,121"/>
+<area shape="rect" id="node5" href="$df/d5e/_u_i_window_8cpp.html" title="UIElements/UIWindow.cpp" alt="" coords="368,87,544,114"/>
+<area shape="rect" id="node6" href="$de/d83/_window_manager_8h.html" title="WindowManager/WindowManager.h" alt="" coords="568,87,797,114"/>
+<area shape="rect" id="node4" href="$d1/d7a/_home_screen_8cpp.html" title="UIElements/UIPages\l/HomeScreen.cpp" alt="" coords="201,169,343,211"/>
+<area shape="rect" id="node7" href="$d8/d8c/_window_mananger_8cpp.html" title="WindowManager/WindowMananger.cpp" alt="" coords="557,177,808,203"/>
 </map>

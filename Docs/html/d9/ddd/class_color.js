@@ -142,5 +142,15 @@ var class_color =
       [ "WhiteSmoke", "d9/ddd/class_color.html#abf86de2edcb7562ef5c4eceb1253d320ae9fb8ed97097c4e4cf1c945c45057e1f", null ],
       [ "Yellow", "d9/ddd/class_color.html#abf86de2edcb7562ef5c4eceb1253d320a2d18528e48b10b9a5c268c5e47a1b972", null ],
       [ "YellowGreen", "d9/ddd/class_color.html#abf86de2edcb7562ef5c4eceb1253d320a70282aadad80208abe329dbc224ae388", null ]
-    ] ]
+    ] ],
+    [ "Color32To565", "d9/ddd/class_color.html#a013bafacf1908e84ff2e32ef24511349", null ],
+    [ "Color565", "d9/ddd/class_color.html#ac950d95465ec8f74bf8e591e597bea57", null ],
+    [ "Color565To32", "d9/ddd/class_color.html#a95d12322c57e705ad68fd0f77e7c21ec", null ],
+    [ "Color565ToRGB", "d9/ddd/class_color.html#aa5821731bc061bb2be95547137106650", null ],
+    [ "ColorToGrayscale", "d9/ddd/class_color.html#a9d3c1e082c4bd0ef10e9189db3a22910", null ],
+    [ "ColorToGrayscaleValue", "d9/ddd/class_color.html#a973b8a2262f6ab7dde0b3d3f4689888c", null ],
+    [ "CombineColor", "d9/ddd/class_color.html#ae4969b31decd873257309d0baa813ff6", null ],
+    [ "ContrastingColor", "d9/ddd/class_color.html#a40104c328d8148bd906b902f29aa799a", null ],
+    [ "GetColor", "d9/ddd/class_color.html#a0e9fc6be9e30aaf9aec7071dd4e0992d", null ],
+    [ "GetColor565", "d9/ddd/class_color.html#a9171ff7d75b2a3d142b57e3d33103483", null ]
 ];

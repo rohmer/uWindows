@@ -1,14 +1,14 @@
 <map id="UIRadioGroup::AddRadioButton" name="UIRadioGroup::AddRadioButton">
-<area shape="rect" id="node2" href="$d5/d68/struct_rectangle.html#a7dff47f43fb5bdddc6ebc791cea7721c" title="Rectangle::add" alt="" coords="298,32,407,59"/>
-<area shape="rect" id="node7" href="$d1/d4c/class_u_i_element.html#a44e49850b9047ab096154eebf0e841ce" title="If a child UI element overrides this, it must call this as well " alt="" coords="257,83,448,110"/>
-<area shape="rect" id="node8" href="$d1/d4c/class_u_i_element.html#afcb636fd0ecd5a040de43c44ec94a8a8" title="UIElement::GetElementType" alt="" coords="259,134,446,160"/>
-<area shape="rect" id="node9" href="$d1/d4c/class_u_i_element.html#ab012fc7a49ca1fd6d669bc74d18060a8" title="UIElement::GetLocation" alt="" coords="273,184,433,211"/>
-<area shape="rect" id="node10" href="$da/d7d/class_u_i_radio_button.html#a2f7e2b72a96eedaa382814d29a5ac329" title="UIRadioButton::IsChecked" alt="" coords="265,235,440,262"/>
-<area shape="rect" id="node13" href="$da/d7d/class_u_i_radio_button.html#aacc60a433cab0043573b268ee3dbb0eb" title="UIRadioButton::SetChecked" alt="" coords="502,286,686,312"/>
-<area shape="rect" id="node3" href="$d5/d68/struct_rectangle.html#a004249cbf16d7da44576d1fafe7ff19e" title="Rectangle::contains" alt="" coords="743,84,880,111"/>
-<area shape="rect" id="node4" href="$d5/d68/struct_rectangle.html#a49fe4b22dc099f789bf958816bc50095" title="Rectangle::normalizeRect" alt="" coords="509,32,679,59"/>
-<area shape="rect" id="node5" href="$d5/d68/struct_rectangle.html#a5e47ba695f8e9709fa51c43b71825f2a" title="Rectangle::occludes" alt="" coords="524,83,664,110"/>
-<area shape="rect" id="node6" href="$d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="531,134,657,160"/>
-<area shape="rect" id="node11" href="$da/d7d/class_u_i_radio_button.html#a04629b79a984640714ac03fc617a20f9" title="UIRadioButton::ProcessTouch" alt="" coords="496,235,692,262"/>
-<area shape="rect" id="node12" href="$d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="740,260,883,287"/>
+<area shape="rect" id="node2" href="$d5/d68/struct_rectangle.html#a7dff47f43fb5bdddc6ebc791cea7721c" title="Rectangle::add" alt="" coords="298,45,407,72"/>
+<area shape="rect" id="node7" href="$d1/d4c/class_u_i_element.html#a44e49850b9047ab096154eebf0e841ce" title="If a child UI element overrides this, it must call this as well " alt="" coords="257,96,448,123"/>
+<area shape="rect" id="node8" href="$d1/d4c/class_u_i_element.html#afcb636fd0ecd5a040de43c44ec94a8a8" title="UIElement::GetElementType" alt="" coords="259,147,446,173"/>
+<area shape="rect" id="node9" href="$d1/d4c/class_u_i_element.html#ab012fc7a49ca1fd6d669bc74d18060a8" title="UIElement::GetLocation" alt="" coords="273,197,433,224"/>
+<area shape="rect" id="node10" href="$da/d7d/class_u_i_radio_button.html#a2f7e2b72a96eedaa382814d29a5ac329" title="UIRadioButton::IsChecked" alt="" coords="265,248,440,275"/>
+<area shape="rect" id="node13" href="$da/d7d/class_u_i_radio_button.html#aacc60a433cab0043573b268ee3dbb0eb" title="UIRadioButton::SetChecked" alt="" coords="502,299,686,325"/>
+<area shape="rect" id="node3" href="$d5/d68/struct_rectangle.html#a004249cbf16d7da44576d1fafe7ff19e" title="Rectangle::contains" alt="" coords="743,223,880,249"/>
+<area shape="rect" id="node4" href="$d5/d68/struct_rectangle.html#a49fe4b22dc099f789bf958816bc50095" title="Rectangle::normalizeRect" alt="" coords="509,45,679,72"/>
+<area shape="rect" id="node5" href="$d5/d68/struct_rectangle.html#a5e47ba695f8e9709fa51c43b71825f2a" title="Rectangle::occludes" alt="" coords="524,96,664,123"/>
+<area shape="rect" id="node6" href="$d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="531,147,657,173"/>
+<area shape="rect" id="node11" href="$da/d7d/class_u_i_radio_button.html#a04629b79a984640714ac03fc617a20f9" title="UIRadioButton::ProcessTouch" alt="" coords="496,248,692,275"/>
+<area shape="rect" id="node12" href="$d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="740,273,883,300"/>
 </map>

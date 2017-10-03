@@ -1,7 +1,9 @@
 <map id="GDTransport::hostcmd" name="GDTransport::hostcmd">
 <area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="396,31,509,57"/>
-<area shape="rect" id="node5" href="$d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="207,31,348,57"/>
-<area shape="rect" id="node6" href="$d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="207,81,348,108"/>
+<area shape="rect" id="node7" href="$d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="207,31,348,57"/>
+<area shape="rect" id="node8" href="$d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="207,81,348,108"/>
 <area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="557,5,724,32"/>
 <area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="583,56,698,83"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="772,56,995,83"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1043,56,1217,83"/>
 </map>

@@ -1,5 +1,6 @@
 #pragma once
 #include "../../Options.h"
+#ifdef useCompass
 
 #ifdef FT8XX
 #include "../FT8XX/UIPrimitives.h"
@@ -35,3 +36,5 @@ private:
 		return deg * M_PI / 180.0;
 	};
 };
+
+#endif

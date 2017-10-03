@@ -5,6 +5,7 @@ var class_u_i_element =
     [ "~UIElement", "d1/d4c/class_u_i_element.html#a5accb6a8bb4fe2758d7739f0f47c2b7d", null ],
     [ "AddChildElement", "d1/d4c/class_u_i_element.html#a44e49850b9047ab096154eebf0e841ce", null ],
     [ "GetChildElements", "d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895", null ],
+    [ "getChildElements", "d1/d4c/class_u_i_element.html#adc8ff926115f0343ec3704f8bd8096a5", null ],
     [ "getElementID", "d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f", null ],
     [ "getElementName", "d1/d4c/class_u_i_element.html#abc5b9336b9c971f9dc084424bafaa180", null ],
     [ "GetElementType", "d1/d4c/class_u_i_element.html#afcb636fd0ecd5a040de43c44ec94a8a8", null ],

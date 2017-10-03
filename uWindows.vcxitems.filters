@@ -201,6 +201,7 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)WindowManager\WindowMananger.cpp">
       <Filter>Source\WindowManager</Filter>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\BatteryIcon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\Adafruit_GFX.h">
@@ -1263,5 +1264,6 @@
       <Filter>Header Files\WindowManager</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)Options.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\BatteryIcon.h" />
   </ItemGroup>
 </Project>

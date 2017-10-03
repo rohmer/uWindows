@@ -67,6 +67,6 @@ void UIButton::Update()
 			textColor, buttonBGColor, font, buttonText, false, cornerRadius, alpha, vertAlign);
 	}
 
-	UIElement::UpdateChildren();
+	UIElement::UpdateChildren();		
 }
 #endif

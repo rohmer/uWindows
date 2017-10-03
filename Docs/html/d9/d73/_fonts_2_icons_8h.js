@@ -5,5 +5,7 @@ var _fonts_2_icons_8h =
     [ "SETTINGS_CELLS", "d9/d73/_fonts_2_icons_8h.html#a166734bac26b4fea9514dc25eb1a88cd", null ],
     [ "SETTINGS_HANDLE", "d9/d73/_fonts_2_icons_8h.html#a24312827dac6da24ffb53774bb7442dd", null ],
     [ "SETTINGS_HEIGHT", "d9/d73/_fonts_2_icons_8h.html#ab34280395c60f7397e758530d1a31b02", null ],
-    [ "SETTINGS_WIDTH", "d9/d73/_fonts_2_icons_8h.html#ae70a6c87f093914b6c2b2147f2a5cb33", null ]
+    [ "SETTINGS_WIDTH", "d9/d73/_fonts_2_icons_8h.html#ae70a6c87f093914b6c2b2147f2a5cb33", null ],
+    [ "__assets", "d9/d73/_fonts_2_icons_8h.html#a5a29c4cfca22cf676790e5c5c668d828", null ],
+    [ "SETTINGS_SHAPE", "d9/d73/_fonts_2_icons_8h.html#a611912638ddbfaf4cd66c3ab1bb18cc6", null ]
 ];

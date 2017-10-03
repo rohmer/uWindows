@@ -5,5 +5,7 @@ var _u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular36_8h =
     [ "AILERON_REGULAR_HEIGHT", "d4/dc5/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular36_8h.html#aba36c2e529ced4171911d538b6d4644d", null ],
     [ "AILERON_REGULAR_WIDTH", "d4/dc5/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular36_8h.html#a5718a9f64a5901144c56decc520105a8", null ],
     [ "ASSETS_END", "d4/dc5/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular36_8h.html#a00844751c174aab3075f895bdf85390b", null ],
-    [ "LOAD_ASSETS", "d4/dc5/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular36_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ]
+    [ "LOAD_ASSETS", "d4/dc5/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular36_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ],
+    [ "__assets", "d4/dc5/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular36_8h.html#a8c1a7c6fb31d255bc43d362bb058e19f", null ],
+    [ "AILERON_REGULAR_SHAPE", "d4/dc5/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular36_8h.html#a743ab2b8d32f1eebfead29db6f5ef92b", null ]
 ];

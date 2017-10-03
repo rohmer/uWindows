@@ -1,7 +1,8 @@
 <map id="ScreenSaver::ScreenSaver" name="ScreenSaver::ScreenSaver">
-<area shape="rect" id="node2" href="$dc/de9/class_driver_base.html#a32ae6bac67c977d5dd0145c53d2d1e8d" title="DriverBase::clearScreen" alt="" coords="231,5,393,32"/>
-<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a8af7d326a481930f04f38882987da67b" title="GDClass::cmd_text" alt="" coords="244,56,380,83"/>
-<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="251,107,373,133"/>
-<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="242,157,382,184"/>
-<area shape="rect" id="node6" href="$dc/de9/class_driver_base.html#a8993cd3feb82a5ab6f730afc10e6f273" title="DriverBase::swapDisplay" alt="" coords="229,208,395,235"/>
+<area shape="rect" id="node2" href="$d9/d21/class_screen_saver.html#a686cc6db5b15d653f94d4221b11cf418" title="ScreenSaver::draw" alt="" coords="229,107,360,133"/>
+<area shape="rect" id="node3" href="$dc/de9/class_driver_base.html#a32ae6bac67c977d5dd0145c53d2d1e8d" title="DriverBase::clearScreen" alt="" coords="410,5,571,32"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="430,56,551,83"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="421,107,561,133"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a8af7d326a481930f04f38882987da67b" title="GDClass::cmd_text" alt="" coords="423,157,559,184"/>
+<area shape="rect" id="node7" href="$dc/de9/class_driver_base.html#a8993cd3feb82a5ab6f730afc10e6f273" title="DriverBase::swapDisplay" alt="" coords="408,208,573,235"/>
 </map>

@@ -87,8 +87,10 @@ void UIWindow::AddChildElement(UIElement *element)
 	elementLocation.x1 += location.x1;
 	elementLocation.x2 += location.x1;
 	elementLocation.y1 += location.y1;
-	elementLocation.y2 += location.y1;
+	elementLocation.y2 += location.y1;	
 	elementLocation.update();
+	
+
 	element->SetLocation(elementLocation);
 	childElements.push_back(element);
 	element->SetParent(this);

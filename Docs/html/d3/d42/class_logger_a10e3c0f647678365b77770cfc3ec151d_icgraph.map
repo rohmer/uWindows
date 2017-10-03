@@ -1,4 +1,4 @@
 <map id="Logger::Warn" name="Logger::Warn">
 <area shape="rect" id="node2" href="$d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="153,5,351,47"/>
-<area shape="rect" id="node3" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="399,13,573,39"/>
+<area shape="rect" id="node3" href="$d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="399,5,605,47"/>
 </map>

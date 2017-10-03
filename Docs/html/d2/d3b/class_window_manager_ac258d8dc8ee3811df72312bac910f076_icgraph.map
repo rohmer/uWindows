@@ -1,3 +1,4 @@
 <map id="WindowManager::DeleteElement" name="WindowManager::DeleteElement">
-<area shape="rect" id="node2" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="264,5,439,32"/>
+<area shape="rect" id="node2" href="$d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="264,5,475,32"/>
+<area shape="rect" id="node3" href="$d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="523,23,729,65"/>
 </map>

@@ -36,5 +36,6 @@ var selftest__assets_8h =
     [ "KITTEN_HANDLE", "d1/de9/selftest__assets_8h.html#af326ebe91823aff0cbf3ebe6fd6a0676", null ],
     [ "KITTEN_HEIGHT", "d1/de9/selftest__assets_8h.html#a6f57a1ceb5f3b5c78425d0d262954646", null ],
     [ "KITTEN_WIDTH", "d1/de9/selftest__assets_8h.html#ae1f5bf79f842dfbeb3166a79409de1dc", null ],
-    [ "LOAD_ASSETS", "d1/de9/selftest__assets_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ]
+    [ "LOAD_ASSETS", "d1/de9/selftest__assets_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ],
+    [ "KITTEN_SHAPE", "d1/de9/selftest__assets_8h.html#ab04104749bd89eb3de6cbae2bc6b1df7", null ]
 ];

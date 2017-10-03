@@ -1,5 +1,4 @@
 <map id="UIWindow::UIWindow" name="UIWindow::UIWindow">
-<area shape="rect" id="node2" href="$d3/d42/class_logger.html#a96c58993a44aec5a395d817ec48b49b0" title="Logger::BoolToStr" alt="" coords="212,5,339,32"/>
-<area shape="rect" id="node3" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="399,81,500,108"/>
-<area shape="rect" id="node4" href="$d1/d4c/class_u_i_element.html#ab24454dd687681eca33890a1896a9811" title="UIElement::UIElement" alt="" coords="200,107,351,133"/>
+<area shape="rect" id="node2" href="$d3/d42/class_logger.html#a96c58993a44aec5a395d817ec48b49b0" title="Logger::BoolToStr" alt="" coords="200,5,327,32"/>
+<area shape="rect" id="node3" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="213,56,314,83"/>
 </map>

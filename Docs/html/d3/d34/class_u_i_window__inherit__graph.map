@@ -1,3 +1,3 @@
 <map id="UIWindow" name="UIWindow">
-<area shape="rect" id="node2" href="$d1/d4c/class_u_i_element.html" title="{UIElement\n|# elementName\l# location\l# parentElement\l# updatePending\l# enabled\l# elementID\l# tft\l# elementType\l# childElements\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l}" alt="" coords="7,5,146,347"/>
+<area shape="rect" id="node2" href="$d1/d4c/class_u_i_element.html" title="{UIElement\n|# elementName\l# location\l# parentElement\l# updatePending\l# enabled\l# elementID\l# tft\l# elementType\l# childElements\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l&#45; getChildElements()\l}" alt="" coords="7,5,147,361"/>
 </map>

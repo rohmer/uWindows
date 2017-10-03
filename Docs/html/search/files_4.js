@@ -1,19 +1,5 @@
 var searchData=
 [
-  ['fatapiconstants_2eh',['FatApiConstants.h',['../da/d0b/_fat_api_constants_8h.html',1,'']]],
-  ['fatfile_2ecpp',['FatFile.cpp',['../d2/dcc/_fat_file_8cpp.html',1,'']]],
-  ['fatfile_2eh',['FatFile.h',['../d6/d7b/_fat_file_8h.html',1,'']]],
-  ['fatfilelfn_2ecpp',['FatFileLFN.cpp',['../d6/d63/_fat_file_l_f_n_8cpp.html',1,'']]],
-  ['fatfileprint_2ecpp',['FatFilePrint.cpp',['../db/d91/_fat_file_print_8cpp.html',1,'']]],
-  ['fatfilesfn_2ecpp',['FatFileSFN.cpp',['../dc/dd7/_fat_file_s_f_n_8cpp.html',1,'']]],
-  ['fatfilesystem_2eh',['FatFileSystem.h',['../d6/d3f/_fat_file_system_8h.html',1,'']]],
-  ['fatlib_2eh',['FatLib.h',['../de/dfa/_fat_lib_8h.html',1,'']]],
-  ['fatlibconfig_2eh',['FatLibConfig.h',['../da/d92/_fat_lib_config_8h.html',1,'']]],
-  ['fatstructs_2eh',['FatStructs.h',['../d6/d96/_fat_structs_8h.html',1,'']]],
-  ['fatvolume_2ecpp',['FatVolume.cpp',['../dd/df4/_fat_volume_8cpp.html',1,'']]],
-  ['fatvolume_2eh',['FatVolume.h',['../da/d0b/_fat_volume_8h.html',1,'']]],
-  ['fmtnumber_2ecpp',['FmtNumber.cpp',['../d8/d73/_fmt_number_8cpp.html',1,'']]],
-  ['fmtnumber_2eh',['FmtNumber.h',['../d8/d63/_fmt_number_8h.html',1,'']]],
   ['fontconvert_2ec',['fontconvert.c',['../d8/ddc/fontconvert_8c.html',1,'']]],
   ['fontconvert_5fwin_2emd',['fontconvert_win.md',['../dc/d0f/fontconvert__win_8md.html',1,'']]],
   ['fonthelper_2ecpp',['FontHelper.cpp',['../d3/d66/_font_helper_8cpp.html',1,'']]],
@@ -67,9 +53,6 @@ var searchData=
   ['freeserifitalic18pt7b_2eh',['FreeSerifItalic18pt7b.h',['../dc/d49/_free_serif_italic18pt7b_8h.html',1,'']]],
   ['freeserifitalic24pt7b_2eh',['FreeSerifItalic24pt7b.h',['../d6/d61/_free_serif_italic24pt7b_8h.html',1,'']]],
   ['freeserifitalic9pt7b_2eh',['FreeSerifItalic9pt7b.h',['../dc/df1/_free_serif_italic9pt7b_8h.html',1,'']]],
-  ['freestack_2eh',['FreeStack.h',['../d9/d0b/_free_stack_8h.html',1,'']]],
-  ['fstream_2ecpp',['fstream.cpp',['../dc/d62/fstream_8cpp.html',1,'']]],
-  ['fstream_2eh',['fstream.h',['../de/d25/fstream_8h.html',1,'']]],
   ['ft8xxdriver_2ecpp',['FT8XXDriver.cpp',['../d5/dbc/_f_t8_x_x_driver_8cpp.html',1,'']]],
   ['ft8xxdriver_2eh',['FT8XXDriver.h',['../d4/dca/_f_t8_x_x_driver_8h.html',1,'']]]
 ];

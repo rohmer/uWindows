@@ -1,20 +1,22 @@
 <map id="DriverBase::fillRect" name="DriverBase::fillRect">
-<area shape="rect" id="node2" href="$d5/deb/class_u_i_primitives.html#a49f38e977199427ef6b44441e25c8a19" title="UIPrimitives::FlatPanel" alt="" coords="190,284,343,311"/>
-<area shape="rect" id="node17" href="$dc/de9/class_driver_base.html#a8efce86a4f97812d48aa955fe62cb681" title="DriverBase::isLandscape" alt="" coords="184,537,349,564"/>
-<area shape="rect" id="node19" href="$df/dab/class_u_i_window.html#ad1f979a952bfa573e0fef96249c53697" title="UIWindow::SetModal" alt="" coords="195,588,338,615"/>
-<area shape="rect" id="node3" href="$d4/d77/class_button.html#a83978196eeff06d7ad8cca291442e367" title="Button::Draw" alt="" coords="445,5,542,32"/>
-<area shape="rect" id="node5" href="$db/d77/class_check_box.html#abe381c7ad751036c24f066fceed91e9c" title="CheckBox::Draw" alt="" coords="434,56,553,83"/>
-<area shape="rect" id="node7" href="$dc/d58/class_drop_down_list.html#a556b11edd886b69ace16cd64dcd0a523" title="DropDownList::Draw" alt="" coords="424,107,563,133"/>
-<area shape="rect" id="node8" href="$dc/d58/class_drop_down_list.html#a42ad113275e52197afe30c00be057f5d" title="DropDownList::DrawExpanded" alt="" coords="637,132,835,159"/>
-<area shape="rect" id="node9" href="$db/d0a/class_icon_button.html#add32e4abe8403a22b33b15574b0bceb8" title="IconButton::Draw" alt="" coords="433,208,554,235"/>
-<area shape="rect" id="node11" href="$d3/d84/class_numeric_entry.html#a4173b9529720e933c3fa66dafba75ddd" title="NumericEntry::Draw" alt="" coords="667,411,805,437"/>
-<area shape="rect" id="node12" href="$d3/d84/class_numeric_entry.html#a9455ed8a08529ce82eecb683ba3d0508" title="NumericEntry::DrawKeys" alt="" coords="409,309,577,336"/>
-<area shape="rect" id="node13" href="$d3/d84/class_numeric_entry.html#ab163b4d6818d54304d3c699eb74910cf" title="NumericEntry::UpdateInput" alt="" coords="404,512,583,539"/>
-<area shape="rect" id="node14" href="$d1/d4e/class_progress_bar.html#ad3d29d1500045a08b6680c7e0e45e106" title="ProgressBar::Draw" alt="" coords="428,360,559,387"/>
-<area shape="rect" id="node15" href="$dc/d65/class_slider.html#a5354db1e2e91cd62fe53e012313f06a3" title="Slider::Draw" alt="" coords="447,411,539,437"/>
-<area shape="rect" id="node16" href="$d9/dbf/class_window.html#a7a3973ccc03badb504ded08e2a985583" title="Window::Draw" alt="" coords="441,461,546,488"/>
-<area shape="rect" id="node4" href="$da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="675,5,797,32"/>
-<area shape="rect" id="node6" href="$de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="665,56,807,83"/>
-<area shape="rect" id="node10" href="$d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1" title="SettingsButton::Update" alt="" coords="657,208,815,235"/>
-<area shape="rect" id="node18" href="$d3/d84/class_numeric_entry.html#a24ab2c12d05b05795f50e4d512a187ec" title="Processes the touch point " alt="" coords="397,613,589,640"/>
+<area shape="rect" id="node2" href="$d2/de9/class_battery_icon.html#a5dbbe7c4e0d4411e27dbb28cb6f834ea" title="BatteryIcon::Draw" alt="" coords="204,233,329,260"/>
+<area shape="rect" id="node3" href="$d5/deb/class_u_i_primitives.html#a49f38e977199427ef6b44441e25c8a19" title="UIPrimitives::FlatPanel" alt="" coords="190,284,343,311"/>
+<area shape="rect" id="node20" href="$dc/de9/class_driver_base.html#a8efce86a4f97812d48aa955fe62cb681" title="DriverBase::isLandscape" alt="" coords="184,537,349,564"/>
+<area shape="rect" id="node4" href="$d4/d77/class_button.html#a83978196eeff06d7ad8cca291442e367" title="Button::Draw" alt="" coords="445,157,542,184"/>
+<area shape="rect" id="node7" href="$db/d77/class_check_box.html#abe381c7ad751036c24f066fceed91e9c" title="CheckBox::Draw" alt="" coords="434,208,553,235"/>
+<area shape="rect" id="node9" href="$dc/d58/class_drop_down_list.html#a556b11edd886b69ace16cd64dcd0a523" title="DropDownList::Draw" alt="" coords="424,259,563,285"/>
+<area shape="rect" id="node10" href="$dc/d58/class_drop_down_list.html#a42ad113275e52197afe30c00be057f5d" title="DropDownList::DrawExpanded" alt="" coords="637,297,835,324"/>
+<area shape="rect" id="node11" href="$db/d0a/class_icon_button.html#add32e4abe8403a22b33b15574b0bceb8" title="IconButton::Draw" alt="" coords="433,360,554,387"/>
+<area shape="rect" id="node13" href="$d3/d84/class_numeric_entry.html#a4173b9529720e933c3fa66dafba75ddd" title="NumericEntry::Draw" alt="" coords="667,487,805,513"/>
+<area shape="rect" id="node14" href="$d3/d84/class_numeric_entry.html#a9455ed8a08529ce82eecb683ba3d0508" title="NumericEntry::DrawKeys" alt="" coords="409,461,577,488"/>
+<area shape="rect" id="node15" href="$d3/d84/class_numeric_entry.html#ab163b4d6818d54304d3c699eb74910cf" title="NumericEntry::UpdateInput" alt="" coords="404,512,583,539"/>
+<area shape="rect" id="node16" href="$d1/d4e/class_progress_bar.html#ad3d29d1500045a08b6680c7e0e45e106" title="ProgressBar::Draw" alt="" coords="428,5,559,32"/>
+<area shape="rect" id="node17" href="$dc/d65/class_slider.html#a5354db1e2e91cd62fe53e012313f06a3" title="Slider::Draw" alt="" coords="447,56,539,83"/>
+<area shape="rect" id="node18" href="$d9/dbf/class_window.html#a7a3973ccc03badb504ded08e2a985583" title="Window::Draw" alt="" coords="441,107,546,133"/>
+<area shape="rect" id="node5" href="$d1/d0d/class_u_i_active_button.html#af7fbece84d856a63a2d2a0ec7d4ea895" title="An active button will call this first, then draw whatever data on the button that it wants to display..." alt="" coords="658,132,814,159"/>
+<area shape="rect" id="node6" href="$da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="675,183,797,209"/>
+<area shape="rect" id="node8" href="$de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="665,233,807,260"/>
+<area shape="rect" id="node12" href="$d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1" title="SettingsButton::Update" alt="" coords="657,360,815,387"/>
+<area shape="rect" id="node19" href="$df/dab/class_u_i_window.html#aa749f7add746a3e5018f7c0a0023596a" title="UIWindow::Update" alt="" coords="671,81,801,108"/>
+<area shape="rect" id="node21" href="$d3/d84/class_numeric_entry.html#a24ab2c12d05b05795f50e4d512a187ec" title="Processes the touch point " alt="" coords="397,563,589,589"/>
 </map>

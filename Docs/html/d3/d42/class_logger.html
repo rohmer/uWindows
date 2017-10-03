@@ -84,6 +84,8 @@ $(document).ready(function(){initNavTree('d3/d42/class_logger.html','../../');})
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../d8/d68/class_logger-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Logger Class Reference</div>  </div>
@@ -124,10 +126,22 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a84006404c091e30fba8a50a4c538af0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96c58993a44aec5a395d817ec48b49b0"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/class_logger.html#a96c58993a44aec5a395d817ec48b49b0">BoolToStr</a> (bool val)</td></tr>
 <tr class="separator:a96c58993a44aec5a395d817ec48b49b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a3bd0dfa86c9551429c7f623b14058d66"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/class_logger.html#a3bd0dfa86c9551429c7f623b14058d66">buildString</a> (<a class="el" href="../../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36">LogLevel</a> level, const char *fmt,...)</td></tr>
+<tr class="separator:a3bd0dfa86c9551429c7f623b14058d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a4ccaf3a5b502e78876342a469f162cdd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36">LogLevel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/class_logger.html#a4ccaf3a5b502e78876342a469f162cdd">minLevel</a></td></tr>
+<tr class="separator:a4ccaf3a5b502e78876342a469f162cdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68fb21367e40cbae6bb9423379d34608"><td class="memItemLeft" align="right" valign="top">static HardwareSerial *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d42/class_logger.html#a68fb21367e40cbae6bb9423379d34608">serial</a></td></tr>
+<tr class="separator:a68fb21367e40cbae6bb9423379d34608"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="../../d6/dec/_logger_8h_source.html#l00007">7</a> of file <a class="el" href="../../d6/dec/_logger_8h_source.html">Logger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dec/_logger_8h_source.html#l00012">12</a> of file <a class="el" href="../../d6/dec/_logger_8h_source.html">Logger.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ac744681e23720966b5f430ec2060da36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac744681e23720966b5f430ec2060da36">&#9670;&nbsp;</a></span>LogLevel</h2>
@@ -147,7 +161,7 @@ Static Public Member Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ac744681e23720966b5f430ec2060da36aedbd8d8bf2c8855ff226770a5c6adf0c"></a>FATAL&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dec/_logger_8h_source.html#l00010">10</a> of file <a class="el" href="../../d6/dec/_logger_8h_source.html">Logger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dec/_logger_8h_source.html#l00015">15</a> of file <a class="el" href="../../d6/dec/_logger_8h_source.html">Logger.h</a>.</p>
 
 </div>
 </div>
@@ -176,9 +190,9 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d6/dec/_logger_8h_source.html#l00026">26</a> of file <a class="el" href="../../d6/dec/_logger_8h_source.html">Logger.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d6/dec/_logger_8h_source.html#l00031">31</a> of file <a class="el" href="../../d6/dec/_logger_8h_source.html">Logger.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/dd4/_numeric_entry_f_t8_x_x_8cpp_source.html#l00007">NumericEntry::Draw()</a>, <a class="el" href="../../da/d23/_progress_bar_8cpp_source.html#l00047">ProgressBar::Draw()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00002">UICheckBox::UICheckBox()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00003">UIRadioButton::UIRadioButton()</a>, and <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00005">UIWindow::UIWindow()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/dd4/_numeric_entry_f_t8_x_x_8cpp_source.html#l00007">NumericEntry::Draw()</a>, <a class="el" href="../../da/d23/_progress_bar_8cpp_source.html#l00047">ProgressBar::Draw()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00002">UICheckBox::UICheckBox()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00003">UIRadioButton::UIRadioButton()</a>, and <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00003">UIWindow::UIWindow()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -191,6 +205,48 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node6" href="../../df/dab/class_u_i_window.html#a484f3beee4672766b8866470c519410a" title="UIWindow::UIWindow" alt="" coords="205,208,351,235"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a3bd0dfa86c9551429c7f623b14058d66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd0dfa86c9551429c7f623b14058d66">&#9670;&nbsp;</a></span>buildString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string Logger::buildString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36">LogLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -230,14 +286,19 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00055">55</a> of file <a class="el" href="../../de/d27/_logger_8cpp_source.html">Logger.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00056">WindowManager::DeleteElement()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dec/_logger_8h_source.html#l00039">minLevel</a>, and <a class="el" href="../../d6/dec/_logger_8h_source.html#l00040">serial</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00070">WindowManager::DeleteElement()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00107">WindowManager::updateOccluded()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d42/class_logger_a0d1029459e1e16499c6c454c796e524e_icgraph.png" border="0" usemap="#d3/d42/class_logger_a0d1029459e1e16499c6c454c796e524e_icgraph" alt=""/></div>
 <map name="d3/d42/class_logger_a0d1029459e1e16499c6c454c796e524e_icgraph" id="d3/d42/class_logger_a0d1029459e1e16499c6c454c796e524e_icgraph">
-<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="143,5,353,32"/>
-<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="401,5,576,32"/>
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="411,23,621,50"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="143,74,363,101"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="928,16,1135,57"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="669,23,880,50"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="676,75,873,116"/>
 </map>
 </div>
 
@@ -279,6 +340,8 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00074">74</a> of file <a class="el" href="../../de/d27/_logger_8cpp_source.html">Logger.cpp</a>.</p>
 
+<p class="reference">References <a class="el" href="../../d6/dec/_logger_8h_source.html#l00040">serial</a>.</p>
+
 </div>
 </div>
 <a id="a554558b083dbb8f13a9772296b0d77e4"></a>
@@ -306,6 +369,8 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00005">5</a> of file <a class="el" href="../../de/d27/_logger_8cpp_source.html">Logger.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/dec/_logger_8h_source.html#l00039">minLevel</a>.</p>
 
 </div>
 </div>
@@ -345,6 +410,8 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00010">10</a> of file <a class="el" href="../../de/d27/_logger_8cpp_source.html">Logger.cpp</a>.</p>
 
+<p class="reference">References <a class="el" href="../../d6/dec/_logger_8h_source.html#l00039">minLevel</a>, and <a class="el" href="../../d6/dec/_logger_8h_source.html#l00040">serial</a>.</p>
+
 </div>
 </div>
 <a id="af0e4315cf6e872a441adcc985f2c3d45"></a>
@@ -383,42 +450,51 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../de/d27/_logger_8cpp_source.html">Logger.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../df/d66/_compass_8cpp_source.html#l00003">Compass::Draw()</a>, <a class="el" href="../../da/d23/_progress_bar_8cpp_source.html#l00003">ProgressBar::Draw()</a>, <a class="el" href="../../d3/d6b/_icon_button_8cpp_source.html#l00004">IconButton::Draw()</a>, <a class="el" href="../../da/dd4/_numeric_entry_f_t8_x_x_8cpp_source.html#l00007">NumericEntry::Draw()</a>, <a class="el" href="../../d5/d4d/_button_8cpp_source.html#l00005">Button::Draw()</a>, <a class="el" href="../../db/d6c/_slider_8cpp_source.html#l00003">Slider::Draw()</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00004">FT8XXDriver::FT8XXDriver()</a>, <a class="el" href="../../d0/d22/_color_8cpp_source.html#l00003">Color::GetColor565()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00119">WindowManager::MoveControlToFront()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00264">UIWindow::ProcessTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00047">WindowManager::RegisterElement()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00095">UIWindow::SetModal()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00005">UIButton::UIButton()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00002">UICheckBox::UICheckBox()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00063">UIElement::UIElement()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00003">UIRadioButton::UIRadioButton()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00005">UIWindow::UIWindow()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00037">UIRadioButton::Update()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00172">UIWindow::Update()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, and <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00021">UIElementGraph::Update()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dec/_logger_8h_source.html#l00039">minLevel</a>, and <a class="el" href="../../d6/dec/_logger_8h_source.html#l00040">serial</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../df/d66/_compass_8cpp_source.html#l00005">Compass::Draw()</a>, <a class="el" href="../../da/d23/_progress_bar_8cpp_source.html#l00003">ProgressBar::Draw()</a>, <a class="el" href="../../d3/d6b/_icon_button_8cpp_source.html#l00004">IconButton::Draw()</a>, <a class="el" href="../../da/dd4/_numeric_entry_f_t8_x_x_8cpp_source.html#l00007">NumericEntry::Draw()</a>, <a class="el" href="../../d5/d4d/_button_8cpp_source.html#l00005">Button::Draw()</a>, <a class="el" href="../../db/d6c/_slider_8cpp_source.html#l00003">Slider::Draw()</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00004">FT8XXDriver::FT8XXDriver()</a>, <a class="el" href="../../d0/d22/_color_8cpp_source.html#l00003">Color::GetColor565()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00100">UIWindow::ProcessTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">WindowManager::processTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00049">WindowManager::RegisterElement()</a>, <a class="el" href="../../da/db1/_u_i_active_button_8cpp_source.html#l00005">UIActiveButton::UIActiveButton()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00005">UIButton::UIButton()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00002">UICheckBox::UICheckBox()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00003">UIRadioButton::UIRadioButton()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00003">UIWindow::UIWindow()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00037">UIRadioButton::Update()</a>, <a class="el" href="../../da/db1/_u_i_active_button_8cpp_source.html#l00052">UIActiveButton::Update()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00061">UIWindow::Update()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00021">UIElementGraph::Update()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00005">WindowManager::WindowManager()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d42/class_logger_af0e4315cf6e872a441adcc985f2c3d45_icgraph.png" border="0" usemap="#d3/d42/class_logger_af0e4315cf6e872a441adcc985f2c3d45_icgraph" alt=""/></div>
 <map name="d3/d42/class_logger_af0e4315cf6e872a441adcc985f2c3d45_icgraph" id="d3/d42/class_logger_af0e4315cf6e872a441adcc985f2c3d45_icgraph">
-<area shape="rect" id="node2" href="../../d9/d3f/class_compass.html#a08c2b2cc24d4520eecdc7a907e350472" title="Compass::Draw" alt="" coords="209,5,323,32"/>
+<area shape="rect" id="node2" href="../../d9/d3f/class_compass.html#ab76221b999430e61e70fac05e3b05d2a" title="Compass::Draw" alt="" coords="209,5,323,32"/>
 <area shape="rect" id="node3" href="../../d1/d4e/class_progress_bar.html#ad3d29d1500045a08b6680c7e0e45e106" title="ProgressBar::Draw" alt="" coords="201,56,331,83"/>
 <area shape="rect" id="node4" href="../../db/d0a/class_icon_button.html#add32e4abe8403a22b33b15574b0bceb8" title="IconButton::Draw" alt="" coords="205,107,327,133"/>
 <area shape="rect" id="node6" href="../../d3/d84/class_numeric_entry.html#a4173b9529720e933c3fa66dafba75ddd" title="NumericEntry::Draw" alt="" coords="197,157,335,184"/>
-<area shape="rect" id="node7" href="../../d4/d77/class_button.html#a83978196eeff06d7ad8cca291442e367" title="Button::Draw" alt="" coords="217,208,315,235"/>
-<area shape="rect" id="node8" href="../../da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="469,233,590,260"/>
-<area shape="rect" id="node9" href="../../dc/d65/class_slider.html#a5354db1e2e91cd62fe53e012313f06a3" title="Slider::Draw" alt="" coords="220,309,312,336"/>
-<area shape="rect" id="node10" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="183,360,349,387"/>
-<area shape="rect" id="node11" href="../../d9/ddd/class_color.html#a9171ff7d75b2a3d142b57e3d33103483" title="Color::GetColor565" alt="" coords="200,411,332,437"/>
-<area shape="rect" id="node16" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="167,462,365,503"/>
-<area shape="rect" id="node18" href="../../df/dab/class_u_i_window.html#a19c8c22163a700de1592753ed27d3ade" title="UIWindow::ProcessTouch" alt="" coords="181,579,351,605"/>
-<area shape="rect" id="node20" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="155,528,377,555"/>
-<area shape="rect" id="node21" href="../../df/dab/class_u_i_window.html#ad1f979a952bfa573e0fef96249c53697" title="UIWindow::SetModal" alt="" coords="195,629,337,656"/>
-<area shape="rect" id="node22" href="../../da/d03/class_u_i_button.html#a93bb820d0c32639d7ae18bcda9f4c8ea" title="UIButton::UIButton" alt="" coords="201,680,331,707"/>
-<area shape="rect" id="node23" href="../../de/dcc/class_u_i_check_box.html#a4af459f9e971e20fe9f0e93c604145c3" title="UICheckBox::UICheckBox" alt="" coords="179,731,353,757"/>
-<area shape="rect" id="node24" href="../../d1/d4c/class_u_i_element.html#ab24454dd687681eca33890a1896a9811" title="UIElement::UIElement" alt="" coords="191,781,341,808"/>
-<area shape="rect" id="node25" href="../../df/dab/class_u_i_window.html#a484f3beee4672766b8866470c519410a" title="UIWindow::UIWindow" alt="" coords="456,807,603,833"/>
-<area shape="rect" id="node26" href="../../da/d7d/class_u_i_radio_button.html#afdfd55b06e79ebc53f5af3358d1e4661" title="UIRadioButton::UIRadioButton" alt="" coords="168,883,364,909"/>
-<area shape="rect" id="node27" href="../../da/d7d/class_u_i_radio_button.html#ae22eeb793ceecacaec73f0f9d836efdc" title="UIRadioButton::Update" alt="" coords="189,933,343,960"/>
-<area shape="rect" id="node28" href="../../df/dab/class_u_i_window.html#aa749f7add746a3e5018f7c0a0023596a" title="UIWindow::Update" alt="" coords="201,984,331,1011"/>
-<area shape="rect" id="node29" href="../../de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="195,1035,337,1061"/>
-<area shape="rect" id="node30" href="../../dc/d7a/class_u_i_element_graph.html#a848e73ebc13e76bc56630db867204010" title="UIElementGraph::Update" alt="" coords="183,1085,349,1112"/>
+<area shape="rect" id="node7" href="../../d4/d77/class_button.html#a83978196eeff06d7ad8cca291442e367" title="Button::Draw" alt="" coords="217,259,315,285"/>
+<area shape="rect" id="node8" href="../../d1/d0d/class_u_i_active_button.html#af7fbece84d856a63a2d2a0ec7d4ea895" title="An active button will call this first, then draw whatever data on the button that it wants to display..." alt="" coords="451,220,607,247"/>
+<area shape="rect" id="node9" href="../../da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="469,296,590,323"/>
+<area shape="rect" id="node10" href="../../dc/d65/class_slider.html#a5354db1e2e91cd62fe53e012313f06a3" title="Slider::Draw" alt="" coords="220,360,312,387"/>
+<area shape="rect" id="node11" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="183,411,349,437"/>
+<area shape="rect" id="node12" href="../../d9/ddd/class_color.html#a9171ff7d75b2a3d142b57e3d33103483" title="Color::GetColor565" alt="" coords="200,461,332,488"/>
+<area shape="rect" id="node17" href="../../df/dab/class_u_i_window.html#a19c8c22163a700de1592753ed27d3ade" title="UIWindow::ProcessTouch" alt="" coords="181,512,351,539"/>
+<area shape="rect" id="node19" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="163,563,369,589"/>
+<area shape="rect" id="node26" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="949,672,1172,699"/>
+<area shape="rect" id="node27" href="../../d1/d0d/class_u_i_active_button.html#a4b5fb312c7bb070253b1dffb5070e96d" title="UIActiveButton::UIActive\lButton" alt="" coords="185,665,347,706"/>
+<area shape="rect" id="node28" href="../../da/d03/class_u_i_button.html#a93bb820d0c32639d7ae18bcda9f4c8ea" title="UIButton::UIButton" alt="" coords="201,731,331,757"/>
+<area shape="rect" id="node29" href="../../de/dcc/class_u_i_check_box.html#a4af459f9e971e20fe9f0e93c604145c3" title="UICheckBox::UICheckBox" alt="" coords="179,781,353,808"/>
+<area shape="rect" id="node30" href="../../da/d7d/class_u_i_radio_button.html#afdfd55b06e79ebc53f5af3358d1e4661" title="UIRadioButton::UIRadioButton" alt="" coords="168,832,364,859"/>
+<area shape="rect" id="node31" href="../../df/dab/class_u_i_window.html#a484f3beee4672766b8866470c519410a" title="UIWindow::UIWindow" alt="" coords="193,883,339,909"/>
+<area shape="rect" id="node32" href="../../da/d7d/class_u_i_radio_button.html#ae22eeb793ceecacaec73f0f9d836efdc" title="UIRadioButton::Update" alt="" coords="189,933,343,960"/>
+<area shape="rect" id="node33" href="../../df/dab/class_u_i_window.html#aa749f7add746a3e5018f7c0a0023596a" title="UIWindow::Update" alt="" coords="201,984,331,1011"/>
+<area shape="rect" id="node34" href="../../de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="195,1035,337,1061"/>
+<area shape="rect" id="node35" href="../../dc/d7a/class_u_i_element_graph.html#a848e73ebc13e76bc56630db867204010" title="UIElementGraph::Update" alt="" coords="183,1085,349,1112"/>
+<area shape="rect" id="node37" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="155,1136,377,1163"/>
 <area shape="rect" id="node5" href="../../d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1" title="SettingsButton::Update" alt="" coords="451,107,608,133"/>
-<area shape="rect" id="node12" href="../../d9/ddd/class_color.html#ac950d95465ec8f74bf8e591e597bea57" title="Color::Color565" alt="" coords="474,385,585,412"/>
-<area shape="rect" id="node15" href="../../d9/ddd/class_color.html#a0e9fc6be9e30aaf9aec7071dd4e0992d" title="Color::GetColor" alt="" coords="474,436,585,463"/>
-<area shape="rect" id="node13" href="../../d9/ddd/class_color.html#a9d3c1e082c4bd0ef10e9189db3a22910" title="Color::ColorToGrayscale" alt="" coords="681,360,844,387"/>
-<area shape="rect" id="node14" href="../../d9/ddd/class_color.html#ae4969b31decd873257309d0baa813ff6" title="Color::CombineColor" alt="" coords="692,411,833,437"/>
-<area shape="rect" id="node17" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="442,495,617,521"/>
-<area shape="rect" id="node19" href="../../df/dab/class_u_i_window.html#a20bc4a4bc92870e069cbcba5406a4bb8" title="UIWindow::SetCornerRadius" alt="" coords="436,579,623,605"/>
-<area shape="rect" id="node31" href="../../dc/d7a/class_u_i_element_graph.html#aaa115a8a588526139eea7f6cdf3b88c6" title="UIElementGraph::ProcessTouch" alt="" coords="425,1085,633,1112"/>
+<area shape="rect" id="node13" href="../../d9/ddd/class_color.html#ac950d95465ec8f74bf8e591e597bea57" title="Color::Color565" alt="" coords="474,411,585,437"/>
+<area shape="rect" id="node16" href="../../d9/ddd/class_color.html#a0e9fc6be9e30aaf9aec7071dd4e0992d" title="Color::GetColor" alt="" coords="474,461,585,488"/>
+<area shape="rect" id="node14" href="../../d9/ddd/class_color.html#a9d3c1e082c4bd0ef10e9189db3a22910" title="Color::ColorToGrayscale" alt="" coords="710,360,873,387"/>
+<area shape="rect" id="node15" href="../../d9/ddd/class_color.html#ae4969b31decd873257309d0baa813ff6" title="Color::CombineColor" alt="" coords="721,411,862,437"/>
+<area shape="rect" id="node18" href="../../df/dab/class_u_i_window.html#a20bc4a4bc92870e069cbcba5406a4bb8" title="UIWindow::SetCornerRadius" alt="" coords="436,512,623,539"/>
+<area shape="rect" id="node20" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="446,563,613,589"/>
+<area shape="rect" id="node21" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1479,555,1685,597"/>
+<area shape="rect" id="node22" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="681,563,901,589"/>
+<area shape="rect" id="node23" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="955,563,1166,589"/>
+<area shape="rect" id="node25" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1227,614,1424,655"/>
+<area shape="rect" id="node24" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1220,563,1431,589"/>
+<area shape="rect" id="node36" href="../../dc/d7a/class_u_i_element_graph.html#aaa115a8a588526139eea7f6cdf3b88c6" title="UIElementGraph::ProcessTouch" alt="" coords="425,1085,633,1112"/>
+<area shape="rect" id="node38" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="442,1136,617,1163"/>
 </map>
 </div>
 
@@ -460,16 +536,71 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00036">36</a> of file <a class="el" href="../../de/d27/_logger_8cpp_source.html">Logger.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00119">WindowManager::MoveControlToFront()</a>.</p>
+<p class="reference">References <a class="el" href="../../d6/dec/_logger_8h_source.html#l00039">minLevel</a>, and <a class="el" href="../../d6/dec/_logger_8h_source.html#l00040">serial</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00133">WindowManager::MoveControlToFront()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d42/class_logger_a10e3c0f647678365b77770cfc3ec151d_icgraph.png" border="0" usemap="#d3/d42/class_logger_a10e3c0f647678365b77770cfc3ec151d_icgraph" alt=""/></div>
 <map name="d3/d42/class_logger_a10e3c0f647678365b77770cfc3ec151d_icgraph" id="d3/d42/class_logger_a10e3c0f647678365b77770cfc3ec151d_icgraph">
 <area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="153,5,351,47"/>
-<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="399,13,573,39"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="399,5,605,47"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a4ccaf3a5b502e78876342a469f162cdd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ccaf3a5b502e78876342a469f162cdd">&#9670;&nbsp;</a></span>minLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36">Logger::LogLevel</a> Logger::minLevel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/dec/_logger_8h_source.html#l00039">39</a> of file <a class="el" href="../../d6/dec/_logger_8h_source.html">Logger.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00055">Crit()</a>, <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00005">initLogger()</a>, <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00017">Trace()</a>, and <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00036">Warn()</a>.</p>
+
+</div>
+</div>
+<a id="a68fb21367e40cbae6bb9423379d34608"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68fb21367e40cbae6bb9423379d34608">&#9670;&nbsp;</a></span>serial</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">HardwareSerial * Logger::serial</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/dec/_logger_8h_source.html#l00040">40</a> of file <a class="el" href="../../d6/dec/_logger_8h_source.html">Logger.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00055">Crit()</a>, <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00074">Fatal()</a>, <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00010">initLogger()</a>, <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00017">Trace()</a>, and <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00036">Warn()</a>.</p>
 
 </div>
 </div>

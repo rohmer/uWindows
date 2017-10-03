@@ -1,0 +1,6 @@
+<map id="Adafruit_RA8875::initialize" name="Adafruit_RA8875::initialize">
+<area shape="rect" id="node2" href="$d5/d20/class_adafruit___r_a8875.html#a2f74d4f0091392181138552580226c40" title="Adafruit_RA8875::PLLinit" alt="" coords="228,5,395,32"/>
+<area shape="rect" id="node3" href="$d5/d20/class_adafruit___r_a8875.html#a2e6a3f2fd43716ddb5c279e0a456369f" title="Adafruit_RA8875::writeReg" alt="" coords="443,31,620,57"/>
+<area shape="rect" id="node4" href="$d5/d20/class_adafruit___r_a8875.html#a65c88e13691db0d8cae5b5e32883268e" title="Adafruit_RA8875::writeCommand" alt="" coords="668,5,881,32"/>
+<area shape="rect" id="node5" href="$d5/d20/class_adafruit___r_a8875.html#ada2fe2eaba6203691b422c0f561c8a94" title="Adafruit_RA8875::writeData" alt="" coords="684,56,865,83"/>
+</map>

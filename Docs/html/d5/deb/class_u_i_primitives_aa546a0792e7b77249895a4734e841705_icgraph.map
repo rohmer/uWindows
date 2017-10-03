@@ -1,3 +1,4 @@
 <map id="UIPrimitives::Polygon" name="UIPrimitives::Polygon">
-<area shape="rect" id="node2" href="$d9/d3f/class_compass.html#a08c2b2cc24d4520eecdc7a907e350472" title="Compass::Draw" alt="" coords="199,5,313,32"/>
+<area shape="rect" id="node2" href="$d9/d3f/class_compass.html#ab76221b999430e61e70fac05e3b05d2a" title="Compass::Draw" alt="" coords="461,5,576,32"/>
+<area shape="rect" id="node3" href="$d9/d3f/class_compass.html#a910df31bab81ae68eb91e667cbea71b7" title="Compass::DrawCompassTriangle" alt="" coords="199,31,413,57"/>
 </map>

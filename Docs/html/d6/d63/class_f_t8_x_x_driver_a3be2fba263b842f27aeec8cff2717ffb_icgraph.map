@@ -1,6 +1,9 @@
 <map id="FT8XXDriver::swapDisplay" name="FT8XXDriver::swapDisplay">
 <area shape="rect" id="node2" href="$d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="226,5,389,32"/>
 <area shape="rect" id="node3" href="$d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="224,56,391,83"/>
-<area shape="rect" id="node4" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="697,56,872,83"/>
-<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="439,81,649,108"/>
+<area shape="rect" id="node4" href="$d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1224,91,1431,133"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="439,88,659,115"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="707,88,917,115"/>
+<area shape="rect" id="node8" href="$d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="972,175,1169,217"/>
+<area shape="rect" id="node7" href="$d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="965,124,1176,151"/>
 </map>

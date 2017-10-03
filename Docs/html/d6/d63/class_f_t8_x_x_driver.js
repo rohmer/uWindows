@@ -59,5 +59,6 @@ var class_f_t8_x_x_driver =
     [ "waitPoll", "d6/d63/class_f_t8_x_x_driver.html#a7720e9fb179e788f4013f510036adc40", null ],
     [ "writeCommand", "d6/d63/class_f_t8_x_x_driver.html#a3d9921e09fcd5de81edaa7c0c0a7b4c8", null ],
     [ "writeData", "d6/d63/class_f_t8_x_x_driver.html#a1feb4a6364da068ce081a7f0c654f256", null ],
-    [ "writeReg", "d6/d63/class_f_t8_x_x_driver.html#af06eaaaa75d09347b2711bc28700dbba", null ]
+    [ "writeReg", "d6/d63/class_f_t8_x_x_driver.html#af06eaaaa75d09347b2711bc28700dbba", null ],
+    [ "currentFont", "d6/d63/class_f_t8_x_x_driver.html#a77ff77988e2c3bca1b4717ec88e2b989", null ]
 ];

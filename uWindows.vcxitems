@@ -20,6 +20,7 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)External\Adafruit_GFX_Library\glcdfont.c" />
     <ClCompile Include="$(MSBuildThisFileDirectory)External\Adafruit_RA8875\Adafruit_RA8875.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)External\GD3\GD3.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\BatteryIcon.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\Button.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\CheckBox.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\Compass.cpp" />
@@ -125,6 +126,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)Images\Battery85pct.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Images\Image.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Options.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\BatteryIcon.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\Button.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\CheckBox.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)UIElements\ControlDisplay\Compass.h" />

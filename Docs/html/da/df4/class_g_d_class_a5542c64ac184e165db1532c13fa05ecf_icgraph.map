@@ -1,12 +1,6 @@
 <map id="GDClass::Vertex2ii" name="GDClass::Vertex2ii">
-<area shape="rect" id="node2" href="$dc/d58/class_drop_down_list.html#a556b11edd886b69ace16cd64dcd0a523" title="DropDownList::Draw" alt="" coords="203,5,341,32"/>
-<area shape="rect" id="node4" href="$db/d0a/class_icon_button.html#add32e4abe8403a22b33b15574b0bceb8" title="IconButton::Draw" alt="" coords="211,56,333,83"/>
-<area shape="rect" id="node6" href="$d6/d63/class_f_t8_x_x_driver.html#a418ddbdb2d073a94438d2ea4f07078f3" title="FT8XXDriver::drawCircle" alt="" coords="193,107,351,133"/>
-<area shape="rect" id="node7" href="$d6/d63/class_f_t8_x_x_driver.html#aeab09f681766b90f287819448865a580" title="FT8XXDriver::drawPixel" alt="" coords="195,157,349,184"/>
-<area shape="rect" id="node8" href="$d6/d63/class_f_t8_x_x_driver.html#a445a6257bf403a124cf46df902c13ee1" title="FT8XXDriver::drawRect" alt="" coords="196,208,348,235"/>
-<area shape="rect" id="node9" href="$d6/d63/class_f_t8_x_x_driver.html#a1a7c59a95e42851d75b7a6940e8139d5" title="FT8XXDriver::drawTriangle" alt="" coords="187,259,357,285"/>
-<area shape="rect" id="node10" href="$d6/d63/class_f_t8_x_x_driver.html#ace5eed7707f28dba6590bbe9e82f69f2" title="FT8XXDriver::fillCircle" alt="" coords="201,309,343,336"/>
-<area shape="rect" id="node11" href="$d6/d63/class_f_t8_x_x_driver.html#ae5121502029272739a6c0fd22d6a0ca4" title="FT8XXDriver::fillRect" alt="" coords="203,360,341,387"/>
-<area shape="rect" id="node3" href="$dc/d58/class_drop_down_list.html#a42ad113275e52197afe30c00be057f5d" title="DropDownList::DrawExpanded" alt="" coords="405,5,603,32"/>
-<area shape="rect" id="node5" href="$d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1" title="SettingsButton::Update" alt="" coords="425,56,583,83"/>
+<area shape="rect" id="node2" href="$dc/d58/class_drop_down_list.html#a556b11edd886b69ace16cd64dcd0a523" title="DropDownList::Draw" alt="" coords="187,5,325,32"/>
+<area shape="rect" id="node4" href="$db/d0a/class_icon_button.html#add32e4abe8403a22b33b15574b0bceb8" title="IconButton::Draw" alt="" coords="195,56,317,83"/>
+<area shape="rect" id="node3" href="$dc/d58/class_drop_down_list.html#a42ad113275e52197afe30c00be057f5d" title="DropDownList::DrawExpanded" alt="" coords="373,5,571,32"/>
+<area shape="rect" id="node5" href="$d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1" title="SettingsButton::Update" alt="" coords="393,56,551,83"/>
 </map>

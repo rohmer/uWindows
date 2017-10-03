@@ -1,5 +1,5 @@
 <map id="UIPrimitives::CircleFlat" name="UIPrimitives::CircleFlat">
-<area shape="rect" id="node2" href="$d9/d3f/class_compass.html#a08c2b2cc24d4520eecdc7a907e350472" title="Compass::Draw" alt="" coords="215,5,329,32"/>
-<area shape="rect" id="node3" href="$d5/dbc/class_radio_button.html#ae6b1eb4857be6c9ecbb0999946fc84cc" title="RadioButton::Draw" alt="" coords="207,56,337,83"/>
-<area shape="rect" id="node4" href="$da/d7d/class_u_i_radio_button.html#ae22eeb793ceecacaec73f0f9d836efdc" title="UIRadioButton::Update" alt="" coords="385,56,540,83"/>
+<area shape="rect" id="node2" href="$d5/dbc/class_radio_button.html#ae6b1eb4857be6c9ecbb0999946fc84cc" title="RadioButton::Draw" alt="" coords="207,5,337,32"/>
+<area shape="rect" id="node4" href="$d9/d3f/class_compass.html#ab76221b999430e61e70fac05e3b05d2a" title="Compass::Draw" alt="" coords="215,56,329,83"/>
+<area shape="rect" id="node3" href="$da/d7d/class_u_i_radio_button.html#ae22eeb793ceecacaec73f0f9d836efdc" title="UIRadioButton::Update" alt="" coords="385,5,540,32"/>
 </map>

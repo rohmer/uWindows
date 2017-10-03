@@ -1,4 +1,7 @@
 <map id="GDTransport::cmdbyte" name="GDTransport::cmdbyte">
-<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a794c1c8501f2f4c4660eb9bc0afda63d" title="GDClass::copy" alt="" coords="207,5,317,32"/>
-<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#afc8244eba617defce834eabf23d097d1" title="GDClass::wr_n" alt="" coords="207,56,317,83"/>
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#aad01b1ffd0fea32ff1f784b90c41ac1f" title="GDClass::align" alt="" coords="218,5,327,32"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a9c6d2c5c2faff4b4ff5fb0f12fd0d6ce" title="GDClass::cH" alt="" coords="223,56,322,83"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#ae0de18c1bd4aa3a1b0247bbb9303fc0d" title="GDClass::cmdbyte" alt="" coords="207,107,339,133"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a794c1c8501f2f4c4660eb9bc0afda63d" title="GDClass::copy" alt="" coords="217,157,328,184"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#af1452a026aed9d899cc1ba9d084059c6" title="GDClass::cs" alt="" coords="225,208,321,235"/>
 </map>

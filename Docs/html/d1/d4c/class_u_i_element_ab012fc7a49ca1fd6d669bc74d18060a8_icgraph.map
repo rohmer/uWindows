@@ -4,5 +4,5 @@
 <area shape="rect" id="node7" href="$dc/d61/class_u_i_radio_group.html#acceeaa7c9f31faa25b8458712582a8f4" title="UIRadioGroup::ProcessTouch" alt="" coords="219,132,412,159"/>
 <area shape="rect" id="node3" href="$df/dab/class_u_i_window.html#a20bc4a4bc92870e069cbcba5406a4bb8" title="UIWindow::SetCornerRadius" alt="" coords="483,5,670,32"/>
 <area shape="rect" id="node4" href="$d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="465,56,688,83"/>
-<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="736,56,911,83"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="736,49,943,90"/>
 </map>

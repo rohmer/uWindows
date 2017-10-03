@@ -1,9 +1,9 @@
 <map id="Driver/RA8875Driver.h" name="Driver/RA8875Driver.h">
-<area shape="rect" id="node2" href="$dd/db4/_driver_base_8h.html" title="DriverBase.h" alt="" coords="302,80,397,107"/>
-<area shape="rect" id="node5" href="$d4/dbb/_options_8h.html" title="../Options.h" alt="" coords="685,333,776,360"/>
-<area shape="rect" id="node6" href="$d9/df8/_color_8h.html" title="../Utility/Color.h" alt="" coords="36,162,148,189"/>
-<area shape="rect" id="node11" href="$de/d9a/_f_t8_x_x_2_fonts_8h.html" title="../UIElements/FT8XX\l/Fonts.h" alt="" coords="404,155,545,196"/>
-<area shape="rect" id="node8" href="$d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="9,251,81,278"/>
-<area shape="rect" id="node13" href="$df/de7/_g_d3_8h.html" title="../../External/GD3\l/GD3.h" alt="" coords="247,244,371,285"/>
-<area shape="rect" id="node15" href="$da/dcd/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular12_8h.html" title="Fonts\\aileronRegular12.h" alt="" coords="526,251,693,278"/>
+<area shape="rect" id="node2" href="$dd/db4/_driver_base_8h.html" title="DriverBase.h" alt="" coords="683,80,777,107"/>
+<area shape="rect" id="node5" href="$d4/dbb/_options_8h.html" title="../Options.h" alt="" coords="694,333,785,360"/>
+<area shape="rect" id="node6" href="$d9/df8/_color_8h.html" title="../Utility/Color.h" alt="" coords="253,162,365,189"/>
+<area shape="rect" id="node11" href="$de/d9a/_f_t8_x_x_2_fonts_8h.html" title="../UIElements/FT8XX\l/Fonts.h" alt="" coords="603,155,745,196"/>
+<area shape="rect" id="node8" href="$d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="70,251,142,278"/>
+<area shape="rect" id="node13" href="$df/de7/_g_d3_8h.html" title="../../External/GD3\l/GD3.h" alt="" coords="256,244,380,285"/>
+<area shape="rect" id="node16" href="$da/dcd/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular12_8h.html" title="Fonts\\aileronRegular12.h" alt="" coords="456,251,623,278"/>
 </map>

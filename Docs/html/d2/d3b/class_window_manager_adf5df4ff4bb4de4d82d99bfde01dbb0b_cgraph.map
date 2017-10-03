@@ -1,0 +1,14 @@
+<map id="WindowManager::processTouch" name="WindowManager::processTouch">
+<area shape="rect" id="node2" href="$d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="277,5,444,32"/>
+<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="267,56,454,83"/>
+<area shape="rect" id="node6" href="$d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="277,107,445,133"/>
+<area shape="rect" id="node7" href="$d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="289,157,433,184"/>
+<area shape="rect" id="node11" href="$d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="281,208,441,235"/>
+<area shape="rect" id="node12" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="310,259,411,285"/>
+<area shape="rect" id="node13" href="$d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="260,310,461,351"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="533,56,628,83"/>
+<area shape="rect" id="node4" href="$d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="709,68,825,95"/>
+<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="509,157,652,184"/>
+<area shape="rect" id="node9" href="$d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="700,132,833,159"/>
+<area shape="rect" id="node10" href="$d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="703,183,831,209"/>
+</map>

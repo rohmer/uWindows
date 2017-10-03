@@ -1,0 +1,10 @@
+<map id="ConfigRam::i2c_tx1" name="ConfigRam::i2c_tx1">
+<area shape="rect" id="node2" href="$d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="188,5,316,32"/>
+<area shape="rect" id="node9" href="$d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="188,56,316,83"/>
+<area shape="rect" id="node3" href="$d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="364,31,483,57"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="531,31,644,57"/>
+<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="692,5,859,32"/>
+<area shape="rect" id="node6" href="$d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="718,56,833,83"/>
+<area shape="rect" id="node7" href="$d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="907,56,1129,83"/>
+<area shape="rect" id="node8" href="$d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1177,56,1352,83"/>
+</map>

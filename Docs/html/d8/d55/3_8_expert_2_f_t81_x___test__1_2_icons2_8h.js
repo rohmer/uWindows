@@ -57,5 +57,19 @@ var 3_8_expert_2_f_t81_x___test__1_2_icons2_8h =
     [ "BAC9_HANDLE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a1477ddf50ca3f737ad565d852dfb4230", null ],
     [ "BAC9_HEIGHT", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a72f1581acf0c6031e9d77e63aa1379e8", null ],
     [ "BAC9_WIDTH", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a284c82a3e2fb844f52033d51a906ef40", null ],
-    [ "LOAD_ASSETS0", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a965a4ef836a52954980b8f7afc1c915e", null ]
+    [ "LOAD_ASSETS0", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a965a4ef836a52954980b8f7afc1c915e", null ],
+    [ "BAC0_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a789d5cbed96bc36a1f9842c55a0813b4", null ],
+    [ "BAC10_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#aa3708ecd03fd6e066f7d37130a0bb026", null ],
+    [ "BAC11_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#aadf07998971ba7e319aeedfdffb5caec", null ],
+    [ "BAC12_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#ad14a5eac45c010f7fa4a348a73a6d254", null ],
+    [ "BAC13_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a0ce8f6cd571ffe1fe0aaa6f52f6d3685", null ],
+    [ "BAC1_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#ae60e5cbeac1f843f447831c83b34d747", null ],
+    [ "BAC2_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a1450f421d9cf988f0c257b05670c9e85", null ],
+    [ "BAC3_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a733b589b0120c40530a6cec1c8d212c0", null ],
+    [ "BAC4_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a664eddbd1a051e7b3f42641d9318031a", null ],
+    [ "BAC5_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a9b93a1a90acce6cb5df92ec7fdfe5d97", null ],
+    [ "BAC6_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#aa8d0bfb29b2d0748c9c119e8e9593259", null ],
+    [ "BAC7_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#ace07ffead98d1ce65ca82c6651a2b9ff", null ],
+    [ "BAC8_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#abe242d303807aef37e52d540f4516944", null ],
+    [ "BAC9_SHAPE", "d8/d55/3_8_expert_2_f_t81_x___test__1_2_icons2_8h.html#a0aa51b9cd780c7f2e14694a3ea2ee8b1", null ]
 ];

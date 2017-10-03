@@ -16,6 +16,11 @@ var _g_d3_8cpp =
     [ "SD_PIN", "da/d16/_g_d3_8cpp.html#a7b57da84038e8126c8c971576bb74220", null ],
     [ "STORAGE", "da/d16/_g_d3_8cpp.html#acdf449577cec02e8758c8d46ef1befdd", null ],
     [ "VERBOSE", "da/d16/_g_d3_8cpp.html#a42f8c497a1968074f38bf5055c650dca", null ],
+    [ "__bsod", "da/d16/_g_d3_8cpp.html#a4b28ac22903f2187e74127ff04444b99", null ],
+    [ "__bsod_badfile", "da/d16/_g_d3_8cpp.html#a421f17d512be04b65e133ab86ff43891", null ],
+    [ "atan8", "da/d16/_g_d3_8cpp.html#a7fb5b9d0e5e33f72c9c834ce7dce98bb", null ],
     [ "ft8xx_model", "da/d16/_g_d3_8cpp.html#a8e33ef8d234ef991dfeb8a75bfcb653c", null ],
-    [ "GD", "da/d16/_g_d3_8cpp.html#a5451dec9d6a74d3765e674d4ce13bd7f", null ]
+    [ "GD", "da/d16/_g_d3_8cpp.html#a5451dec9d6a74d3765e674d4ce13bd7f", null ],
+    [ "GDTR", "da/d16/_g_d3_8cpp.html#a1f57063d21ab9812ff83bc688abfcc06", null ],
+    [ "sintab", "da/d16/_g_d3_8cpp.html#af76597d047c9a271f75a19fc83e124d4", null ]
 ];

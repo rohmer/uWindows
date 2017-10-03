@@ -1,8 +1,7 @@
 <map id="UIPrimitives::CircleRaised" name="UIPrimitives::CircleRaised">
-<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="247,5,362,32"/>
-<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="244,56,365,83"/>
-<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="235,107,375,133"/>
-<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a633c344df45d3ac7483a8615160552f3" title="GDClass::PointSize" alt="" coords="235,157,374,184"/>
-<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="239,208,370,235"/>
-<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#afbb12db41b3a6a89f3e8666a323ec2e0" title="GDClass::VertexFormat" alt="" coords="224,259,385,285"/>
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="237,5,351,32"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="233,56,355,83"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="224,107,364,133"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a633c344df45d3ac7483a8615160552f3" title="GDClass::PointSize" alt="" coords="225,157,363,184"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="229,208,359,235"/>
 </map>

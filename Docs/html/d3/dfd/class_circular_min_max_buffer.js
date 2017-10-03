@@ -9,5 +9,13 @@ var class_circular_min_max_buffer =
     [ "GetMin", "d3/dfd/class_circular_min_max_buffer.html#aa862e481b072216575a273a197c88915", null ],
     [ "GetSize", "d3/dfd/class_circular_min_max_buffer.html#a65e144038120ef103e2c3b31ab73d508", null ],
     [ "GetValues", "d3/dfd/class_circular_min_max_buffer.html#acda37125cdecceb0a0947db4e3da4f77", null ],
-    [ "PushItem", "d3/dfd/class_circular_min_max_buffer.html#aa843f67d162f6096a8db8ef3557ec6eb", null ]
+    [ "PushItem", "d3/dfd/class_circular_min_max_buffer.html#aa843f67d162f6096a8db8ef3557ec6eb", null ],
+    [ "avg", "d3/dfd/class_circular_min_max_buffer.html#a2d02c2da83795ff376dd34905ddc7455", null ],
+    [ "checksum", "d3/dfd/class_circular_min_max_buffer.html#a57ebcf25464c9573770047d0764283e0", null ],
+    [ "currentTotal", "d3/dfd/class_circular_min_max_buffer.html#a32eab56fa7e18370da54db98e5bcc9c4", null ],
+    [ "itemCount", "d3/dfd/class_circular_min_max_buffer.html#a2af94bc17fc11fb0f55559a56eb92608", null ],
+    [ "max", "d3/dfd/class_circular_min_max_buffer.html#aaff40b0d3203b7713ad9455b8ec43a18", null ],
+    [ "maxSize", "d3/dfd/class_circular_min_max_buffer.html#a02c2726dcd6275791e8186e70e21be1c", null ],
+    [ "min", "d3/dfd/class_circular_min_max_buffer.html#afd191aed40b854a37ad7c5a7d3124e28", null ],
+    [ "values", "d3/dfd/class_circular_min_max_buffer.html#a23f2e09de73f815824ae570e6ecb7711", null ]
 ];

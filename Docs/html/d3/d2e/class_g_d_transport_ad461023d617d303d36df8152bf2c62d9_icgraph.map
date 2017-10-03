@@ -1,11 +1,13 @@
 <map id="GDTransport::resume" name="GDTransport::resume">
 <area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="374,31,487,57"/>
-<area shape="rect" id="node5" href="$d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="203,56,322,83"/>
-<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a7ba77f9482f841123641d1f68412aacc" title="GDClass::reset" alt="" coords="207,107,318,133"/>
-<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#aa433a6a478dc95712e73e3e55b4a29d8" title="GDClass::resume" alt="" coords="200,157,325,184"/>
-<area shape="rect" id="node10" href="$da/df4/class_g_d_class.html#a60009b119ae703abb2c59f72f43e9899" title="GDClass::storage" alt="" coords="200,208,325,235"/>
+<area shape="rect" id="node7" href="$d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="203,56,322,83"/>
+<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a7ba77f9482f841123641d1f68412aacc" title="GDClass::reset" alt="" coords="207,107,318,133"/>
+<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#aa433a6a478dc95712e73e3e55b4a29d8" title="GDClass::resume" alt="" coords="200,157,325,184"/>
+<area shape="rect" id="node12" href="$da/df4/class_g_d_class.html#a60009b119ae703abb2c59f72f43e9899" title="GDClass::storage" alt="" coords="200,208,325,235"/>
 <area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="536,5,703,32"/>
 <area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="562,56,677,83"/>
-<area shape="rect" id="node8" href="$d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="373,132,488,159"/>
-<area shape="rect" id="node9" href="$d7/dca/class_streamer.html#adf4a08684ceddb36be543909ba812bc9" title="Streamer::feed" alt="" coords="377,183,484,209"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="751,56,973,83"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1021,56,1196,83"/>
+<area shape="rect" id="node10" href="$d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="373,132,488,159"/>
+<area shape="rect" id="node11" href="$d7/dca/class_streamer.html#adf4a08684ceddb36be543909ba812bc9" title="Streamer::feed" alt="" coords="377,183,484,209"/>
 </map>

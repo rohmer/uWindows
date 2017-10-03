@@ -71,9 +71,7 @@ var _g_d3_8h =
     [ "LINE_STRIP", "df/de7/_g_d3_8h.html#ac300cac409c1526ba5622f15472a25df", null ],
     [ "LINEAR_SAMPLES", "df/de7/_g_d3_8h.html#a2f1c0882e4ad4eb2f9d6774dcf56c2b1", null ],
     [ "LINES", "df/de7/_g_d3_8h.html#a321ae946de24c36489276616d13c46cd", null ],
-    [ "max", "df/de7/_g_d3_8h.html#affe776513b24d84b39af8ab0930fef7f", null ],
     [ "MCU_Teensy32", "df/de7/_g_d3_8h.html#a65566ba510c6c5938e796b6e85e1d8f7", null ],
-    [ "min", "df/de7/_g_d3_8h.html#ac6afabdc09a49a433ee19d8a9486056d", null ],
     [ "MUSICBOX", "df/de7/_g_d3_8h.html#ac0a2a2097bcce01b72b661d83d13dd38", null ],
     [ "MUTE", "df/de7/_g_d3_8h.html#a1f61941701e0251593e01aec567e6ceb", null ],
     [ "NEAREST", "df/de7/_g_d3_8h.html#a153124fa134b442214760945ffb542eb", null ],
@@ -211,6 +209,7 @@ var _g_d3_8h =
     [ "WARBLE", "df/de7/_g_d3_8h.html#a735b87375357ed4fab641d7b15c16d43", null ],
     [ "XYLOPHONE", "df/de7/_g_d3_8h.html#ad6fe2d805ceba29269f4c77683911da9", null ],
     [ "ZERO", "df/de7/_g_d3_8h.html#ac328e551bde3d39b6d7b8cc9e048d941", null ],
+    [ "dos83", "df/de7/_g_d3_8h.html#ae0cd41fe6c9e4838a94ec75d0aa5f423", null ],
     [ "ft8xx_model", "df/de7/_g_d3_8h.html#a8e33ef8d234ef991dfeb8a75bfcb653c", null ],
     [ "GD", "df/de7/_g_d3_8h.html#a5451dec9d6a74d3765e674d4ce13bd7f", null ]
 ];

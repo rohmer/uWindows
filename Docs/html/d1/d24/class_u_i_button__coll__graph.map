@@ -1,8 +1,8 @@
 <map id="UIButton" name="UIButton">
-<area shape="rect" id="node2" href="$d1/d4c/class_u_i_element.html" title="{UIElement\n|# updatePending\l# enabled\l# elementID\l# elementType\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l}" alt="" coords="215,492,354,760"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="5,587,119,665"/>
-<area shape="rect" id="node6" href="$d5/d68/struct_rectangle.html" title="{Rectangle\n|+ x1\l+ y1\l+ x2\l+ y2\l+ width\l+ height\l|+ Rectangle()\l+ Rectangle()\l+ hasArea()\l+ center()\l+ normalizeRect()\l+ normalizeRect()\l+ add()\l+ update()\l+ contains()\l+ occludes()\l}" alt="" coords="99,147,225,429"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="249,249,329,327"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="225,5,352,97"/>
-<area shape="rect" id="node9" href="$dc/de9/class_driver_base.html" title="{DriverBase\n|# driverType\l# tftWidth\l# tftHeight\l# rotation\l# backgroundColor\l|+ DriverBase()\l+ Init()\l+ drawPixel()\l+ drawLine()\l+ setRotation()\l+ getRotation()\l+ isLandscape()\l+ invertDisplay()\l+ fillRect()\l+ fillScreen()\land 54 more...\l}" alt="" coords="353,147,483,429"/>
+<area shape="rect" id="node2" href="$d1/d4c/class_u_i_element.html" title="{UIElement\n|# updatePending\l# enabled\l# elementID\l# elementType\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l&#45; getChildElements()\l}" alt="" coords="145,492,285,775"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="429,595,543,672"/>
+<area shape="rect" id="node6" href="$d5/d68/struct_rectangle.html" title="{Rectangle\n|+ x1\l+ y1\l+ x2\l+ y2\l+ width\l+ height\l|+ Rectangle()\l+ Rectangle()\l+ hasArea()\l+ center()\l+ normalizeRect()\l+ normalizeRect()\l+ add()\l+ update()\l+ contains()\l+ occludes()\l}" alt="" coords="306,147,431,429"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="29,249,109,327"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="5,5,132,97"/>
+<area shape="rect" id="node9" href="$dc/de9/class_driver_base.html" title="{DriverBase\n|# driverType\l# tftWidth\l# tftHeight\l# rotation\l# backgroundColor\l|+ DriverBase()\l+ Init()\l+ drawPixel()\l+ drawLine()\l+ setRotation()\l+ getRotation()\l+ isLandscape()\l+ invertDisplay()\l+ fillRect()\l+ fillScreen()\land 54 more...\l}" alt="" coords="151,147,282,429"/>
 </map>

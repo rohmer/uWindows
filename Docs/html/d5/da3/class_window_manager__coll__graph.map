@@ -1,2 +1,12 @@
 <map id="WindowManager" name="WindowManager">
+<area shape="rect" id="node3" href="$d1/d4c/class_u_i_element.html" title="{UIElement\n|# updatePending\l# enabled\l# elementID\l# elementType\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l&#45; getChildElements()\l}" alt="" coords="551,492,691,775"/>
+<area shape="rect" id="node13" href="$df/dab/class_u_i_window.html" title="{UIWindow\n|&#45; hasTitleBar\l&#45; hasCloseIcon\l&#45; hasChrome\l&#45; isModal\l&#45; is3D\l&#45; titleTextColor\l&#45; chromeColor\l&#45; titleBarColor\l&#45; windowColor\l&#45; cornerRadius\l&#45; titleBarFont\l|+ UIWindow()\l+ Update()\l+ SetWindowTitle()\l+ SetTitleBar()\l+ SetCloseIcon()\l+ SetHasChrome()\l+ SetModal()\l+ SetCornerRadius()\l+ AddChildElement()\l+ ProcessTouch()\l}" alt="" coords="771,1047,914,1403"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="283,595,396,672"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="124,595,246,672"/>
+<area shape="rect" id="node7" href="$d5/d68/struct_rectangle.html" title="{Rectangle\n|+ x1\l+ y1\l+ x2\l+ y2\l+ width\l+ height\l|+ Rectangle()\l+ Rectangle()\l+ hasArea()\l+ center()\l+ normalizeRect()\l+ normalizeRect()\l+ add()\l+ update()\l+ contains()\l+ occludes()\l}" alt="" coords="605,147,730,429"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="784,249,864,327"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="760,5,887,97"/>
+<area shape="rect" id="node10" href="$dc/de9/class_driver_base.html" title="{DriverBase\n|# driverType\l# tftWidth\l# tftHeight\l# rotation\l# backgroundColor\l|+ DriverBase()\l+ Init()\l+ drawPixel()\l+ drawLine()\l+ setRotation()\l+ getRotation()\l+ isLandscape()\l+ invertDisplay()\l+ fillRect()\l+ fillScreen()\land 54 more...\l}" alt="" coords="952,147,1082,429"/>
+<area shape="rect" id="node16" href="$d6/d63/class_f_t8_x_x_driver.html" title="{FT8XXDriver\n|&#45; currentFont\l|+ FT8XXDriver()\l+ FT8XXDriver()\l+ Init()\l+ drawPixel()\l+ drawLine()\l+ setRotation()\l+ invertDisplay()\l+ fillRect()\l+ fillScreen()\l+ drawRect()\land 50 more...\l}" alt="" coords="1000,799,1114,1023"/>
+<area shape="rect" id="node14" href="$d7/dde/structs_touch_response.html" title="{sTouchResponse\n|+ controlID\l+ touchReponse\l|+ sTouchResponse()\l+ sTouchResponse()\l}" alt="" coords="1007,1171,1150,1278"/>
 </map>

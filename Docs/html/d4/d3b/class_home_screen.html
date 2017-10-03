@@ -83,6 +83,8 @@ $(document).ready(function(){initNavTree('d4/d3b/class_home_screen.html','../../
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d9/da7/class_home_screen-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">HomeScreen Class Reference</div>  </div>
@@ -98,7 +100,7 @@ Inheritance diagram for HomeScreen:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../dd/d82/class_home_screen__inherit__graph.png" border="0" usemap="#_home_screen_inherit__map" alt="Inheritance graph"/></div>
 <map name="_home_screen_inherit__map" id="_home_screen_inherit__map">
-<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html" title="{UIElement\n|# elementName\l# location\l# parentElement\l# updatePending\l# enabled\l# elementID\l# tft\l# elementType\l# childElements\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l}" alt="" coords="5,5,144,347"/>
+<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html" title="{UIElement\n|# elementName\l# location\l# parentElement\l# updatePending\l# enabled\l# elementID\l# tft\l# elementType\l# childElements\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l&#45; getChildElements()\l}" alt="" coords="5,5,145,361"/>
 </map>
 </div>
 <div class="dynheader">
@@ -106,12 +108,14 @@ Collaboration diagram for HomeScreen:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d8/dfa/class_home_screen__coll__graph.png" border="0" usemap="#_home_screen_coll__map" alt="Collaboration graph"/></div>
 <map name="_home_screen_coll__map" id="_home_screen_coll__map">
-<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html" title="{UIElement\n|# updatePending\l# enabled\l# elementID\l# elementType\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l}" alt="" coords="215,492,354,760"/>
-<area shape="rect" id="node4" title="STL class. " alt="" coords="5,587,119,665"/>
-<area shape="rect" id="node6" href="../../d5/d68/struct_rectangle.html" title="{Rectangle\n|+ x1\l+ y1\l+ x2\l+ y2\l+ width\l+ height\l|+ Rectangle()\l+ Rectangle()\l+ hasArea()\l+ center()\l+ normalizeRect()\l+ normalizeRect()\l+ add()\l+ update()\l+ contains()\l+ occludes()\l}" alt="" coords="99,147,225,429"/>
-<area shape="rect" id="node7" title="STL class. " alt="" coords="249,249,329,327"/>
-<area shape="rect" id="node8" title="STL class. " alt="" coords="225,5,352,97"/>
-<area shape="rect" id="node9" href="../../dc/de9/class_driver_base.html" title="{DriverBase\n|# driverType\l# tftWidth\l# tftHeight\l# rotation\l# backgroundColor\l|+ DriverBase()\l+ Init()\l+ drawPixel()\l+ drawLine()\l+ setRotation()\l+ getRotation()\l+ isLandscape()\l+ invertDisplay()\l+ fillRect()\l+ fillScreen()\land 54 more...\l}" alt="" coords="353,147,483,429"/>
+<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html" title="{UIElement\n|# updatePending\l# enabled\l# elementID\l# elementType\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l&#45; getChildElements()\l}" alt="" coords="261,492,401,775"/>
+<area shape="rect" id="node10" href="../../df/dab/class_u_i_window.html" title="{UIWindow\n|&#45; hasTitleBar\l&#45; hasCloseIcon\l&#45; hasChrome\l&#45; isModal\l&#45; is3D\l&#45; titleTextColor\l&#45; chromeColor\l&#45; titleBarColor\l&#45; windowColor\l&#45; cornerRadius\l&#45; titleBarFont\l|+ UIWindow()\l+ Update()\l+ SetWindowTitle()\l+ SetTitleBar()\l+ SetCloseIcon()\l+ SetHasChrome()\l+ SetModal()\l+ SetCornerRadius()\l+ AddChildElement()\l+ ProcessTouch()\l}" alt="" coords="99,837,242,1193"/>
+<area shape="rect" id="node11" href="../../d1/d95/class_settings_button.html" title="{SettingsButton\n|&#45; updateTime\l&#45; gearIcon\l|+ SettingsButton()\l+ Update()\l+ ProcessTouch()\l+ ~SettingsButton()\l}" alt="" coords="317,947,453,1083"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="545,595,658,672"/>
+<area shape="rect" id="node6" href="../../d5/d68/struct_rectangle.html" title="{Rectangle\n|+ x1\l+ y1\l+ x2\l+ y2\l+ width\l+ height\l|+ Rectangle()\l+ Rectangle()\l+ hasArea()\l+ center()\l+ normalizeRect()\l+ normalizeRect()\l+ add()\l+ update()\l+ contains()\l+ occludes()\l}" alt="" coords="5,147,131,429"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="171,249,251,327"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="147,5,274,97"/>
+<area shape="rect" id="node9" href="../../dc/de9/class_driver_base.html" title="{DriverBase\n|# driverType\l# tftWidth\l# tftHeight\l# rotation\l# backgroundColor\l|+ DriverBase()\l+ Init()\l+ drawPixel()\l+ drawLine()\l+ setRotation()\l+ getRotation()\l+ isLandscape()\l+ invertDisplay()\l+ fillRect()\l+ fillScreen()\land 54 more...\l}" alt="" coords="283,147,413,429"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -160,6 +164,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5accb6a8bb4fe2758d7739f0f47c2b7d inherit pub_methods_class_u_i_element"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/class_u_i_element.html#a5accb6a8bb4fe2758d7739f0f47c2b7d">~UIElement</a> ()</td></tr>
 <tr class="separator:a5accb6a8bb4fe2758d7739f0f47c2b7d inherit pub_methods_class_u_i_element"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a1d82803094c99a6d65b09416a5aff11b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/class_home_screen.html#a1d82803094c99a6d65b09416a5aff11b">addButtons</a> ()</td></tr>
+<tr class="separator:a1d82803094c99a6d65b09416a5aff11b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a2e24b8b31826d307665ac4fe42da7f0d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dab/class_u_i_window.html">UIWindow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/class_home_screen.html#a2e24b8b31826d307665ac4fe42da7f0d">pageWindow</a></td></tr>
+<tr class="separator:a2e24b8b31826d307665ac4fe42da7f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01b36b6ecbebcc3460e646692f8b8efb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d95/class_settings_button.html">SettingsButton</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d3b/class_home_screen.html#a01b36b6ecbebcc3460e646692f8b8efb">settingsButton</a></td></tr>
+<tr class="separator:a01b36b6ecbebcc3460e646692f8b8efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_u_i_element"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_u_i_element')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d1/d4c/class_u_i_element.html">UIElement</a></td></tr>
@@ -206,13 +222,14 @@ Additional Inherited Members</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00003">3</a> of file <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html">HomeScreen.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00143">UIElement::AddChildElement()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00188">UIElement::location</a>, and <a class="el" href="../../de/d9a/_f_t8_x_x_2_fonts_8h_source.html#l00450">None</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00017">addButtons()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00143">UIElement::AddChildElement()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00188">UIElement::location</a>, <a class="el" href="../../de/d9a/_f_t8_x_x_2_fonts_8h_source.html#l00450">None</a>, and <a class="el" href="../../dd/d22/_home_screen_8h_source.html#l00024">pageWindow</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d3b/class_home_screen_ae3a2750db361a176fa822444fca4e7c7_cgraph.png" border="0" usemap="#d4/d3b/class_home_screen_ae3a2750db361a176fa822444fca4e7c7_cgraph" alt=""/></div>
 <map name="d4/d3b/class_home_screen_ae3a2750db361a176fa822444fca4e7c7_cgraph" id="d4/d3b/class_home_screen_ae3a2750db361a176fa822444fca4e7c7_cgraph">
-<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html#a44e49850b9047ab096154eebf0e841ce" title="If a child UI element overrides this, it must call this as well " alt="" coords="233,5,424,32"/>
+<area shape="rect" id="node2" href="../../d4/d3b/class_home_screen.html#a1d82803094c99a6d65b09416a5aff11b" title="HomeScreen::addButtons" alt="" coords="233,5,404,32"/>
+<area shape="rect" id="node3" href="../../d1/d4c/class_u_i_element.html#a44e49850b9047ab096154eebf0e841ce" title="If a child UI element overrides this, it must call this as well " alt="" coords="452,31,643,57"/>
 </map>
 </div>
 
@@ -235,19 +252,58 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00012">12</a> of file <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html">HomeScreen.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00143">UIElement::AddChildElement()</a>, and <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00192">UIElement::tft</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d22/_home_screen_8h_source.html#l00024">pageWindow</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1d82803094c99a6d65b09416a5aff11b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d82803094c99a6d65b09416a5aff11b">&#9670;&nbsp;</a></span>addButtons()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HomeScreen::addButtons </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00017">17</a> of file <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html">HomeScreen.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00143">UIElement::AddChildElement()</a>, <a class="el" href="../../dd/d22/_home_screen_8h_source.html#l00025">settingsButton</a>, and <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00192">UIElement::tft</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00003">HomeScreen()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="../../d4/d3b/class_home_screen_aa638daca35ebc0708a2798dc5ac20c7c_cgraph.png" border="0" usemap="#d4/d3b/class_home_screen_aa638daca35ebc0708a2798dc5ac20c7c_cgraph" alt=""/></div>
-<map name="d4/d3b/class_home_screen_aa638daca35ebc0708a2798dc5ac20c7c_cgraph" id="d4/d3b/class_home_screen_aa638daca35ebc0708a2798dc5ac20c7c_cgraph">
-<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html#a44e49850b9047ab096154eebf0e841ce" title="If a child UI element overrides this, it must call this as well " alt="" coords="241,5,432,32"/>
+<div class="center"><img src="../../d4/d3b/class_home_screen_a1d82803094c99a6d65b09416a5aff11b_cgraph.png" border="0" usemap="#d4/d3b/class_home_screen_a1d82803094c99a6d65b09416a5aff11b_cgraph" alt=""/></div>
+<map name="d4/d3b/class_home_screen_a1d82803094c99a6d65b09416a5aff11b_cgraph" id="d4/d3b/class_home_screen_a1d82803094c99a6d65b09416a5aff11b_cgraph">
+<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html#a44e49850b9047ab096154eebf0e841ce" title="If a child UI element overrides this, it must call this as well " alt="" coords="224,5,415,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d4/d3b/class_home_screen_a1d82803094c99a6d65b09416a5aff11b_icgraph.png" border="0" usemap="#d4/d3b/class_home_screen_a1d82803094c99a6d65b09416a5aff11b_icgraph" alt=""/></div>
+<map name="d4/d3b/class_home_screen_a1d82803094c99a6d65b09416a5aff11b_icgraph" id="d4/d3b/class_home_screen_a1d82803094c99a6d65b09416a5aff11b_icgraph">
+<area shape="rect" id="node2" href="../../d4/d3b/class_home_screen.html#ae3a2750db361a176fa822444fca4e7c7" title="HomeScreen::HomeScreen" alt="" coords="224,5,404,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aaeb3e5563c55f92ab21891352fe95660"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaeb3e5563c55f92ab21891352fe95660">&#9670;&nbsp;</a></span>ProcessTouch()</h2>
 
@@ -311,11 +367,62 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d4/d3b/class_home_screen_a6982b67a9940279b909f3dda2faf1597_cgraph.png" border="0" usemap="#d4/d3b/class_home_screen_a6982b67a9940279b909f3dda2faf1597_cgraph" alt=""/></div>
 <map name="d4/d3b/class_home_screen_a6982b67a9940279b909f3dda2faf1597_cgraph" id="d4/d3b/class_home_screen_a6982b67a9940279b909f3dda2faf1597_cgraph">
-<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html#a92959c8ebf69189fbb1801858ff017ff" title="UIElement::UpdateChildren" alt="" coords="200,31,379,57"/>
-<area shape="rect" id="node3" href="../../d1/d4c/class_u_i_element.html#a629a30d56c359a4b65a6e9d8f7641d05" title="UIElement::UpdatePending" alt="" coords="427,5,605,32"/>
-<area shape="rect" id="node4" href="../../d1/d4c/class_u_i_element.html#ae7a76be901cacb3b87ec1637c5e22a6e" title="UIElement::Update" alt="" coords="451,56,581,83"/>
+<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html#a92959c8ebf69189fbb1801858ff017ff" title="UIElement::UpdateChildren" alt="" coords="200,5,379,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2e24b8b31826d307665ac4fe42da7f0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e24b8b31826d307665ac4fe42da7f0d">&#9670;&nbsp;</a></span>pageWindow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dab/class_u_i_window.html">UIWindow</a>* HomeScreen::pageWindow</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d22/_home_screen_8h_source.html#l00024">24</a> of file <a class="el" href="../../dd/d22/_home_screen_8h_source.html">HomeScreen.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00003">HomeScreen()</a>, and <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00012">~HomeScreen()</a>.</p>
+
+</div>
+</div>
+<a id="a01b36b6ecbebcc3460e646692f8b8efb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01b36b6ecbebcc3460e646692f8b8efb">&#9670;&nbsp;</a></span>settingsButton</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d95/class_settings_button.html">SettingsButton</a>* HomeScreen::settingsButton</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d22/_home_screen_8h_source.html#l00025">25</a> of file <a class="el" href="../../dd/d22/_home_screen_8h_source.html">HomeScreen.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00017">addButtons()</a>.</p>
 
 </div>
 </div>

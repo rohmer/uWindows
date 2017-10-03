@@ -1,13 +1,20 @@
 var searchData=
 [
-  ['v',['v',['../d9/d69/class_poly.html#ac9724b980191f0caaa7d1d8a236ec287',1,'Poly']]],
-  ['vertex2f',['Vertex2f',['../da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc',1,'GDClass']]],
-  ['vertex2ii',['Vertex2ii',['../da/df4/class_g_d_class.html#a5542c64ac184e165db1532c13fa05ecf',1,'GDClass']]],
-  ['vertexformat',['VertexFormat',['../da/df4/class_g_d_class.html#afbb12db41b3a6a89f3e8666a323ec2e0',1,'GDClass']]],
-  ['vertextranslatex',['VertexTranslateX',['../da/df4/class_g_d_class.html#af7809bb729772c571dfdaf1a781ade45',1,'GDClass']]],
-  ['vertextranslatey',['VertexTranslateY',['../da/df4/class_g_d_class.html#a33380b682fb6b9922629340028e96ad1',1,'GDClass']]],
-  ['vol',['vol',['../d7/d44/class_fat_file_system.html#a4ca68fe47bb675df0a80df1ed7a53698',1,'FatFileSystem']]],
-  ['volume',['volume',['../d3/d51/class_fat_file.html#ae813920a21860b25f25d95c934dada0f',1,'FatFile']]],
-  ['volumeblockcount',['volumeBlockCount',['../d9/d27/class_fat_volume.html#ada9f893c796559c132ef9da061f04a39',1,'FatVolume']]],
-  ['vwd',['vwd',['../d7/d44/class_fat_file_system.html#acf257d02b7166683bda2abc5058004bf',1,'FatFileSystem']]]
+  ['waitpoll',['waitPoll',['../dc/de9/class_driver_base.html#af2a230ddc771b751d53ae3f1f9339515',1,'DriverBase::waitPoll()'],['../d6/d63/class_f_t8_x_x_driver.html#a7720e9fb179e788f4013f510036adc40',1,'FT8XXDriver::waitPoll()'],['../d5/d20/class_adafruit___r_a8875.html#ad926379389b044ab1aca6a3d4e2c5afd',1,'Adafruit_RA8875::waitPoll()']]],
+  ['warn',['Warn',['../d3/d42/class_logger.html#a10e3c0f647678365b77770cfc3ec151d',1,'Logger']]],
+  ['width',['width',['../dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf',1,'DriverBase::width()'],['../d9/d97/class_adafruit___g_f_x.html#a324b5361e7198ef0e79eaf4c80bddfc7',1,'Adafruit_GFX::width()'],['../d5/d20/class_adafruit___r_a8875.html#ad305a724603e1030ec1bfe1a67327ed5',1,'Adafruit_RA8875::width()']]],
+  ['windowmanager',['WindowManager',['../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e',1,'WindowManager']]],
+  ['wr',['wr',['../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8',1,'GDClass::wr()'],['../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098',1,'GDTransport::wr(uint32_t a, uint8_t v)'],['../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098',1,'GDTransport::wr(uint32_t a, uint8_t v)'],['../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1',1,'GDTransport::wr(uint32_t addr, byte v)'],['../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1',1,'GDTransport::wr(uint32_t addr, byte v)']]],
+  ['wr16',['wr16',['../da/df4/class_g_d_class.html#ad8c68c4c916f9d0f2ff634b231cba7fa',1,'GDClass::wr16()'],['../d3/d2e/class_g_d_transport.html#a72d164a6f4b81e026e3c891732d61ad2',1,'GDTransport::wr16(uint32_t a, uint16_t v)'],['../d3/d2e/class_g_d_transport.html#a72d164a6f4b81e026e3c891732d61ad2',1,'GDTransport::wr16(uint32_t a, uint16_t v)'],['../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946',1,'GDTransport::wr16(uint32_t addr, uint32_t v)'],['../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946',1,'GDTransport::wr16(uint32_t addr, uint32_t v)']]],
+  ['wr32',['wr32',['../da/df4/class_g_d_class.html#ac82e0611ecfb01f867d354189cc2db98',1,'GDClass::wr32()'],['../d3/d2e/class_g_d_transport.html#a87d9c22767d132a692fe0f2e752023cd',1,'GDTransport::wr32(uint32_t a, uint32_t v)'],['../d3/d2e/class_g_d_transport.html#a87d9c22767d132a692fe0f2e752023cd',1,'GDTransport::wr32(uint32_t a, uint32_t v)'],['../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1',1,'GDTransport::wr32(uint32_t addr, unsigned long v)'],['../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1',1,'GDTransport::wr32(uint32_t addr, unsigned long v)']]],
+  ['wr_5fn',['wr_n',['../da/df4/class_g_d_class.html#afc8244eba617defce834eabf23d097d1',1,'GDClass::wr_n()'],['../d3/d2e/class_g_d_transport.html#a7afd83e738c52c0f045e4a6b6a3eeded',1,'GDTransport::wr_n(uint32_t addr, byte *src, uint16_t n)'],['../d3/d2e/class_g_d_transport.html#a102db2cff2ac65c36408ff20774d77a9',1,'GDTransport::wr_n(uint32_t addr, byte *src, uint32_t n)'],['../d3/d2e/class_g_d_transport.html#a7afd83e738c52c0f045e4a6b6a3eeded',1,'GDTransport::wr_n(uint32_t addr, byte *src, uint16_t n)']]],
+  ['write',['write',['../d9/d97/class_adafruit___g_f_x.html#af4978ea0cf0c0b0540567e82d8fa9900',1,'Adafruit_GFX']]],
+  ['writecommand',['writeCommand',['../dc/de9/class_driver_base.html#a796457b4029ec107aac4b1c8bf776e00',1,'DriverBase::writeCommand()'],['../d6/d63/class_f_t8_x_x_driver.html#a3d9921e09fcd5de81edaa7c0c0a7b4c8',1,'FT8XXDriver::writeCommand()'],['../d5/d20/class_adafruit___r_a8875.html#a65c88e13691db0d8cae5b5e32883268e',1,'Adafruit_RA8875::writeCommand()']]],
+  ['writedata',['writeData',['../dc/de9/class_driver_base.html#aee7d05f201b5d3cc56898d67a4108071',1,'DriverBase::writeData()'],['../d6/d63/class_f_t8_x_x_driver.html#a1feb4a6364da068ce081a7f0c654f256',1,'FT8XXDriver::writeData()'],['../d5/d20/class_adafruit___r_a8875.html#ada2fe2eaba6203691b422c0f561c8a94',1,'Adafruit_RA8875::writeData()']]],
+  ['writefasthline',['writeFastHLine',['../d9/d97/class_adafruit___g_f_x.html#ad85469e8be73f90932058fba1d4e5cbd',1,'Adafruit_GFX']]],
+  ['writefastvline',['writeFastVLine',['../d9/d97/class_adafruit___g_f_x.html#ae12d09670433af17e666a203b51715f7',1,'Adafruit_GFX']]],
+  ['writefillrect',['writeFillRect',['../d9/d97/class_adafruit___g_f_x.html#a60133faeabc10f9d909674bc4c5aabc6',1,'Adafruit_GFX']]],
+  ['writeline',['writeLine',['../d9/d97/class_adafruit___g_f_x.html#ae1e5204b9251a04a57c821f69a8e638b',1,'Adafruit_GFX']]],
+  ['writepixel',['writePixel',['../d9/d97/class_adafruit___g_f_x.html#ab66a1577ec595a254e4492d641b36fd8',1,'Adafruit_GFX']]],
+  ['writereg',['writeReg',['../dc/de9/class_driver_base.html#a83477b7c9843d3bf89b3dc0d77a81445',1,'DriverBase::writeReg()'],['../d6/d63/class_f_t8_x_x_driver.html#af06eaaaa75d09347b2711bc28700dbba',1,'FT8XXDriver::writeReg()'],['../d5/d20/class_adafruit___r_a8875.html#a2e6a3f2fd43716ddb5c279e0a456369f',1,'Adafruit_RA8875::writeReg()']]]
 ];

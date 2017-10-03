@@ -2,6 +2,7 @@
 <area shape="rect" id="node2" href="$d6/d63/class_f_t8_x_x_driver.html#a84979b3f6473f7c796937f71ebbaabf0" title="FT8XXDriver::fillQuad" alt="" coords="121,5,263,32"/>
 <area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a9a359931a69e62d655416c360416d821" title="FT8XXDriver::fillTriangle" alt="" coords="115,56,269,83"/>
 <area shape="rect" id="node5" href="$d5/deb/class_u_i_primitives.html#aa546a0792e7b77249895a4734e841705" title="UIPrimitives::Polygon" alt="" coords="119,107,265,133"/>
-<area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="317,5,480,32"/>
-<area shape="rect" id="node6" href="$d9/d3f/class_compass.html#a08c2b2cc24d4520eecdc7a907e350472" title="Compass::Draw" alt="" coords="341,107,456,133"/>
+<area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="343,5,506,32"/>
+<area shape="rect" id="node6" href="$d9/d3f/class_compass.html#ab76221b999430e61e70fac05e3b05d2a" title="Compass::Draw" alt="" coords="580,107,695,133"/>
+<area shape="rect" id="node7" href="$d9/d3f/class_compass.html#a910df31bab81ae68eb91e667cbea71b7" title="Compass::DrawCompassTriangle" alt="" coords="317,132,532,159"/>
 </map>

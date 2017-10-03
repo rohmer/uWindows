@@ -1,12 +1,12 @@
 <map id="UIElements/FT8XX/UIPrimitives.h" name="UIElements/FT8XX/UIPrimitives.h">
-<area shape="rect" id="node2" href="$d4/dbb/_options_8h.html" title="../../Options.h" alt="" coords="323,393,425,420"/>
-<area shape="rect" id="node4" href="$df/de7/_g_d3_8h.html" title="../../External/GD3\l/GD3.h" alt="" coords="45,304,169,345"/>
-<area shape="rect" id="node7" href="$de/d9a/_f_t8_x_x_2_fonts_8h.html" title="Fonts.h" alt="" coords="311,229,378,256"/>
-<area shape="rect" id="node10" href="$d9/d86/_font_helper_8h.html" title="../../Utility/FontHelper.h" alt="" coords="542,80,699,107"/>
-<area shape="rect" id="node11" href="$d9/df8/_color_8h.html" title="../Utility/Color.h" alt="" coords="681,229,793,256"/>
-<area shape="rect" id="node16" href="$db/def/_rectangle_8h.html" title="../Utility/Rectangle.h" alt="" coords="841,155,981,181"/>
-<area shape="rect" id="node18" href="$dd/db4/_driver_base_8h.html" title="../Driver/DriverBase.h" alt="" coords="433,155,576,181"/>
-<area shape="rect" id="node9" href="$da/dcd/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular12_8h.html" title="Fonts\\aileronRegular12.h" alt="" coords="324,311,491,338"/>
-<area shape="rect" id="node13" href="$d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="809,311,881,338"/>
-<area shape="rect" id="node17" href="$d1/d18/_point_8h.html" title="Point.h" alt="" coords="868,229,931,256"/>
+<area shape="rect" id="node2" href="$d4/dbb/_options_8h.html" title="../../Options.h" alt="" coords="393,393,495,420"/>
+<area shape="rect" id="node3" href="$df/de7/_g_d3_8h.html" title="../../External/GD3\l/GD3.h" alt="" coords="29,304,153,345"/>
+<area shape="rect" id="node7" href="$de/d9a/_f_t8_x_x_2_fonts_8h.html" title="Fonts.h" alt="" coords="357,229,424,256"/>
+<area shape="rect" id="node10" href="$d9/d86/_font_helper_8h.html" title="../../Utility/FontHelper.h" alt="" coords="639,80,796,107"/>
+<area shape="rect" id="node11" href="$d9/df8/_color_8h.html" title="../Utility/Color.h" alt="" coords="689,229,801,256"/>
+<area shape="rect" id="node16" href="$db/def/_rectangle_8h.html" title="../Utility/Rectangle.h" alt="" coords="881,155,1021,181"/>
+<area shape="rect" id="node19" href="$dd/db4/_driver_base_8h.html" title="../Driver/DriverBase.h" alt="" coords="479,155,622,181"/>
+<area shape="rect" id="node9" href="$da/dcd/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular12_8h.html" title="Fonts\\aileronRegular12.h" alt="" coords="358,311,525,338"/>
+<area shape="rect" id="node13" href="$d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="843,311,915,338"/>
+<area shape="rect" id="node17" href="$d1/d18/_point_8h.html" title="Point.h" alt="" coords="927,229,990,256"/>
 </map>

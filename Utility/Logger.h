@@ -1,10 +1,12 @@
 #pragma once
+#include "Arduino.h"
 #include <string>
 #include <sstream>
-#include "Arduino.h"
-
 #undef max
 #undef min
+
+
+
 
 #ifndef LOGGING_ENABLED
 class Logger

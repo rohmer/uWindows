@@ -1,13 +1,18 @@
 <map id="GDTransport::flush" name="GDTransport::flush">
 <area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a1eb81651848842f44589b96c5c8dbc66" title="GDClass::flush" alt="" coords="209,44,318,71"/>
-<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a8acf25f7ec2ba64c1dd9923623846a9f" title="GDClass::self_calibrate" alt="" coords="184,95,343,121"/>
-<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="207,145,319,172"/>
+<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a8acf25f7ec2ba64c1dd9923623846a9f" title="GDClass::self_calibrate" alt="" coords="184,95,343,121"/>
+<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="207,145,319,172"/>
 <area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="419,44,533,71"/>
 <area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="609,5,776,32"/>
 <area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="635,56,750,83"/>
-<area shape="rect" id="node8" href="$d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="391,145,561,172"/>
-<area shape="rect" id="node9" href="$d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="611,132,774,159"/>
-<area shape="rect" id="node10" href="$d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="609,183,776,209"/>
-<area shape="rect" id="node11" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="1083,183,1257,209"/>
-<area shape="rect" id="node12" href="$d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="824,208,1035,235"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="824,56,1047,83"/>
+<area shape="rect" id="node7" href="$d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1113,56,1287,83"/>
+<area shape="rect" id="node10" href="$d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="391,145,561,172"/>
+<area shape="rect" id="node11" href="$d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="611,132,774,159"/>
+<area shape="rect" id="node12" href="$d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="609,183,776,209"/>
+<area shape="rect" id="node13" href="$d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1612,201,1819,242"/>
+<area shape="rect" id="node14" href="$d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="825,208,1045,235"/>
+<area shape="rect" id="node15" href="$d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="1095,208,1305,235"/>
+<area shape="rect" id="node17" href="$d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1360,285,1557,326"/>
+<area shape="rect" id="node16" href="$d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1353,233,1564,260"/>
 </map>

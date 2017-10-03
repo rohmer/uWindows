@@ -1,0 +1,5 @@
+<map id="ConfigRam::get_SDA" name="ConfigRam::get_SDA">
+<area shape="rect" id="node2" href="$d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="199,13,341,39"/>
+<area shape="rect" id="node3" href="$d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="389,13,532,39"/>
+<area shape="rect" id="node4" href="$d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="580,5,721,47"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="Compass::Draw" name="Compass::Draw">
+<area shape="rect" id="node2" href="$d9/d3f/class_compass.html#af40772c8dffa22ccf75931c63a57c705" title="Compass::angleMath" alt="" coords="441,8,587,35"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="457,176,571,203"/>
+<area shape="rect" id="node4" href="$d5/d68/struct_rectangle.html#ae37da421890786fee5031b2b37eaba6b" title="Rectangle::center" alt="" coords="213,619,337,646"/>
+<area shape="rect" id="node5" href="$d5/deb/class_u_i_primitives.html#a8aafc219700ddc05ca0fa888805c0522" title="UIPrimitives::CircleFlat" alt="" coords="199,303,352,330"/>
+<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="645,404,785,431"/>
+<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="449,379,579,406"/>
+<area shape="rect" id="node10" href="$d9/ddd/class_color.html#a40104c328d8148bd906b902f29aa799a" title="Color::ContrastingColor" alt="" coords="197,670,353,696"/>
+<area shape="rect" id="node11" href="$d9/d3f/class_compass.html#aafda6e994e1e1d0649d55a561578ad63" title="Compass::degrees_to\l_radian" alt="" coords="439,60,589,101"/>
+<area shape="rect" id="node12" href="$d9/d3f/class_compass.html#a910df31bab81ae68eb91e667cbea71b7" title="Compass::DrawCompassTriangle" alt="" coords="168,122,383,148"/>
+<area shape="rect" id="node13" href="$d5/deb/class_u_i_primitives.html#aa546a0792e7b77249895a4734e841705" title="UIPrimitives::Polygon" alt="" coords="441,126,587,152"/>
+<area shape="rect" id="node20" href="$d4/d96/class_font_helper.html#a73c19d5c6909ad334efd782446835f05" title="FontHelper::GetTextRect" alt="" coords="431,632,597,659"/>
+<area shape="rect" id="node21" href="$da/df4/class_g_d_class.html#a4139b47a6859cce023afe504ae89b1ad" title="GDClass::LineWidth" alt="" coords="205,720,345,747"/>
+<area shape="rect" id="node22" href="$d5/deb/class_u_i_primitives.html#a11ff2d3dcd855c73177dca55c2f1d434" title="UIPrimitives::Text" alt="" coords="214,518,337,544"/>
+<area shape="rect" id="node24" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="225,771,326,798"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a633c344df45d3ac7483a8615160552f3" title="GDClass::PointSize" alt="" coords="445,278,583,304"/>
+<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="655,227,776,254"/>
+<area shape="rect" id="node14" href="$d9/d69/class_poly.html#ad0dd1e12fa2a59df2828ef8a72b0a662" title="Poly::begin" alt="" coords="672,126,759,152"/>
+<area shape="rect" id="node18" href="$d9/d69/class_poly.html#ac9724b980191f0caaa7d1d8a236ec287" title="Poly::v" alt="" coords="685,176,746,203"/>
+<area shape="rect" id="node19" href="$d9/d69/class_poly.html#a230f862349603bd2a324887aac6f30ad" title="Poly::draw" alt="" coords="674,75,757,102"/>
+<area shape="rect" id="node15" href="$da/df4/class_g_d_class.html#a35be1f2003e7e8b393d3e1899f2cf133" title="GDClass::ColorMask" alt="" coords="837,75,981,102"/>
+<area shape="rect" id="node16" href="$da/df4/class_g_d_class.html#ace31572ddd6acd80500ab07a0a489161" title="GDClass::StencilOp" alt="" coords="839,126,978,152"/>
+<area shape="rect" id="node17" href="$da/df4/class_g_d_class.html#a0b326431c88aaac15cc3aff4f61e58ab" title="GDClass::StencilFunc" alt="" coords="833,176,984,203"/>
+<area shape="rect" id="node23" href="$da/df4/class_g_d_class.html#a8af7d326a481930f04f38882987da67b" title="GDClass::cmd_text" alt="" coords="446,531,582,558"/>
+</map>

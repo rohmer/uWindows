@@ -1,7 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$d9/d97/class_adafruit___g_f_x.html" title="Adafruit_GFX" alt="" coords="107,56,206,83"/>
-<area shape="rect" id="node6" href="$d0/dcb/class_minimum_serial.html" title="mini serial class for the SdFat library. " alt="" coords="103,107,211,133"/>
-<area shape="rect" id="node3" href="$d5/d20/class_adafruit___r_a8875.html" title="Adafruit_RA8875" alt="" coords="259,5,377,32"/>
-<area shape="rect" id="node4" href="$dc/db3/class_g_f_xcanvas1.html" title="GFXcanvas1" alt="" coords="271,56,365,83"/>
-<area shape="rect" id="node5" href="$d2/de2/class_g_f_xcanvas16.html" title="GFXcanvas16" alt="" coords="267,107,369,133"/>
+<area shape="rect" id="node2" href="$d9/d97/class_adafruit___g_f_x.html" title="Adafruit_GFX" alt="" coords="103,56,201,83"/>
+<area shape="rect" id="node3" href="$d5/d20/class_adafruit___r_a8875.html" title="Adafruit_RA8875" alt="" coords="249,5,368,32"/>
+<area shape="rect" id="node4" href="$dc/db3/class_g_f_xcanvas1.html" title="GFXcanvas1" alt="" coords="261,56,356,83"/>
+<area shape="rect" id="node5" href="$d2/de2/class_g_f_xcanvas16.html" title="GFXcanvas16" alt="" coords="258,107,359,133"/>
 </map>

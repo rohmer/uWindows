@@ -1,0 +1,8 @@
+<map id="Adafruit_RA8875::fillScreen" name="Adafruit_RA8875::fillScreen">
+<area shape="rect" id="node2" href="$d5/d20/class_adafruit___r_a8875.html#a10d159e5ec27ce8bb55620b540bd38d6" title="Adafruit_RA8875::rectHelper" alt="" coords="233,31,420,57"/>
+<area shape="rect" id="node3" href="$d5/d20/class_adafruit___r_a8875.html#a65c88e13691db0d8cae5b5e32883268e" title="Adafruit_RA8875::writeCommand" alt="" coords="920,5,1133,32"/>
+<area shape="rect" id="node4" href="$d5/d20/class_adafruit___r_a8875.html#ada2fe2eaba6203691b422c0f561c8a94" title="Adafruit_RA8875::writeData" alt="" coords="468,31,649,57"/>
+<area shape="rect" id="node5" href="$d5/d20/class_adafruit___r_a8875.html#ad926379389b044ab1aca6a3d4e2c5afd" title="Adafruit_RA8875::waitPoll" alt="" coords="473,81,645,108"/>
+<area shape="rect" id="node6" href="$d5/d20/class_adafruit___r_a8875.html#acff25414ab909c1c2dc7b5bf505fb2cf" title="Adafruit_RA8875::readReg" alt="" coords="697,68,872,95"/>
+<area shape="rect" id="node7" href="$d5/d20/class_adafruit___r_a8875.html#a7771753841f0390793b69421ef86ffb6" title="Adafruit_RA8875::readData" alt="" coords="937,68,1116,95"/>
+</map>

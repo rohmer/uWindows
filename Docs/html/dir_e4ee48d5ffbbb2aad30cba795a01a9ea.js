@@ -6,7 +6,7 @@ var dir_e4ee48d5ffbbb2aad30cba795a01a9ea =
     [ "UIPages", "dir_db15df2eec2c285f1095eee1464cd20a.html", "dir_db15df2eec2c285f1095eee1464cd20a" ],
     [ "UIActiveButton.cpp", "da/db1/_u_i_active_button_8cpp.html", null ],
     [ "UIActiveButton.h", "df/d6c/_u_i_active_button_8h.html", [
-      [ "UIActiveButton", "d1/d0d/class_u_i_active_button.html", null ]
+      [ "UIActiveButton", "d1/d0d/class_u_i_active_button.html", "d1/d0d/class_u_i_active_button" ]
     ] ],
     [ "UIButton.cpp", "d9/dd1/_u_i_button_8cpp.html", null ],
     [ "UIButton.h", "d8/d27/_u_i_button_8h.html", [

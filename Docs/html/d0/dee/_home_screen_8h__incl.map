@@ -1,19 +1,19 @@
 <map id="UIElements/UIPages/HomeScreen.h" name="UIElements/UIPages/HomeScreen.h">
-<area shape="rect" id="node2" href="$d4/dbb/_options_8h.html" title="../../Options.h" alt="" coords="946,721,1049,748"/>
-<area shape="rect" id="node3" href="$d3/d30/_u_i_window_8h.html" title="../UIWindow.h" alt="" coords="133,169,235,196"/>
-<area shape="rect" id="node26" href="$dc/d2a/_settings_button_8h.html" title="SettingsButton.h" alt="" coords="1217,95,1335,121"/>
-<area shape="rect" id="node6" href="$d6/d17/_u_i_element_8h.html" title="UIElement.h" alt="" coords="317,244,411,271"/>
-<area shape="rect" id="node8" href="$db/def/_rectangle_8h.html" title="../Utility/Rectangle.h" alt="" coords="195,468,335,495"/>
-<area shape="rect" id="node10" href="$d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="71,639,143,666"/>
-<area shape="rect" id="node25" href="$de/d42/_window_8h.html" title="ControlDisplay/Window.h" alt="" coords="563,244,730,271"/>
-<area shape="rect" id="node13" href="$dd/db4/_driver_base_8h.html" title="../Driver/DriverBase.h" alt="" coords="513,468,655,495"/>
-<area shape="rect" id="node22" href="$d1/d90/_f_t8_x_x_2_u_i_primitives_8h.html" title="FT8XX/UIPrimitives.h" alt="" coords="727,319,868,345"/>
-<area shape="rect" id="node9" href="$d1/d18/_point_8h.html" title="Point.h" alt="" coords="246,550,309,577"/>
-<area shape="rect" id="node15" href="$d9/df8/_color_8h.html" title="../Utility/Color.h" alt="" coords="688,550,800,577"/>
-<area shape="rect" id="node17" href="$de/d9a/_f_t8_x_x_2_fonts_8h.html" title="../UIElements/FT8XX\l/Fonts.h" alt="" coords="876,543,1017,584"/>
-<area shape="rect" id="node19" href="$df/de7/_g_d3_8h.html" title="../../External/GD3\l/GD3.h" alt="" coords="1247,632,1371,673"/>
-<area shape="rect" id="node21" href="$da/dcd/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular12_8h.html" title="Fonts\\aileronRegular12.h" alt="" coords="954,639,1121,666"/>
-<area shape="rect" id="node24" href="$d9/d86/_font_helper_8h.html" title="../../Utility/FontHelper.h" alt="" coords="701,393,859,420"/>
-<area shape="rect" id="node27" href="$d0/d61/_icon_button_8h.html" title="../ControlDisplay/IconButton.h" alt="" coords="797,169,992,196"/>
-<area shape="rect" id="node28" href="$df/d67/_u_i_elements_2_u_i_pages_2_icons_8h.html" title="Icons.h" alt="" coords="1244,169,1308,196"/>
+<area shape="rect" id="node2" href="$d4/dbb/_options_8h.html" title="../../Options.h" alt="" coords="207,721,310,748"/>
+<area shape="rect" id="node3" href="$d3/d30/_u_i_window_8h.html" title="../UIWindow.h" alt="" coords="981,169,1083,196"/>
+<area shape="rect" id="node27" href="$dc/d2a/_settings_button_8h.html" title="SettingsButton.h" alt="" coords="66,95,185,121"/>
+<area shape="rect" id="node6" href="$d6/d17/_u_i_element_8h.html" title="UIElement.h" alt="" coords="935,244,1028,271"/>
+<area shape="rect" id="node8" href="$db/def/_rectangle_8h.html" title="../Utility/Rectangle.h" alt="" coords="891,468,1031,495"/>
+<area shape="rect" id="node10" href="$d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="1157,639,1229,666"/>
+<area shape="rect" id="node26" href="$de/d42/_window_8h.html" title="ControlDisplay/Window.h" alt="" coords="679,244,846,271"/>
+<area shape="rect" id="node14" href="$dd/db4/_driver_base_8h.html" title="../Driver/DriverBase.h" alt="" coords="297,468,439,495"/>
+<area shape="rect" id="node24" href="$d1/d90/_f_t8_x_x_2_u_i_primitives_8h.html" title="FT8XX/UIPrimitives.h" alt="" coords="675,319,816,345"/>
+<area shape="rect" id="node9" href="$d1/d18/_point_8h.html" title="Point.h" alt="" coords="886,550,949,577"/>
+<area shape="rect" id="node16" href="$d9/df8/_color_8h.html" title="../Utility/Color.h" alt="" coords="381,550,493,577"/>
+<area shape="rect" id="node18" href="$de/d9a/_f_t8_x_x_2_fonts_8h.html" title="../UIElements/FT8XX\l/Fonts.h" alt="" coords="568,543,709,584"/>
+<area shape="rect" id="node20" href="$df/de7/_g_d3_8h.html" title="../../External/GD3\l/GD3.h" alt="" coords="886,632,1010,673"/>
+<area shape="rect" id="node23" href="$da/dcd/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_regular12_8h.html" title="Fonts\\aileronRegular12.h" alt="" coords="643,639,810,666"/>
+<area shape="rect" id="node25" href="$d9/d86/_font_helper_8h.html" title="../../Utility/FontHelper.h" alt="" coords="536,393,693,420"/>
+<area shape="rect" id="node28" href="$d0/d61/_icon_button_8h.html" title="../ControlDisplay/IconButton.h" alt="" coords="181,169,376,196"/>
+<area shape="rect" id="node29" href="$df/d67/_u_i_elements_2_u_i_pages_2_icons_8h.html" title="Icons.h" alt="" coords="93,169,157,196"/>
 </map>

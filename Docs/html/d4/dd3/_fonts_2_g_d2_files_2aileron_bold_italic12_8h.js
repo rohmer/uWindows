@@ -5,5 +5,7 @@ var _fonts_2_g_d2_files_2aileron_bold_italic12_8h =
     [ "AILERON_BOLDITALIC_HEIGHT", "d4/dd3/_fonts_2_g_d2_files_2aileron_bold_italic12_8h.html#aab744c73501d933d6be4a9d88a7a2853", null ],
     [ "AILERON_BOLDITALIC_WIDTH", "d4/dd3/_fonts_2_g_d2_files_2aileron_bold_italic12_8h.html#a04453ab1adc6d141cf9a452affc3cdf3", null ],
     [ "ASSETS_END", "d4/dd3/_fonts_2_g_d2_files_2aileron_bold_italic12_8h.html#a00844751c174aab3075f895bdf85390b", null ],
-    [ "LOAD_ASSETS", "d4/dd3/_fonts_2_g_d2_files_2aileron_bold_italic12_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ]
+    [ "LOAD_ASSETS", "d4/dd3/_fonts_2_g_d2_files_2aileron_bold_italic12_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ],
+    [ "__assets", "d4/dd3/_fonts_2_g_d2_files_2aileron_bold_italic12_8h.html#aa4d1e0b73746d9d7c846ff804c7317dd", null ],
+    [ "AILERON_BOLDITALIC_SHAPE", "d4/dd3/_fonts_2_g_d2_files_2aileron_bold_italic12_8h.html#a059e371e7371f42aac25005719153573", null ]
 ];

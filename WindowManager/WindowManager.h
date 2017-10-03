@@ -35,6 +35,10 @@ class WindowManager
 public:
 	static WindowManager *instance()
 	{
+		if (!s_instance)
+		{
+			s_instance = new WindowManager(10, 9);
+		}
 		return s_instance;
 	}
 
@@ -48,10 +52,14 @@ public:
 		}
 		return s_instance;
 	}
-
+	sTouchResponse GetLastTouchEvent()
+	{
+		return lastTouchEvent;
+	}
 	void MoveControlToFront(unsigned long controlID);
 	void DeleteElement(unsigned long elementID);
-	
+	void ClearElements();
+
 	void RegisterElement(UIElement *element);
 
 	void Update();
@@ -84,8 +92,7 @@ private:
 	static WindowManager *s_instance;
 	WindowManager(const uint8_t cs, const uint8_t rst = 255, const uint8_t mosi = 11,
 		const uint8_t sclk = 13, const uint8_t miso = 12, eLCDSizes lcdSize = eLCDSizes::lcd800x480);
-
-	
+		
 	~WindowManager();
 	void processTouch();
 	void updatePowerTriggerTime();

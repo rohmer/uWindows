@@ -96,9 +96,9 @@ Inheritance diagram for Adafruit_GFX:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../df/d49/class_adafruit___g_f_x__inherit__graph.png" border="0" usemap="#_adafruit___g_f_x_inherit__map" alt="Inheritance graph"/></div>
 <map name="_adafruit___g_f_x_inherit__map" id="_adafruit___g_f_x_inherit__map">
-<area shape="rect" id="node3" href="../../d5/d20/class_adafruit___r_a8875.html" title="{Adafruit_RA8875\n||+ Adafruit_RA8875()\l+ begin()\l+ softReset()\l+ displayOn()\l+ sleep()\l+ textMode()\l+ textSetCursor()\l+ textColor()\l+ textTransparent()\l+ textEnlarge()\land 38 more...\l}" alt="" coords="5,579,144,803"/>
-<area shape="rect" id="node4" href="../../dc/db3/class_g_f_xcanvas1.html" title="{GFXcanvas1\n||+ GFXcanvas1()\l+ ~GFXcanvas1()\l+ drawPixel()\l+ fillScreen()\l+ getBuffer()\l}" alt="" coords="168,623,291,759"/>
-<area shape="rect" id="node5" href="../../d2/de2/class_g_f_xcanvas16.html" title="{GFXcanvas16\n||}" alt="" coords="315,652,416,729"/>
+<area shape="rect" id="node3" href="../../d5/d20/class_adafruit___r_a8875.html" title="{Adafruit_RA8875\n|&#45; _cs\l&#45; _rst\l&#45; _width\l&#45; _height\l&#45; _textScale\l&#45; _size\l|+ Adafruit_RA8875()\l+ begin()\l+ softReset()\l+ displayOn()\l+ sleep()\l+ textMode()\l+ textSetCursor()\l+ textColor()\l+ textTransparent()\l+ textEnlarge()\land 38 more...\l&#45; PLLinit()\l&#45; initialize()\l&#45; circleHelper()\l&#45; rectHelper()\l&#45; triangleHelper()\l&#45; ellipseHelper()\l&#45; curveHelper()\l}" alt="" coords="5,579,144,979"/>
+<area shape="rect" id="node4" href="../../dc/db3/class_g_f_xcanvas1.html" title="{GFXcanvas1\n|&#45; buffer\l|+ GFXcanvas1()\l+ ~GFXcanvas1()\l+ drawPixel()\l+ fillScreen()\l+ getBuffer()\l}" alt="" coords="168,711,291,847"/>
+<area shape="rect" id="node5" href="../../d2/de2/class_g_f_xcanvas16.html" title="{GFXcanvas16\n|&#45; buffer\l|&#45; GFXcanvas16()\l&#45; ~GFXcanvas16()\l&#45; drawPixel()\l&#45; fillScreen()\l&#45; getBuffer()\l&#45; returnPixel()\l}" alt="" coords="315,703,440,854"/>
 </map>
 </div>
 <div class="dynheader">
@@ -191,7 +191,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aeeacd62bf26f3e7abbdc4b5b50faa6fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d447fe274e3f0ff12f12afa538d0afe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_adafruit___g_f_x.html#a6d447fe274e3f0ff12f12afa538d0afe">cp437</a> (boolean x=true)</td></tr>
 <tr class="separator:a6d447fe274e3f0ff12f12afa538d0afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0479a2bb4e09e7c39c35e35c55d6ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_adafruit___g_f_x.html#ab0479a2bb4e09e7c39c35e35c55d6ed1">setFont</a> (const <a class="el" href="../../d3/d58/struct_g_f_xfont.html">GFXfont</a> *f=<a class="el" href="../../da/d2d/_stdio_stream_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
+<tr class="memitem:ab0479a2bb4e09e7c39c35e35c55d6ed1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_adafruit___g_f_x.html#ab0479a2bb4e09e7c39c35e35c55d6ed1">setFont</a> (const <a class="el" href="../../d3/d58/struct_g_f_xfont.html">GFXfont</a> *f=NULL)</td></tr>
 <tr class="separator:ab0479a2bb4e09e7c39c35e35c55d6ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae423f4ae1a64f33c006df18502b3f606"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d97/class_adafruit___g_f_x.html#ae423f4ae1a64f33c006df18502b3f606">getTextBounds</a> (char *string, int16_t x, int16_t y, int16_t *x1, int16_t *y1, uint16_t *w, uint16_t *h)</td></tr>
 <tr class="separator:ae423f4ae1a64f33c006df18502b3f606"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,19 +269,9 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">73</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">69</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">_cp437</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_x</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_y</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">gfxFont</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00118">HEIGHT</a>, <a class="el" href="../../da/d2d/_stdio_stream_8h_source.html#l00087">NULL</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">rotation</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textbgcolor</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textcolor</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">textsize</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00118">WIDTH</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">wrap</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01127">GFXcanvas1::fillScreen()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d9/d97/class_adafruit___g_f_x_a6f6f1abccf677eac244fa17d105133ea_icgraph.png" border="0" usemap="#d9/d97/class_adafruit___g_f_x_a6f6f1abccf677eac244fa17d105133ea_icgraph" alt=""/></div>
-<map name="d9/d97/class_adafruit___g_f_x_a6f6f1abccf677eac244fa17d105133ea_icgraph" id="d9/d97/class_adafruit___g_f_x_a6f6f1abccf677eac244fa17d105133ea_icgraph">
-<area shape="rect" id="node2" href="../../dc/db3/class_g_f_xcanvas1.html#aa282792bbb854a4a045be5ba1c8a7afc" title="GFXcanvas1::fillScreen" alt="" coords="236,5,391,32"/>
-</map>
-</div>
+<p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">_cp437</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_x</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_y</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">gfxFont</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00118">HEIGHT</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">rotation</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textbgcolor</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textcolor</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">textsize</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00118">WIDTH</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">wrap</a>.</p>
 
 </div>
 </div>
@@ -302,7 +292,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00776">776</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00772">772</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">_cp437</a>.</p>
 
@@ -368,9 +358,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00475">475</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00471">471</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -451,9 +441,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00495">495</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00491">491</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -518,9 +508,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00514">514</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00510">510</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -591,9 +581,9 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00532">532</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00528">528</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -658,11 +648,11 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">571</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">567</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">_cp437</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00018">GFXfont::bitmap</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00011">GFXglyph::bitmapOffset</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::first</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">gfxFont</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00019">GFXfont::glyph</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::height</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00060">pgm_read_pointer</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00050">pgm_read_word</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::width</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00168">writeFillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::xOffset</a>, and <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::yOffset</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">_cp437</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00018">GFXfont::bitmap</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00011">GFXglyph::bitmapOffset</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::first</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">gfxFont</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00019">GFXfont::glyph</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::height</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00060">pgm_read_pointer</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00050">pgm_read_word</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::width</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00164">writeFillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::xOffset</a>, and <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::yOffset</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -730,9 +720,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00231">231</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00227">227</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -801,11 +791,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00267">267</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00263">263</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00354">drawRoundRect()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00350">drawRoundRect()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -865,11 +855,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00190">190</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00186">186</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00099">writeLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00095">writeLine()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00213">drawLine()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00160">writeFastHLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00209">drawLine()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00156">writeFastHLine()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -947,11 +937,11 @@ Here is the caller graph for this function:</div>
 
 <p>Reimplemented in <a class="el" href="../../d5/d20/class_adafruit___r_a8875.html#a220058cb510ac11f659b002e17cedaac">Adafruit_RA8875</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00180">180</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00176">176</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00099">writeLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00095">writeLine()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00213">drawLine()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00150">writeFastVLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00209">drawLine()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00146">writeFastVLine()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1032,11 +1022,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00213">213</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00209">209</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00070">_swap_int16_t</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00190">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00180">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00099">writeLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00066">_swap_int16_t</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00186">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00176">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00095">writeLine()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00384">drawTriangle()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00380">drawTriangle()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1103,9 +1093,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../dc/db3/class_g_f_xcanvas1.html#a0859d124c8dcaa147ef22a54d6e843a8">GFXcanvas1</a>, and <a class="el" href="../../d5/d20/class_adafruit___r_a8875.html#a0823c85097d1383ceb8b0b11c9c44e8d">Adafruit_RA8875</a>.</p>
+<p>Implemented in <a class="el" href="../../d2/de2/class_g_f_xcanvas16.html#ade30ed51e7dd07be0436b4f9407b6fd8">GFXcanvas16</a>, <a class="el" href="../../dc/db3/class_g_f_xcanvas1.html#a0859d124c8dcaa147ef22a54d6e843a8">GFXcanvas1</a>, and <a class="el" href="../../d5/d20/class_adafruit___r_a8875.html#a0823c85097d1383ceb8b0b11c9c44e8d">Adafruit_RA8875</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1184,9 +1174,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00343">343</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00339">339</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00160">writeFastHLine()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00150">writeFastVLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00156">writeFastHLine()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00146">writeFastVLine()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -1266,9 +1256,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00354">354</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00350">350</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00267">drawCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00160">writeFastHLine()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00150">writeFastVLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00263">drawCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00156">writeFastHLine()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00146">writeFastVLine()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -1355,9 +1345,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00384">384</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00380">380</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00213">drawLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00209">drawLine()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -1436,9 +1426,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00553">553</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00549">549</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -1487,9 +1477,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">174</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">170</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00475">drawBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00231">drawCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00190">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00180">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00213">drawLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00343">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00354">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00553">drawXBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00303">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00198">fillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00371">fillRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00392">fillTriangle()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00471">drawBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00227">drawCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00186">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00176">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00209">drawLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00339">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00350">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00549">drawXBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00299">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00194">fillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00367">fillRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00388">fillTriangle()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -1559,9 +1549,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00303">303</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00299">299</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00312">fillCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00150">writeFastVLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00308">fillCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00146">writeFastVLine()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -1640,11 +1630,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00312">312</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00308">308</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00150">writeFastVLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00146">writeFastVLine()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00303">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00371">fillRoundRect()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00299">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00367">fillRoundRect()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1716,11 +1706,11 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00198">198</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00194">194</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00150">writeFastVLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00146">writeFastVLine()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00208">fillScreen()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00168">writeFillRect()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00204">fillScreen()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00164">writeFillRect()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1801,9 +1791,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00371">371</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00367">367</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00312">fillCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00168">writeFillRect()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00308">fillCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00164">writeFillRect()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -1850,9 +1840,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00208">208</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00204">204</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00198">fillRect()</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00194">fillRect()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -1937,9 +1927,9 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00392">392</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00388">388</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00070">_swap_int16_t</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00160">writeFastHLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00066">_swap_int16_t</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00156">writeFastHLine()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -1983,7 +1973,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00722">722</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00718">718</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_x</a>.</p>
 
@@ -2015,7 +2005,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00726">726</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00722">722</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_y</a>.</p>
 
@@ -2076,7 +2066,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">749</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00745">745</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">rotation</a>.</p>
 
@@ -2148,7 +2138,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00796">796</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00792">792</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::first</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">gfxFont</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00019">GFXfont::glyph</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::height</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::last</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00060">pgm_read_pointer</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">textsize</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::width</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">wrap</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00013">GFXglyph::xAdvance</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::xOffset</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00021">GFXfont::yAdvance</a>, and <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::yOffset</a>.</p>
 
@@ -2220,7 +2210,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00886">886</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00882">882</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::first</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">gfxFont</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00019">GFXfont::glyph</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::height</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::last</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00060">pgm_read_pointer</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">textsize</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::width</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">wrap</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00013">GFXglyph::xAdvance</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::xOffset</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00021">GFXfont::yAdvance</a>, and <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::yOffset</a>.</p>
 
@@ -2251,7 +2241,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">22</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00776">cp437()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00475">drawBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00231">drawCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00267">drawCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00190">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00180">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00213">drawLine()</a>, <a class="el" href="../../d9/d97/class_adafruit___g_f_x.html#ab7fbf72885c873266f9c7eb53b5c8896">drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00343">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00354">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00384">drawTriangle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00553">drawXBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00174">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00303">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00312">fillCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00198">fillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00371">fillRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00208">fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00392">fillTriangle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00722">getCursorX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00726">getCursorY()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">getRotation()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00796">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00980">height()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00984">invertDisplay()</a>, <a class="el" href="../../da/d2d/_stdio_stream_8h_source.html#l00087">NULL</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00717">setCursor()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00780">setFont()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00753">setRotation()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00734">setTextColor()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00730">setTextSize()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00745">setTextWrap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">startWrite()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">textsize</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00976">width()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00160">writeFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00150">writeFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00168">writeFillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00099">writeLine()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00772">cp437()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00471">drawBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00227">drawCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00263">drawCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00186">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00176">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00209">drawLine()</a>, <a class="el" href="../../d9/d97/class_adafruit___g_f_x.html#ab7fbf72885c873266f9c7eb53b5c8896">drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00339">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00350">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00380">drawTriangle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00549">drawXBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00170">endWrite()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00299">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00308">fillCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00194">fillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00367">fillRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00204">fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00388">fillTriangle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00718">getCursorX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00722">getCursorY()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00745">getRotation()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00792">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00976">height()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00980">invertDisplay()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00713">setCursor()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00776">setFont()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">setRotation()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00730">setTextColor()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00726">setTextSize()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00741">setTextWrap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">startWrite()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">textsize</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00972">width()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00156">writeFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00146">writeFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00164">writeFillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00095">writeLine()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2318,7 +2308,7 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00980">980</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00976">976</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>.</p>
 
@@ -2358,7 +2348,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00984">984</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00980">980</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
@@ -2398,7 +2388,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00717">717</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00713">713</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_x</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_y</a>.</p>
 
@@ -2424,13 +2414,13 @@ Here is the caller graph for this function:</div>
           <td class="memname">void Adafruit_GFX::setFont </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="../../d3/d58/struct_g_f_xfont.html">GFXfont</a> *&#160;</td>
-          <td class="paramname"><em>f</em> = <code><a class="el" href="../../da/d2d/_stdio_stream_8h.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></code></td><td>)</td>
+          <td class="paramname"><em>f</em> = <code>NULL</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00780">780</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00776">776</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_y</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">gfxFont</a>.</p>
 
@@ -2470,7 +2460,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00753">753</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">749</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_height</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00118">HEIGHT</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">rotation</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00118">WIDTH</a>.</p>
 
@@ -2502,7 +2492,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00734">734</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00730">730</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textbgcolor</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textcolor</a>.</p>
 
@@ -2544,7 +2534,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00740">740</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00736">736</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textbgcolor</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textcolor</a>.</p>
 
@@ -2566,7 +2556,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00730">730</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00726">726</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">textsize</a>.</p>
 
@@ -2598,7 +2588,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00745">745</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00741">741</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">wrap</a>.</p>
 
@@ -2638,9 +2628,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00135">135</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00475">drawBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00231">drawCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00190">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00180">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00213">drawLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00343">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00354">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00553">drawXBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00303">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00198">fillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00371">fillRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00392">fillTriangle()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00471">drawBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00227">drawCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00186">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00176">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00209">drawLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00339">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00350">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00549">drawXBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00299">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00194">fillRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00367">fillRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00388">fillTriangle()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -2688,7 +2678,7 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00976">976</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00972">972</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>.</p>
 
@@ -2728,11 +2718,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">666</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">662</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_x</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_y</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::first</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">gfxFont</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00019">GFXfont::glyph</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::height</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::last</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00060">pgm_read_pointer</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textbgcolor</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textcolor</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">textsize</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::width</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">wrap</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00013">GFXglyph::xAdvance</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::xOffset</a>, and <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00021">GFXfont::yAdvance</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">_width</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_x</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">cursor_y</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::first</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">gfxFont</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00019">GFXfont::glyph</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::height</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00020">GFXfont::last</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00047">pgm_read_byte</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00060">pgm_read_pointer</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textbgcolor</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">textcolor</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">textsize</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00012">GFXglyph::width</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">wrap</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00013">GFXglyph::xAdvance</a>, <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00014">GFXglyph::xOffset</a>, and <a class="el" href="../../d6/dfa/gfxfont_8h_source.html#l00021">GFXfont::yAdvance</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2808,11 +2798,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00160">160</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00156">156</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00190">drawFastHLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00186">drawFastHLine()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00343">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00354">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00392">fillTriangle()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00339">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00350">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00388">fillTriangle()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2886,11 +2876,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00150">150</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00180">drawFastVLine()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00176">drawFastVLine()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00343">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00354">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00303">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00312">fillCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00198">fillRect()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00339">drawRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00350">drawRoundRect()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00299">fillCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00308">fillCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00194">fillRect()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2977,11 +2967,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00168">168</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00164">164</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00198">fillRect()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00194">fillRect()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00371">fillRoundRect()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00367">fillRoundRect()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3063,11 +3053,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00099">99</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00095">95</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00070">_swap_int16_t</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">writePixel()</a>.</p>
+<p class="reference">References <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00066">_swap_int16_t</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">writePixel()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00190">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00180">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00213">drawLine()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00186">drawFastHLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00176">drawFastVLine()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00209">drawLine()</a>, and <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3145,11 +3135,11 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00143">143</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00139">139</a> of file <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html">Adafruit_GFX.cpp</a>.</p>
 
 <p class="reference">References <a class="el" href="../../d9/d97/class_adafruit___g_f_x.html#ab7fbf72885c873266f9c7eb53b5c8896">drawPixel()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00475">drawBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00231">drawCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00267">drawCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00553">drawXBitmap()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00099">writeLine()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00471">drawBitmap()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00227">drawCircle()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00263">drawCircleHelper()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00549">drawXBitmap()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00095">writeLine()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3214,7 +3204,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">128</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00776">cp437()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00772">cp437()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>.</p>
 
 </div>
 </div>
@@ -3240,7 +3230,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">120</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01094">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00208">fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01127">GFXcanvas1::fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00796">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00980">height()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00753">setRotation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01090">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01145">GFXcanvas16::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00204">fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00792">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00976">height()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00083">GFXcanvas16::returnPixel()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">setRotation()</a>.</p>
 
 </div>
 </div>
@@ -3266,7 +3256,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">120</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01094">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00208">fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01127">GFXcanvas1::fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00796">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00753">setRotation()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00976">width()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01090">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01145">GFXcanvas16::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00204">fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00792">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00083">GFXcanvas16::returnPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">setRotation()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00972">width()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>.</p>
 
 </div>
 </div>
@@ -3292,7 +3282,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">120</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00722">getCursorX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00717">setCursor()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00718">getCursorX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00713">setCursor()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>.</p>
 
 </div>
 </div>
@@ -3318,7 +3308,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00120">120</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00726">getCursorY()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00717">setCursor()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00780">setFont()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00722">getCursorY()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00713">setCursor()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00776">setFont()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>.</p>
 
 </div>
 </div>
@@ -3344,7 +3334,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00131">131</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00571">drawChar()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00018">getFont()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00796">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00780">setFont()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00567">drawChar()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00018">getFont()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00792">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00776">setFont()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>.</p>
 
 </div>
 </div>
@@ -3370,7 +3360,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00118">118</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01094">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01127">GFXcanvas1::fillScreen()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00753">setRotation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01090">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01145">GFXcanvas16::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01123">GFXcanvas1::fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01171">GFXcanvas16::fillScreen()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">setRotation()</a>.</p>
 
 </div>
 </div>
@@ -3396,7 +3386,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">125</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01094">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01127">GFXcanvas1::fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">getRotation()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00753">setRotation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01090">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01145">GFXcanvas16::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00745">getRotation()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">setRotation()</a>.</p>
 
 </div>
 </div>
@@ -3422,7 +3412,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">123</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00734">setTextColor()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00730">setTextColor()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>.</p>
 
 </div>
 </div>
@@ -3448,7 +3438,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00123">123</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01007">Adafruit_GFX_Button::initButtonUL()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00734">setTextColor()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01003">Adafruit_GFX_Button::initButtonUL()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00730">setTextColor()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>.</p>
 
 </div>
 </div>
@@ -3474,7 +3464,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00125">125</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00796">getTextBounds()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01007">Adafruit_GFX_Button::initButtonUL()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00730">setTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00792">getTextBounds()</a>, <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00022">getTextSize()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01003">Adafruit_GFX_Button::initButtonUL()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00726">setTextSize()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>.</p>
 
 </div>
 </div>
@@ -3500,7 +3490,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00118">118</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01094">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01127">GFXcanvas1::fillScreen()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00753">setRotation()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01090">GFXcanvas1::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01145">GFXcanvas16::drawPixel()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01123">GFXcanvas1::fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l01171">GFXcanvas16::fillScreen()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00083">GFXcanvas16::returnPixel()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00749">setRotation()</a>.</p>
 
 </div>
 </div>
@@ -3526,7 +3516,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html#l00128">128</a> of file <a class="el" href="../../d9/d63/_adafruit___g_f_x_8h_source.html">Adafruit_GFX.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00073">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00796">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00745">setTextWrap()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00666">write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00069">Adafruit_GFX()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00792">getTextBounds()</a>, <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00741">setTextWrap()</a>, and <a class="el" href="../../d1/de6/_adafruit___g_f_x_8cpp_source.html#l00662">write()</a>.</p>
 
 </div>
 </div>

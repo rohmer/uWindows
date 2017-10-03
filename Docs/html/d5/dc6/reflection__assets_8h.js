@@ -9,5 +9,7 @@ var reflection__assets_8h =
     [ "GRADIENT_HANDLE", "d5/dc6/reflection__assets_8h.html#a0f145d11466b7c1281064be00aa48e6d", null ],
     [ "GRADIENT_HEIGHT", "d5/dc6/reflection__assets_8h.html#a2047acf9ec8e20de319d76522dc07f43", null ],
     [ "GRADIENT_WIDTH", "d5/dc6/reflection__assets_8h.html#a80d179c6766a3b71a67d2d63a08cd687", null ],
-    [ "LOAD_ASSETS", "d5/dc6/reflection__assets_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ]
+    [ "LOAD_ASSETS", "d5/dc6/reflection__assets_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ],
+    [ "GAMEDUINO_SHAPE", "d5/dc6/reflection__assets_8h.html#a5a8a03e224f332d726e54209af921036", null ],
+    [ "GRADIENT_SHAPE", "d5/dc6/reflection__assets_8h.html#a0e5e9a17295b70419eb70378a19688ec", null ]
 ];

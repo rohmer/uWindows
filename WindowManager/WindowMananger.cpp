@@ -36,12 +36,14 @@ WindowManager::WindowManager(const uint8_t cs, const uint8_t rst, const uint8_t 
 
 void WindowManager::Update()
 {	
-	processTouch();
+	processTouch();	
+	tft->clearScreen();
 	for (int i=0; i<elementOrder.size(); i++)
 	{
 		elementMap.find(elementOrder[i])->second->Update();
 	}
 	tft->swapDisplay();
+	
 }
 
 void WindowManager::RegisterElement(UIElement *element)
@@ -51,6 +53,18 @@ void WindowManager::RegisterElement(UIElement *element)
 	elementMap.insert(std::make_pair(element->getElementID(), element));	
 	elementOrder.push_back(element->getElementID());
 	WindowManager::wmCanvas->AddChildElement(element);	
+}
+
+/// <summary>
+/// Deletes all elements from the window manager (Effective clear on next update)
+/// </summary>
+void WindowManager::ClearElements()
+{
+	for (int i = 0; i < wmCanvas->GetChildElements().size(); i++)
+	{
+		DeleteElement(wmCanvas->GetChildElements()[i]->getElementID());
+	}
+	wmCanvas->GetChildElements().clear();
 }
 
 void WindowManager::DeleteElement(unsigned long elementID)
@@ -180,17 +194,18 @@ void WindowManager::processTouch()
 		std::map<unsigned long, UIElement *>::iterator emIt = elementMap.find(elementOrder[i]);
 		if (emIt != elementMap.end())
 			if (emIt->second->GetLocation().contains(p))
-			{
+			{				
 				if (emIt->second->isEnabled())
 				{					
-					// Set the touch event so something can query it
+					// Set the touch event so something can query it					
 					lastTouchEvent = emIt->second->ProcessTouch(p);
+					if (lastTouchEvent.touchReponse != eTouchResponse::NoOp)
+						return;
 				}
 				else
 				{
 					lastTouchEvent = sTouchResponse(emIt->first, eTouchResponse::ControlTouchedInactive);
-				}
-				return;
+				}				
 			}
 	}
 	lastTouchEvent = sTouchResponse(wmCanvas->getElementID(),NoOp);

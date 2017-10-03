@@ -5,5 +5,7 @@ var _u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text__bold_italic12_8h =
     [ "CRIMSONTEXT_BOLDITALIC_HANDLE", "da/dac/_u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text-_bold_italic12_8h.html#a89bbebe478bc06232a48945fed45d9a7", null ],
     [ "CRIMSONTEXT_BOLDITALIC_HEIGHT", "da/dac/_u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text-_bold_italic12_8h.html#a7c65dfb3a937b59ea92ab2bb3cea8999", null ],
     [ "CRIMSONTEXT_BOLDITALIC_WIDTH", "da/dac/_u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text-_bold_italic12_8h.html#a1926b5de35d0670e0b7f3248bb59715c", null ],
-    [ "LOAD_ASSETS", "da/dac/_u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text-_bold_italic12_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ]
+    [ "LOAD_ASSETS", "da/dac/_u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text-_bold_italic12_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ],
+    [ "__assets", "da/dac/_u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text-_bold_italic12_8h.html#a1d8b5baa498a1e5f28bbe38be34156a0", null ],
+    [ "CRIMSONTEXT_BOLDITALIC_SHAPE", "da/dac/_u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text-_bold_italic12_8h.html#aa324829e8e9dbee2ea9412f9d6ae9948", null ]
 ];

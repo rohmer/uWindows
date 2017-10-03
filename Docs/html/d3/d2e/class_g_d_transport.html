@@ -85,6 +85,8 @@ $(document).ready(function(){initNavTree('d3/d2e/class_g_d_transport.html','../.
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../db/d4f/class_g_d_transport-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">GDTransport Class Reference</div>  </div>
@@ -308,6 +310,26 @@ Public Attributes</h2></td></tr>
 <tr class="separator:adeb519e8270b477228c806402f117bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0956dcbf613fcfad0d29e90ac27f14c6"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2e/class_g_d_transport.html#a0956dcbf613fcfad0d29e90ac27f14c6">wptr0</a></td></tr>
 <tr class="separator:a0956dcbf613fcfad0d29e90ac27f14c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a900aa3277521c296947acd49fba3bf49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49">hose</a> (void)</td></tr>
+<tr class="separator:a900aa3277521c296947acd49fba3bf49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9c5b6026f38fee8b0d71d5968a255c96"><td class="memItemLeft" align="right" valign="top">FILE *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2e/class_g_d_transport.html#a9c5b6026f38fee8b0d71d5968a255c96">dumpfile</a></td></tr>
+<tr class="separator:a9c5b6026f38fee8b0d71d5968a255c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aee8dec14c987edd4546c31fd39159e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2e/class_g_d_transport.html#a5aee8dec14c987edd4546c31fd39159e">counter</a></td></tr>
+<tr class="separator:a5aee8dec14c987edd4546c31fd39159e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4fe0a67100b5a7b72f0da6cc9cb045e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2e/class_g_d_transport.html#ac4fe0a67100b5a7b72f0da6cc9cb045e">fd</a></td></tr>
+<tr class="separator:ac4fe0a67100b5a7b72f0da6cc9cb045e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ab62c28d9acf92ba346897b0266ab2"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2e/class_g_d_transport.html#a60ab62c28d9acf92ba346897b0266ab2">writebuf</a> [4096]</td></tr>
+<tr class="separator:a60ab62c28d9acf92ba346897b0266ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c3ac0639134e6dd3bd94cf7ca2e4194"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2e/class_g_d_transport.html#a3c3ac0639134e6dd3bd94cf7ca2e4194">nwrite</a></td></tr>
+<tr class="separator:a3c3ac0639134e6dd3bd94cf7ca2e4194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83bd297fc52572fcc4b7794ceb188152"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d2e/class_g_d_transport.html#a83bd297fc52572fcc4b7794ceb188152">model</a></td></tr>
+<tr class="separator:a83bd297fc52572fcc4b7794ceb188152"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -377,26 +399,28 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a364435d5933bd42c1ccc31664fd30709" title="GDTransport::__rd16" alt="" coords="193,81,335,108"/>
 <area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#a7202eb2579608776280455b165aa7cb2" title="GDTransport::__wr16" alt="" coords="192,132,336,159"/>
 <area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="385,385,498,412"/>
-<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#ad6331ba933b3861515353c7879345e82" title="GDTransport::bulk" alt="" coords="201,233,327,260"/>
-<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="197,284,331,311"/>
-<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="193,335,335,361"/>
-<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="207,385,321,412"/>
-<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="200,436,328,463"/>
-<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="200,487,328,513"/>
-<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="200,537,328,564"/>
-<area shape="rect" id="node17" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="205,588,323,615"/>
-<area shape="rect" id="node18" href="../../da/df4/class_g_d_class.html#a7ba77f9482f841123641d1f68412aacc" title="GDClass::reset" alt="" coords="209,639,319,665"/>
-<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#a89bf0564befc0efc80a87d65f3711f88" title="GDTransport::stop" alt="" coords="200,689,328,716"/>
-<area shape="rect" id="node20" href="../../da/df4/class_g_d_class.html#a60009b119ae703abb2c59f72f43e9899" title="GDClass::storage" alt="" coords="201,740,327,767"/>
-<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#adeb70f71cb9d383fb03d44ecaed8fdfe" title="GDTransport::stream" alt="" coords="193,791,335,817"/>
-<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1" title="GDTransport::wr" alt="" coords="206,841,322,868"/>
-<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946" title="GDTransport::wr16" alt="" coords="199,892,329,919"/>
-<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1" title="GDTransport::wr32" alt="" coords="199,943,329,969"/>
-<area shape="rect" id="node25" href="../../d3/d2e/class_g_d_transport.html#a7afd83e738c52c0f045e4a6b6a3eeded" title="GDTransport::wr_n" alt="" coords="199,993,329,1020"/>
+<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#ad6331ba933b3861515353c7879345e82" title="GDTransport::bulk" alt="" coords="201,233,327,260"/>
+<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="197,284,331,311"/>
+<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="193,335,335,361"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="207,385,321,412"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="200,436,328,463"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="200,487,328,513"/>
+<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="200,537,328,564"/>
+<area shape="rect" id="node19" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="205,588,323,615"/>
+<area shape="rect" id="node20" href="../../da/df4/class_g_d_class.html#a7ba77f9482f841123641d1f68412aacc" title="GDClass::reset" alt="" coords="209,639,319,665"/>
+<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#a89bf0564befc0efc80a87d65f3711f88" title="GDTransport::stop" alt="" coords="200,689,328,716"/>
+<area shape="rect" id="node22" href="../../da/df4/class_g_d_class.html#a60009b119ae703abb2c59f72f43e9899" title="GDClass::storage" alt="" coords="201,740,327,767"/>
+<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#adeb70f71cb9d383fb03d44ecaed8fdfe" title="GDTransport::stream" alt="" coords="193,791,335,817"/>
+<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1" title="GDTransport::wr" alt="" coords="206,841,322,868"/>
+<area shape="rect" id="node25" href="../../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946" title="GDTransport::wr16" alt="" coords="199,892,329,919"/>
+<area shape="rect" id="node26" href="../../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1" title="GDTransport::wr32" alt="" coords="199,943,329,969"/>
+<area shape="rect" id="node27" href="../../d3/d2e/class_g_d_transport.html#a7afd83e738c52c0f045e4a6b6a3eeded" title="GDTransport::wr_n" alt="" coords="199,993,329,1020"/>
 <area shape="rect" id="node3" href="../../d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="384,5,499,32"/>
 <area shape="rect" id="node4" href="../../d7/dca/class_streamer.html#adf4a08684ceddb36be543909ba812bc9" title="Streamer::feed" alt="" coords="388,56,495,83"/>
 <area shape="rect" id="node8" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="547,360,713,387"/>
 <area shape="rect" id="node9" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="573,411,687,437"/>
+<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="761,411,984,437"/>
+<area shape="rect" id="node11" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1032,411,1207,437"/>
 </map>
 </div>
 
@@ -500,7 +524,7 @@ Here is the call graph for this function:</div>
 
 <p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00041">__read()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00041">begin1()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00145">ConfigRam::read()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00041">begin1()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00091">ConfigRam::get_SDA()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00145">ConfigRam::read()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -515,18 +539,24 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_ae528ac7d91e90fa2dc32b167bd245f89_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_ae528ac7d91e90fa2dc32b167bd245f89_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_ae528ac7d91e90fa2dc32b167bd245f89_icgraph" id="d3/d2e/class_g_d_transport_ae528ac7d91e90fa2dc32b167bd245f89_icgraph">
-<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="196,56,337,83"/>
-<area shape="rect" id="node6" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="207,107,326,133"/>
-<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#a6f02815f2a8c8db21112accefeb00b9e" title="GDTransport::rp" alt="" coords="209,157,324,184"/>
-<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="400,56,513,83"/>
-<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="576,5,743,32"/>
-<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="602,56,717,83"/>
-<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="390,144,523,171"/>
-<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="385,195,528,221"/>
-<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="588,119,731,145"/>
-<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="583,169,736,196"/>
-<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="588,220,731,247"/>
-<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="594,271,725,297"/>
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="781,5,923,32"/>
+<area shape="rect" id="node8" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="196,93,341,120"/>
+<area shape="rect" id="node11" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="793,81,911,108"/>
+<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#a6f02815f2a8c8db21112accefeb00b9e" title="GDTransport::rp" alt="" coords="211,195,326,221"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="971,44,1084,71"/>
+<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="1132,19,1299,45"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="1158,69,1273,96"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="1347,69,1569,96"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1617,69,1792,96"/>
+<area shape="rect" id="node9" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="393,93,528,120"/>
+<area shape="rect" id="node10" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="593,43,721,69"/>
+<area shape="rect" id="node12" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="593,93,721,120"/>
+<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="394,195,527,221"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="389,245,532,272"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="585,195,728,221"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="580,245,733,272"/>
+<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="585,296,728,323"/>
+<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="591,347,722,373"/>
 </map>
 </div>
 
@@ -629,23 +659,29 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_ac5ecaf63185d9199a5fe5317ee2f9ad0_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_ac5ecaf63185d9199a5fe5317ee2f9ad0_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_ac5ecaf63185d9199a5fe5317ee2f9ad0_icgraph" id="d3/d2e/class_g_d_transport_ac5ecaf63185d9199a5fe5317ee2f9ad0_icgraph">
-<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="196,107,339,133"/>
-<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="210,157,325,184"/>
-<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="203,208,331,235"/>
-<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="203,259,331,285"/>
-<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#ac4563b76be8d2fb9a81403326d8980ce" title="GDTransport::rd_n" alt="" coords="203,309,331,336"/>
-<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="387,56,528,83"/>
-<area shape="rect" id="node7" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="398,107,517,133"/>
-<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#a6f02815f2a8c8db21112accefeb00b9e" title="GDTransport::rp" alt="" coords="400,157,515,184"/>
-<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="591,56,704,83"/>
-<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="767,5,933,32"/>
-<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="793,56,907,83"/>
-<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="581,144,714,171"/>
-<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="576,195,719,221"/>
-<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="779,119,921,145"/>
-<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="773,169,927,196"/>
-<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="779,220,921,247"/>
-<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="785,271,915,297"/>
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="196,119,339,145"/>
+<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="210,169,325,196"/>
+<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="203,220,331,247"/>
+<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="203,271,331,297"/>
+<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#ac4563b76be8d2fb9a81403326d8980ce" title="GDTransport::rd_n" alt="" coords="203,321,331,348"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="972,5,1113,32"/>
+<area shape="rect" id="node9" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="387,93,532,120"/>
+<area shape="rect" id="node12" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="983,81,1102,108"/>
+<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#a6f02815f2a8c8db21112accefeb00b9e" title="GDTransport::rp" alt="" coords="402,195,517,221"/>
+<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="1161,44,1275,71"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="1323,19,1489,45"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="1349,69,1463,96"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="1537,69,1760,96"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1808,69,1983,96"/>
+<area shape="rect" id="node10" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="584,93,719,120"/>
+<area shape="rect" id="node11" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="783,43,911,69"/>
+<area shape="rect" id="node13" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="783,93,911,120"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="585,195,718,221"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="580,245,723,272"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="776,195,919,221"/>
+<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="771,245,924,272"/>
+<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="776,296,919,323"/>
+<area shape="rect" id="node20" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="782,347,913,373"/>
 </map>
 </div>
 
@@ -734,7 +770,7 @@ Here is the caller graph for this function:</div>
 
 <p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00061">__write()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d9/dee/spidev_8h_source.html#l00131">finish()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00258">getfree()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00222">stop()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d9/dee/spidev_8h_source.html#l00131">finish()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00258">getfree()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00086">ConfigRam::set_SCL()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00078">ConfigRam::set_SDA()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00222">stop()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -749,13 +785,27 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a2bb237094f237ebce6a31d2223ea6ec1_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a2bb237094f237ebce6a31d2223ea6ec1_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a2bb237094f237ebce6a31d2223ea6ec1_icgraph" id="d3/d2e/class_g_d_transport_a2bb237094f237ebce6a31d2223ea6ec1_icgraph">
-<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="202,31,335,57"/>
-<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="197,81,340,108"/>
-<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#a89bf0564befc0efc80a87d65f3711f88" title="GDTransport::stop" alt="" coords="205,132,333,159"/>
-<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="393,5,536,32"/>
-<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="388,56,541,83"/>
-<area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="393,107,536,133"/>
-<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="399,157,530,184"/>
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="203,81,337,108"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="199,132,341,159"/>
+<area shape="rect" id="node8" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="199,284,341,311"/>
+<area shape="rect" id="node21" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="197,233,343,260"/>
+<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#a89bf0564befc0efc80a87d65f3711f88" title="GDTransport::stop" alt="" coords="206,335,334,361"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="396,5,539,32"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="391,56,544,83"/>
+<area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="396,107,539,133"/>
+<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="402,157,533,184"/>
+<area shape="rect" id="node9" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="400,208,535,235"/>
+<area shape="rect" id="node18" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b" title="ConfigRam::i2c_start" alt="" coords="396,309,539,336"/>
+<area shape="rect" id="node19" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1" title="ConfigRam::i2c_stop" alt="" coords="396,360,539,387"/>
+<area shape="rect" id="node20" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="400,259,535,285"/>
+<area shape="rect" id="node10" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="592,208,720,235"/>
+<area shape="rect" id="node17" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="592,259,720,285"/>
+<area shape="rect" id="node11" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="768,284,887,311"/>
+<area shape="rect" id="node12" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="935,284,1048,311"/>
+<area shape="rect" id="node13" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="1096,259,1263,285"/>
+<area shape="rect" id="node14" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="1122,309,1237,336"/>
+<area shape="rect" id="node15" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="1311,309,1533,336"/>
+<area shape="rect" id="node16" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1581,309,1756,336"/>
 </map>
 </div>
 
@@ -868,24 +918,38 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a5d03e5cd967f585ad82bd2289709c266_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a5d03e5cd967f585ad82bd2289709c266_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a5d03e5cd967f585ad82bd2289709c266_icgraph" id="d3/d2e/class_g_d_transport_a5d03e5cd967f585ad82bd2289709c266_icgraph">
-<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="209,107,353,133"/>
-<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#aa90aa13a5e689c7e2d6d947d5cccdd27" title="GDTransport::stopstream" alt="" coords="197,335,365,361"/>
-<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1" title="GDTransport::wr" alt="" coords="427,183,543,209"/>
-<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946" title="GDTransport::wr16" alt="" coords="419,487,550,513"/>
-<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a102db2cff2ac65c36408ff20774d77a9" title="GDTransport::wr_n" alt="" coords="419,537,550,564"/>
-<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1" title="GDTransport::wr32" alt="" coords="419,588,550,615"/>
-<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="418,31,551,57"/>
-<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="413,81,556,108"/>
-<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a89bf0564befc0efc80a87d65f3711f88" title="GDTransport::stop" alt="" coords="421,132,549,159"/>
-<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="609,5,752,32"/>
-<area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="604,56,757,83"/>
-<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="609,107,752,133"/>
-<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="615,157,746,184"/>
-<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="427,284,542,311"/>
-<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="421,335,549,361"/>
-<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="421,385,549,412"/>
-<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#ac4563b76be8d2fb9a81403326d8980ce" title="GDTransport::rd_n" alt="" coords="421,436,549,463"/>
-<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#a612e8cfb0e21fc13f7417be7674b9edc" title="GDTransport::__end" alt="" coords="415,233,554,260"/>
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="209,183,353,209"/>
+<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#aa90aa13a5e689c7e2d6d947d5cccdd27" title="GDTransport::stopstream" alt="" coords="197,461,365,488"/>
+<area shape="rect" id="node26" href="../../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1" title="GDTransport::wr" alt="" coords="428,309,544,336"/>
+<area shape="rect" id="node28" href="../../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946" title="GDTransport::wr16" alt="" coords="421,613,551,640"/>
+<area shape="rect" id="node31" href="../../d3/d2e/class_g_d_transport.html#a102db2cff2ac65c36408ff20774d77a9" title="GDTransport::wr_n" alt="" coords="421,664,551,691"/>
+<area shape="rect" id="node32" href="../../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1" title="GDTransport::wr32" alt="" coords="421,715,551,741"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="419,208,553,235"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="415,259,557,285"/>
+<area shape="rect" id="node9" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="415,56,557,83"/>
+<area shape="rect" id="node22" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="413,107,559,133"/>
+<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#a89bf0564befc0efc80a87d65f3711f88" title="GDTransport::stop" alt="" coords="422,157,550,184"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="612,208,755,235"/>
+<area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="607,259,760,285"/>
+<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="612,309,755,336"/>
+<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="618,360,749,387"/>
+<area shape="rect" id="node10" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="616,5,751,32"/>
+<area shape="rect" id="node19" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b" title="ConfigRam::i2c_start" alt="" coords="612,107,755,133"/>
+<area shape="rect" id="node20" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1" title="ConfigRam::i2c_stop" alt="" coords="612,157,755,184"/>
+<area shape="rect" id="node21" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="616,56,751,83"/>
+<area shape="rect" id="node11" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="808,5,936,32"/>
+<area shape="rect" id="node18" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="808,56,936,83"/>
+<area shape="rect" id="node12" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="984,81,1103,108"/>
+<area shape="rect" id="node13" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="1151,81,1264,108"/>
+<area shape="rect" id="node14" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="1312,56,1479,83"/>
+<area shape="rect" id="node15" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="1338,107,1453,133"/>
+<area shape="rect" id="node16" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="1527,107,1749,133"/>
+<area shape="rect" id="node17" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1797,107,1972,133"/>
+<area shape="rect" id="node25" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="429,461,543,488"/>
+<area shape="rect" id="node27" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="422,512,550,539"/>
+<area shape="rect" id="node29" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="422,563,550,589"/>
+<area shape="rect" id="node30" href="../../d3/d2e/class_g_d_transport.html#ac4563b76be8d2fb9a81403326d8980ce" title="GDTransport::rd_n" alt="" coords="422,360,550,387"/>
+<area shape="rect" id="node33" href="../../d3/d2e/class_g_d_transport.html#a612e8cfb0e21fc13f7417be7674b9edc" title="GDTransport::__end" alt="" coords="417,411,555,437"/>
 </map>
 </div>
 
@@ -991,7 +1055,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00007">7</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00272">freespace</a>, <a class="el" href="../../da/d0b/_fat_api_constants_8h_source.html#l00033">O_RDWR</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00251">scu()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00272">freespace</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00251">scu()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1030,7 +1094,15 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/de5/dump_8h_source.html#l00014">14</a> of file <a class="el" href="../../d5/de5/dump_8h_source.html">dump.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00056">ft8xx_model</a>.</p>
+<p class="reference">References <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00056">ft8xx_model</a>, and <a class="el" href="../../d5/de5/dump_8h_source.html#l00004">hose()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d2e/class_g_d_transport_a940f5f373479c5853f2d1845dd894a5a_cgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a940f5f373479c5853f2d1845dd894a5a_cgraph" alt=""/></div>
+<map name="d3/d2e/class_g_d_transport_a940f5f373479c5853f2d1845dd894a5a_cgraph" id="d3/d2e/class_g_d_transport_a940f5f373479c5853f2d1845dd894a5a_cgraph">
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="188,5,319,32"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -1079,6 +1151,8 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="195,31,308,57"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="356,5,523,32"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="382,56,497,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="571,56,793,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="841,56,1016,83"/>
 </map>
 </div>
 
@@ -1132,6 +1206,8 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="195,31,308,57"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="356,5,523,32"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="382,56,497,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="571,56,793,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="841,56,1016,83"/>
 </map>
 </div>
 
@@ -1324,14 +1400,16 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/de5/dump_8h_source.html#l00023">23</a> of file <a class="el" href="../../d5/de5/dump_8h_source.html">dump.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l01237">GDClass::cmd32()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00630">GDClass::cFFFFFF()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00626">GDClass::cI()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l01237">GDClass::cmd32()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a33cbc78c5fd518d3f918adb6a60eabe1_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a33cbc78c5fd518d3f918adb6a60eabe1_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a33cbc78c5fd518d3f918adb6a60eabe1_icgraph" id="d3/d2e/class_g_d_transport_a33cbc78c5fd518d3f918adb6a60eabe1_icgraph">
-<area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#ab9892c221b6554c4e0ac62d63bb7b8fd" title="GDClass::cmd32" alt="" coords="196,5,317,32"/>
-<area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a3d9921e09fcd5de81edaa7c0c0a7b4c8" title="FT8XXDriver::writeCommand" alt="" coords="365,5,549,32"/>
+<area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#aa07c246b0a11db3bb320b21dfe235c8d" title="GDClass::cFFFFFF" alt="" coords="196,5,333,32"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#adad8c82c656ae5a82cae97faf8252ea2" title="GDClass::cI" alt="" coords="219,56,311,83"/>
+<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#ab9892c221b6554c4e0ac62d63bb7b8fd" title="GDClass::cmd32" alt="" coords="204,107,325,133"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a3d9921e09fcd5de81edaa7c0c0a7b4c8" title="FT8XXDriver::writeCommand" alt="" coords="381,107,565,133"/>
 </map>
 </div>
 
@@ -1682,14 +1760,17 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/de5/dump_8h_source.html#l00020">20</a> of file <a class="el" href="../../d5/de5/dump_8h_source.html">dump.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00657">GDClass::copy()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l01230">GDClass::wr_n()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00612">GDClass::align()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00617">GDClass::cH()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l01234">GDClass::cmdbyte()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00657">GDClass::copy()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00646">GDClass::cs()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a95ba06f40cf81678721045a257070c89_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a95ba06f40cf81678721045a257070c89_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a95ba06f40cf81678721045a257070c89_icgraph" id="d3/d2e/class_g_d_transport_a95ba06f40cf81678721045a257070c89_icgraph">
-<area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a794c1c8501f2f4c4660eb9bc0afda63d" title="GDClass::copy" alt="" coords="207,5,317,32"/>
-<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#afc8244eba617defce834eabf23d097d1" title="GDClass::wr_n" alt="" coords="207,56,317,83"/>
+<area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#aad01b1ffd0fea32ff1f784b90c41ac1f" title="GDClass::align" alt="" coords="218,5,327,32"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a9c6d2c5c2faff4b4ff5fb0f12fd0d6ce" title="GDClass::cH" alt="" coords="223,56,322,83"/>
+<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#ae0de18c1bd4aa3a1b0247bbb9303fc0d" title="GDClass::cmdbyte" alt="" coords="207,107,339,133"/>
+<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a794c1c8501f2f4c4660eb9bc0afda63d" title="GDClass::copy" alt="" coords="217,157,328,184"/>
+<area shape="rect" id="node6" href="../../da/df4/class_g_d_class.html#af1452a026aed9d899cc1ba9d084059c6" title="GDClass::cs" alt="" coords="225,208,321,235"/>
 </map>
 </div>
 
@@ -1819,33 +1900,44 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a496b16cc5ecc31d136b2be03c6b81be2_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a496b16cc5ecc31d136b2be03c6b81be2_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a496b16cc5ecc31d136b2be03c6b81be2_icgraph" id="d3/d2e/class_g_d_transport_a496b16cc5ecc31d136b2be03c6b81be2_icgraph">
-<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="195,233,338,260"/>
-<area shape="rect" id="node20" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="195,563,339,589"/>
-<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="399,81,542,108"/>
-<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="616,309,731,336"/>
-<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="609,157,737,184"/>
-<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="609,208,737,235"/>
-<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#ac4563b76be8d2fb9a81403326d8980ce" title="GDTransport::rd_n" alt="" coords="609,259,737,285"/>
-<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="603,5,744,32"/>
-<area shape="rect" id="node8" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="614,56,733,83"/>
-<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a6f02815f2a8c8db21112accefeb00b9e" title="GDTransport::rp" alt="" coords="616,107,731,133"/>
-<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="807,31,920,57"/>
-<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="983,5,1149,32"/>
-<area shape="rect" id="node7" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="1009,56,1123,83"/>
-<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="797,360,930,387"/>
-<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="792,461,935,488"/>
-<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="995,487,1137,513"/>
-<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="989,537,1143,564"/>
-<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="995,385,1137,412"/>
-<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1001,436,1131,463"/>
-<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="399,715,543,741"/>
-<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#aa90aa13a5e689c7e2d6d947d5cccdd27" title="GDTransport::stopstream" alt="" coords="387,461,555,488"/>
-<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1" title="GDTransport::wr" alt="" coords="615,664,731,691"/>
-<area shape="rect" id="node25" href="../../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946" title="GDTransport::wr16" alt="" coords="608,512,739,539"/>
-<area shape="rect" id="node26" href="../../d3/d2e/class_g_d_transport.html#a102db2cff2ac65c36408ff20774d77a9" title="GDTransport::wr_n" alt="" coords="608,563,739,589"/>
-<area shape="rect" id="node27" href="../../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1" title="GDTransport::wr32" alt="" coords="608,613,739,640"/>
-<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#a89bf0564befc0efc80a87d65f3711f88" title="GDTransport::stop" alt="" coords="609,715,737,741"/>
-<area shape="rect" id="node28" href="../../d3/d2e/class_g_d_transport.html#a612e8cfb0e21fc13f7417be7674b9edc" title="GDTransport::__end" alt="" coords="604,411,743,437"/>
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="195,316,338,343"/>
+<area shape="rect" id="node26" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="195,645,339,672"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="399,139,542,165"/>
+<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="618,341,733,368"/>
+<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="611,392,739,419"/>
+<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="611,240,739,267"/>
+<area shape="rect" id="node25" href="../../d3/d2e/class_g_d_transport.html#ac4563b76be8d2fb9a81403326d8980ce" title="GDTransport::rd_n" alt="" coords="611,291,739,317"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="1188,417,1329,444"/>
+<area shape="rect" id="node10" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="603,189,748,216"/>
+<area shape="rect" id="node13" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="1199,873,1318,900"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a6f02815f2a8c8db21112accefeb00b9e" title="GDTransport::rp" alt="" coords="618,139,733,165"/>
+<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="1377,645,1491,672"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="1539,620,1705,647"/>
+<area shape="rect" id="node7" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="1565,671,1679,697"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="1753,671,1976,697"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="2024,671,2199,697"/>
+<area shape="rect" id="node11" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="800,848,935,875"/>
+<area shape="rect" id="node12" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="999,899,1127,925"/>
+<area shape="rect" id="node14" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="999,848,1127,875"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="801,595,934,621"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="796,493,939,520"/>
+<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="992,417,1135,444"/>
+<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="987,468,1140,495"/>
+<area shape="rect" id="node20" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="992,519,1135,545"/>
+<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="998,569,1129,596"/>
+<area shape="rect" id="node27" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="399,873,543,900"/>
+<area shape="rect" id="node34" href="../../d3/d2e/class_g_d_transport.html#aa90aa13a5e689c7e2d6d947d5cccdd27" title="GDTransport::stopstream" alt="" coords="387,544,555,571"/>
+<area shape="rect" id="node35" href="../../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1" title="GDTransport::wr" alt="" coords="617,443,733,469"/>
+<area shape="rect" id="node36" href="../../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946" title="GDTransport::wr16" alt="" coords="610,645,741,672"/>
+<area shape="rect" id="node37" href="../../d3/d2e/class_g_d_transport.html#a102db2cff2ac65c36408ff20774d77a9" title="GDTransport::wr_n" alt="" coords="610,696,741,723"/>
+<area shape="rect" id="node38" href="../../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1" title="GDTransport::wr32" alt="" coords="610,747,741,773"/>
+<area shape="rect" id="node28" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="604,949,747,976"/>
+<area shape="rect" id="node32" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="603,1000,748,1027"/>
+<area shape="rect" id="node33" href="../../d3/d2e/class_g_d_transport.html#a89bf0564befc0efc80a87d65f3711f88" title="GDTransport::stop" alt="" coords="611,797,739,824"/>
+<area shape="rect" id="node29" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b" title="ConfigRam::i2c_start" alt="" coords="796,949,939,976"/>
+<area shape="rect" id="node30" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1" title="ConfigRam::i2c_stop" alt="" coords="796,1000,939,1027"/>
+<area shape="rect" id="node31" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="800,899,935,925"/>
+<area shape="rect" id="node39" href="../../d3/d2e/class_g_d_transport.html#a612e8cfb0e21fc13f7417be7674b9edc" title="GDTransport::__end" alt="" coords="606,544,745,571"/>
 </map>
 </div>
 
@@ -1912,11 +2004,18 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a9eddd5ee3e559ee54b6126b05694abe8_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a9eddd5ee3e559ee54b6126b05694abe8_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a9eddd5ee3e559ee54b6126b05694abe8_icgraph" id="d3/d2e/class_g_d_transport_a9eddd5ee3e559ee54b6126b05694abe8_icgraph">
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a4a67996c7221b7855768e2d4215584f5" title="GDClass::finish" alt="" coords="202,5,314,32"/>
-<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="187,56,329,83"/>
-<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="385,31,529,57"/>
-<area shape="rect" id="node7" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="377,81,537,108"/>
-<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="585,49,783,90"/>
-<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="831,56,1005,83"/>
+<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="187,56,329,83"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a893d548ec8e04a8115d66b3ced5046c9" title="GDClass::alert" alt="" coords="404,5,511,32"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a6f02815f2a8c8db21112accefeb00b9e" title="GDTransport::rp" alt="" coords="631,5,746,32"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="385,56,529,83"/>
+<area shape="rect" id="node14" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="377,107,537,133"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="585,81,792,108"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="840,81,1007,108"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1840,125,2047,166"/>
+<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="1055,132,1275,159"/>
+<area shape="rect" id="node11" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="1323,132,1533,159"/>
+<area shape="rect" id="node13" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1588,209,1785,250"/>
+<area shape="rect" id="node12" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1581,157,1792,184"/>
 </map>
 </div>
 
@@ -1948,7 +2047,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00131">131</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00946">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00214">stopstream()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00952">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00214">stopstream()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -1993,7 +2092,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00142">142</a> of file <a class="el" href="../../dd/d4c/wiring_8h_source.html">wiring.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">__end()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00946">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">__end()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00952">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2073,16 +2172,21 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_afc8f2dad0bf7dfaa51e85fe9b9c1f0d6_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_afc8f2dad0bf7dfaa51e85fe9b9c1f0d6_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_afc8f2dad0bf7dfaa51e85fe9b9c1f0d6_icgraph" id="d3/d2e/class_g_d_transport_afc8f2dad0bf7dfaa51e85fe9b9c1f0d6_icgraph">
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a1eb81651848842f44589b96c5c8dbc66" title="GDClass::flush" alt="" coords="209,44,318,71"/>
-<area shape="rect" id="node6" href="../../da/df4/class_g_d_class.html#a8acf25f7ec2ba64c1dd9923623846a9f" title="GDClass::self_calibrate" alt="" coords="184,95,343,121"/>
-<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="207,145,319,172"/>
+<area shape="rect" id="node8" href="../../da/df4/class_g_d_class.html#a8acf25f7ec2ba64c1dd9923623846a9f" title="GDClass::self_calibrate" alt="" coords="184,95,343,121"/>
+<area shape="rect" id="node9" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="207,145,319,172"/>
 <area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="419,44,533,71"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="609,5,776,32"/>
 <area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="635,56,750,83"/>
-<area shape="rect" id="node8" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="391,145,561,172"/>
-<area shape="rect" id="node9" href="../../d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="611,132,774,159"/>
-<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="609,183,776,209"/>
-<area shape="rect" id="node11" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="1083,183,1257,209"/>
-<area shape="rect" id="node12" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="824,208,1035,235"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="824,56,1047,83"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1113,56,1287,83"/>
+<area shape="rect" id="node10" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="391,145,561,172"/>
+<area shape="rect" id="node11" href="../../d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="611,132,774,159"/>
+<area shape="rect" id="node12" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="609,183,776,209"/>
+<area shape="rect" id="node13" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1612,201,1819,242"/>
+<area shape="rect" id="node14" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="825,208,1045,235"/>
+<area shape="rect" id="node15" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="1095,208,1305,235"/>
+<area shape="rect" id="node17" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1360,285,1557,326"/>
+<area shape="rect" id="node16" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1353,233,1564,260"/>
 </map>
 </div>
 
@@ -2206,7 +2310,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00258">258</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00272">freespace</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00946">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00214">stopstream()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00272">freespace</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00952">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00214">stopstream()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dee/spidev_8h_source.html#l00084">cmd32()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00108">cmd_n()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00100">cmdbyte()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00120">flush()</a>.</p>
 <div class="dynheader">
@@ -2264,7 +2368,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00333">333</a> of file <a class="el" href="../../dd/d4c/wiring_8h_source.html">wiring.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">__end()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00272">freespace</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00946">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00270">streaming</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">__end()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00272">freespace</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00952">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">rp()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00270">streaming</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -2376,7 +2480,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00200">200</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00941">RAM_CMD</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00947">RAM_CMD</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
 
 </div>
 </div>
@@ -2406,7 +2510,55 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00258">258</a> of file <a class="el" href="../../dd/d4c/wiring_8h_source.html">wiring.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00941">RAM_CMD</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00947">RAM_CMD</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+
+</div>
+</div>
+<a id="a900aa3277521c296947acd49fba3bf49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a900aa3277521c296947acd49fba3bf49">&#9670;&nbsp;</a></span>hose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GDTransport::hose </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/de5/dump_8h_source.html#l00004">4</a> of file <a class="el" href="../../d5/de5/dump_8h_source.html">dump.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d5/de5/dump_8h_source.html#l00014">begin()</a>, and <a class="el" href="../../d5/de5/dump_8h_source.html#l00047">swap()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d2e/class_g_d_transport_a900aa3277521c296947acd49fba3bf49_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a900aa3277521c296947acd49fba3bf49_icgraph" alt=""/></div>
+<map name="d3/d2e/class_g_d_transport_a900aa3277521c296947acd49fba3bf49_icgraph" id="d3/d2e/class_g_d_transport_a900aa3277521c296947acd49fba3bf49_icgraph">
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a940f5f373479c5853f2d1845dd894a5a" title="GDTransport::begin" alt="" coords="184,5,319,32"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="185,56,318,83"/>
+<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="367,56,479,83"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="527,56,697,83"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="747,31,910,57"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="745,81,912,108"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1745,117,1952,158"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="960,113,1180,140"/>
+<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="1228,113,1439,140"/>
+<area shape="rect" id="node12" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1493,201,1691,242"/>
+<area shape="rect" id="node11" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1487,149,1697,176"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -2443,10 +2595,12 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_acb1c9c0be837496b171ce14080499486_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_acb1c9c0be837496b171ce14080499486_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_acb1c9c0be837496b171ce14080499486_icgraph" id="d3/d2e/class_g_d_transport_acb1c9c0be837496b171ce14080499486_icgraph">
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="396,31,509,57"/>
-<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="207,31,348,57"/>
-<area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="207,81,348,108"/>
+<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="207,31,348,57"/>
+<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="207,81,348,108"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="557,5,724,32"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="583,56,698,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="772,56,995,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1043,56,1217,83"/>
 </map>
 </div>
 
@@ -2507,7 +2661,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00009">9</a> of file <a class="el" href="../../dd/d4c/wiring_8h_source.html">wiring.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00002">CS</a>, and <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00053">MCU_Teensy32</a>.</p>
+<p class="reference">References <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00002">CS</a>, and <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00059">MCU_Teensy32</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00216">GDClass::begin()</a>, and <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00022">begin0()</a>.</p>
 <div class="dynheader">
@@ -2516,9 +2670,11 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a3c3d3f1c1e37f095616af75e2f776a27_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a3c3d3f1c1e37f095616af75e2f776a27_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a3c3d3f1c1e37f095616af75e2f776a27_icgraph" id="d3/d2e/class_g_d_transport_a3c3d3f1c1e37f095616af75e2f776a27_icgraph">
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="363,31,476,57"/>
-<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="173,56,315,83"/>
+<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="173,56,315,83"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="524,5,691,32"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="550,56,665,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="739,56,961,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1009,56,1184,83"/>
 </map>
 </div>
 
@@ -2585,9 +2741,11 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a80810bc46b58758679fef9758b746e52_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a80810bc46b58758679fef9758b746e52_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a80810bc46b58758679fef9758b746e52_icgraph" id="d3/d2e/class_g_d_transport_a80810bc46b58758679fef9758b746e52_icgraph">
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="168,31,281,57"/>
-<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#afe2a3d0fbf6379f0e6c150c7f62c3e32" title="GDClass::rd" alt="" coords="178,81,271,108"/>
+<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#afe2a3d0fbf6379f0e6c150c7f62c3e32" title="GDClass::rd" alt="" coords="178,81,271,108"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="329,5,496,32"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="355,56,470,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="544,56,767,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="815,56,989,83"/>
 </map>
 </div>
 
@@ -2874,23 +3032,20 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/de5/dump_8h_source.html#l00037">37</a> of file <a class="el" href="../../d5/de5/dump_8h_source.html">dump.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00216">GDClass::begin()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l01224">GDClass::rd32()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00183">GDClass::swap()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00216">GDClass::begin()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00194">GDClass::measure_freq()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l01224">GDClass::rd32()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a52cbc0db79905474bb3d6120020e5a1b_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a52cbc0db79905474bb3d6120020e5a1b_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a52cbc0db79905474bb3d6120020e5a1b_icgraph" id="d3/d2e/class_g_d_transport_a52cbc0db79905474bb3d6120020e5a1b_icgraph">
-<area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="181,56,295,83"/>
-<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a16be2864993406a38994064f738922d6" title="GDClass::rd32" alt="" coords="185,107,291,133"/>
-<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="182,157,294,184"/>
-<area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="345,5,511,32"/>
-<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="371,56,485,83"/>
-<area shape="rect" id="node6" href="../../d7/dca/class_streamer.html#adf4a08684ceddb36be543909ba812bc9" title="Streamer::feed" alt="" coords="375,107,481,133"/>
-<area shape="rect" id="node8" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="343,157,513,184"/>
-<area shape="rect" id="node9" href="../../d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="563,132,726,159"/>
-<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="561,183,728,209"/>
-<area shape="rect" id="node11" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="1035,183,1209,209"/>
-<area shape="rect" id="node12" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="776,208,987,235"/>
+<area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="205,31,318,57"/>
+<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#ad12512682023f3f11e99471f830520a0" title="GDClass::measure_freq" alt="" coords="181,81,341,108"/>
+<area shape="rect" id="node8" href="../../da/df4/class_g_d_class.html#a16be2864993406a38994064f738922d6" title="GDClass::rd32" alt="" coords="208,132,315,159"/>
+<area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="389,5,556,32"/>
+<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="415,56,530,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="604,56,827,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="875,56,1049,83"/>
+<area shape="rect" id="node9" href="../../d7/dca/class_streamer.html#adf4a08684ceddb36be543909ba812bc9" title="Streamer::feed" alt="" coords="419,132,526,159"/>
 </map>
 </div>
 
@@ -3070,9 +3225,14 @@ Here is the caller graph for this function:</div>
 <map name="d3/d2e/class_g_d_transport_a2a78280a736f1fcfdbb76eceed29fb4d_icgraph" id="d3/d2e/class_g_d_transport_a2a78280a736f1fcfdbb76eceed29fb4d_icgraph">
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="181,31,324,57"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="380,5,524,32"/>
-<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="372,56,532,83"/>
-<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="580,23,777,65"/>
-<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="825,31,1000,57"/>
+<area shape="rect" id="node11" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="372,56,532,83"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="580,31,787,57"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="835,31,1001,57"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1835,74,2041,115"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="1049,81,1269,108"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="1317,81,1528,108"/>
+<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1583,158,1780,199"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1576,107,1787,133"/>
 </map>
 </div>
 
@@ -3255,14 +3415,16 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_ad461023d617d303d36df8152bf2c62d9_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_ad461023d617d303d36df8152bf2c62d9_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_ad461023d617d303d36df8152bf2c62d9_icgraph" id="d3/d2e/class_g_d_transport_ad461023d617d303d36df8152bf2c62d9_icgraph">
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="374,31,487,57"/>
-<area shape="rect" id="node5" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="203,56,322,83"/>
-<area shape="rect" id="node6" href="../../da/df4/class_g_d_class.html#a7ba77f9482f841123641d1f68412aacc" title="GDClass::reset" alt="" coords="207,107,318,133"/>
-<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#aa433a6a478dc95712e73e3e55b4a29d8" title="GDClass::resume" alt="" coords="200,157,325,184"/>
-<area shape="rect" id="node10" href="../../da/df4/class_g_d_class.html#a60009b119ae703abb2c59f72f43e9899" title="GDClass::storage" alt="" coords="200,208,325,235"/>
+<area shape="rect" id="node7" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="203,56,322,83"/>
+<area shape="rect" id="node8" href="../../da/df4/class_g_d_class.html#a7ba77f9482f841123641d1f68412aacc" title="GDClass::reset" alt="" coords="207,107,318,133"/>
+<area shape="rect" id="node9" href="../../da/df4/class_g_d_class.html#aa433a6a478dc95712e73e3e55b4a29d8" title="GDClass::resume" alt="" coords="200,157,325,184"/>
+<area shape="rect" id="node12" href="../../da/df4/class_g_d_class.html#a60009b119ae703abb2c59f72f43e9899" title="GDClass::storage" alt="" coords="200,208,325,235"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="536,5,703,32"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="562,56,677,83"/>
-<area shape="rect" id="node8" href="../../d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="373,132,488,159"/>
-<area shape="rect" id="node9" href="../../d7/dca/class_streamer.html#adf4a08684ceddb36be543909ba812bc9" title="Streamer::feed" alt="" coords="377,183,484,209"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="751,56,973,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1021,56,1196,83"/>
+<area shape="rect" id="node10" href="../../d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="373,132,488,159"/>
+<area shape="rect" id="node11" href="../../d7/dca/class_streamer.html#adf4a08684ceddb36be543909ba812bc9" title="Streamer::feed" alt="" coords="377,183,484,209"/>
 </map>
 </div>
 
@@ -3369,7 +3531,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00123">123</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00239">__rd16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00945">REG_CMD_READ</a>, and <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00125">REPORT</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00239">__rd16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00951">REG_CMD_READ</a>, and <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00131">REPORT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dee/spidev_8h_source.html#l00131">finish()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00258">getfree()</a>.</p>
 <div class="dynheader">
@@ -3377,10 +3539,12 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a6f02815f2a8c8db21112accefeb00b9e_cgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a6f02815f2a8c8db21112accefeb00b9e_cgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a6f02815f2a8c8db21112accefeb00b9e_cgraph" id="d3/d2e/class_g_d_transport_a6f02815f2a8c8db21112accefeb00b9e_cgraph">
-<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="168,13,311,39"/>
-<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a893d548ec8e04a8115d66b3ced5046c9" title="GDClass::alert" alt="" coords="186,63,293,90"/>
-<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="359,13,501,39"/>
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="168,15,311,42"/>
+<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a893d548ec8e04a8115d66b3ced5046c9" title="GDClass::alert" alt="" coords="186,67,293,94"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="359,14,501,41"/>
 <area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="549,5,691,47"/>
+<area shape="rect" id="node6" href="../../da/df4/class_g_d_class.html#a4a67996c7221b7855768e2d4215584f5" title="GDClass::finish" alt="" coords="374,67,486,94"/>
+<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="553,71,687,98"/>
 </map>
 </div>
 <div class="dynheader">
@@ -3424,16 +3588,18 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00135">135</a> of file <a class="el" href="../../dd/d4c/wiring_8h_source.html">wiring.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00239">__rd16()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l01388">GDClass::alert()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00064">GD</a>, and <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00945">REG_CMD_READ</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00239">__rd16()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l01388">GDClass::alert()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00064">GD</a>, and <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00951">REG_CMD_READ</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a6f02815f2a8c8db21112accefeb00b9e_cgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a6f02815f2a8c8db21112accefeb00b9e_cgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a6f02815f2a8c8db21112accefeb00b9e_cgraph" id="d3/d2e/class_g_d_transport_a6f02815f2a8c8db21112accefeb00b9e_cgraph">
-<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="168,13,311,39"/>
-<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a893d548ec8e04a8115d66b3ced5046c9" title="GDClass::alert" alt="" coords="186,63,293,90"/>
-<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="359,13,501,39"/>
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="168,15,311,42"/>
+<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a893d548ec8e04a8115d66b3ced5046c9" title="GDClass::alert" alt="" coords="186,67,293,94"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="359,14,501,41"/>
 <area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="549,5,691,47"/>
+<area shape="rect" id="node6" href="../../da/df4/class_g_d_class.html#a4a67996c7221b7855768e2d4215584f5" title="GDClass::finish" alt="" coords="374,67,486,94"/>
+<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="553,71,687,98"/>
 </map>
 </div>
 
@@ -3558,7 +3724,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00222">222</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00946">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00214">stopstream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00952">REG_CMD_WRITE</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00214">stopstream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3598,7 +3764,7 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00291">291</a> of file <a class="el" href="../../dd/d4c/wiring_8h_source.html">wiring.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">__end()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00946">REG_CMD_WRITE</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">__end()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">__wr16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00952">REG_CMD_WRITE</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3702,7 +3868,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">234</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00941">RAM_CMD</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00273">wptr0</a>.</p>
+<p class="reference">References <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00947">RAM_CMD</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00273">wptr0</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dee/spidev_8h_source.html#l00007">begin()</a>, <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00041">begin1()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00131">finish()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00258">getfree()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00140">rd()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00156">rd16()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00172">rd32()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00180">rd_n()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00210">resume()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00149">wr()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00165">wr16()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00193">wr32()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00186">wr_n()</a>.</p>
 <div class="dynheader">
@@ -3712,24 +3878,26 @@ Here is the caller graph for this function:</div>
 <map name="d3/d2e/class_g_d_transport_adeb70f71cb9d383fb03d44ecaed8fdfe_icgraph" id="d3/d2e/class_g_d_transport_adeb70f71cb9d383fb03d44ecaed8fdfe_icgraph">
 <area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#aad24612fe2d7e3b725643c33fe777e89" title="GDTransport::begin" alt="" coords="202,5,337,32"/>
 <area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="199,56,340,83"/>
-<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="203,107,336,133"/>
-<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="198,157,341,184"/>
-<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="212,208,327,235"/>
-<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="205,259,333,285"/>
-<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="205,309,333,336"/>
-<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#ac4563b76be8d2fb9a81403326d8980ce" title="GDTransport::rd_n" alt="" coords="205,360,333,387"/>
-<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#ad461023d617d303d36df8152bf2c62d9" title="GDTransport::resume" alt="" coords="196,411,343,437"/>
-<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1" title="GDTransport::wr" alt="" coords="211,461,327,488"/>
-<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946" title="GDTransport::wr16" alt="" coords="204,512,335,539"/>
-<area shape="rect" id="node20" href="../../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1" title="GDTransport::wr32" alt="" coords="204,563,335,589"/>
-<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#a102db2cff2ac65c36408ff20774d77a9" title="GDTransport::wr_n" alt="" coords="204,613,335,640"/>
+<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="203,107,336,133"/>
+<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#a2ff3487f975eb71fe755cdb9e1add9cb" title="GDTransport::getfree" alt="" coords="198,157,341,184"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#aa72f3ce0e545e7b565829a5e3612ea61" title="GDTransport::rd" alt="" coords="212,208,327,235"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a87bcfe6761bfbc5098cc0ea237b43069" title="GDTransport::rd16" alt="" coords="205,259,333,285"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a2b9de9e48e8ded4c038208dd9b659e3b" title="GDTransport::rd32" alt="" coords="205,309,333,336"/>
+<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#ac4563b76be8d2fb9a81403326d8980ce" title="GDTransport::rd_n" alt="" coords="205,360,333,387"/>
+<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#ad461023d617d303d36df8152bf2c62d9" title="GDTransport::resume" alt="" coords="196,411,343,437"/>
+<area shape="rect" id="node20" href="../../d3/d2e/class_g_d_transport.html#a57df2c341e025cf2ebe29083ea3c51c1" title="GDTransport::wr" alt="" coords="211,461,327,488"/>
+<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#abe98c731d98180a2fc82880961f9b946" title="GDTransport::wr16" alt="" coords="204,512,335,539"/>
+<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#a6b5afb08eac16db32deadbe06e1827b1" title="GDTransport::wr32" alt="" coords="204,563,335,589"/>
+<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#a102db2cff2ac65c36408ff20774d77a9" title="GDTransport::wr_n" alt="" coords="204,613,335,640"/>
 <area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="411,56,524,83"/>
 <area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="592,31,759,57"/>
 <area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="618,81,733,108"/>
-<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="396,107,539,133"/>
-<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="396,157,539,184"/>
-<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="391,208,544,235"/>
-<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="402,259,533,285"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="807,81,1029,108"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1077,81,1252,108"/>
+<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#a33cbc78c5fd518d3f918adb6a60eabe1" title="GDTransport::cmd32" alt="" coords="396,107,539,133"/>
+<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#a6462048e6eaf99645fee3af9ad44e534" title="GDTransport::cmd_n" alt="" coords="396,157,539,184"/>
+<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#a95ba06f40cf81678721045a257070c89" title="GDTransport::cmdbyte" alt="" coords="391,208,544,235"/>
+<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="402,259,533,285"/>
 </map>
 </div>
 
@@ -3761,7 +3929,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00299">299</a> of file <a class="el" href="../../dd/d4c/wiring_8h_source.html">wiring.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">__end()</a>, <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00278">__wstart()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00941">RAM_CMD</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">__end()</a>, <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00278">__wstart()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00947">RAM_CMD</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00271">wp</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -3800,7 +3968,17 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d5/de5/dump_8h_source.html#l00047">47</a> of file <a class="el" href="../../d5/de5/dump_8h_source.html">dump.h</a>.</p>
 
+<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00004">hose()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00183">GDClass::swap()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d3/d2e/class_g_d_transport_a8c8c9f6e6ee1513bb2bacaf38b116fc9_cgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a8c8c9f6e6ee1513bb2bacaf38b116fc9_cgraph" alt=""/></div>
+<map name="d3/d2e/class_g_d_transport_a8c8c9f6e6ee1513bb2bacaf38b116fc9_cgraph" id="d3/d2e/class_g_d_transport_a8c8c9f6e6ee1513bb2bacaf38b116fc9_cgraph">
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="187,5,317,32"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -3810,8 +3988,11 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="347,31,517,57"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a817667271f0e02448ae32826a9225509" title="FT8XXDriver::pushPixels" alt="" coords="567,5,730,32"/>
 <area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="565,56,732,83"/>
-<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="1039,56,1213,83"/>
-<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="780,81,991,108"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1565,91,1772,133"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="780,88,1000,115"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="1048,88,1259,115"/>
+<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1313,175,1511,217"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1307,124,1517,151"/>
 </map>
 </div>
 
@@ -3897,24 +4078,31 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_ac0985e2d8d64df7ae4d41d5fa9d96098_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_ac0985e2d8d64df7ae4d41d5fa9d96098_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_ac0985e2d8d64df7ae4d41d5fa9d96098_icgraph" id="d3/d2e/class_g_d_transport_ac0985e2d8d64df7ae4d41d5fa9d96098_icgraph">
-<area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="184,56,297,83"/>
-<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="169,132,312,159"/>
-<area shape="rect" id="node10" href="../../da/df4/class_g_d_class.html#a7ba77f9482f841123641d1f68412aacc" title="GDClass::reset" alt="" coords="185,183,296,209"/>
-<area shape="rect" id="node11" href="../../da/df4/class_g_d_class.html#a39b2978d97dbd003e7df8e9dc0d70a36" title="GDClass::tune" alt="" coords="187,233,294,260"/>
-<area shape="rect" id="node12" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="193,297,288,324"/>
-<area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="370,5,537,32"/>
-<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="396,56,511,83"/>
-<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="381,107,525,133"/>
-<area shape="rect" id="node9" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="373,157,533,184"/>
-<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="595,175,792,217"/>
-<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="840,183,1015,209"/>
-<area shape="rect" id="node13" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="370,208,537,235"/>
-<area shape="rect" id="node14" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="360,259,547,285"/>
-<area shape="rect" id="node15" href="../../d6/d63/class_f_t8_x_x_driver.html#a0fc14e4b6ce1d0dcfbdc0801efd88513" title="FT8XXDriver::displayPower" alt="" coords="366,309,541,336"/>
-<area shape="rect" id="node17" href="../../da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="391,360,515,387"/>
-<area shape="rect" id="node19" href="../../d6/d63/class_f_t8_x_x_driver.html#a62c91df9c5b87a4ef8a7d5bd22f701c2" title="FT8XXDriver::touchEnable" alt="" coords="368,411,539,437"/>
-<area shape="rect" id="node16" href="../../d6/d63/class_f_t8_x_x_driver.html#a400b3a3156e35ecdfa7bcf839f484329" title="FT8XXDriver::displaySleep" alt="" coords="607,309,779,336"/>
-<area shape="rect" id="node18" href="../../d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="636,360,751,387"/>
+<area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="184,132,297,159"/>
+<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="169,56,312,83"/>
+<area shape="rect" id="node17" href="../../da/df4/class_g_d_class.html#a7ba77f9482f841123641d1f68412aacc" title="GDClass::reset" alt="" coords="185,183,296,209"/>
+<area shape="rect" id="node18" href="../../da/df4/class_g_d_class.html#a39b2978d97dbd003e7df8e9dc0d70a36" title="GDClass::tune" alt="" coords="187,233,294,260"/>
+<area shape="rect" id="node19" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="193,297,288,324"/>
+<area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="370,107,537,133"/>
+<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="396,157,511,184"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="595,208,817,235"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="865,208,1040,235"/>
+<area shape="rect" id="node8" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="381,5,525,32"/>
+<area shape="rect" id="node16" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="373,56,533,83"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="603,107,809,133"/>
+<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="869,107,1036,133"/>
+<area shape="rect" id="node11" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1873,158,2080,199"/>
+<area shape="rect" id="node12" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="1088,136,1308,163"/>
+<area shape="rect" id="node13" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="1356,195,1567,221"/>
+<area shape="rect" id="node15" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1621,129,1819,170"/>
+<area shape="rect" id="node14" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1615,245,1825,272"/>
+<area shape="rect" id="node20" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="370,259,537,285"/>
+<area shape="rect" id="node21" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="360,208,547,235"/>
+<area shape="rect" id="node22" href="../../d6/d63/class_f_t8_x_x_driver.html#a0fc14e4b6ce1d0dcfbdc0801efd88513" title="FT8XXDriver::displayPower" alt="" coords="366,360,541,387"/>
+<area shape="rect" id="node24" href="../../da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="391,411,515,437"/>
+<area shape="rect" id="node26" href="../../d6/d63/class_f_t8_x_x_driver.html#a62c91df9c5b87a4ef8a7d5bd22f701c2" title="FT8XXDriver::touchEnable" alt="" coords="368,309,539,336"/>
+<area shape="rect" id="node23" href="../../d6/d63/class_f_t8_x_x_driver.html#a400b3a3156e35ecdfa7bcf839f484329" title="FT8XXDriver::displaySleep" alt="" coords="620,360,792,387"/>
+<area shape="rect" id="node25" href="../../d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="649,411,763,437"/>
 </map>
 </div>
 
@@ -4101,12 +4289,14 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a72d164a6f4b81e026e3c891732d61ad2_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a72d164a6f4b81e026e3c891732d61ad2_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a72d164a6f4b81e026e3c891732d61ad2_icgraph" id="d3/d2e/class_g_d_transport_a72d164a6f4b81e026e3c891732d61ad2_icgraph">
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="184,56,297,83"/>
-<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#ad8c68c4c916f9d0f2ff634b231cba7fa" title="GDClass::wr16" alt="" coords="186,107,295,133"/>
+<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#ad8c68c4c916f9d0f2ff634b231cba7fa" title="GDClass::wr16" alt="" coords="186,107,295,133"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="345,5,512,32"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="371,56,486,83"/>
-<area shape="rect" id="node6" href="../../da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="367,107,491,133"/>
-<area shape="rect" id="node8" href="../../d6/d63/class_f_t8_x_x_driver.html#af06eaaaa75d09347b2711bc28700dbba" title="FT8XXDriver::writeReg" alt="" coords="355,157,503,184"/>
-<area shape="rect" id="node7" href="../../d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="560,107,675,133"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="560,56,783,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="831,56,1005,83"/>
+<area shape="rect" id="node8" href="../../da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="367,107,491,133"/>
+<area shape="rect" id="node10" href="../../d6/d63/class_f_t8_x_x_driver.html#af06eaaaa75d09347b2711bc28700dbba" title="FT8XXDriver::writeReg" alt="" coords="355,157,503,184"/>
+<area shape="rect" id="node9" href="../../d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="614,107,729,133"/>
 </map>
 </div>
 
@@ -4293,12 +4483,14 @@ Here is the caller graph for this function:</div>
 <div class="center"><img src="../../d3/d2e/class_g_d_transport_a87d9c22767d132a692fe0f2e752023cd_icgraph.png" border="0" usemap="#d3/d2e/class_g_d_transport_a87d9c22767d132a692fe0f2e752023cd_icgraph" alt=""/></div>
 <map name="d3/d2e/class_g_d_transport_a87d9c22767d132a692fe0f2e752023cd_icgraph" id="d3/d2e/class_g_d_transport_a87d9c22767d132a692fe0f2e752023cd_icgraph">
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="347,43,460,69"/>
-<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a39b2978d97dbd003e7df8e9dc0d70a36" title="GDClass::tune" alt="" coords="185,68,292,95"/>
-<area shape="rect" id="node6" href="../../da/df4/class_g_d_class.html#ac82e0611ecfb01f867d354189cc2db98" title="GDClass::wr32" alt="" coords="184,119,293,145"/>
+<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#a39b2978d97dbd003e7df8e9dc0d70a36" title="GDClass::tune" alt="" coords="185,68,292,95"/>
+<area shape="rect" id="node8" href="../../da/df4/class_g_d_class.html#ac82e0611ecfb01f867d354189cc2db98" title="GDClass::wr32" alt="" coords="184,119,293,145"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="513,5,680,32"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="539,56,654,83"/>
-<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="341,119,465,145"/>
-<area shape="rect" id="node8" href="../../d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="539,119,654,145"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="728,56,951,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="999,56,1173,83"/>
+<area shape="rect" id="node9" href="../../da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="341,119,465,145"/>
+<area shape="rect" id="node10" href="../../d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="539,119,654,145"/>
 </map>
 </div>
 
@@ -4573,6 +4765,78 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5aee8dec14c987edd4546c31fd39159e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aee8dec14c987edd4546c31fd39159e">&#9670;&nbsp;</a></span>counter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GDTransport::counter</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/de5/dump_8h_source.html#l00003">3</a> of file <a class="el" href="../../d5/de5/dump_8h_source.html">dump.h</a>.</p>
+
+</div>
+</div>
+<a id="a9c5b6026f38fee8b0d71d5968a255c96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c5b6026f38fee8b0d71d5968a255c96">&#9670;&nbsp;</a></span>dumpfile</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">FILE* GDTransport::dumpfile</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d5/de5/dump_8h_source.html#l00002">2</a> of file <a class="el" href="../../d5/de5/dump_8h_source.html">dump.h</a>.</p>
+
+</div>
+</div>
+<a id="ac4fe0a67100b5a7b72f0da6cc9cb045e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4fe0a67100b5a7b72f0da6cc9cb045e">&#9670;&nbsp;</a></span>fd</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GDTransport::fd</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00002">2</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
+
+</div>
+</div>
 <a id="adeb519e8270b477228c806402f117bc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adeb519e8270b477228c806402f117bc7">&#9670;&nbsp;</a></span>freespace</h2>
 
@@ -4588,6 +4852,54 @@ Here is the call graph for this function:</div>
 <p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00272">272</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dee/spidev_8h_source.html#l00007">begin()</a>, <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00041">begin1()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00084">cmd32()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00108">cmd_n()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00100">cmdbyte()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00258">getfree()</a>.</p>
+
+</div>
+</div>
+<a id="a83bd297fc52572fcc4b7794ceb188152"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83bd297fc52572fcc4b7794ceb188152">&#9670;&nbsp;</a></span>model</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> GDTransport::model</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../dd/d4c/wiring_8h_source.html#l00007">7</a> of file <a class="el" href="../../dd/d4c/wiring_8h_source.html">wiring.h</a>.</p>
+
+</div>
+</div>
+<a id="a3c3ac0639134e6dd3bd94cf7ca2e4194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c3ac0639134e6dd3bd94cf7ca2e4194">&#9670;&nbsp;</a></span>nwrite</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t GDTransport::nwrite</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00004">4</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
 </div>
 </div>
@@ -4642,6 +4954,30 @@ Here is the call graph for this function:</div>
 <p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00273">273</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../d9/dee/spidev_8h_source.html#l00214">stopstream()</a>, and <a class="el" href="../../d9/dee/spidev_8h_source.html#l00234">stream()</a>.</p>
+
+</div>
+</div>
+<a id="a60ab62c28d9acf92ba346897b0266ab2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60ab62c28d9acf92ba346897b0266ab2">&#9670;&nbsp;</a></span>writebuf</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t GDTransport::writebuf[4096]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d9/dee/spidev_8h_source.html#l00003">3</a> of file <a class="el" href="../../d9/dee/spidev_8h_source.html">spidev.h</a>.</p>
 
 </div>
 </div>

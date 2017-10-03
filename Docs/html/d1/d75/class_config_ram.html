@@ -83,6 +83,8 @@ $(document).ready(function(){initNavTree('d1/d75/class_config_ram.html','../../'
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d9/d26/class_config_ram-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ConfigRam Class Reference</div>  </div>
@@ -100,11 +102,457 @@ Collaboration diagram for ConfigRam:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c486163e427b031b202148cf9da78c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2">read</a> (<a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> *v)</td></tr>
 <tr class="separator:a6c486163e427b031b202148cf9da78c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a6d95756744d9a7edb7735209bea04b59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59">set_SDA</a> (<a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> n)</td></tr>
+<tr class="separator:a6d95756744d9a7edb7735209bea04b59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c42f758b64b3f2464655fb12e8e08c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c">set_SCL</a> (<a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> n)</td></tr>
+<tr class="separator:a75c42f758b64b3f2464655fb12e8e08c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a3052ff91f3dd4f3ea661ffb90568a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6">get_SDA</a> (void)</td></tr>
+<tr class="separator:a9a3052ff91f3dd4f3ea661ffb90568a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ab2d2de21d14fe6e023867d9d62644b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b">i2c_start</a> (void)</td></tr>
+<tr class="separator:a4ab2d2de21d14fe6e023867d9d62644b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1843c8465bee513e1b60762fb73c1e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1">i2c_stop</a> (void)</td></tr>
+<tr class="separator:aa1843c8465bee513e1b60762fb73c1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283bb750ebc6d470a2d71ac2b3db455b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b">i2c_rx1</a> ()</td></tr>
+<tr class="separator:a283bb750ebc6d470a2d71ac2b3db455b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c428627572dce3605aa52286b9ab3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d">i2c_tx1</a> (<a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> b)</td></tr>
+<tr class="separator:a37c428627572dce3605aa52286b9ab3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf087b262e31cbe2f3ebebe72d315b35"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35">i2c_tx</a> (<a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a> x)</td></tr>
+<tr class="separator:adf087b262e31cbe2f3ebebe72d315b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad66611812422c58863d7c63415004048"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048">i2c_rx</a> (int nak)</td></tr>
+<tr class="separator:ad66611812422c58863d7c63415004048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a14987810b26a9ec3c341cef46d33abb4"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#a14987810b26a9ec3c341cef46d33abb4">gpio</a></td></tr>
+<tr class="separator:a14987810b26a9ec3c341cef46d33abb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ebb1ac6ad8bb91987059c59a6ac3d2c"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#a8ebb1ac6ad8bb91987059c59a6ac3d2c">gpio_dir</a></td></tr>
+<tr class="separator:a8ebb1ac6ad8bb91987059c59a6ac3d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0a9f08eb9399ee0c85cf4c7558d7302"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d75/class_config_ram.html#af0a9f08eb9399ee0c85cf4c7558d7302">sda</a></td></tr>
+<tr class="separator:af0a9f08eb9399ee0c85cf4c7558d7302"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
 <p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00075">75</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a9a3052ff91f3dd4f3ea661ffb90568a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a3052ff91f3dd4f3ea661ffb90568a6">&#9670;&nbsp;</a></span>get_SDA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ConfigRam::get_SDA </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00091">91</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00239">GDTransport::__rd16()</a>, and <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00959">REG_GPIO</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00112">i2c_rx1()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a9a3052ff91f3dd4f3ea661ffb90568a6_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_a9a3052ff91f3dd4f3ea661ffb90568a6_cgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a9a3052ff91f3dd4f3ea661ffb90568a6_cgraph" id="d1/d75/class_config_ram_a9a3052ff91f3dd4f3ea661ffb90568a6_cgraph">
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="199,13,341,39"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="389,13,532,39"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="580,5,721,47"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a9a3052ff91f3dd4f3ea661ffb90568a6_icgraph.png" border="0" usemap="#d1/d75/class_config_ram_a9a3052ff91f3dd4f3ea661ffb90568a6_icgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a9a3052ff91f3dd4f3ea661ffb90568a6_icgraph" id="d1/d75/class_config_ram_a9a3052ff91f3dd4f3ea661ffb90568a6_icgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="199,31,333,57"/>
+<area shape="rect" id="node3" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="381,5,509,32"/>
+<area shape="rect" id="node10" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="381,56,509,83"/>
+<area shape="rect" id="node4" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="557,31,676,57"/>
+<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="724,31,837,57"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="885,5,1052,32"/>
+<area shape="rect" id="node7" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="911,56,1026,83"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="1100,56,1323,83"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1371,56,1545,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad66611812422c58863d7c63415004048"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad66611812422c58863d7c63415004048">&#9670;&nbsp;</a></span>i2c_rx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ConfigRam::i2c_rx </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nak</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00135">135</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00112">i2c_rx1()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00121">i2c_tx1()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00145">read()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_ad66611812422c58863d7c63415004048_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_ad66611812422c58863d7c63415004048_cgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_ad66611812422c58863d7c63415004048_cgraph" id="d1/d75/class_config_ram_ad66611812422c58863d7c63415004048_cgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="181,56,316,83"/>
+<area shape="rect" id="node11" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="181,5,316,32"/>
+<area shape="rect" id="node3" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="364,5,509,32"/>
+<area shape="rect" id="node7" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="365,56,508,83"/>
+<area shape="rect" id="node8" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="364,107,509,133"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="557,56,701,83"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="749,56,893,83"/>
+<area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="941,74,1083,115"/>
+<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="558,107,701,133"/>
+<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="750,107,893,133"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_ad66611812422c58863d7c63415004048_icgraph.png" border="0" usemap="#d1/d75/class_config_ram_ad66611812422c58863d7c63415004048_icgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_ad66611812422c58863d7c63415004048_icgraph" id="d1/d75/class_config_ram_ad66611812422c58863d7c63415004048_icgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="181,31,300,57"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="348,31,461,57"/>
+<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="509,5,676,32"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="535,56,650,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="724,56,947,83"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="995,56,1169,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a283bb750ebc6d470a2d71ac2b3db455b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a283bb750ebc6d470a2d71ac2b3db455b">&#9670;&nbsp;</a></span>i2c_rx1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ConfigRam::i2c_rx1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00112">112</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00091">get_SDA()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00086">set_SCL()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00078">set_SDA()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00135">i2c_rx()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00128">i2c_tx()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a283bb750ebc6d470a2d71ac2b3db455b_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_a283bb750ebc6d470a2d71ac2b3db455b_cgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a283bb750ebc6d470a2d71ac2b3db455b_cgraph" id="d1/d75/class_config_ram_a283bb750ebc6d470a2d71ac2b3db455b_cgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="188,5,333,32"/>
+<area shape="rect" id="node6" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="189,56,332,83"/>
+<area shape="rect" id="node9" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="188,107,333,133"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="382,5,525,32"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="574,5,717,32"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="765,23,907,65"/>
+<area shape="rect" id="node7" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="381,56,525,83"/>
+<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="573,56,717,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a283bb750ebc6d470a2d71ac2b3db455b_icgraph.png" border="0" usemap="#d1/d75/class_config_ram_a283bb750ebc6d470a2d71ac2b3db455b_icgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a283bb750ebc6d470a2d71ac2b3db455b_icgraph" id="d1/d75/class_config_ram_a283bb750ebc6d470a2d71ac2b3db455b_icgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="188,5,316,32"/>
+<area shape="rect" id="node9" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="188,56,316,83"/>
+<area shape="rect" id="node3" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="364,31,483,57"/>
+<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="531,31,644,57"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="692,5,859,32"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="718,56,833,83"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="907,56,1129,83"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1177,56,1352,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4ab2d2de21d14fe6e023867d9d62644b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ab2d2de21d14fe6e023867d9d62644b">&#9670;&nbsp;</a></span>i2c_start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConfigRam::i2c_start </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00096">96</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00086">set_SCL()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00078">set_SDA()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00145">read()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a4ab2d2de21d14fe6e023867d9d62644b_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_a4ab2d2de21d14fe6e023867d9d62644b_cgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a4ab2d2de21d14fe6e023867d9d62644b_cgraph" id="d1/d75/class_config_ram_a4ab2d2de21d14fe6e023867d9d62644b_cgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="197,5,340,32"/>
+<area shape="rect" id="node6" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="196,56,341,83"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="389,31,533,57"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="581,31,725,57"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="773,23,915,65"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a4ab2d2de21d14fe6e023867d9d62644b_icgraph.png" border="0" usemap="#d1/d75/class_config_ram_a4ab2d2de21d14fe6e023867d9d62644b_icgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a4ab2d2de21d14fe6e023867d9d62644b_icgraph" id="d1/d75/class_config_ram_a4ab2d2de21d14fe6e023867d9d62644b_icgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="196,31,315,57"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="363,31,476,57"/>
+<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="524,5,691,32"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="550,56,665,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="739,56,961,83"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1009,56,1184,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa1843c8465bee513e1b60762fb73c1e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1843c8465bee513e1b60762fb73c1e1">&#9670;&nbsp;</a></span>i2c_stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConfigRam::i2c_stop </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00104">104</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00086">set_SCL()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00078">set_SDA()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00145">read()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_aa1843c8465bee513e1b60762fb73c1e1_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_aa1843c8465bee513e1b60762fb73c1e1_cgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_aa1843c8465bee513e1b60762fb73c1e1_cgraph" id="d1/d75/class_config_ram_aa1843c8465bee513e1b60762fb73c1e1_cgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="197,5,340,32"/>
+<area shape="rect" id="node6" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="196,56,341,83"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="389,31,533,57"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="581,31,725,57"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="773,23,915,65"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_aa1843c8465bee513e1b60762fb73c1e1_icgraph.png" border="0" usemap="#d1/d75/class_config_ram_aa1843c8465bee513e1b60762fb73c1e1_icgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_aa1843c8465bee513e1b60762fb73c1e1_icgraph" id="d1/d75/class_config_ram_aa1843c8465bee513e1b60762fb73c1e1_icgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="196,31,315,57"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="363,31,476,57"/>
+<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="524,5,691,32"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="550,56,665,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="739,56,961,83"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1009,56,1184,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adf087b262e31cbe2f3ebebe72d315b35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf087b262e31cbe2f3ebebe72d315b35">&#9670;&nbsp;</a></span>i2c_tx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ConfigRam::i2c_tx </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00128">128</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00112">i2c_rx1()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00121">i2c_tx1()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00145">read()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_adf087b262e31cbe2f3ebebe72d315b35_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_adf087b262e31cbe2f3ebebe72d315b35_cgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_adf087b262e31cbe2f3ebebe72d315b35_cgraph" id="d1/d75/class_config_ram_adf087b262e31cbe2f3ebebe72d315b35_cgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="181,56,316,83"/>
+<area shape="rect" id="node11" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="181,107,316,133"/>
+<area shape="rect" id="node3" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="364,5,509,32"/>
+<area shape="rect" id="node7" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="365,56,508,83"/>
+<area shape="rect" id="node10" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="364,107,509,133"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="558,5,701,32"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="750,5,893,32"/>
+<area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="941,23,1083,65"/>
+<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="557,56,701,83"/>
+<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="749,56,893,83"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_adf087b262e31cbe2f3ebebe72d315b35_icgraph.png" border="0" usemap="#d1/d75/class_config_ram_adf087b262e31cbe2f3ebebe72d315b35_icgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_adf087b262e31cbe2f3ebebe72d315b35_icgraph" id="d1/d75/class_config_ram_adf087b262e31cbe2f3ebebe72d315b35_icgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="181,31,300,57"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="348,31,461,57"/>
+<area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="509,5,676,32"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="535,56,650,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="724,56,947,83"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="995,56,1169,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a37c428627572dce3605aa52286b9ab3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c428627572dce3605aa52286b9ab3d">&#9670;&nbsp;</a></span>i2c_tx1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConfigRam::i2c_tx1 </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00121">121</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00086">set_SCL()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00078">set_SDA()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00135">i2c_rx()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00128">i2c_tx()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a37c428627572dce3605aa52286b9ab3d_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_a37c428627572dce3605aa52286b9ab3d_cgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a37c428627572dce3605aa52286b9ab3d_cgraph" id="d1/d75/class_config_ram_a37c428627572dce3605aa52286b9ab3d_cgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="189,5,332,32"/>
+<area shape="rect" id="node6" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="188,56,333,83"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="381,31,525,57"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="573,31,717,57"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="765,23,907,65"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a37c428627572dce3605aa52286b9ab3d_icgraph.png" border="0" usemap="#d1/d75/class_config_ram_a37c428627572dce3605aa52286b9ab3d_icgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a37c428627572dce3605aa52286b9ab3d_icgraph" id="d1/d75/class_config_ram_a37c428627572dce3605aa52286b9ab3d_icgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="188,5,316,32"/>
+<area shape="rect" id="node9" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="188,56,316,83"/>
+<area shape="rect" id="node3" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="364,31,483,57"/>
+<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="531,31,644,57"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="692,5,859,32"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="718,56,833,83"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="907,56,1129,83"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1177,56,1352,83"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="a6c486163e427b031b202148cf9da78c2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6c486163e427b031b202148cf9da78c2">&#9670;&nbsp;</a></span>read()</h2>
 
@@ -131,7 +579,7 @@ Public Member Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00145">145</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">GDTransport::__end()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00239">GDTransport::__rd16()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00953">REG_GPIO</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00954">REG_GPIO_DIR</a>, and <a class="el" href="../../d5/de5/dump_8h_source.html#l00046">GDTransport::resume()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/de5/dump_8h_source.html#l00043">GDTransport::__end()</a>, <a class="el" href="../../d9/dee/spidev_8h_source.html#l00239">GDTransport::__rd16()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00135">i2c_rx()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00096">i2c_start()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00104">i2c_stop()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00128">i2c_tx()</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00959">REG_GPIO</a>, <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00960">REG_GPIO_DIR</a>, and <a class="el" href="../../d5/de5/dump_8h_source.html#l00046">GDTransport::resume()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00216">GDClass::begin()</a>.</p>
 <div class="dynheader">
@@ -140,10 +588,21 @@ Here is the call graph for this function:</div>
 <div class="center"><img src="../../d1/d75/class_config_ram_a6c486163e427b031b202148cf9da78c2_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_a6c486163e427b031b202148cf9da78c2_cgraph" alt=""/></div>
 <map name="d1/d75/class_config_ram_a6c486163e427b031b202148cf9da78c2_cgraph" id="d1/d75/class_config_ram_a6c486163e427b031b202148cf9da78c2_cgraph">
 <area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a612e8cfb0e21fc13f7417be7674b9edc" title="GDTransport::__end" alt="" coords="176,5,315,32"/>
-<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="174,56,317,83"/>
-<area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#ad461023d617d303d36df8152bf2c62d9" title="GDTransport::resume" alt="" coords="172,107,319,133"/>
-<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="367,56,509,83"/>
-<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="557,49,699,90"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="751,107,894,133"/>
+<area shape="rect" id="node6" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="181,107,309,133"/>
+<area shape="rect" id="node14" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b" title="ConfigRam::i2c_start" alt="" coords="367,208,509,235"/>
+<area shape="rect" id="node15" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1" title="ConfigRam::i2c_stop" alt="" coords="367,259,509,285"/>
+<area shape="rect" id="node16" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="181,157,309,184"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#ad461023d617d303d36df8152bf2c62d9" title="GDTransport::resume" alt="" coords="172,309,319,336"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="943,107,1086,133"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="1135,125,1276,166"/>
+<area shape="rect" id="node7" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="371,107,505,133"/>
+<area shape="rect" id="node13" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="371,157,505,184"/>
+<area shape="rect" id="node8" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="557,107,703,133"/>
+<area shape="rect" id="node9" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="559,157,701,184"/>
+<area shape="rect" id="node12" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="557,208,703,235"/>
+<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="751,157,895,184"/>
+<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="943,157,1087,184"/>
 </map>
 </div>
 <div class="dynheader">
@@ -154,8 +613,205 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node2" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="172,31,285,57"/>
 <area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="333,5,500,32"/>
 <area shape="rect" id="node4" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="359,56,474,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="548,56,771,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="819,56,993,83"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a75c42f758b64b3f2464655fb12e8e08c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75c42f758b64b3f2464655fb12e8e08c">&#9670;&nbsp;</a></span>set_SCL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConfigRam::set_SCL </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00086">86</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">GDTransport::__wr16()</a>, and <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00959">REG_GPIO</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00112">i2c_rx1()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00096">i2c_start()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00104">i2c_stop()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00121">i2c_tx1()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a75c42f758b64b3f2464655fb12e8e08c_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_a75c42f758b64b3f2464655fb12e8e08c_cgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a75c42f758b64b3f2464655fb12e8e08c_cgraph" id="d1/d75/class_config_ram_a75c42f758b64b3f2464655fb12e8e08c_cgraph">
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="196,13,340,39"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="388,13,532,39"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="580,5,721,47"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a75c42f758b64b3f2464655fb12e8e08c_icgraph.png" border="0" usemap="#d1/d75/class_config_ram_a75c42f758b64b3f2464655fb12e8e08c_icgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a75c42f758b64b3f2464655fb12e8e08c_icgraph" id="d1/d75/class_config_ram_a75c42f758b64b3f2464655fb12e8e08c_icgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="200,5,335,32"/>
+<area shape="rect" id="node11" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b" title="ConfigRam::i2c_start" alt="" coords="387,107,529,133"/>
+<area shape="rect" id="node12" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1" title="ConfigRam::i2c_stop" alt="" coords="196,157,339,184"/>
+<area shape="rect" id="node13" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="200,56,335,83"/>
+<area shape="rect" id="node3" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="394,5,522,32"/>
+<area shape="rect" id="node10" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="394,56,522,83"/>
+<area shape="rect" id="node4" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="577,81,696,108"/>
+<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="744,81,857,108"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="905,56,1072,83"/>
+<area shape="rect" id="node7" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="931,107,1046,133"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="1120,107,1343,133"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1391,107,1565,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a6d95756744d9a7edb7735209bea04b59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d95756744d9a7edb7735209bea04b59">&#9670;&nbsp;</a></span>set_SDA()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ConfigRam::set_SDA </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d71/_8buildtest_8vsarduino_8h.html#a0c8186d9b9b7880309c27230bbb5e69d">byte</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00078">78</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d9/dee/spidev_8h_source.html#l00246">GDTransport::__wr16()</a>, and <a class="el" href="../../df/de7/_g_d3_8h_source.html#l00960">REG_GPIO_DIR</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00112">i2c_rx1()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00096">i2c_start()</a>, <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00104">i2c_stop()</a>, and <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00121">i2c_tx1()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a6d95756744d9a7edb7735209bea04b59_cgraph.png" border="0" usemap="#d1/d75/class_config_ram_a6d95756744d9a7edb7735209bea04b59_cgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a6d95756744d9a7edb7735209bea04b59_cgraph" id="d1/d75/class_config_ram_a6d95756744d9a7edb7735209bea04b59_cgraph">
+<area shape="rect" id="node2" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="199,13,343,39"/>
+<area shape="rect" id="node3" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="391,13,535,39"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="583,5,724,47"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d1/d75/class_config_ram_a6d95756744d9a7edb7735209bea04b59_icgraph.png" border="0" usemap="#d1/d75/class_config_ram_a6d95756744d9a7edb7735209bea04b59_icgraph" alt=""/></div>
+<map name="d1/d75/class_config_ram_a6d95756744d9a7edb7735209bea04b59_icgraph" id="d1/d75/class_config_ram_a6d95756744d9a7edb7735209bea04b59_icgraph">
+<area shape="rect" id="node2" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="203,5,337,32"/>
+<area shape="rect" id="node11" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b" title="ConfigRam::i2c_start" alt="" coords="389,107,532,133"/>
+<area shape="rect" id="node12" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1" title="ConfigRam::i2c_stop" alt="" coords="199,157,341,184"/>
+<area shape="rect" id="node13" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="203,56,337,83"/>
+<area shape="rect" id="node3" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="397,5,525,32"/>
+<area shape="rect" id="node10" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="397,56,525,83"/>
+<area shape="rect" id="node4" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="580,81,699,108"/>
+<area shape="rect" id="node5" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="747,81,860,108"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="908,56,1075,83"/>
+<area shape="rect" id="node7" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="934,107,1049,133"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="1123,107,1345,133"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1393,107,1568,133"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a14987810b26a9ec3c341cef46d33abb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14987810b26a9ec3c341cef46d33abb4">&#9670;&nbsp;</a></span>gpio</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ConfigRam::gpio</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00077">77</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a8ebb1ac6ad8bb91987059c59a6ac3d2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ebb1ac6ad8bb91987059c59a6ac3d2c">&#9670;&nbsp;</a></span>gpio_dir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ConfigRam::gpio_dir</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00077">77</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
+
+</div>
+</div>
+<a id="af0a9f08eb9399ee0c85cf4c7558d7302"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0a9f08eb9399ee0c85cf4c7558d7302">&#9670;&nbsp;</a></span>sda</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t ConfigRam::sda</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../da/d16/_g_d3_8cpp_source.html#l00077">77</a> of file <a class="el" href="../../da/d16/_g_d3_8cpp_source.html">GD3.cpp</a>.</p>
 
 </div>
 </div>

@@ -4,7 +4,6 @@ var NAVTREE =
     [ "A short guide to use fontconvert.c to create your own fonts using MinGW.", "da/db0/md__external__adafruit__g_f_x__library_fontconvert_fontconvert_win.html", null ],
     [ "Adafruit GFX Library", "db/da7/md__external__adafruit__g_f_x__library__r_e_a_d_m_e.html", null ],
     [ "uWindows", "d3/dcc/md__r_e_a_d_m_e.html", null ],
-    [ "Modules", "modules.html", "modules" ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -13,10 +12,8 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
-        [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
-        [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
     [ "Files", null, [
@@ -37,30 +34,28 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"d0/dfb/struct_c_s_d_v1.html#a8092b9bbbdae4b8510a8b7f694242ad3",
-"d1/db8/struct_c_i_d.html#ada215f8541fa46078461d8da9574fc5e",
-"d2/dbb/logo__assets_8h.html#a0b19a4909cdd86e4fe50f99a2edf7293",
-"d3/d34/_u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text-_semi_bold18_8h.html",
-"d3/dfd/class_circular_min_max_buffer.html#aec6a5029a64ae106d654450f52fc9298",
-"d4/dc1/classios__base.html#a19ffb796cb95d3744d9bc7739939acf2",
-"d5/d9f/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_black_italic12_8h.html#a6df60404b07129939a2a7e68adba6686",
-"d6/d23/class_sdio_card_e_x.html#ab34379d6663461dd0000180e640b73be",
-"d6/d96/_fat_structs_8h.html#ad6224dfa27a1c558703f158e93ceafe0",
-"d7/deb/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_light_italic36_8h_source.html",
-"d8/d81/struct_c_s_d_v2.html#acb8d47b0517908d08d12f0d8f3b2cc74",
-"d9/d6b/_u_i_elements_2_f_t8_x_x_2_fonts_2_courier_prime_bold24_8h.html#adb77d3bfc74835f1e332faf48448f03c",
-"d9/daf/_adafruit___r_a8875_8h.html#a39ef61b2bef79f9ec2dfd1d057ec586b",
-"d9/ddd/class_color.html#abf86de2edcb7562ef5c4eceb1253d320a43742a08b6ddba1083be300ac5b2283b",
-"da/d3e/_fonts_2_g_d2_files_2_courier_prime24_8h.html#adb77d3bfc74835f1e332faf48448f03c",
-"da/d88/_u_i_elements_2_r_a8875_2_fonts_2aileron_ultra_light36_8h_source.html",
-"da/df4/class_g_d_class.html#ae15883e9fb9cd670d5b138ec4b62aa21",
-"db/d8a/_fonts_2_g_d2_files_2_crimson_text-_semi_bold_italic36_8h_source.html",
-"dc/dc3/class_digital_pin.html#a4bd165a425e413a19936c0b679f06721",
-"dd/d68/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_black9_8h.html#a57ad40b9eb9a2afaf3579fd492920a31",
-"de/d81/_crimson_semi_bold36_8h_source.html",
-"df/d91/_u_i_elements_2_r_a8875_2_fonts_2aileron_black18_8h_source.html",
-"df/de7/_g_d3_8h.html#a78161fe65c559730d84b4b1d733d8fa9",
-"functions_vars_u.html"
+"d1/d2d/_u_i_elements_2_f_t8_x_x_2_fonts_2_crimson_text36_8h.html#aa3d20eccf40b4c68620a7ce439abf380",
+"d1/de6/_adafruit___g_f_x_8cpp.html#a48c60b057902adf805797f183286728d",
+"d2/dbb/logo__assets_8h.html#a1dbee5a9e6c755c1960d4d553e132fe4",
+"d3/d3c/_fonts_2_g_d2_files_2aileron_semi_bold36_8h.html#aa1cdf9623b0da0472b5d1546321ee165",
+"d4/d2e/_fonts_2_g_d2_files_2aileron_light36_8h.html#a13528a27e127a966ae4aa7d65187745e",
+"d5/d1b/_fonts_2_g_d2_files_2_courier_prime_bold_italic24_8h.html#adb77d3bfc74835f1e332faf48448f03c",
+"d5/dba/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_ultra_light_italic36_8h.html#a39b3271f3bb7a3263478e8735ad6c52b",
+"d6/d5b/_fonts_2_g_d2_files_2aileron_thin_italic9_8h.html#a57ad40b9eb9a2afaf3579fd492920a31",
+"d7/d97/_u_i_elements_2_r_a8875_2_fonts_2aileron_bold9_8h.html",
+"d8/d56/_u_i_elements_2_r_a8875_2_fonts_2aileron_black9_8h.html",
+"d9/d69/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_semi_bold_italic24_8h.html#a93a2f057fa2bda6f8ac9466f4edff025",
+"d9/dae/_battery60pct_8h.html#a468e1ea58dd027b4be5d0c6bb9cde59f",
+"d9/db6/2_8_assets_2_f_t8_x_x__iconos_2_icons2_8h.html#afdf2617bd371114d388c4fa60db2a307",
+"da/d16/_g_d3_8cpp.html#a51ed2bd47e7f4b9e8c005338d2b5d965",
+"da/de6/_free_mono12pt7b_8h.html",
+"db/d47/_fonts_2_g_d2_files_2aileron_bold_italic36_8h.html#a57ad40b9eb9a2afaf3579fd492920a31",
+"dc/d68/_fonts_2_g_d2_files_2_crimson_text-_italic24_8h.html#ae4389b1518d430a9b31b8e783e91c904",
+"dd/d2e/_fonts_2_g_d2_files_2aileron_semi_bold24_8h.html#acc61526f276e4909a306acaa2816cfa5",
+"de/d00/_fonts_2_g_d2_files_2_crimson_text-_semi_bold24_8h.html#a4568a96f056ae85a0db5aa8be670fb85",
+"df/d4a/classsdcard.html#a009b353741c3f3e9f42fa5e5b1b10a7a",
+"df/de7/_g_d3_8h.html#a190c29e3a00685c3f8c4906df37720ae",
+"dir_cb8cb3e8e38c2fa48cff32053ac7337c.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

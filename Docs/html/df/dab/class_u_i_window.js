@@ -9,5 +9,18 @@ var class_u_i_window =
     [ "SetModal", "df/dab/class_u_i_window.html#ad1f979a952bfa573e0fef96249c53697", null ],
     [ "SetTitleBar", "df/dab/class_u_i_window.html#a980fb4ec62ce29e6552c5109103757e3", null ],
     [ "SetWindowTitle", "df/dab/class_u_i_window.html#ab09a9a10851335cd643994ce7c6d7606", null ],
-    [ "Update", "df/dab/class_u_i_window.html#aa749f7add746a3e5018f7c0a0023596a", null ]
+    [ "Update", "df/dab/class_u_i_window.html#aa749f7add746a3e5018f7c0a0023596a", null ],
+    [ "chromeColor", "df/dab/class_u_i_window.html#a7152b648745082fcc6d82b37d7169bf1", null ],
+    [ "closeIcon", "df/dab/class_u_i_window.html#a46b206949c1ce1ab329a1aa0dd785191", null ],
+    [ "cornerRadius", "df/dab/class_u_i_window.html#a0014a00b0d6749757bdfe124a5a6cacc", null ],
+    [ "hasChrome", "df/dab/class_u_i_window.html#a36275131fcc6923eb40004c6ccd60a52", null ],
+    [ "hasCloseIcon", "df/dab/class_u_i_window.html#a1043abed829cef85693203118e0b329e", null ],
+    [ "hasTitleBar", "df/dab/class_u_i_window.html#a50964ed99acd43ec55e2da850a4f79c5", null ],
+    [ "is3D", "df/dab/class_u_i_window.html#abe4ef334193ac176b90c78093d5b58d1", null ],
+    [ "isModal", "df/dab/class_u_i_window.html#a88e333b5ff3ed4ef77fc4f4ba421daa1", null ],
+    [ "titleBarColor", "df/dab/class_u_i_window.html#a3d594ddd6092894297e7c599167743ea", null ],
+    [ "titleBarFont", "df/dab/class_u_i_window.html#ae48db34535cb520328be0b3bd795cfbf", null ],
+    [ "titleText", "df/dab/class_u_i_window.html#a10a9cc3b152456d3418cd3bec907e7de", null ],
+    [ "titleTextColor", "df/dab/class_u_i_window.html#aafed00267274bf293739d48f9dc5791d", null ],
+    [ "windowColor", "df/dab/class_u_i_window.html#ac9b2b36263b34a64ad3a920525de8a75", null ]
 ];

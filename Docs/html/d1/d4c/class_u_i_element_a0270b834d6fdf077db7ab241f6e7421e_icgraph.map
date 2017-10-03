@@ -2,5 +2,5 @@
 <area shape="rect" id="node2" href="$df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="212,31,400,57"/>
 <area shape="rect" id="node3" href="$df/dab/class_u_i_window.html#a20bc4a4bc92870e069cbcba5406a4bb8" title="UIWindow::SetCornerRadius" alt="" coords="466,5,653,32"/>
 <area shape="rect" id="node4" href="$d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="448,56,671,83"/>
-<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="719,56,893,83"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="719,49,925,90"/>
 </map>

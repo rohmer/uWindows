@@ -1,18 +1,17 @@
 <map id="UIRadioButton::Update" name="UIRadioButton::Update">
 <area shape="rect" id="node2" href="$d5/dbc/class_radio_button.html#ae6b1eb4857be6c9ecbb0999946fc84cc" title="RadioButton::Draw" alt="" coords="223,132,354,159"/>
-<area shape="rect" id="node16" href="$dc/de9/class_driver_base.html#a4127d060ef4e6ca306bb56f2376d7448" title="DriverBase::setTextSize" alt="" coords="208,183,369,209"/>
-<area shape="rect" id="node17" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="238,233,339,260"/>
+<area shape="rect" id="node15" href="$dc/de9/class_driver_base.html#a4127d060ef4e6ca306bb56f2376d7448" title="DriverBase::setTextSize" alt="" coords="208,183,369,209"/>
+<area shape="rect" id="node16" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="238,233,339,260"/>
 <area shape="rect" id="node3" href="$d5/d68/struct_rectangle.html#ae37da421890786fee5031b2b37eaba6b" title="Rectangle::center" alt="" coords="443,5,567,32"/>
-<area shape="rect" id="node4" href="$d5/deb/class_u_i_primitives.html#a8aafc219700ddc05ca0fa888805c0522" title="UIPrimitives::CircleFlat" alt="" coords="428,157,581,184"/>
-<area shape="rect" id="node10" href="$d5/deb/class_u_i_primitives.html#af7d80980f758e06d0efd785c1913ed5e" title="UIPrimitives::CircleRaised" alt="" coords="419,259,590,285"/>
-<area shape="rect" id="node12" href="$d5/deb/class_u_i_primitives.html#a6b35572a07aa0ae9aa56b88f70f167c3" title="UIPrimitives::CircleSunken" alt="" coords="417,208,592,235"/>
-<area shape="rect" id="node13" href="$d4/d96/class_font_helper.html#a73c19d5c6909ad334efd782446835f05" title="FontHelper::GetTextRect" alt="" coords="640,5,807,32"/>
-<area shape="rect" id="node14" href="$d5/deb/class_u_i_primitives.html#a11ff2d3dcd855c73177dca55c2f1d434" title="UIPrimitives::Text" alt="" coords="443,107,566,133"/>
-<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="666,309,781,336"/>
-<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="663,157,784,184"/>
-<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="653,107,793,133"/>
-<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a633c344df45d3ac7483a8615160552f3" title="GDClass::PointSize" alt="" coords="654,259,793,285"/>
-<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="658,208,789,235"/>
-<area shape="rect" id="node11" href="$da/df4/class_g_d_class.html#afbb12db41b3a6a89f3e8666a323ec2e0" title="GDClass::VertexFormat" alt="" coords="643,360,804,387"/>
-<area shape="rect" id="node15" href="$da/df4/class_g_d_class.html#a8af7d326a481930f04f38882987da67b" title="GDClass::cmd_text" alt="" coords="655,56,791,83"/>
+<area shape="rect" id="node4" href="$d5/deb/class_u_i_primitives.html#a8aafc219700ddc05ca0fa888805c0522" title="UIPrimitives::CircleFlat" alt="" coords="428,56,581,83"/>
+<area shape="rect" id="node10" href="$d5/deb/class_u_i_primitives.html#af7d80980f758e06d0efd785c1913ed5e" title="UIPrimitives::CircleRaised" alt="" coords="419,107,590,133"/>
+<area shape="rect" id="node11" href="$d5/deb/class_u_i_primitives.html#a6b35572a07aa0ae9aa56b88f70f167c3" title="UIPrimitives::CircleSunken" alt="" coords="417,157,592,184"/>
+<area shape="rect" id="node12" href="$d4/d96/class_font_helper.html#a73c19d5c6909ad334efd782446835f05" title="FontHelper::GetTextRect" alt="" coords="640,309,807,336"/>
+<area shape="rect" id="node13" href="$d5/deb/class_u_i_primitives.html#a11ff2d3dcd855c73177dca55c2f1d434" title="UIPrimitives::Text" alt="" coords="443,208,566,235"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="666,5,781,32"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="663,208,784,235"/>
+<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="653,157,793,184"/>
+<area shape="rect" id="node8" href="$da/df4/class_g_d_class.html#a633c344df45d3ac7483a8615160552f3" title="GDClass::PointSize" alt="" coords="654,56,793,83"/>
+<area shape="rect" id="node9" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="658,107,789,133"/>
+<area shape="rect" id="node14" href="$da/df4/class_g_d_class.html#a8af7d326a481930f04f38882987da67b" title="GDClass::cmd_text" alt="" coords="655,259,791,285"/>
 </map>

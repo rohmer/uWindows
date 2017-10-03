@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('d1/d4c/class_u_i_element.html','../../
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="../../da/d8e/class_u_i_element-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">UIElement Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -96,16 +97,16 @@ Inheritance diagram for UIElement:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/dfb/class_u_i_element__inherit__graph.png" border="0" usemap="#_u_i_element_inherit__map" alt="Inheritance graph"/></div>
 <map name="_u_i_element_inherit__map" id="_u_i_element_inherit__map">
-<area shape="rect" id="node2" href="../../d4/d3b/class_home_screen.html" title="The home screen for the PiMower A screen is an element that contains the window and all the elements ..." alt="" coords="5,439,131,560"/>
-<area shape="rect" id="node3" href="../../d9/d21/class_screen_saver.html" title="{ScreenSaver\n||+ ScreenSaver()\l+ Update()\l+ ProcessTouch()\l}" alt="" coords="155,446,280,553"/>
-<area shape="rect" id="node4" href="../../d1/d95/class_settings_button.html" title="{SettingsButton\n||+ SettingsButton()\l+ Update()\l+ ProcessTouch()\l+ ~SettingsButton()\l}" alt="" coords="304,439,440,560"/>
-<area shape="rect" id="node5" href="../../d1/d0d/class_u_i_active_button.html" title="{UIActiveButton\n||}" alt="" coords="464,461,571,538"/>
-<area shape="rect" id="node6" href="../../da/d03/class_u_i_button.html" title="{UIButton\n||+ UIButton()\l+ ProcessTouch()\l+ Update()\l+ SetButtonText()\l+ SetVerticalAlignment()\l}" alt="" coords="595,431,759,567"/>
-<area shape="rect" id="node7" href="../../de/dcc/class_u_i_check_box.html" title="{UICheckBox\n||+ UICheckBox()\l+ ~UICheckBox()\l+ ProcessTouch()\l+ Update()\l}" alt="" coords="784,439,909,560"/>
-<area shape="rect" id="node8" href="../../dc/d7a/class_u_i_element_graph.html" title="{UIElementGraph\n||+ UIElementGraph()\l+ ProcessTouch()\l+ Update()\l+ GetValues()\l+ AddValue()\l}" alt="" coords="934,431,1071,567"/>
-<area shape="rect" id="node9" href="../../da/d7d/class_u_i_radio_button.html" title="{UIRadioButton\n||+ UIRadioButton()\l+ Update()\l+ SetText()\l+ SetChecked()\l+ IsChecked()\l+ ProcessTouch()\l}" alt="" coords="1096,424,1221,575"/>
-<area shape="rect" id="node10" href="../../dc/d61/class_u_i_radio_group.html" title="UIRadioGroup is a container class, some differences from other UIElements " alt="" coords="1245,417,1397,582"/>
-<area shape="rect" id="node11" href="../../df/dab/class_u_i_window.html" title="{UIWindow\n||+ UIWindow()\l+ Update()\l+ SetWindowTitle()\l+ SetTitleBar()\l+ SetCloseIcon()\l+ SetHasChrome()\l+ SetModal()\l+ SetCornerRadius()\l+ AddChildElement()\l+ ProcessTouch()\l}" alt="" coords="1422,395,1565,604"/>
+<area shape="rect" id="node2" href="../../d4/d3b/class_home_screen.html" title="The home screen for the PiMower A screen is an element that contains the window and all the elements ..." alt="" coords="5,527,131,677"/>
+<area shape="rect" id="node3" href="../../d9/d21/class_screen_saver.html" title="{ScreenSaver\n|&#45; updateTime\l|+ ScreenSaver()\l+ Update()\l+ ProcessTouch()\l&#45; draw()\l}" alt="" coords="155,541,280,663"/>
+<area shape="rect" id="node4" href="../../d1/d95/class_settings_button.html" title="{SettingsButton\n|&#45; updateTime\l&#45; gearIcon\l|+ SettingsButton()\l+ Update()\l+ ProcessTouch()\l+ ~SettingsButton()\l}" alt="" coords="304,534,440,670"/>
+<area shape="rect" id="node5" href="../../d1/d0d/class_u_i_active_button.html" title="{UIActiveButton\n|&#45; buttonText\l&#45; font\l&#45; cornerRadius\l&#45; is3D\l&#45; raised\l&#45; updateInterval\l&#45; updateTime\l&#45; alpha\l&#45; textColor\l&#45; buttonBGColor\l|&#45; UIActiveButton()\l&#45; ProcessTouch()\l&#45; Update()\l&#45; SetButtonText()\l}" alt="" coords="464,475,587,729"/>
+<area shape="rect" id="node6" href="../../da/d03/class_u_i_button.html" title="{UIButton\n|&#45; buttonText\l&#45; font\l&#45; cornerRadius\l&#45; is3D\l&#45; raised\l&#45; textColor\l&#45; buttonBGColor\l&#45; alpha\l&#45; vertAlign\l|+ UIButton()\l+ ProcessTouch()\l+ Update()\l+ SetButtonText()\l+ SetVerticalAlignment()\l}" alt="" coords="611,475,775,729"/>
+<area shape="rect" id="node7" href="../../de/dcc/class_u_i_check_box.html" title="{UICheckBox\n|&#45; buttonText\l&#45; textFont\l&#45; textColor\l&#45; boxColor\l&#45; boxShadowColor\l&#45; boxCheckColor\l&#45; textScale\l&#45; shadowSize\l&#45; boxBorderSize\l&#45; cornerRadius\l&#45; hasRoundCorners\l&#45; isChecked\l|+ UICheckBox()\l+ ~UICheckBox()\l+ ProcessTouch()\l+ Update()\l}" alt="" coords="800,461,933,743"/>
+<area shape="rect" id="node8" href="../../dc/d7a/class_u_i_element_graph.html" title="{UIElementGraph\n|&#45; font\l&#45; cornerRadius\l&#45; values\l&#45; prevValuesChecksum\l&#45; alpha\l&#45; itemLabel\l&#45; graphType\l&#45; textColor\l&#45; graphColor\l&#45; bgColor\l|+ UIElementGraph()\l+ ProcessTouch()\l+ Update()\l+ GetValues()\l+ AddValue()\l}" alt="" coords="957,468,1112,736"/>
+<area shape="rect" id="node9" href="../../da/d7d/class_u_i_radio_button.html" title="{UIRadioButton\n|&#45; buttonText\l&#45; isChecked\l&#45; is3D\l&#45; textRight\l&#45; textFont\l&#45; textColor\l&#45; controlColor\l&#45; checkColor\l&#45; checkRect\l|+ UIRadioButton()\l+ Update()\l+ SetText()\l+ SetChecked()\l+ IsChecked()\l+ ProcessTouch()\l}" alt="" coords="1136,468,1261,736"/>
+<area shape="rect" id="node10" href="../../dc/d61/class_u_i_radio_group.html" title="UIRadioGroup is a container class, some differences from other UIElements " alt="" coords="1285,512,1437,692"/>
+<area shape="rect" id="node11" href="../../df/dab/class_u_i_window.html" title="{UIWindow\n|&#45; titleText\l&#45; hasTitleBar\l&#45; hasCloseIcon\l&#45; hasChrome\l&#45; isModal\l&#45; is3D\l&#45; titleTextColor\l&#45; chromeColor\l&#45; titleBarColor\l&#45; windowColor\l&#45; cornerRadius\l&#45; titleBarFont\l&#45; closeIcon\l|+ UIWindow()\l+ Update()\l+ SetWindowTitle()\l+ SetTitleBar()\l+ SetCloseIcon()\l+ SetHasChrome()\l+ SetModal()\l+ SetCornerRadius()\l+ AddChildElement()\l+ ProcessTouch()\l}" alt="" coords="1462,409,1605,795"/>
 </map>
 </div>
 <div class="dynheader">
@@ -113,7 +114,7 @@ Collaboration diagram for UIElement:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d7/dde/class_u_i_element__coll__graph.png" border="0" usemap="#_u_i_element_coll__map" alt="Collaboration graph"/></div>
 <map name="_u_i_element_coll__map" id="_u_i_element_coll__map">
-<area shape="rect" id="node3" title="STL class. " alt="" coords="5,587,119,665"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="5,595,119,672"/>
 <area shape="rect" id="node5" href="../../d5/d68/struct_rectangle.html" title="{Rectangle\n|+ x1\l+ y1\l+ x2\l+ y2\l+ width\l+ height\l|+ Rectangle()\l+ Rectangle()\l+ hasArea()\l+ center()\l+ normalizeRect()\l+ normalizeRect()\l+ add()\l+ update()\l+ contains()\l+ occludes()\l}" alt="" coords="99,147,225,429"/>
 <area shape="rect" id="node6" title="STL class. " alt="" coords="249,249,329,327"/>
 <area shape="rect" id="node7" title="STL class. " alt="" coords="225,5,352,97"/>
@@ -181,6 +182,11 @@ Protected Attributes</h2></td></tr>
 <tr class="separator:afdb5fe071086620dc33b5d75246ac7d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae35792c7905968b04f858330d66619ca"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d1/d4c/class_u_i_element.html">UIElement</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/class_u_i_element.html#ae35792c7905968b04f858330d66619ca">childElements</a></td></tr>
 <tr class="separator:ae35792c7905968b04f858330d66619ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:adc8ff926115f0343ec3704f8bd8096a5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d1/d4c/class_u_i_element.html">UIElement</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/class_u_i_element.html#adc8ff926115f0343ec3704f8bd8096a5">getChildElements</a> ()</td></tr>
+<tr class="separator:adc8ff926115f0343ec3704f8bd8096a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -234,26 +240,6 @@ Protected Attributes</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00063">63</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00017">Logger::Trace()</a>, <a class="el" href="../../db/def/_rectangle_8h_source.html#l00120">Rectangle::x1</a>, <a class="el" href="../../db/def/_rectangle_8h_source.html#l00120">Rectangle::x2</a>, <a class="el" href="../../db/def/_rectangle_8h_source.html#l00120">Rectangle::y1</a>, and <a class="el" href="../../db/def/_rectangle_8h_source.html#l00120">Rectangle::y2</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00005">UIWindow::UIWindow()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d1/d4c/class_u_i_element_ab24454dd687681eca33890a1896a9811_cgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_ab24454dd687681eca33890a1896a9811_cgraph" alt=""/></div>
-<map name="d1/d4c/class_u_i_element_ab24454dd687681eca33890a1896a9811_cgraph" id="d1/d4c/class_u_i_element_ab24454dd687681eca33890a1896a9811_cgraph">
-<area shape="rect" id="node2" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="204,5,305,32"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d1/d4c/class_u_i_element_ab24454dd687681eca33890a1896a9811_icgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_ab24454dd687681eca33890a1896a9811_icgraph" alt=""/></div>
-<map name="d1/d4c/class_u_i_element_ab24454dd687681eca33890a1896a9811_icgraph" id="d1/d4c/class_u_i_element_ab24454dd687681eca33890a1896a9811_icgraph">
-<area shape="rect" id="node2" href="../../df/dab/class_u_i_window.html#a484f3beee4672766b8866470c519410a" title="UIWindow::UIWindow" alt="" coords="204,5,351,32"/>
-</map>
-</div>
-
 </div>
 </div>
 <a id="a47231521fb870c740c8d281ab8ccbbf9"></a>
@@ -281,8 +267,6 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00080">80</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
-
-<p class="reference">References <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00188">location</a>, <a class="el" href="../../db/def/_rectangle_8h_source.html#l00120">Rectangle::x1</a>, <a class="el" href="../../db/def/_rectangle_8h_source.html#l00120">Rectangle::x2</a>, <a class="el" href="../../db/def/_rectangle_8h_source.html#l00120">Rectangle::y1</a>, and <a class="el" href="../../db/def/_rectangle_8h_source.html#l00120">Rectangle::y2</a>.</p>
 
 </div>
 </div>
@@ -350,17 +334,15 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00143">143</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00188">location</a>, and <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00189">parentElement</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00009">UIRadioGroup::AddRadioButton()</a>, <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00003">HomeScreen::HomeScreen()</a>, and <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00012">HomeScreen::~HomeScreen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00017">HomeScreen::addButtons()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00009">UIRadioGroup::AddRadioButton()</a>, and <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00003">HomeScreen::HomeScreen()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d4c/class_u_i_element_a44e49850b9047ab096154eebf0e841ce_icgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_a44e49850b9047ab096154eebf0e841ce_icgraph" alt=""/></div>
 <map name="d1/d4c/class_u_i_element_a44e49850b9047ab096154eebf0e841ce_icgraph" id="d1/d4c/class_u_i_element_a44e49850b9047ab096154eebf0e841ce_icgraph">
-<area shape="rect" id="node2" href="../../dc/d61/class_u_i_radio_group.html#a88d608f52a5c69e7734a4cdd87ed7582" title="UIRadioGroup::AddRadioButton" alt="" coords="244,5,448,32"/>
-<area shape="rect" id="node3" href="../../d4/d3b/class_home_screen.html#ae3a2750db361a176fa822444fca4e7c7" title="HomeScreen::HomeScreen" alt="" coords="256,56,436,83"/>
-<area shape="rect" id="node4" href="../../d4/d3b/class_home_screen.html#aa638daca35ebc0708a2798dc5ac20c7c" title="HomeScreen::~HomeScreen" alt="" coords="252,107,440,133"/>
+<area shape="rect" id="node2" href="../../d4/d3b/class_home_screen.html#a1d82803094c99a6d65b09416a5aff11b" title="HomeScreen::addButtons" alt="" coords="261,5,431,32"/>
+<area shape="rect" id="node3" href="../../d4/d3b/class_home_screen.html#ae3a2750db361a176fa822444fca4e7c7" title="HomeScreen::HomeScreen" alt="" coords="496,31,676,57"/>
+<area shape="rect" id="node4" href="../../dc/d61/class_u_i_radio_group.html#a88d608f52a5c69e7734a4cdd87ed7582" title="UIRadioGroup::AddRadioButton" alt="" coords="244,107,448,133"/>
 </map>
 </div>
 
@@ -391,16 +373,46 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00133">133</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00056">WindowManager::DeleteElement()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00061">WindowManager::ClearElements()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00107">WindowManager::updateOccluded()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d4c/class_u_i_element_aa9040e443359050eb9ebb68dd77e7895_icgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_aa9040e443359050eb9ebb68dd77e7895_icgraph" alt=""/></div>
 <map name="d1/d4c/class_u_i_element_aa9040e443359050eb9ebb68dd77e7895_icgraph" id="d1/d4c/class_u_i_element_aa9040e443359050eb9ebb68dd77e7895_icgraph">
-<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="248,5,459,32"/>
-<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="507,5,681,32"/>
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="775,5,985,32"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="248,56,468,83"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1033,49,1240,90"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="516,56,727,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="781,107,979,149"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="adc8ff926115f0343ec3704f8bd8096a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc8ff926115f0343ec3704f8bd8096a5">&#9670;&nbsp;</a></span>getChildElements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="../../d1/d4c/class_u_i_element.html">UIElement</a> *&gt; UIElement::getChildElements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00180">180</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
 </div>
 </div>
@@ -429,16 +441,23 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00101">101</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00056">WindowManager::DeleteElement()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00110">UIRadioGroup::ProcessTouch()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00047">WindowManager::RegisterElement()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00070">WindowManager::DeleteElement()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00110">UIRadioGroup::ProcessTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">WindowManager::processTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00049">WindowManager::RegisterElement()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00005">WindowManager::WindowManager()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d4c/class_u_i_element_a4e1132bbd1dd094e1f04a2a49fd9754f_icgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_a4e1132bbd1dd094e1f04a2a49fd9754f_icgraph" alt=""/></div>
 <map name="d1/d4c/class_u_i_element_a4e1132bbd1dd094e1f04a2a49fd9754f_icgraph" id="d1/d4c/class_u_i_element_a4e1132bbd1dd094e1f04a2a49fd9754f_icgraph">
-<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="227,5,438,32"/>
-<area shape="rect" id="node4" href="../../dc/d61/class_u_i_radio_group.html#acceeaa7c9f31faa25b8458712582a8f4" title="UIRadioGroup::ProcessTouch" alt="" coords="236,56,429,83"/>
-<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="221,107,444,133"/>
-<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="492,56,667,83"/>
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="985,60,1196,87"/>
+<area shape="rect" id="node5" href="../../dc/d61/class_u_i_radio_group.html#acceeaa7c9f31faa25b8458712582a8f4" title="UIRadioGroup::ProcessTouch" alt="" coords="236,119,429,145"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="229,169,436,196"/>
+<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="715,224,937,251"/>
+<area shape="rect" id="node11" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="221,271,444,297"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1503,107,1709,149"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1244,5,1455,32"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="496,169,663,196"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="716,115,936,141"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1251,107,1448,149"/>
+<area shape="rect" id="node12" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="492,271,667,297"/>
 </map>
 </div>
 
@@ -536,7 +555,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00123">123</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00200">UIWindow::AddChildElement()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00009">UIRadioGroup::AddRadioButton()</a>, and <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00110">UIRadioGroup::ProcessTouch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00084">UIWindow::AddChildElement()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00009">UIRadioGroup::AddRadioButton()</a>, and <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00110">UIRadioGroup::ProcessTouch()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -547,7 +566,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node7" href="../../dc/d61/class_u_i_radio_group.html#acceeaa7c9f31faa25b8458712582a8f4" title="UIRadioGroup::ProcessTouch" alt="" coords="219,132,412,159"/>
 <area shape="rect" id="node3" href="../../df/dab/class_u_i_window.html#a20bc4a4bc92870e069cbcba5406a4bb8" title="UIWindow::SetCornerRadius" alt="" coords="483,5,670,32"/>
 <area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="465,56,688,83"/>
-<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="736,56,911,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="736,49,943,90"/>
 </map>
 </div>
 
@@ -578,16 +597,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00113">113</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00113">Invalidate()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d7/d00/_u_i_element_graph_8h_source.html#l00038">UIElementGraph::AddValue()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00113">Invalidate()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00055">UICheckBox::ProcessTouch()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00072">UIRadioButton::ProcessTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00047">WindowManager::RegisterElement()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00040">UIButton::SetButtonText()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00064">UIRadioButton::SetChecked()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00083">UIWindow::SetCloseIcon()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00089">UIWindow::SetHasChrome()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00095">UIWindow::SetModal()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00056">UIRadioButton::SetText()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00071">UIWindow::SetTitleBar()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00063">UIWindow::SetWindowTitle()</a>, and <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00004">UIElementGraph::UIElementGraph()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d1/d4c/class_u_i_element_ae71f0b19c32fa484fe0f3662275c3282_cgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_ae71f0b19c32fa484fe0f3662275c3282_cgraph" alt=""/></div>
-<map name="d1/d4c/class_u_i_element_ae71f0b19c32fa484fe0f3662275c3282_cgraph" id="d1/d4c/class_u_i_element_ae71f0b19c32fa484fe0f3662275c3282_cgraph">
-</map>
-</div>
+<p class="reference">Referenced by <a class="el" href="../../d7/d00/_u_i_element_graph_8h_source.html#l00038">UIElementGraph::AddValue()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00055">UICheckBox::ProcessTouch()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00072">UIRadioButton::ProcessTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00049">WindowManager::RegisterElement()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00040">UIButton::SetButtonText()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00064">UIRadioButton::SetChecked()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00043">UIWindow::SetCloseIcon()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00049">UIWindow::SetHasChrome()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00055">UIWindow::SetModal()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00056">UIRadioButton::SetText()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00037">UIWindow::SetTitleBar()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00031">UIWindow::SetWindowTitle()</a>, and <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00004">UIElementGraph::UIElementGraph()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -598,7 +608,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node4" href="../../da/d7d/class_u_i_radio_button.html#a04629b79a984640714ac03fc617a20f9" title="UIRadioButton::ProcessTouch" alt="" coords="209,107,405,133"/>
 <area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="196,157,419,184"/>
 <area shape="rect" id="node9" href="../../da/d03/class_u_i_button.html#a4744456a0bad29f48e086353998087d8" title="UIButton::SetButtonText" alt="" coords="226,208,389,235"/>
-<area shape="rect" id="node10" href="../../da/d7d/class_u_i_radio_button.html#aacc60a433cab0043573b268ee3dbb0eb" title="UIRadioButton::SetChecked" alt="" coords="467,233,651,260"/>
+<area shape="rect" id="node10" href="../../da/d7d/class_u_i_radio_button.html#aacc60a433cab0043573b268ee3dbb0eb" title="UIRadioButton::SetChecked" alt="" coords="478,241,662,268"/>
 <area shape="rect" id="node11" href="../../df/dab/class_u_i_window.html#ad0f7a615b1dccb69d1ed8aae9f3d7997" title="UIWindow::SetCloseIcon" alt="" coords="225,309,390,336"/>
 <area shape="rect" id="node12" href="../../df/dab/class_u_i_window.html#ad5631fe2601cb528c988a053d066f9c0" title="UIWindow::SetHasChrome" alt="" coords="219,360,395,387"/>
 <area shape="rect" id="node13" href="../../df/dab/class_u_i_window.html#ad1f979a952bfa573e0fef96249c53697" title="UIWindow::SetModal" alt="" coords="236,411,379,437"/>
@@ -606,9 +616,9 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node15" href="../../df/dab/class_u_i_window.html#a980fb4ec62ce29e6552c5109103757e3" title="UIWindow::SetTitleBar" alt="" coords="231,512,383,539"/>
 <area shape="rect" id="node16" href="../../df/dab/class_u_i_window.html#ab09a9a10851335cd643994ce7c6d7606" title="UIWindow::SetWindowTitle" alt="" coords="218,563,397,589"/>
 <area shape="rect" id="node17" href="../../dc/d7a/class_u_i_element_graph.html#ac8beb36c2ea9f1d36a3972c1d6ab81ad" title="UIElementGraph::UIElement\lGraph" alt="" coords="215,614,400,655"/>
-<area shape="rect" id="node5" href="../../da/d7d/class_u_i_radio_button.html#a2f7e2b72a96eedaa382814d29a5ac329" title="UIRadioButton::IsChecked" alt="" coords="471,107,646,133"/>
-<area shape="rect" id="node6" href="../../dc/d61/class_u_i_radio_group.html#a88d608f52a5c69e7734a4cdd87ed7582" title="UIRadioGroup::AddRadioButton" alt="" coords="699,157,903,184"/>
-<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="471,157,646,184"/>
+<area shape="rect" id="node5" href="../../da/d7d/class_u_i_radio_button.html#a2f7e2b72a96eedaa382814d29a5ac329" title="UIRadioButton::IsChecked" alt="" coords="483,107,657,133"/>
+<area shape="rect" id="node6" href="../../dc/d61/class_u_i_radio_group.html#a88d608f52a5c69e7734a4cdd87ed7582" title="UIRadioGroup::AddRadioButton" alt="" coords="721,165,925,192"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="467,158,673,199"/>
 </map>
 </div>
 
@@ -665,7 +675,7 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../df/dab/class_u_i_window.html#a19c8c22163a700de1592753ed27d3ade">UIWindow</a>, <a class="el" href="../../dc/d61/class_u_i_radio_group.html#acceeaa7c9f31faa25b8458712582a8f4">UIRadioGroup</a>, <a class="el" href="../../dc/d7a/class_u_i_element_graph.html#aaa115a8a588526139eea7f6cdf3b88c6">UIElementGraph</a>, <a class="el" href="../../da/d7d/class_u_i_radio_button.html#a04629b79a984640714ac03fc617a20f9">UIRadioButton</a>, <a class="el" href="../../da/d03/class_u_i_button.html#a41f75503073e546b762401061b9bd768">UIButton</a>, <a class="el" href="../../de/dcc/class_u_i_check_box.html#af8e5315890971c67a3f075f459d1a369">UICheckBox</a>, <a class="el" href="../../d4/d3b/class_home_screen.html#aaeb3e5563c55f92ab21891352fe95660">HomeScreen</a>, <a class="el" href="../../d1/d95/class_settings_button.html#a528b13c2e7486a88d63df041cecb2448">SettingsButton</a>, and <a class="el" href="../../d9/d21/class_screen_saver.html#a98c7beba271ec8b82130056bd9d9cb52">ScreenSaver</a>.</p>
+<p>Implemented in <a class="el" href="../../df/dab/class_u_i_window.html#a19c8c22163a700de1592753ed27d3ade">UIWindow</a>, <a class="el" href="../../dc/d61/class_u_i_radio_group.html#acceeaa7c9f31faa25b8458712582a8f4">UIRadioGroup</a>, <a class="el" href="../../dc/d7a/class_u_i_element_graph.html#aaa115a8a588526139eea7f6cdf3b88c6">UIElementGraph</a>, <a class="el" href="../../da/d7d/class_u_i_radio_button.html#a04629b79a984640714ac03fc617a20f9">UIRadioButton</a>, <a class="el" href="../../da/d03/class_u_i_button.html#a41f75503073e546b762401061b9bd768">UIButton</a>, <a class="el" href="../../d1/d0d/class_u_i_active_button.html#a9d1577ef8402347b013ccea6d2cecf51">UIActiveButton</a>, <a class="el" href="../../de/dcc/class_u_i_check_box.html#af8e5315890971c67a3f075f459d1a369">UICheckBox</a>, <a class="el" href="../../d4/d3b/class_home_screen.html#aaeb3e5563c55f92ab21891352fe95660">HomeScreen</a>, <a class="el" href="../../d1/d95/class_settings_button.html#a528b13c2e7486a88d63df041cecb2448">SettingsButton</a>, and <a class="el" href="../../d9/d21/class_screen_saver.html#a98c7beba271ec8b82130056bd9d9cb52">ScreenSaver</a>.</p>
 
 </div>
 </div>
@@ -723,7 +733,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00128">128</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00200">UIWindow::AddChildElement()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00084">UIWindow::AddChildElement()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -732,7 +742,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node2" href="../../df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="212,31,400,57"/>
 <area shape="rect" id="node3" href="../../df/dab/class_u_i_window.html#a20bc4a4bc92870e069cbcba5406a4bb8" title="UIWindow::SetCornerRadius" alt="" coords="466,5,653,32"/>
 <area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="448,56,671,83"/>
-<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="719,56,893,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="719,49,925,90"/>
 </map>
 </div>
 
@@ -764,7 +774,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00153">153</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00200">UIWindow::AddChildElement()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00084">UIWindow::AddChildElement()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -773,7 +783,7 @@ Here is the caller graph for this function:</div>
 <area shape="rect" id="node2" href="../../df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="201,31,389,57"/>
 <area shape="rect" id="node3" href="../../df/dab/class_u_i_window.html#a20bc4a4bc92870e069cbcba5406a4bb8" title="UIWindow::SetCornerRadius" alt="" coords="455,5,642,32"/>
 <area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="437,56,660,83"/>
-<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="708,56,883,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="708,49,915,90"/>
 </map>
 </div>
 
@@ -802,19 +812,16 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../dc/d7a/class_u_i_element_graph.html#a848e73ebc13e76bc56630db867204010">UIElementGraph</a>, <a class="el" href="../../dc/d61/class_u_i_radio_group.html#ab62f34079999788a2c858452d71164b9">UIRadioGroup</a>, <a class="el" href="../../da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e">UIButton</a>, <a class="el" href="../../de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340">UICheckBox</a>, <a class="el" href="../../df/dab/class_u_i_window.html#aa749f7add746a3e5018f7c0a0023596a">UIWindow</a>, <a class="el" href="../../da/d7d/class_u_i_radio_button.html#ae22eeb793ceecacaec73f0f9d836efdc">UIRadioButton</a>, <a class="el" href="../../d4/d3b/class_home_screen.html#a6982b67a9940279b909f3dda2faf1597">HomeScreen</a>, <a class="el" href="../../d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1">SettingsButton</a>, and <a class="el" href="../../d9/d21/class_screen_saver.html#a9e0cbe323e3c19992ed34cafa93a3416">ScreenSaver</a>.</p>
+<p>Implemented in <a class="el" href="../../dc/d7a/class_u_i_element_graph.html#a848e73ebc13e76bc56630db867204010">UIElementGraph</a>, <a class="el" href="../../dc/d61/class_u_i_radio_group.html#ab62f34079999788a2c858452d71164b9">UIRadioGroup</a>, <a class="el" href="../../da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e">UIButton</a>, <a class="el" href="../../de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340">UICheckBox</a>, <a class="el" href="../../df/dab/class_u_i_window.html#aa749f7add746a3e5018f7c0a0023596a">UIWindow</a>, <a class="el" href="../../d1/d0d/class_u_i_active_button.html#af7fbece84d856a63a2d2a0ec7d4ea895">UIActiveButton</a>, <a class="el" href="../../da/d7d/class_u_i_radio_button.html#ae22eeb793ceecacaec73f0f9d836efdc">UIRadioButton</a>, <a class="el" href="../../d4/d3b/class_home_screen.html#a6982b67a9940279b909f3dda2faf1597">HomeScreen</a>, <a class="el" href="../../d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1">SettingsButton</a>, and <a class="el" href="../../d9/d21/class_screen_saver.html#a9e0cbe323e3c19992ed34cafa93a3416">ScreenSaver</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00105">UIRadioGroup::Update()</a>, and <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00165">UpdateChildren()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, and <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00105">UIRadioGroup::Update()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d4c/class_u_i_element_ae7a76be901cacb3b87ec1637c5e22a6e_icgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_ae7a76be901cacb3b87ec1637c5e22a6e_icgraph" alt=""/></div>
 <map name="d1/d4c/class_u_i_element_ae7a76be901cacb3b87ec1637c5e22a6e_icgraph" id="d1/d4c/class_u_i_element_ae7a76be901cacb3b87ec1637c5e22a6e_icgraph">
-<area shape="rect" id="node2" href="../../de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="202,5,345,32"/>
-<area shape="rect" id="node3" href="../../dc/d61/class_u_i_radio_group.html#ab62f34079999788a2c858452d71164b9" title="The standard update is fine for this, as the only displayable objects in this are children ..." alt="" coords="198,56,349,83"/>
-<area shape="rect" id="node4" href="../../d1/d4c/class_u_i_element.html#a92959c8ebf69189fbb1801858ff017ff" title="UIElement::UpdateChildren" alt="" coords="184,107,363,133"/>
-<area shape="rect" id="node5" href="../../da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="423,81,545,108"/>
-<area shape="rect" id="node6" href="../../d4/d3b/class_home_screen.html#a6982b67a9940279b909f3dda2faf1597" title="HomeScreen::Update" alt="" coords="411,132,557,159"/>
+<area shape="rect" id="node2" href="../../de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="188,5,331,32"/>
+<area shape="rect" id="node3" href="../../dc/d61/class_u_i_radio_group.html#ab62f34079999788a2c858452d71164b9" title="The standard update is fine for this, as the only displayable objects in this are children ..." alt="" coords="184,56,335,83"/>
 </map>
 </div>
 
@@ -845,25 +852,15 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00165">165</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d1/d4c/class_u_i_element.html#ae7a76be901cacb3b87ec1637c5e22a6e">Update()</a>, and <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00097">UpdatePending()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00023">HomeScreen::Update()</a>, and <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>.</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d1/d4c/class_u_i_element_a92959c8ebf69189fbb1801858ff017ff_cgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_a92959c8ebf69189fbb1801858ff017ff_cgraph" alt=""/></div>
-<map name="d1/d4c/class_u_i_element_a92959c8ebf69189fbb1801858ff017ff_cgraph" id="d1/d4c/class_u_i_element_a92959c8ebf69189fbb1801858ff017ff_cgraph">
-<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html#ae7a76be901cacb3b87ec1637c5e22a6e" title="UIElement::Update" alt="" coords="256,5,387,32"/>
-<area shape="rect" id="node3" href="../../d1/d4c/class_u_i_element.html#a629a30d56c359a4b65a6e9d8f7641d05" title="UIElement::UpdatePending" alt="" coords="232,56,411,83"/>
-</map>
-</div>
+<p class="reference">Referenced by <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00023">HomeScreen::Update()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00061">UIWindow::Update()</a>, and <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d1/d4c/class_u_i_element_a92959c8ebf69189fbb1801858ff017ff_icgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_a92959c8ebf69189fbb1801858ff017ff_icgraph" alt=""/></div>
 <map name="d1/d4c/class_u_i_element_a92959c8ebf69189fbb1801858ff017ff_icgraph" id="d1/d4c/class_u_i_element_a92959c8ebf69189fbb1801858ff017ff_icgraph">
 <area shape="rect" id="node2" href="../../d4/d3b/class_home_screen.html#a6982b67a9940279b909f3dda2faf1597" title="HomeScreen::Update" alt="" coords="232,5,379,32"/>
-<area shape="rect" id="node3" href="../../da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="245,56,366,83"/>
+<area shape="rect" id="node3" href="../../df/dab/class_u_i_window.html#aa749f7add746a3e5018f7c0a0023596a" title="UIWindow::Update" alt="" coords="241,56,370,83"/>
+<area shape="rect" id="node4" href="../../da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="245,107,366,133"/>
 </map>
 </div>
 
@@ -894,18 +891,6 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00097">97</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00165">UpdateChildren()</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="../../d1/d4c/class_u_i_element_a629a30d56c359a4b65a6e9d8f7641d05_icgraph.png" border="0" usemap="#d1/d4c/class_u_i_element_a629a30d56c359a4b65a6e9d8f7641d05_icgraph" alt=""/></div>
-<map name="d1/d4c/class_u_i_element_a629a30d56c359a4b65a6e9d8f7641d05_icgraph" id="d1/d4c/class_u_i_element_a629a30d56c359a4b65a6e9d8f7641d05_icgraph">
-<area shape="rect" id="node2" href="../../d1/d4c/class_u_i_element.html#a92959c8ebf69189fbb1801858ff017ff" title="UIElement::UpdateChildren" alt="" coords="232,31,411,57"/>
-<area shape="rect" id="node3" href="../../d4/d3b/class_home_screen.html#a6982b67a9940279b909f3dda2faf1597" title="HomeScreen::Update" alt="" coords="459,5,605,32"/>
-<area shape="rect" id="node4" href="../../da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="471,56,593,83"/>
-</map>
-</div>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -931,7 +916,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00194">194</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00200">UIWindow::AddChildElement()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00009">UIRadioGroup::AddRadioButton()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00035">UIRadioGroup::GetSelectedButton()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00110">UIRadioGroup::ProcessTouch()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00049">UIRadioGroup::SetSelectedButton()</a>, and <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00172">UIWindow::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00084">UIWindow::AddChildElement()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00009">UIRadioGroup::AddRadioButton()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00035">UIRadioGroup::GetSelectedButton()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00110">UIRadioGroup::ProcessTouch()</a>, and <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00049">UIRadioGroup::SetSelectedButton()</a>.</p>
 
 </div>
 </div>
@@ -957,7 +942,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00191">191</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d35/_screen_saver_8cpp_source.html#l00060">ScreenSaver::ProcessTouch()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00018">SettingsButton::ProcessTouch()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00055">UICheckBox::ProcessTouch()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00033">UIButton::ProcessTouch()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00072">UIRadioButton::ProcessTouch()</a>, <a class="el" href="../../d7/d00/_u_i_element_graph_8h_source.html#l00027">UIElementGraph::ProcessTouch()</a>, and <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00264">UIWindow::ProcessTouch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d6/d35/_screen_saver_8cpp_source.html#l00060">ScreenSaver::ProcessTouch()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00018">SettingsButton::ProcessTouch()</a>, <a class="el" href="../../da/db1/_u_i_active_button_8cpp_source.html#l00030">UIActiveButton::ProcessTouch()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00055">UICheckBox::ProcessTouch()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00033">UIButton::ProcessTouch()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00072">UIRadioButton::ProcessTouch()</a>, <a class="el" href="../../d7/d00/_u_i_element_graph_8h_source.html#l00027">UIElementGraph::ProcessTouch()</a>, and <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00100">UIWindow::ProcessTouch()</a>.</p>
 
 </div>
 </div>
@@ -1031,7 +1016,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00190">190</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00055">UICheckBox::ProcessTouch()</a>, and <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00033">UIButton::ProcessTouch()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db1/_u_i_active_button_8cpp_source.html#l00030">UIActiveButton::ProcessTouch()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00055">UICheckBox::ProcessTouch()</a>, and <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00033">UIButton::ProcessTouch()</a>.</p>
 
 </div>
 </div>
@@ -1057,7 +1042,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00188">188</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00143">AddChildElement()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00009">UIRadioGroup::AddRadioButton()</a>, <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00003">HomeScreen::HomeScreen()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00018">SettingsButton::ProcessTouch()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00055">UICheckBox::ProcessTouch()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00072">UIRadioButton::ProcessTouch()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00080">UIElement()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00005">UIWindow::UIWindow()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00011">SettingsButton::Update()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00037">UIRadioButton::Update()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>, and <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00021">UIElementGraph::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00084">UIWindow::AddChildElement()</a>, <a class="el" href="../../dd/d59/_u_i_radio_group_8cpp_source.html#l00009">UIRadioGroup::AddRadioButton()</a>, <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00003">HomeScreen::HomeScreen()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00018">SettingsButton::ProcessTouch()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00055">UICheckBox::ProcessTouch()</a>, <a class="el" href="../../da/db1/_u_i_active_button_8cpp_source.html#l00030">UIActiveButton::ProcessTouch()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00072">UIRadioButton::ProcessTouch()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00100">UIWindow::ProcessTouch()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00011">SettingsButton::Update()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00037">UIRadioButton::Update()</a>, <a class="el" href="../../da/db1/_u_i_active_button_8cpp_source.html#l00052">UIActiveButton::Update()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00061">UIWindow::Update()</a>, and <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00021">UIElementGraph::Update()</a>.</p>
 
 </div>
 </div>
@@ -1083,8 +1068,6 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00189">189</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00143">AddChildElement()</a>.</p>
-
 </div>
 </div>
 <a id="a7a369f0cf37a0f4a4781cd8ccac0f9dc"></a>
@@ -1109,7 +1092,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00192">192</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d6/d35/_screen_saver_8cpp_source.html#l00003">ScreenSaver::ScreenSaver()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00005">UIWindow::UIWindow()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00011">SettingsButton::Update()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00037">UIRadioButton::Update()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00021">UIElementGraph::Update()</a>, and <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00012">HomeScreen::~HomeScreen()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d1/d7a/_home_screen_8cpp_source.html#l00017">HomeScreen::addButtons()</a>, <a class="el" href="../../d6/d35/_screen_saver_8cpp_source.html#l00009">ScreenSaver::draw()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00011">SettingsButton::Update()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00037">UIRadioButton::Update()</a>, <a class="el" href="../../da/db1/_u_i_active_button_8cpp_source.html#l00052">UIActiveButton::Update()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00061">UIWindow::Update()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, and <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00021">UIElementGraph::Update()</a>.</p>
 
 </div>
 </div>
@@ -1135,7 +1118,7 @@ Here is the caller graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00190">190</a> of file <a class="el" href="../../d6/d17/_u_i_element_8h_source.html">UIElement.h</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00095">UIWindow::SetModal()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00011">SettingsButton::Update()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00037">UIRadioButton::Update()</a>, <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00172">UIWindow::Update()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>, and <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00021">UIElementGraph::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../da/db1/_u_i_active_button_8cpp_source.html#l00038">UIActiveButton::SetButtonText()</a>, <a class="el" href="../../d6/d24/_settings_button_8cpp_source.html#l00011">SettingsButton::Update()</a>, <a class="el" href="../../d8/d1f/_u_i_radio_button_8cpp_source.html#l00037">UIRadioButton::Update()</a>, <a class="el" href="../../da/db1/_u_i_active_button_8cpp_source.html#l00052">UIActiveButton::Update()</a>, <a class="el" href="../../d9/dd1/_u_i_button_8cpp_source.html#l00049">UIButton::Update()</a>, <a class="el" href="../../d5/de5/_u_i_check_box_8cpp_source.html#l00029">UICheckBox::Update()</a>, <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00061">UIWindow::Update()</a>, and <a class="el" href="../../db/d1e/_u_i_element_graph_8cpp_source.html#l00021">UIElementGraph::Update()</a>.</p>
 
 </div>
 </div>

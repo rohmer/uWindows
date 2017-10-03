@@ -13,6 +13,7 @@
 #define useTextEntry
 #define useElementGraph
 #define useCompass
+#define useBatteryIcon
 
 // Define which controller you are going to use.  Uncomment one of these
 //#define FT_800

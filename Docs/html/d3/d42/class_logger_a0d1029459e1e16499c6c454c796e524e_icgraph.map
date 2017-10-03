@@ -1,4 +1,7 @@
 <map id="Logger::Crit" name="Logger::Crit">
-<area shape="rect" id="node2" href="$d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="143,5,353,32"/>
-<area shape="rect" id="node3" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="401,5,576,32"/>
+<area shape="rect" id="node2" href="$d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="411,23,621,50"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="143,74,363,101"/>
+<area shape="rect" id="node3" href="$d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="928,16,1135,57"/>
+<area shape="rect" id="node4" href="$d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="669,23,880,50"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="676,75,873,116"/>
 </map>

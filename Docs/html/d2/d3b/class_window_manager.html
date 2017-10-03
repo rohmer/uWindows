@@ -84,6 +84,9 @@ $(document).ready(function(){initNavTree('d2/d3b/class_window_manager.html','../
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../de/d4e/class_window_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">WindowManager Class Reference</div>  </div>
@@ -99,15 +102,30 @@ Collaboration diagram for WindowManager:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d5/da3/class_window_manager__coll__graph.png" border="0" usemap="#_window_manager_coll__map" alt="Collaboration graph"/></div>
 <map name="_window_manager_coll__map" id="_window_manager_coll__map">
+<area shape="rect" id="node3" href="../../d1/d4c/class_u_i_element.html" title="{UIElement\n|# updatePending\l# enabled\l# elementID\l# elementType\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l&#45; getChildElements()\l}" alt="" coords="551,492,691,775"/>
+<area shape="rect" id="node13" href="../../df/dab/class_u_i_window.html" title="{UIWindow\n|&#45; hasTitleBar\l&#45; hasCloseIcon\l&#45; hasChrome\l&#45; isModal\l&#45; is3D\l&#45; titleTextColor\l&#45; chromeColor\l&#45; titleBarColor\l&#45; windowColor\l&#45; cornerRadius\l&#45; titleBarFont\l|+ UIWindow()\l+ Update()\l+ SetWindowTitle()\l+ SetTitleBar()\l+ SetCloseIcon()\l+ SetHasChrome()\l+ SetModal()\l+ SetCornerRadius()\l+ AddChildElement()\l+ ProcessTouch()\l}" alt="" coords="771,1047,914,1403"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="283,595,396,672"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="124,595,246,672"/>
+<area shape="rect" id="node7" href="../../d5/d68/struct_rectangle.html" title="{Rectangle\n|+ x1\l+ y1\l+ x2\l+ y2\l+ width\l+ height\l|+ Rectangle()\l+ Rectangle()\l+ hasArea()\l+ center()\l+ normalizeRect()\l+ normalizeRect()\l+ add()\l+ update()\l+ contains()\l+ occludes()\l}" alt="" coords="605,147,730,429"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="784,249,864,327"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="760,5,887,97"/>
+<area shape="rect" id="node10" href="../../dc/de9/class_driver_base.html" title="{DriverBase\n|# driverType\l# tftWidth\l# tftHeight\l# rotation\l# backgroundColor\l|+ DriverBase()\l+ Init()\l+ drawPixel()\l+ drawLine()\l+ setRotation()\l+ getRotation()\l+ isLandscape()\l+ invertDisplay()\l+ fillRect()\l+ fillScreen()\land 54 more...\l}" alt="" coords="952,147,1082,429"/>
+<area shape="rect" id="node16" href="../../d6/d63/class_f_t8_x_x_driver.html" title="{FT8XXDriver\n|&#45; currentFont\l|+ FT8XXDriver()\l+ FT8XXDriver()\l+ Init()\l+ drawPixel()\l+ drawLine()\l+ setRotation()\l+ invertDisplay()\l+ fillRect()\l+ fillScreen()\l+ drawRect()\land 50 more...\l}" alt="" coords="1000,799,1114,1023"/>
+<area shape="rect" id="node14" href="../../d7/dde/structs_touch_response.html" title="{sTouchResponse\n|+ controlID\l+ touchReponse\l|+ sTouchResponse()\l+ sTouchResponse()\l}" alt="" coords="1007,1171,1150,1278"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:adc767e9fff8b60b9d4c2334efcd3aa96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dde/structs_touch_response.html">sTouchResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96">GetLastTouchEvent</a> ()</td></tr>
+<tr class="separator:adc767e9fff8b60b9d4c2334efcd3aa96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b55d6bdb2e1def7789382700e796ecc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc">MoveControlToFront</a> (unsigned long controlID)</td></tr>
 <tr class="separator:a3b55d6bdb2e1def7789382700e796ecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac258d8dc8ee3811df72312bac910f076"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076">DeleteElement</a> (unsigned long elementID)</td></tr>
 <tr class="separator:ac258d8dc8ee3811df72312bac910f076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d4d9f0e2758326fe88e35987534005"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005">ClearElements</a> ()</td></tr>
+<tr class="memdesc:a80d4d9f0e2758326fe88e35987534005"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes all elements from the window manager (Effective clear on next update)  <a href="#a80d4d9f0e2758326fe88e35987534005">More...</a><br /></td></tr>
+<tr class="separator:a80d4d9f0e2758326fe88e35987534005"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2b5ac76dd19495f62029b3a97aeb808"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808">RegisterElement</a> (<a class="el" href="../../d1/d4c/class_u_i_element.html">UIElement</a> *element)</td></tr>
 <tr class="separator:af2b5ac76dd19495f62029b3a97aeb808"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3fe67e0942bab78c79da066cf89d2eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb">Update</a> ()</td></tr>
@@ -125,12 +143,275 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ad55038820a94dda6e99ca2a87b9c7c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab64a2e1344258a973b6cb0d65fe952f2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d3b/class_window_manager.html">WindowManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2">instance</a> (const uint8_t cs, const uint8_t rst=9, const uint8_t mosi=11, const uint8_t sclk=13, const uint8_t miso=12, <a class="el" href="../../de/d83/_window_manager_8h.html#a7500d08fb54f3389f11ed71b86b94673">eLCDSizes</a> lcdSize=<a class="el" href="../../de/d83/_window_manager_8h.html#a7500d08fb54f3389f11ed71b86b94673aa06b56a3758892d520072b75c27e8de6">eLCDSizes::lcd800x480</a>)</td></tr>
 <tr class="separator:ab64a2e1344258a973b6cb0d65fe952f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ab9974e1231d1104ad4dc394ec8ef398e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e">WindowManager</a> (const uint8_t cs, const uint8_t rst=255, const uint8_t mosi=11, const uint8_t sclk=13, const uint8_t miso=12, <a class="el" href="../../de/d83/_window_manager_8h.html#a7500d08fb54f3389f11ed71b86b94673">eLCDSizes</a> lcdSize=<a class="el" href="../../de/d83/_window_manager_8h.html#a7500d08fb54f3389f11ed71b86b94673aa06b56a3758892d520072b75c27e8de6">eLCDSizes::lcd800x480</a>)</td></tr>
+<tr class="separator:ab9974e1231d1104ad4dc394ec8ef398e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19fd6e41c42760af82460d9851780d82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a19fd6e41c42760af82460d9851780d82">~WindowManager</a> ()</td></tr>
+<tr class="separator:a19fd6e41c42760af82460d9851780d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf5df4ff4bb4de4d82d99bfde01dbb0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b">processTouch</a> ()</td></tr>
+<tr class="separator:adf5df4ff4bb4de4d82d99bfde01dbb0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f72185a16ae2dcb0dea0aac7beb7de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de">updatePowerTriggerTime</a> ()</td></tr>
+<tr class="memdesc:a62f72185a16ae2dcb0dea0aac7beb7de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates when the power states will be triggered from this instant in time  <a href="#a62f72185a16ae2dcb0dea0aac7beb7de">More...</a><br /></td></tr>
+<tr class="separator:a62f72185a16ae2dcb0dea0aac7beb7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6cf4080a251b15c6a82f18a00015da6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6">updateOccluded</a> (unsigned long id)</td></tr>
+<tr class="separator:ae6cf4080a251b15c6a82f18a00015da6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a3b5ab0083ec95e9e90fbe0bbb87eb86f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/dab/class_u_i_window.html">UIWindow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a3b5ab0083ec95e9e90fbe0bbb87eb86f">wmCanvas</a></td></tr>
+<tr class="separator:a3b5ab0083ec95e9e90fbe0bbb87eb86f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99bbe44d9aa5c507ecee9f8c9b128681"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d63/class_f_t8_x_x_driver.html">FT8XXDriver</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a99bbe44d9aa5c507ecee9f8c9b128681">tft</a></td></tr>
+<tr class="separator:a99bbe44d9aa5c507ecee9f8c9b128681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3dbf8e7b52b68404343319b9d28f99e"><td class="memItemLeft" align="right" valign="top">std::map&lt; unsigned long, <a class="el" href="../../d1/d4c/class_u_i_element.html">UIElement</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#ad3dbf8e7b52b68404343319b9d28f99e">elementMap</a></td></tr>
+<tr class="separator:ad3dbf8e7b52b68404343319b9d28f99e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bb73a268d280d802eb2f32beeae0228"><td class="memItemLeft" align="right" valign="top">std::vector&lt; unsigned long &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a2bb73a268d280d802eb2f32beeae0228">elementOrder</a></td></tr>
+<tr class="separator:a2bb73a268d280d802eb2f32beeae0228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af438ac85df79b5161dd6f1486913ee04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d83/_window_manager_8h.html#a761eb73c8bc814bcadeafe00111f7251">ePowerState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#af438ac85df79b5161dd6f1486913ee04">powerState</a> = <a class="el" href="../../de/d83/_window_manager_8h.html#a761eb73c8bc814bcadeafe00111f7251a5ecbcf0afce98b042f35ec71ba03fa4b">ePowerState::Normal</a></td></tr>
+<tr class="separator:af438ac85df79b5161dd6f1486913ee04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9086376ca16eb64cfe1feff5500d6533"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a9086376ca16eb64cfe1feff5500d6533">lowPowerTime</a> = 30</td></tr>
+<tr class="separator:a9086376ca16eb64cfe1feff5500d6533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73058da039062d3b8b95ee7fd01888f7"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a73058da039062d3b8b95ee7fd01888f7">screenOffTime</a> = 300</td></tr>
+<tr class="separator:a73058da039062d3b8b95ee7fd01888f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a232d3a47cc8dab07bc7a9324907fd6db"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#a232d3a47cc8dab07bc7a9324907fd6db">lowPowerTrigger</a></td></tr>
+<tr class="separator:a232d3a47cc8dab07bc7a9324907fd6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca38df9bb647e8ebcc31ebb76b2432a7"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#aca38df9bb647e8ebcc31ebb76b2432a7">screenOffTrigger</a></td></tr>
+<tr class="separator:aca38df9bb647e8ebcc31ebb76b2432a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8dfd5ce2fd3d2ab759d4bddf5aba53c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dde/structs_touch_response.html">sTouchResponse</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#ab8dfd5ce2fd3d2ab759d4bddf5aba53c">lastTouchEvent</a></td></tr>
+<tr class="separator:ab8dfd5ce2fd3d2ab759d4bddf5aba53c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ad9982c07a77675bc429887327ab9575d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d3b/class_window_manager.html">WindowManager</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3b/class_window_manager.html#ad9982c07a77675bc429887327ab9575d">s_instance</a></td></tr>
+<tr class="separator:ad9982c07a77675bc429887327ab9575d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is the base class of the UI Library </p>
 
-<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00032">32</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00033">33</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab9974e1231d1104ad4dc394ec8ef398e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9974e1231d1104ad4dc394ec8ef398e">&#9670;&nbsp;</a></span>WindowManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WindowManager::WindowManager </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramname"><em>cs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramname"><em>rst</em> = <code>255</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramname"><em>mosi</em> = <code>11</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramname"><em>sclk</em> = <code>13</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t&#160;</td>
+          <td class="paramname"><em>miso</em> = <code>12</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d83/_window_manager_8h.html#a7500d08fb54f3389f11ed71b86b94673">eLCDSizes</a>&#160;</td>
+          <td class="paramname"><em>lcdSize</em> = <code><a class="el" href="../../de/d83/_window_manager_8h.html#a7500d08fb54f3389f11ed71b86b94673aa06b56a3758892d520072b75c27e8de6">eLCDSizes::lcd800x480</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00005">5</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00328">FT8XXDriver::backlightOn()</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00340">FT8XXDriver::backlightPower()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00101">UIElement::getElementID()</a>, <a class="el" href="../../dd/db4/_driver_base_8h_source.html#l00132">DriverBase::height()</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00020">FT8XXDriver::Init()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00017">lcd800x480</a>, <a class="el" href="../../de/d9a/_f_t8_x_x_2_fonts_8h_source.html#l00450">None</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00104">tft</a>, <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00017">Logger::Trace()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00217">updatePowerTriggerTime()</a>, <a class="el" href="../../dd/db4/_driver_base_8h_source.html#l00128">DriverBase::width()</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00091">wmCanvas</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00036">instance()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_ab9974e1231d1104ad4dc394ec8ef398e_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ab9974e1231d1104ad4dc394ec8ef398e_cgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_ab9974e1231d1104ad4dc394ec8ef398e_cgraph" id="d2/d3b/class_window_manager_ab9974e1231d1104ad4dc394ec8ef398e_cgraph">
+<area shape="rect" id="node2" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="293,360,460,387"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="283,309,470,336"/>
+<area shape="rect" id="node6" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="293,512,461,539"/>
+<area shape="rect" id="node7" href="../../dc/de9/class_driver_base.html#a3b6b30844cda1b57940bfe6c0d7c38aa" title="DriverBase::height" alt="" coords="545,259,672,285"/>
+<area shape="rect" id="node9" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="319,411,434,437"/>
+<area shape="rect" id="node43" href="../../dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf" title="DriverBase::width" alt="" coords="547,487,670,513"/>
+<area shape="rect" id="node44" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="326,563,427,589"/>
+<area shape="rect" id="node45" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="276,614,477,655"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="561,309,656,336"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="767,56,883,83"/>
+<area shape="rect" id="node8" href="../../dc/de9/class_driver_base.html#a8d9f805d559da4200bd853f0531073c4" title="DriverBase::textWrite" alt="" coords="753,5,898,32"/>
+<area shape="rect" id="node10" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="552,385,665,412"/>
+<area shape="rect" id="node40" href="../../d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="525,436,692,463"/>
+<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#a612e8cfb0e21fc13f7417be7674b9edc" title="GDTransport::__end" alt="" coords="966,56,1105,83"/>
+<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="755,512,896,539"/>
+<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#acb1c9c0be837496b171ce14080499486" title="GDTransport::hostcmd" alt="" coords="959,512,1112,539"/>
+<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#a3c3d3f1c1e37f095616af75e2f776a27" title="GDTransport::ios" alt="" coords="975,563,1095,589"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="755,411,896,437"/>
+<area shape="rect" id="node20" href="../../da/df4/class_g_d_class.html#a1eb81651848842f44589b96c5c8dbc66" title="GDClass::flush" alt="" coords="771,613,880,640"/>
+<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#a80810bc46b58758679fef9758b746e52" title="GDTransport::rd" alt="" coords="768,664,883,691"/>
+<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#a52cbc0db79905474bb3d6120020e5a1b" title="GDTransport::rd32" alt="" coords="761,715,889,741"/>
+<area shape="rect" id="node24" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="766,309,885,336"/>
+<area shape="rect" id="node36" href="../../d3/d2e/class_g_d_transport.html#ad461023d617d303d36df8152bf2c62d9" title="GDTransport::resume" alt="" coords="962,360,1109,387"/>
+<area shape="rect" id="node37" href="../../d3/d2e/class_g_d_transport.html#a72d164a6f4b81e026e3c891732d61ad2" title="GDTransport::wr16" alt="" coords="760,107,891,133"/>
+<area shape="rect" id="node38" href="../../d3/d2e/class_g_d_transport.html#a87d9c22767d132a692fe0f2e752023cd" title="GDTransport::wr32" alt="" coords="970,5,1101,32"/>
+<area shape="rect" id="node39" href="../../da/df4/class_g_d_class.html#ac82e0611ecfb01f867d354189cc2db98" title="GDClass::wr32" alt="" coords="771,157,880,184"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="1545,303,1687,329"/>
+<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#adeb70f71cb9d383fb03d44ecaed8fdfe" title="GDTransport::stream" alt="" coords="964,461,1107,488"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="1737,291,1879,317"/>
+<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="1928,246,2069,287"/>
+<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="970,613,1101,640"/>
+<area shape="rect" id="node25" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="971,259,1099,285"/>
+<area shape="rect" id="node33" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b" title="ConfigRam::i2c_start" alt="" coords="1160,107,1303,133"/>
+<area shape="rect" id="node34" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1" title="ConfigRam::i2c_stop" alt="" coords="1160,157,1303,184"/>
+<area shape="rect" id="node35" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="971,208,1099,235"/>
+<area shape="rect" id="node26" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="1164,259,1299,285"/>
+<area shape="rect" id="node32" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="1164,208,1299,235"/>
+<area shape="rect" id="node27" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="1351,259,1496,285"/>
+<area shape="rect" id="node28" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="1352,208,1495,235"/>
+<area shape="rect" id="node31" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="1351,157,1496,184"/>
+<area shape="rect" id="node29" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="1544,208,1688,235"/>
+<area shape="rect" id="node30" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="1736,215,1880,241"/>
+<area shape="rect" id="node41" href="../../da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="769,816,881,843"/>
+<area shape="rect" id="node42" href="../../da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="740,765,911,792"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_ab9974e1231d1104ad4dc394ec8ef398e_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ab9974e1231d1104ad4dc394ec8ef398e_icgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_ab9974e1231d1104ad4dc394ec8ef398e_icgraph" id="d2/d3b/class_window_manager_ab9974e1231d1104ad4dc394ec8ef398e_icgraph">
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="276,5,451,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a19fd6e41c42760af82460d9851780d82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19fd6e41c42760af82460d9851780d82">&#9670;&nbsp;</a></span>~WindowManager()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WindowManager::~WindowManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00223">223</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00109">elementMap</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a80d4d9f0e2758326fe88e35987534005"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d4d9f0e2758326fe88e35987534005">&#9670;&nbsp;</a></span>ClearElements()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowManager::ClearElements </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Deletes all elements from the window manager (Effective clear on next update) </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00061">61</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00070">DeleteElement()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00133">UIElement::GetChildElements()</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00091">wmCanvas</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00055">GetLastTouchEvent()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_a80d4d9f0e2758326fe88e35987534005_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_a80d4d9f0e2758326fe88e35987534005_cgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_a80d4d9f0e2758326fe88e35987534005_cgraph" id="d2/d3b/class_window_manager_a80d4d9f0e2758326fe88e35987534005_cgraph">
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="264,292,475,319"/>
+<area shape="rect" id="node6" href="../../d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="791,368,985,395"/>
+<area shape="rect" id="node3" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="1305,5,1473,32"/>
+<area shape="rect" id="node4" href="../../d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="843,267,933,293"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="523,317,743,344"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="805,317,971,344"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="1033,183,1240,209"/>
+<area shape="rect" id="node20" href="../../d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="1053,376,1220,403"/>
+<area shape="rect" id="node23" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="1051,452,1222,479"/>
+<area shape="rect" id="node9" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="1338,56,1439,83"/>
+<area shape="rect" id="node10" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="1295,107,1482,133"/>
+<area shape="rect" id="node13" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="1305,157,1472,184"/>
+<area shape="rect" id="node14" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="1317,208,1461,235"/>
+<area shape="rect" id="node18" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="1288,259,1489,301"/>
+<area shape="rect" id="node19" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="1309,325,1469,352"/>
+<area shape="rect" id="node11" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="1561,157,1656,184"/>
+<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="1737,157,1853,184"/>
+<area shape="rect" id="node15" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="1537,208,1680,235"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="1728,208,1861,235"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="1731,259,1859,285"/>
+<area shape="rect" id="node21" href="../../da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="1333,376,1445,403"/>
+<area shape="rect" id="node22" href="../../da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="1303,427,1474,453"/>
+<area shape="rect" id="node24" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="1333,477,1445,504"/>
+<area shape="rect" id="node25" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1543,452,1674,479"/>
+<area shape="rect" id="node26" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="1542,503,1675,529"/>
+<area shape="rect" id="node27" href="../../d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="1729,503,1860,529"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_a80d4d9f0e2758326fe88e35987534005_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_a80d4d9f0e2758326fe88e35987534005_icgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_a80d4d9f0e2758326fe88e35987534005_icgraph" id="d2/d3b/class_window_manager_a80d4d9f0e2758326fe88e35987534005_icgraph">
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="264,5,471,47"/>
+</map>
+</div>
+
+</div>
+</div>
 <a id="ac258d8dc8ee3811df72312bac910f076"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac258d8dc8ee3811df72312bac910f076">&#9670;&nbsp;</a></span>DeleteElement()</h2>
 
@@ -147,25 +428,41 @@ Static Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00056">56</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00070">70</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00055">Logger::Crit()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00133">UIElement::GetChildElements()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00101">UIElement::getElementID()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00037">Update()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00055">Logger::Crit()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00109">elementMap</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00110">elementOrder</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00101">UIElement::getElementID()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00107">updateOccluded()</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00091">wmCanvas</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00040">instance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00061">ClearElements()</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00055">GetLastTouchEvent()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_ac258d8dc8ee3811df72312bac910f076_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ac258d8dc8ee3811df72312bac910f076_cgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_ac258d8dc8ee3811df72312bac910f076_cgraph" id="d2/d3b/class_window_manager_ac258d8dc8ee3811df72312bac910f076_cgraph">
-<area shape="rect" id="node2" href="../../d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="317,5,406,32"/>
-<area shape="rect" id="node3" href="../../d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="264,56,459,83"/>
-<area shape="rect" id="node4" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="277,107,445,133"/>
-<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="278,157,445,184"/>
-<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="507,157,677,184"/>
-<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="725,157,837,184"/>
-<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="887,107,1017,133"/>
-<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a52cbc0db79905474bb3d6120020e5a1b" title="GDTransport::rd32" alt="" coords="888,157,1016,184"/>
-<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="885,208,1019,235"/>
+<area shape="rect" id="node2" href="../../d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="585,183,674,209"/>
+<area shape="rect" id="node3" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="1046,477,1214,504"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="264,233,484,260"/>
+<area shape="rect" id="node5" href="../../d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="532,233,727,260"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="546,284,713,311"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="775,284,981,311"/>
+<area shape="rect" id="node19" href="../../d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="795,56,961,83"/>
+<area shape="rect" id="node22" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="793,183,963,209"/>
+<area shape="rect" id="node8" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="1079,427,1181,453"/>
+<area shape="rect" id="node9" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="1037,157,1223,184"/>
+<area shape="rect" id="node12" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="1047,208,1213,235"/>
+<area shape="rect" id="node13" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="1058,259,1202,285"/>
+<area shape="rect" id="node17" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="1029,361,1231,402"/>
+<area shape="rect" id="node18" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="1050,309,1210,336"/>
+<area shape="rect" id="node10" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="1303,208,1397,235"/>
+<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="1478,208,1594,235"/>
+<area shape="rect" id="node14" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="1279,259,1421,285"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="1469,259,1603,285"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="1472,309,1600,336"/>
+<area shape="rect" id="node20" href="../../da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="1074,5,1186,32"/>
+<area shape="rect" id="node21" href="../../da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="1045,56,1215,83"/>
+<area shape="rect" id="node23" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="1074,107,1186,133"/>
+<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1285,81,1415,108"/>
+<area shape="rect" id="node25" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="1283,132,1417,159"/>
+<area shape="rect" id="node26" href="../../d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="1471,132,1601,159"/>
 </map>
 </div>
 <div class="dynheader">
@@ -173,7 +470,8 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_ac258d8dc8ee3811df72312bac910f076_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ac258d8dc8ee3811df72312bac910f076_icgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_ac258d8dc8ee3811df72312bac910f076_icgraph" id="d2/d3b/class_window_manager_ac258d8dc8ee3811df72312bac910f076_icgraph">
-<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="264,5,439,32"/>
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="264,5,475,32"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="523,23,729,65"/>
 </map>
 </div>
 
@@ -202,17 +500,89 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00074">74</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00083">83</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00016">lcd800x480</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00022">Normal</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00104">tft</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00061">SetScreenOffTime()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00070">SetScreenOffTime()</a>.</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_af4a0046271fb87d52f40f5d8b9980e14_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_af4a0046271fb87d52f40f5d8b9980e14_icgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_af4a0046271fb87d52f40f5d8b9980e14_icgraph" id="d2/d3b/class_window_manager_af4a0046271fb87d52f40f5d8b9980e14_icgraph">
 <area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#a441d5cddbc4dd50d462f98dbd343ff9d" title="WindowManager::SetScreen\lOffTime" alt="" coords="232,5,419,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adc767e9fff8b60b9d4c2334efcd3aa96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc767e9fff8b60b9d4c2334efcd3aa96">&#9670;&nbsp;</a></span>GetLastTouchEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dde/structs_touch_response.html">sTouchResponse</a> WindowManager::GetLastTouchEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00055">55</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00061">ClearElements()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00070">DeleteElement()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00115">lastTouchEvent</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00133">MoveControlToFront()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00049">RegisterElement()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00037">Update()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_adc767e9fff8b60b9d4c2334efcd3aa96_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_adc767e9fff8b60b9d4c2334efcd3aa96_cgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_adc767e9fff8b60b9d4c2334efcd3aa96_cgraph" id="d2/d3b/class_window_manager_adc767e9fff8b60b9d4c2334efcd3aa96_cgraph">
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="260,452,471,479"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="519,401,729,428"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="1059,249,1226,276"/>
+<area shape="rect" id="node29" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="267,335,464,377"/>
+<area shape="rect" id="node31" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="1288,503,1511,529"/>
+<area shape="rect" id="node7" href="../../d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="1045,452,1240,479"/>
+<area shape="rect" id="node4" href="../../d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="1098,325,1187,352"/>
+<area shape="rect" id="node5" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="1575,427,1743,453"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="777,300,997,327"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="1296,313,1503,340"/>
+<area shape="rect" id="node21" href="../../d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="1316,56,1483,83"/>
+<area shape="rect" id="node24" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="1314,179,1485,205"/>
+<area shape="rect" id="node10" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="1609,477,1710,504"/>
+<area shape="rect" id="node11" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="1566,325,1753,352"/>
+<area shape="rect" id="node14" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="1576,376,1743,403"/>
+<area shape="rect" id="node15" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="1587,157,1731,184"/>
+<area shape="rect" id="node19" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="1559,259,1760,301"/>
+<area shape="rect" id="node20" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="1579,208,1739,235"/>
+<area shape="rect" id="node12" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="1841,325,1935,352"/>
+<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="2025,317,2141,344"/>
+<area shape="rect" id="node16" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="1817,208,1959,235"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="2016,247,2149,273"/>
+<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="2019,196,2147,223"/>
+<area shape="rect" id="node22" href="../../da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="1603,5,1715,32"/>
+<area shape="rect" id="node23" href="../../da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="1574,56,1745,83"/>
+<area shape="rect" id="node25" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="1603,107,1715,133"/>
+<area shape="rect" id="node26" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1823,69,1953,96"/>
+<area shape="rect" id="node27" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="1821,120,1955,147"/>
+<area shape="rect" id="node28" href="../../d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="2017,120,2148,147"/>
+<area shape="rect" id="node30" href="../../d3/d42/class_logger.html#a10e3c0f647678365b77770cfc3ec151d" title="Logger::Warn" alt="" coords="574,351,674,377"/>
+<area shape="rect" id="node32" href="../../d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="1588,579,1731,605"/>
+<area shape="rect" id="node33" href="../../df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="1565,528,1753,555"/>
+<area shape="rect" id="node34" href="../../d1/d4c/class_u_i_element.html#ab012fc7a49ca1fd6d669bc74d18060a8" title="UIElement::GetLocation" alt="" coords="1808,452,1968,479"/>
+<area shape="rect" id="node35" href="../../d1/d4c/class_u_i_element.html#a0270b834d6fdf077db7ab241f6e7421e" title="UIElement::SetLocation" alt="" coords="1809,503,1967,529"/>
+<area shape="rect" id="node36" href="../../d1/d4c/class_u_i_element.html#ae5df92881598efcef3cd803ef9ef3a12" title="UIElement::SetParent" alt="" coords="1814,553,1962,580"/>
+<area shape="rect" id="node37" href="../../d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="1825,604,1951,631"/>
 </map>
 </div>
 
@@ -241,7 +611,61 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00035">35</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00036">36</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00092">s_instance</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00005">WindowManager()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_ad55038820a94dda6e99ca2a87b9c7c5c_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ad55038820a94dda6e99ca2a87b9c7c5c_cgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_ad55038820a94dda6e99ca2a87b9c7c5c_cgraph" id="d2/d3b/class_window_manager_ad55038820a94dda6e99ca2a87b9c7c5c_cgraph">
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="228,436,451,463"/>
+<area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="516,360,683,387"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="506,309,693,336"/>
+<area shape="rect" id="node7" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="515,512,683,539"/>
+<area shape="rect" id="node8" href="../../dc/de9/class_driver_base.html#a3b6b30844cda1b57940bfe6c0d7c38aa" title="DriverBase::height" alt="" coords="768,259,895,285"/>
+<area shape="rect" id="node10" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="542,411,657,437"/>
+<area shape="rect" id="node44" href="../../dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf" title="DriverBase::width" alt="" coords="770,487,893,513"/>
+<area shape="rect" id="node45" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="549,563,650,589"/>
+<area shape="rect" id="node46" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="499,614,700,655"/>
+<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="784,309,879,336"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="990,56,1106,83"/>
+<area shape="rect" id="node9" href="../../dc/de9/class_driver_base.html#a8d9f805d559da4200bd853f0531073c4" title="DriverBase::textWrite" alt="" coords="975,5,1121,32"/>
+<area shape="rect" id="node11" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="775,385,888,412"/>
+<area shape="rect" id="node41" href="../../d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="748,436,915,463"/>
+<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#a612e8cfb0e21fc13f7417be7674b9edc" title="GDTransport::__end" alt="" coords="1189,56,1327,83"/>
+<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="977,512,1119,539"/>
+<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#acb1c9c0be837496b171ce14080499486" title="GDTransport::hostcmd" alt="" coords="1181,512,1335,539"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a3c3d3f1c1e37f095616af75e2f776a27" title="GDTransport::ios" alt="" coords="1198,563,1318,589"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="977,411,1119,437"/>
+<area shape="rect" id="node21" href="../../da/df4/class_g_d_class.html#a1eb81651848842f44589b96c5c8dbc66" title="GDClass::flush" alt="" coords="993,613,1103,640"/>
+<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#a80810bc46b58758679fef9758b746e52" title="GDTransport::rd" alt="" coords="991,664,1105,691"/>
+<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#a52cbc0db79905474bb3d6120020e5a1b" title="GDTransport::rd32" alt="" coords="984,715,1112,741"/>
+<area shape="rect" id="node25" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="989,309,1107,336"/>
+<area shape="rect" id="node37" href="../../d3/d2e/class_g_d_transport.html#ad461023d617d303d36df8152bf2c62d9" title="GDTransport::resume" alt="" coords="1185,360,1331,387"/>
+<area shape="rect" id="node38" href="../../d3/d2e/class_g_d_transport.html#a72d164a6f4b81e026e3c891732d61ad2" title="GDTransport::wr16" alt="" coords="983,107,1113,133"/>
+<area shape="rect" id="node39" href="../../d3/d2e/class_g_d_transport.html#a87d9c22767d132a692fe0f2e752023cd" title="GDTransport::wr32" alt="" coords="1193,5,1323,32"/>
+<area shape="rect" id="node40" href="../../da/df4/class_g_d_class.html#ac82e0611ecfb01f867d354189cc2db98" title="GDClass::wr32" alt="" coords="993,157,1103,184"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="1767,303,1910,329"/>
+<area shape="rect" id="node20" href="../../d3/d2e/class_g_d_transport.html#adeb70f71cb9d383fb03d44ecaed8fdfe" title="GDTransport::stream" alt="" coords="1187,461,1329,488"/>
+<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="1959,291,2102,317"/>
+<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="2151,246,2292,287"/>
+<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1193,613,1323,640"/>
+<area shape="rect" id="node26" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="1194,259,1322,285"/>
+<area shape="rect" id="node34" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b" title="ConfigRam::i2c_start" alt="" coords="1383,107,1525,133"/>
+<area shape="rect" id="node35" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1" title="ConfigRam::i2c_stop" alt="" coords="1383,157,1525,184"/>
+<area shape="rect" id="node36" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="1194,208,1322,235"/>
+<area shape="rect" id="node27" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="1387,259,1521,285"/>
+<area shape="rect" id="node33" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="1387,208,1521,235"/>
+<area shape="rect" id="node28" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="1573,259,1719,285"/>
+<area shape="rect" id="node29" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="1575,208,1717,235"/>
+<area shape="rect" id="node32" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="1573,157,1719,184"/>
+<area shape="rect" id="node30" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="1767,208,1911,235"/>
+<area shape="rect" id="node31" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="1959,215,2103,241"/>
+<area shape="rect" id="node42" href="../../da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="992,816,1104,843"/>
+<area shape="rect" id="node43" href="../../da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="963,765,1133,792"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -303,46 +727,59 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00040">40</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00045">45</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00056">DeleteElement()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00119">MoveControlToFront()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00047">RegisterElement()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00037">Update()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00092">s_instance</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00005">WindowManager()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_ab64a2e1344258a973b6cb0d65fe952f2_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ab64a2e1344258a973b6cb0d65fe952f2_cgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_ab64a2e1344258a973b6cb0d65fe952f2_cgraph" id="d2/d3b/class_window_manager_ab64a2e1344258a973b6cb0d65fe952f2_cgraph">
-<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="234,107,445,133"/>
-<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="513,107,679,133"/>
-<area shape="rect" id="node12" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="241,302,438,343"/>
-<area shape="rect" id="node24" href="../../d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="228,461,451,488"/>
-<area shape="rect" id="node3" href="../../d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="551,5,641,32"/>
-<area shape="rect" id="node4" href="../../d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="499,56,693,83"/>
-<area shape="rect" id="node5" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="512,259,680,285"/>
-<area shape="rect" id="node7" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="741,107,912,133"/>
-<area shape="rect" id="node8" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="977,107,1089,133"/>
-<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1155,56,1285,83"/>
-<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#a52cbc0db79905474bb3d6120020e5a1b" title="GDTransport::rd32" alt="" coords="1156,107,1284,133"/>
-<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="1153,157,1287,184"/>
-<area shape="rect" id="node13" href="../../d3/d42/class_logger.html#a10e3c0f647678365b77770cfc3ec151d" title="Logger::Warn" alt="" coords="546,360,646,387"/>
-<area shape="rect" id="node14" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="545,461,647,488"/>
-<area shape="rect" id="node15" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="503,157,689,184"/>
-<area shape="rect" id="node18" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="513,208,679,235"/>
-<area shape="rect" id="node19" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="524,411,668,437"/>
-<area shape="rect" id="node23" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="516,309,676,336"/>
-<area shape="rect" id="node16" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="779,208,874,235"/>
-<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="975,233,1091,260"/>
-<area shape="rect" id="node20" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="755,309,898,336"/>
-<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="966,297,1099,324"/>
-<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="969,348,1097,375"/>
-<area shape="rect" id="node25" href="../../d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="525,536,667,563"/>
-<area shape="rect" id="node26" href="../../df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="502,587,690,613"/>
-<area shape="rect" id="node27" href="../../d1/d4c/class_u_i_element.html#ab012fc7a49ca1fd6d669bc74d18060a8" title="UIElement::GetLocation" alt="" coords="747,612,907,639"/>
-<area shape="rect" id="node28" href="../../dc/de9/class_driver_base.html#a3b6b30844cda1b57940bfe6c0d7c38aa" title="DriverBase::height" alt="" coords="763,663,890,689"/>
-<area shape="rect" id="node30" href="../../d1/d4c/class_u_i_element.html#a0270b834d6fdf077db7ab241f6e7421e" title="UIElement::SetLocation" alt="" coords="747,713,906,740"/>
-<area shape="rect" id="node31" href="../../d1/d4c/class_u_i_element.html#ae5df92881598efcef3cd803ef9ef3a12" title="UIElement::SetParent" alt="" coords="753,460,901,487"/>
-<area shape="rect" id="node32" href="../../d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="763,511,890,537"/>
-<area shape="rect" id="node33" href="../../dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf" title="DriverBase::width" alt="" coords="765,561,888,588"/>
-<area shape="rect" id="node29" href="../../dc/de9/class_driver_base.html#a8d9f805d559da4200bd853f0531073c4" title="DriverBase::textWrite" alt="" coords="960,663,1105,689"/>
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="228,436,451,463"/>
+<area shape="rect" id="node3" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="516,360,683,387"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="506,309,693,336"/>
+<area shape="rect" id="node7" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="515,512,683,539"/>
+<area shape="rect" id="node8" href="../../dc/de9/class_driver_base.html#a3b6b30844cda1b57940bfe6c0d7c38aa" title="DriverBase::height" alt="" coords="768,259,895,285"/>
+<area shape="rect" id="node10" href="../../d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="542,411,657,437"/>
+<area shape="rect" id="node44" href="../../dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf" title="DriverBase::width" alt="" coords="770,487,893,513"/>
+<area shape="rect" id="node45" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="549,563,650,589"/>
+<area shape="rect" id="node46" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="499,614,700,655"/>
+<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="784,309,879,336"/>
+<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="990,56,1106,83"/>
+<area shape="rect" id="node9" href="../../dc/de9/class_driver_base.html#a8d9f805d559da4200bd853f0531073c4" title="DriverBase::textWrite" alt="" coords="975,5,1121,32"/>
+<area shape="rect" id="node11" href="../../da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="775,385,888,412"/>
+<area shape="rect" id="node41" href="../../d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="748,436,915,463"/>
+<area shape="rect" id="node12" href="../../d3/d2e/class_g_d_transport.html#a612e8cfb0e21fc13f7417be7674b9edc" title="GDTransport::__end" alt="" coords="1189,56,1327,83"/>
+<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="977,512,1119,539"/>
+<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#acb1c9c0be837496b171ce14080499486" title="GDTransport::hostcmd" alt="" coords="1181,512,1335,539"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a3c3d3f1c1e37f095616af75e2f776a27" title="GDTransport::ios" alt="" coords="1198,563,1318,589"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#aaabefbc82bbf20cdeccfc40f960d7644" title="GDTransport::begin1" alt="" coords="977,411,1119,437"/>
+<area shape="rect" id="node21" href="../../da/df4/class_g_d_class.html#a1eb81651848842f44589b96c5c8dbc66" title="GDClass::flush" alt="" coords="993,613,1103,640"/>
+<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#a80810bc46b58758679fef9758b746e52" title="GDTransport::rd" alt="" coords="991,664,1105,691"/>
+<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#a52cbc0db79905474bb3d6120020e5a1b" title="GDTransport::rd32" alt="" coords="984,715,1112,741"/>
+<area shape="rect" id="node25" href="../../d1/d75/class_config_ram.html#a6c486163e427b031b202148cf9da78c2" title="ConfigRam::read" alt="" coords="989,309,1107,336"/>
+<area shape="rect" id="node37" href="../../d3/d2e/class_g_d_transport.html#ad461023d617d303d36df8152bf2c62d9" title="GDTransport::resume" alt="" coords="1185,360,1331,387"/>
+<area shape="rect" id="node38" href="../../d3/d2e/class_g_d_transport.html#a72d164a6f4b81e026e3c891732d61ad2" title="GDTransport::wr16" alt="" coords="983,107,1113,133"/>
+<area shape="rect" id="node39" href="../../d3/d2e/class_g_d_transport.html#a87d9c22767d132a692fe0f2e752023cd" title="GDTransport::wr32" alt="" coords="1193,5,1323,32"/>
+<area shape="rect" id="node40" href="../../da/df4/class_g_d_class.html#ac82e0611ecfb01f867d354189cc2db98" title="GDClass::wr32" alt="" coords="993,157,1103,184"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="1767,303,1910,329"/>
+<area shape="rect" id="node20" href="../../d3/d2e/class_g_d_transport.html#adeb70f71cb9d383fb03d44ecaed8fdfe" title="GDTransport::stream" alt="" coords="1187,461,1329,488"/>
+<area shape="rect" id="node18" href="../../d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="1959,291,2102,317"/>
+<area shape="rect" id="node19" href="../../d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="2151,246,2292,287"/>
+<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1193,613,1323,640"/>
+<area shape="rect" id="node26" href="../../d1/d75/class_config_ram.html#ad66611812422c58863d7c63415004048" title="ConfigRam::i2c_rx" alt="" coords="1194,259,1322,285"/>
+<area shape="rect" id="node34" href="../../d1/d75/class_config_ram.html#a4ab2d2de21d14fe6e023867d9d62644b" title="ConfigRam::i2c_start" alt="" coords="1383,107,1525,133"/>
+<area shape="rect" id="node35" href="../../d1/d75/class_config_ram.html#aa1843c8465bee513e1b60762fb73c1e1" title="ConfigRam::i2c_stop" alt="" coords="1383,157,1525,184"/>
+<area shape="rect" id="node36" href="../../d1/d75/class_config_ram.html#adf087b262e31cbe2f3ebebe72d315b35" title="ConfigRam::i2c_tx" alt="" coords="1194,208,1322,235"/>
+<area shape="rect" id="node27" href="../../d1/d75/class_config_ram.html#a283bb750ebc6d470a2d71ac2b3db455b" title="ConfigRam::i2c_rx1" alt="" coords="1387,259,1521,285"/>
+<area shape="rect" id="node33" href="../../d1/d75/class_config_ram.html#a37c428627572dce3605aa52286b9ab3d" title="ConfigRam::i2c_tx1" alt="" coords="1387,208,1521,235"/>
+<area shape="rect" id="node28" href="../../d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="1573,259,1719,285"/>
+<area shape="rect" id="node29" href="../../d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="1575,208,1717,235"/>
+<area shape="rect" id="node32" href="../../d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="1573,157,1719,184"/>
+<area shape="rect" id="node30" href="../../d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="1767,208,1911,235"/>
+<area shape="rect" id="node31" href="../../d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="1959,215,2103,241"/>
+<area shape="rect" id="node42" href="../../da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="992,816,1104,843"/>
+<area shape="rect" id="node43" href="../../da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="963,765,1133,792"/>
 </map>
 </div>
 
@@ -364,27 +801,42 @@ Here is the call graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00119">119</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00133">133</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00328">FT8XXDriver::backlightOn()</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00340">FT8XXDriver::backlightPower()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00023">LowPower</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00022">Normal</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00024">ScreenOff</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00361">FT8XXDriver::touched()</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00369">FT8XXDriver::touchRead()</a>, <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00017">Logger::Trace()</a>, and <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00036">Logger::Warn()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00110">elementOrder</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00107">updateOccluded()</a>, and <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00036">Logger::Warn()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00040">instance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00055">GetLastTouchEvent()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_a3b55d6bdb2e1def7789382700e796ecc_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_a3b55d6bdb2e1def7789382700e796ecc_cgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_a3b55d6bdb2e1def7789382700e796ecc_cgraph" id="d2/d3b/class_window_manager_a3b55d6bdb2e1def7789382700e796ecc_cgraph">
-<area shape="rect" id="node2" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="261,5,427,32"/>
-<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="251,56,437,83"/>
-<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="272,107,416,133"/>
-<area shape="rect" id="node10" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="264,157,424,184"/>
-<area shape="rect" id="node11" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="293,208,395,235"/>
-<area shape="rect" id="node12" href="../../d3/d42/class_logger.html#a10e3c0f647678365b77770cfc3ec151d" title="Logger::Warn" alt="" coords="294,259,394,285"/>
-<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="509,56,604,83"/>
-<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="685,56,801,83"/>
-<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="485,107,628,133"/>
-<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="676,107,809,133"/>
-<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="679,157,807,184"/>
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="251,339,471,365"/>
+<area shape="rect" id="node27" href="../../d3/d42/class_logger.html#a10e3c0f647678365b77770cfc3ec151d" title="Logger::Warn" alt="" coords="311,389,411,416"/>
+<area shape="rect" id="node3" href="../../d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="571,288,661,315"/>
+<area shape="rect" id="node4" href="../../d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="519,339,713,365"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="533,389,699,416"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="761,187,968,213"/>
+<area shape="rect" id="node19" href="../../d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="781,389,948,416"/>
+<area shape="rect" id="node22" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="779,465,950,492"/>
+<area shape="rect" id="node7" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="1066,5,1167,32"/>
+<area shape="rect" id="node8" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="1023,56,1210,83"/>
+<area shape="rect" id="node11" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="1033,107,1200,133"/>
+<area shape="rect" id="node12" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="1045,157,1189,184"/>
+<area shape="rect" id="node16" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="1016,209,1217,250"/>
+<area shape="rect" id="node17" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="1037,275,1197,301"/>
+<area shape="rect" id="node18" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="1033,325,1201,352"/>
+<area shape="rect" id="node9" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="1289,107,1384,133"/>
+<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="1465,107,1581,133"/>
+<area shape="rect" id="node13" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="1265,157,1408,184"/>
+<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="1456,157,1589,184"/>
+<area shape="rect" id="node15" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="1459,208,1587,235"/>
+<area shape="rect" id="node20" href="../../da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="1061,376,1173,403"/>
+<area shape="rect" id="node21" href="../../da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="1031,427,1202,453"/>
+<area shape="rect" id="node23" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="1061,477,1173,504"/>
+<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1271,452,1402,479"/>
+<area shape="rect" id="node25" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="1270,503,1403,529"/>
+<area shape="rect" id="node26" href="../../d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="1457,503,1588,529"/>
 </map>
 </div>
 <div class="dynheader">
@@ -392,7 +844,70 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_a3b55d6bdb2e1def7789382700e796ecc_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_a3b55d6bdb2e1def7789382700e796ecc_icgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_a3b55d6bdb2e1def7789382700e796ecc_icgraph" id="d2/d3b/class_window_manager_a3b55d6bdb2e1def7789382700e796ecc_icgraph">
-<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="251,13,425,39"/>
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="251,5,457,47"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="adf5df4ff4bb4de4d82d99bfde01dbb0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf5df4ff4bb4de4d82d99bfde01dbb0b">&#9670;&nbsp;</a></span>processTouch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowManager::processTouch </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">146</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00328">FT8XXDriver::backlightOn()</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00340">FT8XXDriver::backlightPower()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00021">ControlTouchedInactive</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00109">elementMap</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00110">elementOrder</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00101">UIElement::getElementID()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00115">lastTouchEvent</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00024">LowPower</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00114">lowPowerTrigger</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00018">NoOp</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00023">Normal</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00111">powerState</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00025">ScreenOff</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00114">screenOffTrigger</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00104">tft</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00361">FT8XXDriver::touched()</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00369">FT8XXDriver::touchRead()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00057">sTouchResponse::touchReponse</a>, <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00017">Logger::Trace()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00217">updatePowerTriggerTime()</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00091">wmCanvas</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00037">Update()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_adf5df4ff4bb4de4d82d99bfde01dbb0b_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_adf5df4ff4bb4de4d82d99bfde01dbb0b_cgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_adf5df4ff4bb4de4d82d99bfde01dbb0b_cgraph" id="d2/d3b/class_window_manager_adf5df4ff4bb4de4d82d99bfde01dbb0b_cgraph">
+<area shape="rect" id="node2" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="277,5,444,32"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="267,56,454,83"/>
+<area shape="rect" id="node6" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="277,107,445,133"/>
+<area shape="rect" id="node7" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="289,157,433,184"/>
+<area shape="rect" id="node11" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="281,208,441,235"/>
+<area shape="rect" id="node12" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="310,259,411,285"/>
+<area shape="rect" id="node13" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="260,310,461,351"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="533,56,628,83"/>
+<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="709,68,825,95"/>
+<area shape="rect" id="node8" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="509,157,652,184"/>
+<area shape="rect" id="node9" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="700,132,833,159"/>
+<area shape="rect" id="node10" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="703,183,831,209"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_adf5df4ff4bb4de4d82d99bfde01dbb0b_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_adf5df4ff4bb4de4d82d99bfde01dbb0b_icgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_adf5df4ff4bb4de4d82d99bfde01dbb0b_icgraph" id="d2/d3b/class_window_manager_adf5df4ff4bb4de4d82d99bfde01dbb0b_icgraph">
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="260,5,427,32"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1260,41,1467,82"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="475,37,695,64"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="743,37,953,64"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1008,125,1205,166"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1001,73,1212,100"/>
 </map>
 </div>
 
@@ -414,27 +929,24 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00047">47</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00049">49</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp_source.html#l00200">UIWindow::AddChildElement()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00101">UIElement::getElementID()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00113">UIElement::Invalidate()</a>, and <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00017">Logger::Trace()</a>.</p>
+<p class="reference">References <a class="el" href="../../df/d5e/_u_i_window_8cpp_source.html#l00084">UIWindow::AddChildElement()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00109">elementMap</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00110">elementOrder</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00101">UIElement::getElementID()</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00113">UIElement::Invalidate()</a>, <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00017">Logger::Trace()</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00091">wmCanvas</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00040">instance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00055">GetLastTouchEvent()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_af2b5ac76dd19495f62029b3a97aeb808_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_af2b5ac76dd19495f62029b3a97aeb808_cgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_af2b5ac76dd19495f62029b3a97aeb808_cgraph" id="d2/d3b/class_window_manager_af2b5ac76dd19495f62029b3a97aeb808_cgraph">
-<area shape="rect" id="node2" href="../../df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="276,132,464,159"/>
-<area shape="rect" id="node10" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="286,183,454,209"/>
-<area shape="rect" id="node11" href="../../d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="299,257,441,284"/>
-<area shape="rect" id="node12" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="319,308,421,335"/>
+<area shape="rect" id="node2" href="../../df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="276,81,464,108"/>
+<area shape="rect" id="node7" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="286,132,454,159"/>
+<area shape="rect" id="node8" href="../../d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="299,183,441,209"/>
+<area shape="rect" id="node9" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="319,233,421,260"/>
 <area shape="rect" id="node3" href="../../d1/d4c/class_u_i_element.html#ab012fc7a49ca1fd6d669bc74d18060a8" title="UIElement::GetLocation" alt="" coords="512,5,672,32"/>
-<area shape="rect" id="node4" href="../../dc/de9/class_driver_base.html#a3b6b30844cda1b57940bfe6c0d7c38aa" title="DriverBase::height" alt="" coords="529,56,655,83"/>
-<area shape="rect" id="node6" href="../../d1/d4c/class_u_i_element.html#a0270b834d6fdf077db7ab241f6e7421e" title="UIElement::SetLocation" alt="" coords="513,107,671,133"/>
-<area shape="rect" id="node7" href="../../d1/d4c/class_u_i_element.html#ae5df92881598efcef3cd803ef9ef3a12" title="UIElement::SetParent" alt="" coords="518,157,666,184"/>
-<area shape="rect" id="node8" href="../../d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="529,208,655,235"/>
-<area shape="rect" id="node9" href="../../dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf" title="DriverBase::width" alt="" coords="531,259,653,285"/>
-<area shape="rect" id="node5" href="../../dc/de9/class_driver_base.html#a8d9f805d559da4200bd853f0531073c4" title="DriverBase::textWrite" alt="" coords="720,56,865,83"/>
+<area shape="rect" id="node4" href="../../d1/d4c/class_u_i_element.html#a0270b834d6fdf077db7ab241f6e7421e" title="UIElement::SetLocation" alt="" coords="513,56,671,83"/>
+<area shape="rect" id="node5" href="../../d1/d4c/class_u_i_element.html#ae5df92881598efcef3cd803ef9ef3a12" title="UIElement::SetParent" alt="" coords="518,107,666,133"/>
+<area shape="rect" id="node6" href="../../d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="529,157,655,184"/>
 </map>
 </div>
 <div class="dynheader">
@@ -442,7 +954,7 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_af2b5ac76dd19495f62029b3a97aeb808_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_af2b5ac76dd19495f62029b3a97aeb808_icgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_af2b5ac76dd19495f62029b3a97aeb808_icgraph" id="d2/d3b/class_window_manager_af2b5ac76dd19495f62029b3a97aeb808_icgraph">
-<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="276,5,451,32"/>
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="276,5,483,47"/>
 </map>
 </div>
 
@@ -472,7 +984,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00057">57</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00066">66</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00112">lowPowerTime</a>.</p>
 
 </div>
 </div>
@@ -500,9 +1014,9 @@ Here is the caller graph for this function:</div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00061">61</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00070">70</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
 
-<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00074">GetDriver()</a>.</p>
+<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00083">GetDriver()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00113">screenOffTime</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00104">tft</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -531,19 +1045,35 @@ Here is the call graph for this function:</div>
 
 <p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00037">37</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
 
-<p class="reference">References <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00431">FT8XXDriver::swapDisplay()</a>.</p>
+<p class="reference">References <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00437">FT8XXDriver::clearScreen()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00109">elementMap</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00110">elementOrder</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>, <a class="el" href="../../d5/dbc/_f_t8_x_x_driver_8cpp_source.html#l00432">FT8XXDriver::swapDisplay()</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00104">tft</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00056">DeleteElement()</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00040">instance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00055">GetLastTouchEvent()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00107">updateOccluded()</a>.</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_ab3fe67e0942bab78c79da066cf89d2eb_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ab3fe67e0942bab78c79da066cf89d2eb_cgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_ab3fe67e0942bab78c79da066cf89d2eb_cgraph" id="d2/d3b/class_window_manager_ab3fe67e0942bab78c79da066cf89d2eb_cgraph">
-<area shape="rect" id="node2" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="220,56,391,83"/>
-<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="439,56,551,83"/>
-<area shape="rect" id="node4" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="600,5,731,32"/>
-<area shape="rect" id="node5" href="../../d3/d2e/class_g_d_transport.html#a52cbc0db79905474bb3d6120020e5a1b" title="GDTransport::rd32" alt="" coords="601,56,729,83"/>
-<area shape="rect" id="node6" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="599,107,732,133"/>
+<area shape="rect" id="node2" href="../../d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="240,56,407,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="220,259,427,285"/>
+<area shape="rect" id="node18" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="238,393,409,420"/>
+<area shape="rect" id="node3" href="../../da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="519,5,631,32"/>
+<area shape="rect" id="node4" href="../../da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="490,56,661,83"/>
+<area shape="rect" id="node6" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="492,107,659,133"/>
+<area shape="rect" id="node9" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="482,157,669,184"/>
+<area shape="rect" id="node10" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="491,208,659,235"/>
+<area shape="rect" id="node11" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="503,259,647,285"/>
+<area shape="rect" id="node15" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="495,309,655,336"/>
+<area shape="rect" id="node16" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="525,360,626,387"/>
+<area shape="rect" id="node17" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="475,411,676,453"/>
+<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="748,157,843,184"/>
+<area shape="rect" id="node8" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="923,171,1039,197"/>
+<area shape="rect" id="node12" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="724,259,867,285"/>
+<area shape="rect" id="node13" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="915,247,1048,273"/>
+<area shape="rect" id="node14" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="917,297,1045,324"/>
+<area shape="rect" id="node19" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="519,477,631,504"/>
+<area shape="rect" id="node20" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="730,452,861,479"/>
+<area shape="rect" id="node21" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="729,503,862,529"/>
+<area shape="rect" id="node22" href="../../d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="916,503,1047,529"/>
 </map>
 </div>
 <div class="dynheader">
@@ -551,10 +1081,423 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d3b/class_window_manager_ab3fe67e0942bab78c79da066cf89d2eb_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ab3fe67e0942bab78c79da066cf89d2eb_icgraph" alt=""/></div>
 <map name="d2/d3b/class_window_manager_ab3fe67e0942bab78c79da066cf89d2eb_icgraph" id="d2/d3b/class_window_manager_ab3fe67e0942bab78c79da066cf89d2eb_icgraph">
-<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="220,5,431,32"/>
-<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="479,31,653,57"/>
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1005,41,1212,82"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="220,37,440,64"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="488,37,699,64"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="753,125,951,166"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="747,73,957,100"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="ae6cf4080a251b15c6a82f18a00015da6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6cf4080a251b15c6a82f18a00015da6">&#9670;&nbsp;</a></span>updateOccluded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowManager::updateOccluded </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00107">107</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d27/_logger_8cpp_source.html#l00055">Logger::Crit()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00109">elementMap</a>, <a class="el" href="../../d6/d17/_u_i_element_8h_source.html#l00133">UIElement::GetChildElements()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00037">Update()</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00091">wmCanvas</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00070">DeleteElement()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00133">MoveControlToFront()</a>.</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_ae6cf4080a251b15c6a82f18a00015da6_cgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ae6cf4080a251b15c6a82f18a00015da6_cgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_ae6cf4080a251b15c6a82f18a00015da6_cgraph" id="d2/d3b/class_window_manager_ae6cf4080a251b15c6a82f18a00015da6_cgraph">
+<area shape="rect" id="node2" href="../../d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="326,157,415,184"/>
+<area shape="rect" id="node3" href="../../d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="273,208,468,235"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="287,259,454,285"/>
+<area shape="rect" id="node5" href="../../d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="536,56,703,83"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="516,259,723,285"/>
+<area shape="rect" id="node21" href="../../d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="534,393,705,420"/>
+<area shape="rect" id="node6" href="../../da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="815,5,927,32"/>
+<area shape="rect" id="node7" href="../../da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="786,56,957,83"/>
+<area shape="rect" id="node9" href="../../d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="788,107,955,133"/>
+<area shape="rect" id="node12" href="../../d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="778,157,965,184"/>
+<area shape="rect" id="node13" href="../../d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="787,208,955,235"/>
+<area shape="rect" id="node14" href="../../d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="799,259,943,285"/>
+<area shape="rect" id="node18" href="../../d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="791,309,951,336"/>
+<area shape="rect" id="node19" href="../../d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="821,360,922,387"/>
+<area shape="rect" id="node20" href="../../d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="771,411,972,453"/>
+<area shape="rect" id="node10" href="../../da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="1044,157,1139,184"/>
+<area shape="rect" id="node11" href="../../d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="1219,171,1335,197"/>
+<area shape="rect" id="node15" href="../../da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="1020,259,1163,285"/>
+<area shape="rect" id="node16" href="../../d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="1211,247,1344,273"/>
+<area shape="rect" id="node17" href="../../d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="1213,297,1341,324"/>
+<area shape="rect" id="node22" href="../../da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="815,477,927,504"/>
+<area shape="rect" id="node23" href="../../d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1026,452,1157,479"/>
+<area shape="rect" id="node24" href="../../d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="1025,503,1158,529"/>
+<area shape="rect" id="node25" href="../../d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="1212,503,1343,529"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_ae6cf4080a251b15c6a82f18a00015da6_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_ae6cf4080a251b15c6a82f18a00015da6_icgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_ae6cf4080a251b15c6a82f18a00015da6_icgraph" id="d2/d3b/class_window_manager_ae6cf4080a251b15c6a82f18a00015da6_icgraph">
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="273,56,484,83"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="539,107,736,149"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="532,5,743,32"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="791,49,997,90"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a62f72185a16ae2dcb0dea0aac7beb7de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62f72185a16ae2dcb0dea0aac7beb7de">&#9670;&nbsp;</a></span>updatePowerTriggerTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void WindowManager::updatePowerTriggerTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates when the power states will be triggered from this instant in time </p>
+
+<p class="definition">Definition at line <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00217">217</a> of file <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html">WindowMananger.cpp</a>.</p>
+
+<p class="reference">References <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00112">lowPowerTime</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00114">lowPowerTrigger</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00113">screenOffTime</a>, and <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00114">screenOffTrigger</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00005">WindowManager()</a>.</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d2/d3b/class_window_manager_a62f72185a16ae2dcb0dea0aac7beb7de_icgraph.png" border="0" usemap="#d2/d3b/class_window_manager_a62f72185a16ae2dcb0dea0aac7beb7de_icgraph" alt=""/></div>
+<map name="d2/d3b/class_window_manager_a62f72185a16ae2dcb0dea0aac7beb7de_icgraph" id="d2/d3b/class_window_manager_a62f72185a16ae2dcb0dea0aac7beb7de_icgraph">
+<area shape="rect" id="node2" href="../../d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="263,5,469,32"/>
+<area shape="rect" id="node9" href="../../d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="255,56,477,83"/>
+<area shape="rect" id="node3" href="../../d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="529,5,696,32"/>
+<area shape="rect" id="node4" href="../../d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96" title="WindowManager::GetLastTouch\lEvent" alt="" coords="1533,49,1740,90"/>
+<area shape="rect" id="node5" href="../../d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6" title="WindowManager::updateOccluded" alt="" coords="748,56,968,83"/>
+<area shape="rect" id="node6" href="../../d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076" title="WindowManager::DeleteElement" alt="" coords="1016,56,1227,83"/>
+<area shape="rect" id="node8" href="../../d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc" title="WindowManager::MoveControl\lToFront" alt="" coords="1281,133,1479,174"/>
+<area shape="rect" id="node7" href="../../d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005" title="Deletes all elements from the window manager (Effective clear on next update) " alt="" coords="1275,81,1485,108"/>
+<area shape="rect" id="node10" href="../../d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="525,56,700,83"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad3dbf8e7b52b68404343319b9d28f99e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3dbf8e7b52b68404343319b9d28f99e">&#9670;&nbsp;</a></span>elementMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;unsigned long, <a class="el" href="../../d1/d4c/class_u_i_element.html">UIElement</a> *&gt; WindowManager::elementMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00109">109</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00070">DeleteElement()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00049">RegisterElement()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00037">Update()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00107">updateOccluded()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00223">~WindowManager()</a>.</p>
+
+</div>
+</div>
+<a id="a2bb73a268d280d802eb2f32beeae0228"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bb73a268d280d802eb2f32beeae0228">&#9670;&nbsp;</a></span>elementOrder</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;unsigned long&gt; WindowManager::elementOrder</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00110">110</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00070">DeleteElement()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00133">MoveControlToFront()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00049">RegisterElement()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00037">Update()</a>.</p>
+
+</div>
+</div>
+<a id="ab8dfd5ce2fd3d2ab759d4bddf5aba53c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8dfd5ce2fd3d2ab759d4bddf5aba53c">&#9670;&nbsp;</a></span>lastTouchEvent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/dde/structs_touch_response.html">sTouchResponse</a> WindowManager::lastTouchEvent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00115">115</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00055">GetLastTouchEvent()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>.</p>
+
+</div>
+</div>
+<a id="a9086376ca16eb64cfe1feff5500d6533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9086376ca16eb64cfe1feff5500d6533">&#9670;&nbsp;</a></span>lowPowerTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t WindowManager::lowPowerTime = 30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00112">112</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00066">SetLowPowerTime()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00217">updatePowerTriggerTime()</a>.</p>
+
+</div>
+</div>
+<a id="a232d3a47cc8dab07bc7a9324907fd6db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a232d3a47cc8dab07bc7a9324907fd6db">&#9670;&nbsp;</a></span>lowPowerTrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t WindowManager::lowPowerTrigger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00114">114</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00217">updatePowerTriggerTime()</a>.</p>
+
+</div>
+</div>
+<a id="af438ac85df79b5161dd6f1486913ee04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af438ac85df79b5161dd6f1486913ee04">&#9670;&nbsp;</a></span>powerState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d83/_window_manager_8h.html#a761eb73c8bc814bcadeafe00111f7251">ePowerState</a> WindowManager::powerState = <a class="el" href="../../de/d83/_window_manager_8h.html#a761eb73c8bc814bcadeafe00111f7251a5ecbcf0afce98b042f35ec71ba03fa4b">ePowerState::Normal</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00111">111</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>.</p>
+
+</div>
+</div>
+<a id="ad9982c07a77675bc429887327ab9575d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9982c07a77675bc429887327ab9575d">&#9670;&nbsp;</a></span>s_instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d3b/class_window_manager.html">WindowManager</a> * WindowManager::s_instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00092">92</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00036">instance()</a>.</p>
+
+</div>
+</div>
+<a id="a73058da039062d3b8b95ee7fd01888f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73058da039062d3b8b95ee7fd01888f7">&#9670;&nbsp;</a></span>screenOffTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t WindowManager::screenOffTime = 300</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00113">113</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00070">SetScreenOffTime()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00217">updatePowerTriggerTime()</a>.</p>
+
+</div>
+</div>
+<a id="aca38df9bb647e8ebcc31ebb76b2432a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca38df9bb647e8ebcc31ebb76b2432a7">&#9670;&nbsp;</a></span>screenOffTrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t WindowManager::screenOffTrigger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00114">114</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00217">updatePowerTriggerTime()</a>.</p>
+
+</div>
+</div>
+<a id="a99bbe44d9aa5c507ecee9f8c9b128681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99bbe44d9aa5c507ecee9f8c9b128681">&#9670;&nbsp;</a></span>tft</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d63/class_f_t8_x_x_driver.html">FT8XXDriver</a>* WindowManager::tft</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00104">104</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00083">GetDriver()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>, <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00070">SetScreenOffTime()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00037">Update()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00005">WindowManager()</a>.</p>
+
+</div>
+</div>
+<a id="a3b5ab0083ec95e9e90fbe0bbb87eb86f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b5ab0083ec95e9e90fbe0bbb87eb86f">&#9670;&nbsp;</a></span>wmCanvas</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/dab/class_u_i_window.html">UIWindow</a>* WindowManager::wmCanvas</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="../../de/d83/_window_manager_8h_source.html#l00091">91</a> of file <a class="el" href="../../de/d83/_window_manager_8h_source.html">WindowManager.h</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00061">ClearElements()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00070">DeleteElement()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00146">processTouch()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00049">RegisterElement()</a>, <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00107">updateOccluded()</a>, and <a class="el" href="../../d8/d8c/_window_mananger_8cpp_source.html#l00005">WindowManager()</a>.</p>
 
 </div>
 </div>

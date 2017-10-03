@@ -1,23 +1,26 @@
 <map id="FontHelper::GetTextRect" name="FontHelper::GetTextRect">
-<area shape="rect" id="node2" href="$db/d77/class_check_box.html#abe381c7ad751036c24f066fceed91e9c" title="CheckBox::Draw" alt="" coords="491,5,610,32"/>
-<area shape="rect" id="node4" href="$d5/dbc/class_radio_button.html#ae6b1eb4857be6c9ecbb0999946fc84cc" title="RadioButton::Draw" alt="" coords="485,56,616,83"/>
-<area shape="rect" id="node6" href="$d9/d3f/class_compass.html#a08c2b2cc24d4520eecdc7a907e350472" title="Compass::Draw" alt="" coords="493,107,608,133"/>
-<area shape="rect" id="node7" href="$db/d0a/class_icon_button.html#add32e4abe8403a22b33b15574b0bceb8" title="IconButton::Draw" alt="" coords="490,157,611,184"/>
-<area shape="rect" id="node9" href="$dc/d65/class_slider.html#a5354db1e2e91cd62fe53e012313f06a3" title="Slider::Draw" alt="" coords="505,208,597,235"/>
-<area shape="rect" id="node10" href="$d4/d77/class_button.html#a83978196eeff06d7ad8cca291442e367" title="Button::Draw" alt="" coords="502,259,599,285"/>
-<area shape="rect" id="node12" href="$d9/dbf/class_window.html#a7a3973ccc03badb504ded08e2a985583" title="Window::Draw" alt="" coords="498,461,603,488"/>
-<area shape="rect" id="node13" href="$d3/d84/class_numeric_entry.html#a9455ed8a08529ce82eecb683ba3d0508" title="NumericEntry::DrawKeys" alt="" coords="467,563,635,589"/>
-<area shape="rect" id="node15" href="$dc/d58/class_drop_down_list.html#a01aacc3555b751d0514a4def2912ad7c" title="DropDownList::ProcessTouch" alt="" coords="220,563,413,589"/>
-<area shape="rect" id="node16" href="$d5/deb/class_u_i_primitives.html#a11ff2d3dcd855c73177dca55c2f1d434" title="UIPrimitives::Text" alt="" coords="255,309,378,336"/>
-<area shape="rect" id="node19" href="$d3/d84/class_numeric_entry.html#ab163b4d6818d54304d3c699eb74910cf" title="NumericEntry::UpdateInput" alt="" coords="461,512,640,539"/>
-<area shape="rect" id="node21" href="$dc/d7a/class_u_i_element_graph.html#a848e73ebc13e76bc56630db867204010" title="UIElementGraph::Update" alt="" coords="467,613,634,640"/>
-<area shape="rect" id="node3" href="$de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="721,5,863,32"/>
-<area shape="rect" id="node5" href="$da/d7d/class_u_i_radio_button.html#ae22eeb793ceecacaec73f0f9d836efdc" title="UIRadioButton::Update" alt="" coords="715,56,869,83"/>
-<area shape="rect" id="node8" href="$d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1" title="SettingsButton::Update" alt="" coords="713,157,871,184"/>
-<area shape="rect" id="node11" href="$da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="731,259,853,285"/>
-<area shape="rect" id="node14" href="$d3/d84/class_numeric_entry.html#a4173b9529720e933c3fa66dafba75ddd" title="NumericEntry::Draw" alt="" coords="723,537,861,564"/>
-<area shape="rect" id="node17" href="$dc/d58/class_drop_down_list.html#a556b11edd886b69ace16cd64dcd0a523" title="DropDownList::Draw" alt="" coords="481,309,620,336"/>
-<area shape="rect" id="node18" href="$dc/d58/class_drop_down_list.html#a42ad113275e52197afe30c00be057f5d" title="DropDownList::DrawExpanded" alt="" coords="693,335,891,361"/>
-<area shape="rect" id="node20" href="$d1/d4e/class_progress_bar.html#ad3d29d1500045a08b6680c7e0e45e106" title="ProgressBar::Draw" alt="" coords="485,411,616,437"/>
-<area shape="rect" id="node22" href="$dc/d7a/class_u_i_element_graph.html#aaa115a8a588526139eea7f6cdf3b88c6" title="UIElementGraph::ProcessTouch" alt="" coords="688,613,896,640"/>
+<area shape="rect" id="node2" href="$db/d77/class_check_box.html#abe381c7ad751036c24f066fceed91e9c" title="CheckBox::Draw" alt="" coords="473,5,591,32"/>
+<area shape="rect" id="node4" href="$d5/dbc/class_radio_button.html#ae6b1eb4857be6c9ecbb0999946fc84cc" title="RadioButton::Draw" alt="" coords="467,56,597,83"/>
+<area shape="rect" id="node6" href="$d9/d3f/class_compass.html#ab76221b999430e61e70fac05e3b05d2a" title="Compass::Draw" alt="" coords="475,107,589,133"/>
+<area shape="rect" id="node7" href="$db/d0a/class_icon_button.html#add32e4abe8403a22b33b15574b0bceb8" title="IconButton::Draw" alt="" coords="471,157,593,184"/>
+<area shape="rect" id="node9" href="$dc/d65/class_slider.html#a5354db1e2e91cd62fe53e012313f06a3" title="Slider::Draw" alt="" coords="486,208,578,235"/>
+<area shape="rect" id="node10" href="$d4/d77/class_button.html#a83978196eeff06d7ad8cca291442e367" title="Button::Draw" alt="" coords="483,259,581,285"/>
+<area shape="rect" id="node13" href="$d9/dbf/class_window.html#a7a3973ccc03badb504ded08e2a985583" title="Window::Draw" alt="" coords="479,309,585,336"/>
+<area shape="rect" id="node15" href="$d3/d84/class_numeric_entry.html#a9455ed8a08529ce82eecb683ba3d0508" title="NumericEntry::DrawKeys" alt="" coords="448,613,616,640"/>
+<area shape="rect" id="node17" href="$dc/d58/class_drop_down_list.html#a2904c68130a9a6f9830450f9989f4aa5" title="DropDownList::getMinSize" alt="" coords="220,417,395,444"/>
+<area shape="rect" id="node20" href="$d5/deb/class_u_i_primitives.html#a11ff2d3dcd855c73177dca55c2f1d434" title="UIPrimitives::Text" alt="" coords="246,360,369,387"/>
+<area shape="rect" id="node22" href="$d3/d84/class_numeric_entry.html#ab163b4d6818d54304d3c699eb74910cf" title="NumericEntry::UpdateInput" alt="" coords="443,563,621,589"/>
+<area shape="rect" id="node24" href="$dc/d7a/class_u_i_element_graph.html#a848e73ebc13e76bc56630db867204010" title="UIElementGraph::Update" alt="" coords="449,664,615,691"/>
+<area shape="rect" id="node3" href="$de/dcc/class_u_i_check_box.html#af7ffe84478e18358e1adccc1a78a1340" title="UICheckBox::Update" alt="" coords="702,5,845,32"/>
+<area shape="rect" id="node5" href="$da/d7d/class_u_i_radio_button.html#ae22eeb793ceecacaec73f0f9d836efdc" title="UIRadioButton::Update" alt="" coords="696,56,851,83"/>
+<area shape="rect" id="node8" href="$d1/d95/class_settings_button.html#aef91147c423030326e3beb36a95a86e1" title="SettingsButton::Update" alt="" coords="695,157,852,184"/>
+<area shape="rect" id="node11" href="$d1/d0d/class_u_i_active_button.html#af7fbece84d856a63a2d2a0ec7d4ea895" title="An active button will call this first, then draw whatever data on the button that it wants to display..." alt="" coords="695,259,851,285"/>
+<area shape="rect" id="node12" href="$da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="713,208,834,235"/>
+<area shape="rect" id="node14" href="$df/dab/class_u_i_window.html#aa749f7add746a3e5018f7c0a0023596a" title="UIWindow::Update" alt="" coords="709,309,838,336"/>
+<area shape="rect" id="node16" href="$d3/d84/class_numeric_entry.html#a4173b9529720e933c3fa66dafba75ddd" title="NumericEntry::Draw" alt="" coords="704,588,843,615"/>
+<area shape="rect" id="node18" href="$dc/d58/class_drop_down_list.html#a556b11edd886b69ace16cd64dcd0a523" title="DropDownList::Draw" alt="" coords="463,512,601,539"/>
+<area shape="rect" id="node19" href="$dc/d58/class_drop_down_list.html#a42ad113275e52197afe30c00be057f5d" title="DropDownList::DrawExpanded" alt="" coords="675,436,872,463"/>
+<area shape="rect" id="node21" href="$d2/de9/class_battery_icon.html#a5dbbe7c4e0d4411e27dbb28cb6f834ea" title="BatteryIcon::Draw" alt="" coords="469,411,595,437"/>
+<area shape="rect" id="node23" href="$d1/d4e/class_progress_bar.html#ad3d29d1500045a08b6680c7e0e45e106" title="ProgressBar::Draw" alt="" coords="467,461,597,488"/>
+<area shape="rect" id="node25" href="$dc/d7a/class_u_i_element_graph.html#aaa115a8a588526139eea7f6cdf3b88c6" title="UIElementGraph::ProcessTouch" alt="" coords="669,664,877,691"/>
 </map>

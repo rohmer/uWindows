@@ -1,6 +1,8 @@
 <map id="GDTransport::ios" name="GDTransport::ios">
 <area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="363,31,476,57"/>
-<area shape="rect" id="node5" href="$d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="173,56,315,83"/>
+<area shape="rect" id="node7" href="$d3/d2e/class_g_d_transport.html#a0b246b01945827ff45c3c134495cfa8c" title="GDTransport::begin0" alt="" coords="173,56,315,83"/>
 <area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="524,5,691,32"/>
 <area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="550,56,665,83"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="739,56,961,83"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="1009,56,1184,83"/>
 </map>

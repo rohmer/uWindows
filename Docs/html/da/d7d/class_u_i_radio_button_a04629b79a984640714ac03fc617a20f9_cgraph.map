@@ -1,4 +1,4 @@
 <map id="UIRadioButton::ProcessTouch" name="UIRadioButton::ProcessTouch">
 <area shape="rect" id="node2" href="$d5/d68/struct_rectangle.html#a004249cbf16d7da44576d1fafe7ff19e" title="Rectangle::contains" alt="" coords="252,5,389,32"/>
-<area shape="rect" id="node3" href="$d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="249,80,392,107"/>
+<area shape="rect" id="node3" href="$d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="249,56,392,83"/>
 </map>

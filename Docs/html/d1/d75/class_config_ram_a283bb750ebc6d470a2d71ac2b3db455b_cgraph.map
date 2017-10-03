@@ -1,0 +1,10 @@
+<map id="ConfigRam::i2c_rx1" name="ConfigRam::i2c_rx1">
+<area shape="rect" id="node2" href="$d1/d75/class_config_ram.html#a9a3052ff91f3dd4f3ea661ffb90568a6" title="ConfigRam::get_SDA" alt="" coords="188,5,333,32"/>
+<area shape="rect" id="node6" href="$d1/d75/class_config_ram.html#a75c42f758b64b3f2464655fb12e8e08c" title="ConfigRam::set_SCL" alt="" coords="189,56,332,83"/>
+<area shape="rect" id="node9" href="$d1/d75/class_config_ram.html#a6d95756744d9a7edb7735209bea04b59" title="ConfigRam::set_SDA" alt="" coords="188,107,333,133"/>
+<area shape="rect" id="node3" href="$d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="382,5,525,32"/>
+<area shape="rect" id="node4" href="$d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="574,5,717,32"/>
+<area shape="rect" id="node5" href="$d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="765,23,907,65"/>
+<area shape="rect" id="node7" href="$d3/d2e/class_g_d_transport.html#a2bb237094f237ebce6a31d2223ea6ec1" title="GDTransport::__wr16" alt="" coords="381,56,525,83"/>
+<area shape="rect" id="node8" href="$d3/d2e/class_g_d_transport.html#a5d03e5cd967f585ad82bd2289709c266" title="GDTransport::__write" alt="" coords="573,56,717,83"/>
+</map>

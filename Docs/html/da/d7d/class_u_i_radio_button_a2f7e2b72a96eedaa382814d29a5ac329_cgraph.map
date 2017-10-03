@@ -1,5 +1,5 @@
 <map id="UIRadioButton::IsChecked" name="UIRadioButton::IsChecked">
-<area shape="rect" id="node2" href="$da/d7d/class_u_i_radio_button.html#a04629b79a984640714ac03fc617a20f9" title="UIRadioButton::ProcessTouch" alt="" coords="228,43,424,69"/>
+<area shape="rect" id="node2" href="$da/d7d/class_u_i_radio_button.html#a04629b79a984640714ac03fc617a20f9" title="UIRadioButton::ProcessTouch" alt="" coords="228,31,424,57"/>
 <area shape="rect" id="node3" href="$d5/d68/struct_rectangle.html#a004249cbf16d7da44576d1fafe7ff19e" title="Rectangle::contains" alt="" coords="475,5,612,32"/>
-<area shape="rect" id="node4" href="$d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="472,80,615,107"/>
+<area shape="rect" id="node4" href="$d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="472,56,615,83"/>
 </map>

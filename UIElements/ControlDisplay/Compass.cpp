@@ -1,5 +1,7 @@
 #include "Compass.h"
 
+#ifdef useCompass
+
 Rectangle Compass::Draw(DriverBase &tft, Rectangle location, float direction,
 	tColor controlColor, tColor pointerColor, eUITextFont controlFont,
 	bool showDegrees, eUITextFont degreeFont, tColor degreeColor, tColor degreeBGColor,
@@ -25,7 +27,7 @@ Rectangle Compass::Draw(DriverBase &tft, Rectangle location, float direction,
 		UIPrimitives::Text(tft, textColor, 255, location.x1 + fontSize, centerPoint.y-fontSize/2, controlFont, true, "W");
 		UIPrimitives::Text(tft, textColor, 255, location.x2 - fontSize, centerPoint.y-fontSize/2, controlFont, true, "E");
 	}
-	Logger::Trace("Angle: %d", direction);
+	Logger::Trace("Angle: %f", direction);
 	UIPrimitives::CircleFlat(tft, controlColor, 255, centerPoint.x, centerPoint.y, centerCircle);
 	UIPrimitives::CircleFlat(tft, controlColor2, 255, centerPoint.x, centerPoint.y, centerCircle/2);
 	for(int a=0; a<=7; a++)
@@ -155,3 +157,5 @@ uint16_t Compass::angleMath(uint16_t startAngle, int adjustment)
 		startAngle -= 360;
 	return startAngle;
 }
+
+#endif

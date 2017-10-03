@@ -1,5 +1,6 @@
 #include "UIPrimitives.h"
 
+//TODO:: The size is 1/4 what it should be
 #ifdef FT8XX
 Rectangle UIPrimitives::SunkenPanel(DriverBase &tft, uint16_t x, uint16_t y, uint16_t width, uint16_t height, uint8_t cornerRadius, uint32_t color, uint8_t alpha)
 {
@@ -9,9 +10,6 @@ Rectangle UIPrimitives::SunkenPanel(DriverBase &tft, uint16_t x, uint16_t y, uin
 	uint32_t x1 = ((uint32_t)x << 2) + ((uint32_t)width << 2) - 4 - ((uint32_t)cornerRadius << 2);
 	uint32_t y1 = ((uint32_t)y << 2) + ((uint32_t)height << 2) - 4 - ((uint32_t)cornerRadius << 2);
 	GD.Begin(RECTS);
-#ifdef FT81X
-	GD.VertexFormat(2);
-#endif
 	GD.ColorA(alpha);
 	GD.ColorRGB(0xFFFFFF);
 	GD.LineWidth(lw);
@@ -40,9 +38,6 @@ Rectangle  UIPrimitives::RaisedPanel(DriverBase &tft, uint16_t x, uint16_t y, ui
 	uint16_t y1 = (y << 2) + (height << 2) - 6 - (cornerRadius << 2);
 	GD.ColorA(alpha);
 	GD.Begin(RECTS);
-#ifdef FT81X
-	GD.VertexFormat(2);
-#endif
 	GD.ColorRGB(0x000000);
 	GD.LineWidth(lw);
 	GD.Vertex2f(x0 + 1, y0 + 1);
@@ -73,9 +68,6 @@ Rectangle  UIPrimitives::CircleSunken(DriverBase &tft, uint32_t color, uint8_t a
 	uint16_t x2 = (x << 2);
 	uint16_t y2 = (y << 2);
 	GD.Begin(POINTS);
-#ifdef FT81X
-	GD.VertexFormat(2);
-#endif
 	GD.PointSize(ps);
 	GD.ColorA(alpha);
 	GD.ColorRGB(0xFFFFFF);
@@ -93,9 +85,6 @@ Rectangle  UIPrimitives::CircleRaised(DriverBase &tft, uint32_t color, uint8_t a
 	uint16_t x2 = (x << 2);
 	uint16_t y2 = (y << 2);
 	GD.Begin(POINTS);
-#ifdef FT81X
-	GD.VertexFormat(2);
-#endif
 	GD.PointSize(ps);
 	GD.ColorA(alpha);
 	GD.ColorRGB(0x000000);

@@ -1,9 +1,7 @@
 <map id="DriverBase::width" name="DriverBase::width">
-<area shape="rect" id="node2" href="$df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="176,31,364,57"/>
-<area shape="rect" id="node6" href="$d5/deb/class_u_i_primitives.html#a7b4f0a86a7622ffc6b836c2e370ed8dd" title="UIPrimitives::CircleOutline" alt="" coords="184,81,356,108"/>
-<area shape="rect" id="node7" href="$dc/de9/class_driver_base.html#a1fa495ac290118b1cd89a03d83dee204" title="DriverBase::DriverBase" alt="" coords="193,132,347,159"/>
-<area shape="rect" id="node8" href="$d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="213,183,327,209"/>
-<area shape="rect" id="node3" href="$df/dab/class_u_i_window.html#a20bc4a4bc92870e069cbcba5406a4bb8" title="UIWindow::SetCornerRadius" alt="" coords="430,5,617,32"/>
-<area shape="rect" id="node4" href="$d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808" title="WindowManager::RegisterElement" alt="" coords="412,56,635,83"/>
-<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2" title="WindowManager::instance" alt="" coords="683,56,857,83"/>
+<area shape="rect" id="node2" href="$d5/deb/class_u_i_primitives.html#a7b4f0a86a7622ffc6b836c2e370ed8dd" title="UIPrimitives::CircleOutline" alt="" coords="176,5,348,32"/>
+<area shape="rect" id="node3" href="$dc/de9/class_driver_base.html#a1fa495ac290118b1cd89a03d83dee204" title="DriverBase::DriverBase" alt="" coords="185,56,339,83"/>
+<area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="205,107,319,133"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="396,132,619,159"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="667,132,841,159"/>
 </map>

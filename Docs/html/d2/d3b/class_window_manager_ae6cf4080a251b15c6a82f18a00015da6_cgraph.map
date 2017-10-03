@@ -1,0 +1,26 @@
+<map id="WindowManager::updateOccluded" name="WindowManager::updateOccluded">
+<area shape="rect" id="node2" href="$d3/d42/class_logger.html#a0d1029459e1e16499c6c454c796e524e" title="Logger::Crit" alt="" coords="326,157,415,184"/>
+<area shape="rect" id="node3" href="$d1/d4c/class_u_i_element.html#aa9040e443359050eb9ebb68dd77e7895" title="UIElement::GetChildElements" alt="" coords="273,208,468,235"/>
+<area shape="rect" id="node4" href="$d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb" title="WindowManager::Update" alt="" coords="287,259,454,285"/>
+<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#ad773773b736d7ecd9f5445065dad2a02" title="FT8XXDriver::clearScreen" alt="" coords="536,56,703,83"/>
+<area shape="rect" id="node8" href="$d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b" title="WindowManager::processTouch" alt="" coords="516,259,723,285"/>
+<area shape="rect" id="node21" href="$d6/d63/class_f_t8_x_x_driver.html#a3be2fba263b842f27aeec8cff2717ffb" title="FT8XXDriver::swapDisplay" alt="" coords="534,393,705,420"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a1e6c7055ec0ce9ee1bd099f45bab2060" title="GDClass::Clear" alt="" coords="815,5,927,32"/>
+<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#ae8893affca1e587dd5c9fc62b053d148" title="GDClass::ClearColorRGB" alt="" coords="786,56,957,83"/>
+<area shape="rect" id="node9" href="$d6/d63/class_f_t8_x_x_driver.html#ac81b06b542d5544c71bcc268e6be97c1" title="FT8XXDriver::backlightOn" alt="" coords="788,107,955,133"/>
+<area shape="rect" id="node12" href="$d6/d63/class_f_t8_x_x_driver.html#a1fc75338ed9bb043dfdbac3e59777383" title="FT8XXDriver::backlightPower" alt="" coords="778,157,965,184"/>
+<area shape="rect" id="node13" href="$d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="787,208,955,235"/>
+<area shape="rect" id="node14" href="$d6/d63/class_f_t8_x_x_driver.html#a5c0eb08d2f7721980a5e469e59b48cda" title="FT8XXDriver::touched" alt="" coords="799,259,943,285"/>
+<area shape="rect" id="node18" href="$d6/d63/class_f_t8_x_x_driver.html#a34118e59a141567abaff0e350c3a8d46" title="FT8XXDriver::touchRead" alt="" coords="791,309,951,336"/>
+<area shape="rect" id="node19" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="821,360,922,387"/>
+<area shape="rect" id="node20" href="$d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de" title="Updates when the power states will be triggered from this instant in time " alt="" coords="771,411,972,453"/>
+<area shape="rect" id="node10" href="$da/df4/class_g_d_class.html#ac301982fae565da6dc1d05becf4b52b8" title="GDClass::wr" alt="" coords="1044,157,1139,184"/>
+<area shape="rect" id="node11" href="$d3/d2e/class_g_d_transport.html#ac0985e2d8d64df7ae4d41d5fa9d96098" title="GDTransport::wr" alt="" coords="1219,171,1335,197"/>
+<area shape="rect" id="node15" href="$da/df4/class_g_d_class.html#a64b6f00ce40582d6248156bdfe638966" title="GDClass::get_inputs" alt="" coords="1020,259,1163,285"/>
+<area shape="rect" id="node16" href="$d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="1211,247,1344,273"/>
+<area shape="rect" id="node17" href="$d3/d2e/class_g_d_transport.html#a2a78280a736f1fcfdbb76eceed29fb4d" title="GDTransport::rd_n" alt="" coords="1213,297,1341,324"/>
+<area shape="rect" id="node22" href="$da/df4/class_g_d_class.html#acc3c49c7560fd3cf038e5016cad99b49" title="GDClass::swap" alt="" coords="815,477,927,504"/>
+<area shape="rect" id="node23" href="$d3/d2e/class_g_d_transport.html#afc8f2dad0bf7dfaa51e85fe9b9c1f0d6" title="GDTransport::flush" alt="" coords="1026,452,1157,479"/>
+<area shape="rect" id="node24" href="$d3/d2e/class_g_d_transport.html#a8c8c9f6e6ee1513bb2bacaf38b116fc9" title="GDTransport::swap" alt="" coords="1025,503,1158,529"/>
+<area shape="rect" id="node25" href="$d3/d2e/class_g_d_transport.html#a900aa3277521c296947acd49fba3bf49" title="GDTransport::hose" alt="" coords="1212,503,1343,529"/>
+</map>

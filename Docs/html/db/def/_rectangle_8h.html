@@ -89,13 +89,14 @@ $(document).ready(function(){initNavTree('db/def/_rectangle_8h.html','../../');}
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../d1/d18/_point_8h_source.html">Point.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../d6/dec/_logger_8h_source.html">Logger.h</a>&quot;</code><br />
+<code>#include &lt;cmath&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for Rectangle.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d2/d97/_rectangle_8h__incl.png" border="0" usemap="#_utility_2_rectangle_8h" alt=""/></div>
 <map name="_utility_2_rectangle_8h" id="_utility_2_rectangle_8h">
-<area shape="rect" id="node2" href="../../d1/d18/_point_8h.html" title="Point.h" alt="" coords="5,80,68,107"/>
-<area shape="rect" id="node3" href="../../d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="93,80,165,107"/>
+<area shape="rect" id="node2" href="../../d1/d18/_point_8h.html" title="Point.h" alt="" coords="11,80,74,107"/>
+<area shape="rect" id="node3" href="../../d6/dec/_logger_8h.html" title="Logger.h" alt="" coords="99,80,171,107"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -103,55 +104,55 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="../../d9/df1/_rectangle_8h__dep__incl.png" border="0" usemap="#_utility_2_rectangle_8hdep" alt=""/></div>
 <map name="_utility_2_rectangle_8hdep" id="_utility_2_rectangle_8hdep">
-<area shape="rect" id="node2" href="../../d6/d17/_u_i_element_8h.html" title="UIElements/UIElement.h" alt="" coords="1604,237,1768,263"/>
-<area shape="rect" id="node19" href="../../dd/d58/_u_i_radio_button_8h.html" title="UIElements/UIRadioButton.h" alt="" coords="526,326,713,353"/>
-<area shape="rect" id="node21" href="../../d5/dcf/_u_i_radio_group_8h.html" title="UIElements/UIRadioGroup.h" alt="" coords="231,415,415,442"/>
-<area shape="rect" id="node23" href="../../d3/d30/_u_i_window_8h.html" title="UIElements/UIWindow.h" alt="" coords="1191,326,1354,353"/>
-<area shape="rect" id="node30" href="../../d9/d86/_font_helper_8h.html" title="Utility/FontHelper.h" alt="" coords="1922,80,2055,107"/>
-<area shape="rect" id="node31" href="../../d1/d90/_f_t8_x_x_2_u_i_primitives_8h.html" title="UIElements/FT8XX/UIPrimitives.h" alt="" coords="1801,155,2013,181"/>
-<area shape="rect" id="node38" href="../../db/d43/_numeric_entry_f_t8_x_x_8h.html" title="UIElements/ControlDisplay\l/NumericEntryFT8XX.h" alt="" coords="3204,229,3381,271"/>
-<area shape="rect" id="node50" href="../../d5/d16/_rectangle_8cpp.html" title="Utility/Rectangle.cpp" alt="" coords="2311,80,2453,107"/>
-<area shape="rect" id="node3" href="../../d2/daa/_button_8h.html" title="UIElements/ControlDisplay\l/Button.h" alt="" coords="1597,319,1775,360"/>
-<area shape="rect" id="node5" href="../../df/d6c/_u_i_active_button_8h.html" title="UIElements/UIActiveButton.h" alt="" coords="1927,415,2117,442"/>
-<area shape="rect" id="node7" href="../../d8/d27/_u_i_button_8h.html" title="UIElements/UIButton.h" alt="" coords="1546,415,1701,442"/>
-<area shape="rect" id="node9" href="../../d0/d61/_icon_button_8h.html" title="UIElements/ControlDisplay\l/IconButton.h" alt="" coords="2051,319,2228,360"/>
-<area shape="rect" id="node14" href="../../db/df5/_u_i_check_box_8h.html" title="UIElements/UICheckBox.h" alt="" coords="1850,326,2026,353"/>
-<area shape="rect" id="node17" href="../../d7/d00/_u_i_element_graph_8h.html" title="UIElements/UIElementGraph.h" alt="" coords="2252,326,2451,353"/>
-<area shape="rect" id="node28" href="../../d1/d23/_screen_saver_8h.html" title="UIElements/UIPages\l/ScreenSaver.h" alt="" coords="1379,319,1521,360"/>
-<area shape="rect" id="node4" href="../../d5/d4d/_button_8cpp.html" title="UIElements/ControlDisplay\l/Button.cpp" alt="" coords="1725,408,1903,449"/>
-<area shape="rect" id="node6" href="../../da/db1/_u_i_active_button_8cpp.html" title="UIElements/UIActiveButton.cpp" alt="" coords="1921,505,2123,531"/>
-<area shape="rect" id="node8" href="../../d9/dd1/_u_i_button_8cpp.html" title="UIElements/UIButton.cpp" alt="" coords="1539,505,1707,531"/>
-<area shape="rect" id="node10" href="../../d3/d6b/_icon_button_8cpp.html" title="UIElements/ControlDisplay\l/IconButton.cpp" alt="" coords="2523,408,2700,449"/>
-<area shape="rect" id="node11" href="../../dc/d2a/_settings_button_8h.html" title="UIElements/UIPages\l/SettingsButton.h" alt="" coords="2356,408,2499,449"/>
-<area shape="rect" id="node12" href="../../dd/d22/_home_screen_8h.html" title="UIElements/UIPages\l/HomeScreen.h" alt="" coords="1743,497,1885,539"/>
-<area shape="rect" id="node13" href="../../d1/d7a/_home_screen_8cpp.html" title="UIElements/UIPages\l/HomeScreen.cpp" alt="" coords="1743,587,1885,628"/>
-<area shape="rect" id="node15" href="../../d5/de5/_u_i_check_box_8cpp.html" title="UIElements/UICheckBox.cpp" alt="" coords="2141,415,2332,442"/>
-<area shape="rect" id="node16" href="../../dd/db9/_u_i_elements_8h.html" title="UIElements/UIElements.h" alt="" coords="1133,415,1303,442"/>
-<area shape="rect" id="node18" href="../../db/d1e/_u_i_element_graph_8cpp.html" title="UIElements/UIElementGraph.cpp" alt="" coords="2725,415,2938,442"/>
-<area shape="rect" id="node20" href="../../d8/d1f/_u_i_radio_button_8cpp.html" title="UIElements/UIRadioButton.cpp" alt="" coords="5,415,207,442"/>
-<area shape="rect" id="node22" href="../../dd/d59/_u_i_radio_group_8cpp.html" title="UIElements/UIRadioGroup.cpp" alt="" coords="215,505,413,531"/>
-<area shape="rect" id="node24" href="../../d8/dab/_f_t8_x_x_2_u_i_window_8cpp.html" title="UIElements/FT8XX/UIWindow.cpp" alt="" coords="693,415,909,442"/>
-<area shape="rect" id="node25" href="../../df/d5e/_u_i_window_8cpp.html" title="UIElements/UIWindow.cpp" alt="" coords="933,415,1109,442"/>
-<area shape="rect" id="node26" href="../../de/d83/_window_manager_8h.html" title="WindowManager/WindowManager.h" alt="" coords="439,415,669,442"/>
-<area shape="rect" id="node27" href="../../d8/d8c/_window_mananger_8cpp.html" title="WindowManager/WindowMananger.cpp" alt="" coords="438,505,689,531"/>
-<area shape="rect" id="node29" href="../../d6/d35/_screen_saver_8cpp.html" title="UIElements/UIPages\l/ScreenSaver.cpp" alt="" coords="1379,408,1521,449"/>
-<area shape="rect" id="node49" href="../../d3/d66/_font_helper_8cpp.html" title="Utility/FontHelper.cpp" alt="" coords="2089,155,2235,181"/>
-<area shape="rect" id="node32" href="../../d3/d23/_check_box_8h.html" title="UIElements/ControlDisplay\l/CheckBox.h" alt="" coords="1945,229,2123,271"/>
-<area shape="rect" id="node34" href="../../db/d26/_compass_8h.html" title="UIElements/ControlDisplay\l/Compass.h" alt="" coords="2348,229,2525,271"/>
-<area shape="rect" id="node36" href="../../de/d5e/_drop_down_list_8h.html" title="UIElements/ControlDisplay\l/DropDownList.h" alt="" coords="2801,229,2979,271"/>
-<area shape="rect" id="node40" href="../../dd/d9c/_progress_bar_8h.html" title="UIElements/ControlDisplay\l/ProgressBar.h" alt="" coords="3003,229,3180,271"/>
-<area shape="rect" id="node42" href="../../d0/d74/_radio_button_8h.html" title="UIElements/ControlDisplay\l/RadioButton.h" alt="" coords="737,229,915,271"/>
-<area shape="rect" id="node44" href="../../de/d62/_slider_8h.html" title="UIElements/ControlDisplay\l/Slider.h" alt="" coords="2147,229,2324,271"/>
-<area shape="rect" id="node46" href="../../de/d42/_window_8h.html" title="UIElements/ControlDisplay\l/Window.h" alt="" coords="1311,229,1488,271"/>
-<area shape="rect" id="node48" href="../../d2/d01/_f_t8_x_x_2_u_i_primitives_8cpp.html" title="UIElements/FT8XX/UIPrimitives.cpp" alt="" coords="2550,237,2777,263"/>
-<area shape="rect" id="node33" href="../../d6/d32/_check_box_8cpp.html" title="UIElements/ControlDisplay\l/CheckBox.cpp" alt="" coords="2475,319,2652,360"/>
-<area shape="rect" id="node35" href="../../df/d66/_compass_8cpp.html" title="UIElements/ControlDisplay\l/Compass.cpp" alt="" coords="2877,319,3055,360"/>
-<area shape="rect" id="node37" href="../../d8/dfe/_drop_down_list_8cpp.html" title="UIElements/ControlDisplay\l/DropDownList.cpp" alt="" coords="3079,319,3256,360"/>
-<area shape="rect" id="node39" href="../../da/dd4/_numeric_entry_f_t8_x_x_8cpp.html" title="UIElements/ControlDisplay\l/NumericEntryFT8XX.cpp" alt="" coords="3481,319,3659,360"/>
-<area shape="rect" id="node41" href="../../da/d23/_progress_bar_8cpp.html" title="UIElements/ControlDisplay\l/ProgressBar.cpp" alt="" coords="3280,319,3457,360"/>
-<area shape="rect" id="node43" href="../../d2/de3/_radio_button_8cpp.html" title="UIElements/ControlDisplay\l/RadioButton.cpp" alt="" coords="737,319,915,360"/>
-<area shape="rect" id="node45" href="../../db/d6c/_slider_8cpp.html" title="UIElements/ControlDisplay\l/Slider.cpp" alt="" coords="2676,319,2853,360"/>
-<area shape="rect" id="node47" href="../../d3/db8/_window_8cpp.html" title="UIElements/ControlDisplay\l/Window.cpp" alt="" coords="939,319,1116,360"/>
+<area shape="rect" id="node2" href="../../d9/d86/_font_helper_8h.html" title="Utility/FontHelper.h" alt="" coords="1899,80,2033,107"/>
+<area shape="rect" id="node3" href="../../d1/d90/_f_t8_x_x_2_u_i_primitives_8h.html" title="UIElements/FT8XX/UIPrimitives.h" alt="" coords="1612,155,1824,181"/>
+<area shape="rect" id="node7" href="../../d6/d17/_u_i_element_8h.html" title="UIElements/UIElement.h" alt="" coords="1239,237,1403,263"/>
+<area shape="rect" id="node23" href="../../dd/d58/_u_i_radio_button_8h.html" title="UIElements/UIRadioButton.h" alt="" coords="389,326,575,353"/>
+<area shape="rect" id="node25" href="../../d5/dcf/_u_i_radio_group_8h.html" title="UIElements/UIRadioGroup.h" alt="" coords="13,415,197,442"/>
+<area shape="rect" id="node27" href="../../d3/d30/_u_i_window_8h.html" title="UIElements/UIWindow.h" alt="" coords="969,326,1131,353"/>
+<area shape="rect" id="node38" href="../../db/d43/_numeric_entry_f_t8_x_x_8h.html" title="UIElements/ControlDisplay\l/NumericEntryFT8XX.h" alt="" coords="3041,229,3219,271"/>
+<area shape="rect" id="node50" href="../../d5/d16/_rectangle_8cpp.html" title="Utility/Rectangle.cpp" alt="" coords="2057,80,2200,107"/>
+<area shape="rect" id="node49" href="../../d3/d66/_font_helper_8cpp.html" title="Utility/FontHelper.cpp" alt="" coords="2003,155,2150,181"/>
+<area shape="rect" id="node4" href="../../da/db8/_battery_icon_8h.html" title="UIElements/ControlDisplay\l/BatteryIcon.h" alt="" coords="1529,229,1707,271"/>
+<area shape="rect" id="node8" href="../../d2/daa/_button_8h.html" title="UIElements/ControlDisplay\l/Button.h" alt="" coords="2336,319,2513,360"/>
+<area shape="rect" id="node14" href="../../d0/d61/_icon_button_8h.html" title="UIElements/ControlDisplay\l/IconButton.h" alt="" coords="1379,319,1556,360"/>
+<area shape="rect" id="node21" href="../../d7/d00/_u_i_element_graph_8h.html" title="UIElements/UIElementGraph.h" alt="" coords="1156,326,1355,353"/>
+<area shape="rect" id="node32" href="../../d3/d23/_check_box_8h.html" title="UIElements/ControlDisplay\l/CheckBox.h" alt="" coords="2184,229,2361,271"/>
+<area shape="rect" id="node34" href="../../db/d26/_compass_8h.html" title="UIElements/ControlDisplay\l/Compass.h" alt="" coords="1731,229,1908,271"/>
+<area shape="rect" id="node36" href="../../de/d5e/_drop_down_list_8h.html" title="UIElements/ControlDisplay\l/DropDownList.h" alt="" coords="2437,229,2615,271"/>
+<area shape="rect" id="node40" href="../../dd/d9c/_progress_bar_8h.html" title="UIElements/ControlDisplay\l/ProgressBar.h" alt="" coords="2639,229,2816,271"/>
+<area shape="rect" id="node42" href="../../d0/d74/_radio_button_8h.html" title="UIElements/ControlDisplay\l/RadioButton.h" alt="" coords="393,229,571,271"/>
+<area shape="rect" id="node44" href="../../de/d62/_slider_8h.html" title="UIElements/ControlDisplay\l/Slider.h" alt="" coords="2840,229,3017,271"/>
+<area shape="rect" id="node46" href="../../de/d42/_window_8h.html" title="UIElements/ControlDisplay\l/Window.h" alt="" coords="1037,229,1215,271"/>
+<area shape="rect" id="node48" href="../../d2/d01/_f_t8_x_x_2_u_i_primitives_8cpp.html" title="UIElements/FT8XX/UIPrimitives.cpp" alt="" coords="1933,237,2159,263"/>
+<area shape="rect" id="node5" href="../../d4/d70/_battery_icon_8cpp.html" title="UIElements/ControlDisplay\l/BatteryIcon.cpp" alt="" coords="1933,319,2111,360"/>
+<area shape="rect" id="node6" href="../../dd/db9/_u_i_elements_8h.html" title="UIElements/UIElements.h" alt="" coords="1355,415,1526,442"/>
+<area shape="rect" id="node10" href="../../df/d6c/_u_i_active_button_8h.html" title="UIElements/UIActiveButton.h" alt="" coords="2134,415,2323,442"/>
+<area shape="rect" id="node12" href="../../d8/d27/_u_i_button_8h.html" title="UIElements/UIButton.h" alt="" coords="2347,415,2502,442"/>
+<area shape="rect" id="node19" href="../../db/df5/_u_i_check_box_8h.html" title="UIElements/UICheckBox.h" alt="" coords="1631,326,1807,353"/>
+<area shape="rect" id="node30" href="../../d1/d23/_screen_saver_8h.html" title="UIElements/UIPages\l/ScreenSaver.h" alt="" coords="801,319,944,360"/>
+<area shape="rect" id="node9" href="../../d5/d4d/_button_8cpp.html" title="UIElements/ControlDisplay\l/Button.cpp" alt="" coords="2527,408,2704,449"/>
+<area shape="rect" id="node11" href="../../da/db1/_u_i_active_button_8cpp.html" title="UIElements/UIActiveButton.cpp" alt="" coords="2121,505,2323,531"/>
+<area shape="rect" id="node13" href="../../d9/dd1/_u_i_button_8cpp.html" title="UIElements/UIButton.cpp" alt="" coords="2347,505,2515,531"/>
+<area shape="rect" id="node15" href="../../d3/d6b/_icon_button_8cpp.html" title="UIElements/ControlDisplay\l/IconButton.cpp" alt="" coords="1717,408,1895,449"/>
+<area shape="rect" id="node16" href="../../dc/d2a/_settings_button_8h.html" title="UIElements/UIPages\l/SettingsButton.h" alt="" coords="1551,408,1693,449"/>
+<area shape="rect" id="node17" href="../../dd/d22/_home_screen_8h.html" title="UIElements/UIPages\l/HomeScreen.h" alt="" coords="1280,497,1423,539"/>
+<area shape="rect" id="node18" href="../../d1/d7a/_home_screen_8cpp.html" title="UIElements/UIPages\l/HomeScreen.cpp" alt="" coords="1280,587,1423,628"/>
+<area shape="rect" id="node20" href="../../d5/de5/_u_i_check_box_8cpp.html" title="UIElements/UICheckBox.cpp" alt="" coords="1919,415,2109,442"/>
+<area shape="rect" id="node22" href="../../db/d1e/_u_i_element_graph_8cpp.html" title="UIElements/UIElementGraph.cpp" alt="" coords="1118,415,1331,442"/>
+<area shape="rect" id="node24" href="../../d8/d1f/_u_i_radio_button_8cpp.html" title="UIElements/UIRadioButton.cpp" alt="" coords="221,415,423,442"/>
+<area shape="rect" id="node26" href="../../dd/d59/_u_i_radio_group_8cpp.html" title="UIElements/UIRadioGroup.cpp" alt="" coords="5,505,204,531"/>
+<area shape="rect" id="node28" href="../../df/d5e/_u_i_window_8cpp.html" title="UIElements/UIWindow.cpp" alt="" coords="614,415,790,442"/>
+<area shape="rect" id="node29" href="../../de/d83/_window_manager_8h.html" title="WindowManager/WindowManager.h" alt="" coords="814,415,1043,442"/>
+<area shape="rect" id="node31" href="../../d6/d35/_screen_saver_8cpp.html" title="UIElements/UIPages\l/ScreenSaver.cpp" alt="" coords="447,408,589,449"/>
+<area shape="rect" id="node33" href="../../d6/d32/_check_box_8cpp.html" title="UIElements/ControlDisplay\l/CheckBox.cpp" alt="" coords="2537,319,2715,360"/>
+<area shape="rect" id="node35" href="../../df/d66/_compass_8cpp.html" title="UIElements/ControlDisplay\l/Compass.cpp" alt="" coords="2135,319,2312,360"/>
+<area shape="rect" id="node37" href="../../d8/dfe/_drop_down_list_8cpp.html" title="UIElements/ControlDisplay\l/DropDownList.cpp" alt="" coords="2739,319,2916,360"/>
+<area shape="rect" id="node39" href="../../da/dd4/_numeric_entry_f_t8_x_x_8cpp.html" title="UIElements/ControlDisplay\l/NumericEntryFT8XX.cpp" alt="" coords="3343,319,3520,360"/>
+<area shape="rect" id="node41" href="../../da/d23/_progress_bar_8cpp.html" title="UIElements/ControlDisplay\l/ProgressBar.cpp" alt="" coords="2940,319,3117,360"/>
+<area shape="rect" id="node43" href="../../d2/de3/_radio_button_8cpp.html" title="UIElements/ControlDisplay\l/RadioButton.cpp" alt="" coords="136,319,313,360"/>
+<area shape="rect" id="node45" href="../../db/d6c/_slider_8cpp.html" title="UIElements/ControlDisplay\l/Slider.cpp" alt="" coords="3141,319,3319,360"/>
+<area shape="rect" id="node47" href="../../d3/db8/_window_8cpp.html" title="UIElements/ControlDisplay\l/Window.cpp" alt="" coords="600,319,777,360"/>
 </map>
 </div>
 </div>

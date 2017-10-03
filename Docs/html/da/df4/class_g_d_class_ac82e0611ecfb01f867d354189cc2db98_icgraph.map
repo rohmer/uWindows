@@ -1,7 +1,9 @@
 <map id="GDClass::wr32" name="GDClass::wr32">
 <area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a8bdcb9061b19da87b430dae426677683" title="GDClass::begin" alt="" coords="168,56,281,83"/>
-<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="163,107,287,133"/>
+<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#a68bbee9c121b74e09b660db7a17cb2a0" title="GDClass::sample" alt="" coords="163,107,287,133"/>
 <area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a947fa9e02002b801b2235fbaea92b115" title="FT8XXDriver::FT8XXDriver" alt="" coords="335,5,501,32"/>
 <area shape="rect" id="node4" href="$d6/d63/class_f_t8_x_x_driver.html#a36b60bfac2ac80f15f6dd6fbf57b17be" title="FT8XXDriver::Init" alt="" coords="361,56,475,83"/>
-<area shape="rect" id="node6" href="$d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="361,107,475,133"/>
+<area shape="rect" id="node5" href="$d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e" title="WindowManager::WindowManager" alt="" coords="549,56,772,83"/>
+<area shape="rect" id="node6" href="$d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c" title="WindowManager::instance" alt="" coords="820,56,995,83"/>
+<area shape="rect" id="node8" href="$d7/dca/class_streamer.html#a429daab390e64eced518f3184bd01993" title="Streamer::begin" alt="" coords="361,107,475,133"/>
 </map>

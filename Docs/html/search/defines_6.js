@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['f',['F',['../d9/da3/_sys_call_8h.html#a0e3009529aac180ed5f48296d6670d6b',1,'SysCall.h']]],
   ['f16',['F16',['../df/de7/_g_d3_8h.html#a2ce26e171e495499b9c91d7797edb5f0',1,'GD3.h']]],
   ['f8',['F8',['../df/de7/_g_d3_8h.html#a6ef6410c9ac3b35a6de9d9697a94c73f',1,'GD3.h']]],
   ['f_5fcpu',['F_CPU',['../d9/d71/_8buildtest_8vsarduino_8h.html#a43bafb28b29491ec7f871319b5a3b2f8',1,'.buildtest.vsarduino.h']]],
-  ['fat12_5fsupport',['FAT12_SUPPORT',['../de/d9b/_sd_fat_config_8h.html#a28998c5daf4bd038f4f93172698320b1',1,'SdFatConfig.h']]],
   ['fat16',['FAT16',['../df/de7/_g_d3_8h.html#aa1a932d97a06f0de46f0d204c3c29d8f',1,'GD3.h']]],
   ['fat32',['FAT32',['../df/de7/_g_d3_8h.html#a51cfb551f0270354f9115893b7f4339f',1,'GD3.h']]],
-  ['fat_5flib_5fversion',['FAT_LIB_VERSION',['../de/dfa/_fat_lib_8h.html#a6f54720c1a09ca610629e6d4e57dd276',1,'FatLib.h']]],
   ['font5x7_5fh',['FONT5X7_H',['../d3/da9/glcdfont_8c.html#ade0434f760ed161602cde133a3136c95',1,'glcdfont.c']]],
   ['ft81x',['FT81X',['../d4/dbb/_options_8h.html#adcb09e93044adb5e6932863d4e8989d3',1,'Options.h']]],
   ['ft8xx',['FT8XX',['../d4/dbb/_options_8h.html#af5f69a04dad9e10641c30b5c73ac8808',1,'Options.h']]],

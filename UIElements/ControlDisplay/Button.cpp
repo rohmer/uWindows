@@ -6,21 +6,24 @@ Rectangle Button::Draw(DriverBase &tft, bool sunken, uint16_t x, uint16_t y, uin
 	uint16_t height, int32_t textColor, uint32_t buttonColor, eUITextFont font, std::string text,
 	bool is3D, uint8_t cornerRadius, uint8_t alpha, eVertAlign vertAlign)
 {
-	Rectangle r;
+	Rectangle r = Rectangle(x, y, x + width, y + height);
 	if (is3D)
 	{
 		if (sunken)
 		{
-			r = UIPrimitives::SunkenPanel(tft, x, y, width, height, cornerRadius, buttonColor, alpha);
+			Logger::Trace("Drawing Sunken button: (%d,%d,%d,%d)", x, y, width, height);
+			UIPrimitives::SunkenPanel(tft, x, y, width, height, cornerRadius, buttonColor, alpha);
 		}
 		else
 		{
-			r = UIPrimitives::RaisedPanel(tft, x, y, width, height, cornerRadius, buttonColor, alpha);
+			Logger::Trace("Drawing Raised button: (%d,%d,%d,%d)", x, y, width, height);
+			UIPrimitives::RaisedPanel(tft, x, y, width, height, cornerRadius, buttonColor, alpha);
 		}
 	}
 	else
 	{
-		r=UIPrimitives::FlatPanel(tft, x, y, width, height, cornerRadius, buttonColor, alpha);
+		Logger::Trace("Drawing Flat button: (%d,%d,%d,%d)", x, y, width, height);
+		UIPrimitives::FlatPanel(tft, x, y, width, height, cornerRadius, buttonColor, alpha);
 	}
 
 	r.update();

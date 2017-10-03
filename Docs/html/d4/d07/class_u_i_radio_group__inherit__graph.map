@@ -1,3 +1,3 @@
 <map id="UIRadioGroup" name="UIRadioGroup">
-<area shape="rect" id="node2" href="$d1/d4c/class_u_i_element.html" title="{UIElement\n|# elementName\l# location\l# parentElement\l# updatePending\l# enabled\l# elementID\l# tft\l# elementType\l# childElements\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l}" alt="" coords="12,5,151,347"/>
+<area shape="rect" id="node2" href="$d1/d4c/class_u_i_element.html" title="{UIElement\n|# elementName\l# location\l# parentElement\l# updatePending\l# enabled\l# elementID\l# tft\l# elementType\l# childElements\l|+ UIElement()\l+ UIElement()\l+ Update()\l+ GetElementType()\l+ UpdatePending()\l+ getElementID()\l+ isEnabled()\l+ setEnabled()\l+ Invalidate()\l+ GetLocation()\land 8 more...\l&#45; getChildElements()\l}" alt="" coords="11,5,151,361"/>
 </map>

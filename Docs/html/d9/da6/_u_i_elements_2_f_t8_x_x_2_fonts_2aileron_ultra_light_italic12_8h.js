@@ -5,5 +5,7 @@ var _u_i_elements_2_f_t8_x_x_2_fonts_2aileron_ultra_light_italic12_8h =
     [ "AILERON_ULTRALIGHTITALIC_HEIGHT", "d9/da6/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_ultra_light_italic12_8h.html#a89769f940a8a957004fde7b7713a9ca2", null ],
     [ "AILERON_ULTRALIGHTITALIC_WIDTH", "d9/da6/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_ultra_light_italic12_8h.html#ab730d4389ea73829de82675477086641", null ],
     [ "ASSETS_END", "d9/da6/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_ultra_light_italic12_8h.html#a00844751c174aab3075f895bdf85390b", null ],
-    [ "LOAD_ASSETS", "d9/da6/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_ultra_light_italic12_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ]
+    [ "LOAD_ASSETS", "d9/da6/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_ultra_light_italic12_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ],
+    [ "__assets", "d9/da6/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_ultra_light_italic12_8h.html#a88cd6a544c89c6b8790954e628cd7207", null ],
+    [ "AILERON_ULTRALIGHTITALIC_SHAPE", "d9/da6/_u_i_elements_2_f_t8_x_x_2_fonts_2aileron_ultra_light_italic12_8h.html#a39b3271f3bb7a3263478e8735ad6c52b", null ]
 ];

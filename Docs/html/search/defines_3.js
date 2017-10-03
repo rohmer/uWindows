@@ -3,7 +3,6 @@ var searchData=
   ['calibration',['CALIBRATION',['../da/d16/_g_d3_8cpp.html#a4ddd570ad03298cdcf6728dcc3b82985',1,'GD3.cpp']]],
   ['carousel',['CAROUSEL',['../df/de7/_g_d3_8h.html#a004a66727063a7154e7541b40085bd3c',1,'GD3.h']]],
   ['chack',['CHACK',['../df/de7/_g_d3_8h.html#a2b277e2173402b175acc76165e31b833',1,'GD3.h']]],
-  ['check_5fprogramming',['CHECK_PROGRAMMING',['../d0/d78/_sd_spi_card_8cpp.html#ac4e9109501f3d7d73fbdf08d1d16e70e',1,'SdSpiCard.cpp']]],
   ['chimes',['CHIMES',['../df/de7/_g_d3_8h.html#a564798b2d672747438a2afcaec1ee76d',1,'GD3.h']]],
   ['clack',['CLACK',['../df/de7/_g_d3_8h.html#a37814ef0a99be22f9fcf2ccb6c78014f',1,'GD3.h']]],
   ['clear_5falpha',['CLEAR_ALPHA',['../d2/d01/_f_t8_x_x_2_u_i_primitives_8cpp.html#afec3d492686cfcd5b3129589275005b4',1,'UIPrimitives.cpp']]],

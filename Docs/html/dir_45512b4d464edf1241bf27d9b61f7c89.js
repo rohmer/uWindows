@@ -10,7 +10,7 @@ var dir_45512b4d464edf1241bf27d9b61f7c89 =
     ] ],
     [ "FontHelper.cpp", "d3/d66/_font_helper_8cpp.html", null ],
     [ "FontHelper.h", "d9/d86/_font_helper_8h.html", [
-      [ "FontHelper", "d4/d96/class_font_helper.html", null ]
+      [ "FontHelper", "d4/d96/class_font_helper.html", "d4/d96/class_font_helper" ]
     ] ],
     [ "ImageHelper.cpp", "d3/d8f/_image_helper_8cpp.html", null ],
     [ "ImageHelper.h", "d0/d24/_image_helper_8h.html", [

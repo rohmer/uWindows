@@ -1,4 +1,6 @@
 <map id="GDTransport::cmd32" name="GDTransport::cmd32">
-<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#ab9892c221b6554c4e0ac62d63bb7b8fd" title="GDClass::cmd32" alt="" coords="196,5,317,32"/>
-<area shape="rect" id="node3" href="$d6/d63/class_f_t8_x_x_driver.html#a3d9921e09fcd5de81edaa7c0c0a7b4c8" title="FT8XXDriver::writeCommand" alt="" coords="365,5,549,32"/>
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#aa07c246b0a11db3bb320b21dfe235c8d" title="GDClass::cFFFFFF" alt="" coords="196,5,333,32"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#adad8c82c656ae5a82cae97faf8252ea2" title="GDClass::cI" alt="" coords="219,56,311,83"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#ab9892c221b6554c4e0ac62d63bb7b8fd" title="GDClass::cmd32" alt="" coords="204,107,325,133"/>
+<area shape="rect" id="node5" href="$d6/d63/class_f_t8_x_x_driver.html#a3d9921e09fcd5de81edaa7c0c0a7b4c8" title="FT8XXDriver::writeCommand" alt="" coords="381,107,565,133"/>
 </map>

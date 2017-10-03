@@ -1,8 +1,7 @@
 <map id="UIPrimitives::SunkenPanel" name="UIPrimitives::SunkenPanel">
-<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="251,5,366,32"/>
-<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="248,56,369,83"/>
-<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="239,107,379,133"/>
-<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a4139b47a6859cce023afe504ae89b1ad" title="GDClass::LineWidth" alt="" coords="239,157,379,184"/>
-<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="243,208,374,235"/>
-<area shape="rect" id="node7" href="$da/df4/class_g_d_class.html#afbb12db41b3a6a89f3e8666a323ec2e0" title="GDClass::VertexFormat" alt="" coords="228,259,389,285"/>
+<area shape="rect" id="node2" href="$da/df4/class_g_d_class.html#a38fadda1ccb109100cf116f9dc68d584" title="GDClass::Begin" alt="" coords="241,5,355,32"/>
+<area shape="rect" id="node3" href="$da/df4/class_g_d_class.html#a8f81815dcd90e3b2a09f75a3ea231a90" title="GDClass::ColorA" alt="" coords="237,56,359,83"/>
+<area shape="rect" id="node4" href="$da/df4/class_g_d_class.html#a74e76111c9a6c9071d747855f586fdfe" title="GDClass::ColorRGB" alt="" coords="228,107,368,133"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a4139b47a6859cce023afe504ae89b1ad" title="GDClass::LineWidth" alt="" coords="228,157,368,184"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a5fb662160049e4540cc1603bb4ea2bdc" title="GDClass::Vertex2f" alt="" coords="233,208,363,235"/>
 </map>

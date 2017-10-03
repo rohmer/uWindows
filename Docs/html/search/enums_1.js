@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['eangle',['eAngle',['../d9/d3f/class_compass.html#a9ddc5d805f4fc738ca64d25b6d8ae500',1,'Compass']]],
   ['edisplayrotation',['eDisplayRotation',['../dd/db4/_driver_base_8h.html#a254de963827ed0fd5023906c4f10b8ac',1,'DriverBase.h']]],
   ['edrivertype',['eDriverType',['../dd/db4/_driver_base_8h.html#ab300e7507598ab84e2d39eb417e6ab98',1,'DriverBase.h']]],
   ['eelementtype',['eElementType',['../d6/d17/_u_i_element_8h.html#a0cea456c525689137e7b9f6401cb54cf',1,'UIElement.h']]],

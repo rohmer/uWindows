@@ -1,6 +1,8 @@
 <map id="GDTransport::rp" name="GDTransport::rp">
-<area shape="rect" id="node2" href="$d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="168,13,311,39"/>
-<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a893d548ec8e04a8115d66b3ced5046c9" title="GDClass::alert" alt="" coords="186,63,293,90"/>
-<area shape="rect" id="node3" href="$d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="359,13,501,39"/>
+<area shape="rect" id="node2" href="$d3/d2e/class_g_d_transport.html#ae528ac7d91e90fa2dc32b167bd245f89" title="GDTransport::__rd16" alt="" coords="168,15,311,42"/>
+<area shape="rect" id="node5" href="$da/df4/class_g_d_class.html#a893d548ec8e04a8115d66b3ced5046c9" title="GDClass::alert" alt="" coords="186,67,293,94"/>
+<area shape="rect" id="node3" href="$d3/d2e/class_g_d_transport.html#ac5ecaf63185d9199a5fe5317ee2f9ad0" title="GDTransport::__read" alt="" coords="359,14,501,41"/>
 <area shape="rect" id="node4" href="$d3/d2e/class_g_d_transport.html#a496b16cc5ecc31d136b2be03c6b81be2" title="GDTransport::default\l_spi_ioc" alt="" coords="549,5,691,47"/>
+<area shape="rect" id="node6" href="$da/df4/class_g_d_class.html#a4a67996c7221b7855768e2d4215584f5" title="GDClass::finish" alt="" coords="374,67,486,94"/>
+<area shape="rect" id="node7" href="$d3/d2e/class_g_d_transport.html#a9eddd5ee3e559ee54b6126b05694abe8" title="GDTransport::finish" alt="" coords="553,71,687,98"/>
 </map>

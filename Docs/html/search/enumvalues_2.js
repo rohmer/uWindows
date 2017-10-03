@@ -13,6 +13,5 @@ var searchData=
   ['cornsilk',['Cornsilk',['../d9/ddd/class_color.html#abf86de2edcb7562ef5c4eceb1253d320a51c02d197518bbe8160c9c19467075d1',1,'Color']]],
   ['crimson',['Crimson',['../d9/ddd/class_color.html#abf86de2edcb7562ef5c4eceb1253d320aca0303ee1089788dbe4619bd4451ddec',1,'Color']]],
   ['critical',['CRITICAL',['../d3/d42/class_logger.html#ac744681e23720966b5f430ec2060da36a4157b31e8897f6aaf720fe5e869638b9',1,'Logger']]],
-  ['cur',['cur',['../d4/dc1/classios__base.html#ab01103ba35f6ba93a704b3ec0c86191ea53910041525b9e2f33bfc3bb4482134c',1,'ios_base']]],
   ['cyan',['Cyan',['../d9/ddd/class_color.html#abf86de2edcb7562ef5c4eceb1253d320a067f182f046f8d4b99de3ae7643fb2e3',1,'Color']]]
 ];

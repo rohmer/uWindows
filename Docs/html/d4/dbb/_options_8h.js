@@ -14,6 +14,7 @@ var _options_8h =
     [ "tColor", "d4/dbb/_options_8h.html#aa6b5e718a7b2cb13e4a4b70cce176da3", null ],
     [ "useActiveButton", "d4/dbb/_options_8h.html#ad4c596e16c4b936ba3085acc75969e14", null ],
     [ "useAileronRegular12", "d4/dbb/_options_8h.html#a23baeeb7bd76df64a50355eb2562efbb", null ],
+    [ "useBatteryIcon", "d4/dbb/_options_8h.html#a4020486cfbd1e282abd5265e46cce24d", null ],
     [ "useButton", "d4/dbb/_options_8h.html#a378860f5b572f93c97660e8c8ecfe4d1", null ],
     [ "useCompass", "d4/dbb/_options_8h.html#aa28555df8fbe2469571e3e343f4d4d67", null ],
     [ "useElementGraph", "d4/dbb/_options_8h.html#af6c6c5198defd8e3509ee9334427b589", null ],

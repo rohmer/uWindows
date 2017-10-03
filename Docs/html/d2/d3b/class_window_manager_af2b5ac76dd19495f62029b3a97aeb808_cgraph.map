@@ -1,13 +1,10 @@
 <map id="WindowManager::RegisterElement" name="WindowManager::RegisterElement">
-<area shape="rect" id="node2" href="$df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="276,132,464,159"/>
-<area shape="rect" id="node10" href="$d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="286,183,454,209"/>
-<area shape="rect" id="node11" href="$d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="299,257,441,284"/>
-<area shape="rect" id="node12" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="319,308,421,335"/>
+<area shape="rect" id="node2" href="$df/dab/class_u_i_window.html#a37dc78b74f5691fb9271519a53f565e8" title="Adds a child element to a window. For Windows it is special (Hence override), as the location is rela..." alt="" coords="276,81,464,108"/>
+<area shape="rect" id="node7" href="$d1/d4c/class_u_i_element.html#a4e1132bbd1dd094e1f04a2a49fd9754f" title="UIElement::getElementID" alt="" coords="286,132,454,159"/>
+<area shape="rect" id="node8" href="$d1/d4c/class_u_i_element.html#ae71f0b19c32fa484fe0f3662275c3282" title="UIElement::Invalidate" alt="" coords="299,183,441,209"/>
+<area shape="rect" id="node9" href="$d3/d42/class_logger.html#af0e4315cf6e872a441adcc985f2c3d45" title="Logger::Trace" alt="" coords="319,233,421,260"/>
 <area shape="rect" id="node3" href="$d1/d4c/class_u_i_element.html#ab012fc7a49ca1fd6d669bc74d18060a8" title="UIElement::GetLocation" alt="" coords="512,5,672,32"/>
-<area shape="rect" id="node4" href="$dc/de9/class_driver_base.html#a3b6b30844cda1b57940bfe6c0d7c38aa" title="DriverBase::height" alt="" coords="529,56,655,83"/>
-<area shape="rect" id="node6" href="$d1/d4c/class_u_i_element.html#a0270b834d6fdf077db7ab241f6e7421e" title="UIElement::SetLocation" alt="" coords="513,107,671,133"/>
-<area shape="rect" id="node7" href="$d1/d4c/class_u_i_element.html#ae5df92881598efcef3cd803ef9ef3a12" title="UIElement::SetParent" alt="" coords="518,157,666,184"/>
-<area shape="rect" id="node8" href="$d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="529,208,655,235"/>
-<area shape="rect" id="node9" href="$dc/de9/class_driver_base.html#a66309674e7c781da313aeee15c5a60cf" title="DriverBase::width" alt="" coords="531,259,653,285"/>
-<area shape="rect" id="node5" href="$dc/de9/class_driver_base.html#a8d9f805d559da4200bd853f0531073c4" title="DriverBase::textWrite" alt="" coords="720,56,865,83"/>
+<area shape="rect" id="node4" href="$d1/d4c/class_u_i_element.html#a0270b834d6fdf077db7ab241f6e7421e" title="UIElement::SetLocation" alt="" coords="513,56,671,83"/>
+<area shape="rect" id="node5" href="$d1/d4c/class_u_i_element.html#ae5df92881598efcef3cd803ef9ef3a12" title="UIElement::SetParent" alt="" coords="518,107,666,133"/>
+<area shape="rect" id="node6" href="$d5/d68/struct_rectangle.html#ab92d1def505d300873233d525638ea19" title="Rectangle::update" alt="" coords="529,157,655,184"/>
 </map>

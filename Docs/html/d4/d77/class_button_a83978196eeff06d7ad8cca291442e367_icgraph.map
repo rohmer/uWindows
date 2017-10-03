@@ -1,3 +1,4 @@
 <map id="Button::Draw" name="Button::Draw">
-<area shape="rect" id="node2" href="$da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="151,5,272,32"/>
+<area shape="rect" id="node2" href="$d1/d0d/class_u_i_active_button.html#af7fbece84d856a63a2d2a0ec7d4ea895" title="An active button will call this first, then draw whatever data on the button that it wants to display..." alt="" coords="151,5,307,32"/>
+<area shape="rect" id="node3" href="$da/d03/class_u_i_button.html#aacc0bca6352b1b57e0fb9b2f5b64ec5e" title="UIButton::Update" alt="" coords="168,56,289,83"/>
 </map>

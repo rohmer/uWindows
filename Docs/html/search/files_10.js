@@ -16,7 +16,6 @@ var searchData=
   ['uiradiobutton_2eh',['UIRadioButton.h',['../dd/d58/_u_i_radio_button_8h.html',1,'']]],
   ['uiradiogroup_2ecpp',['UIRadioGroup.cpp',['../dd/d59/_u_i_radio_group_8cpp.html',1,'']]],
   ['uiradiogroup_2eh',['UIRadioGroup.h',['../d5/dcf/_u_i_radio_group_8h.html',1,'']]],
-  ['uiwindow_2ecpp',['UIWindow.cpp',['../d8/dab/_f_t8_x_x_2_u_i_window_8cpp.html',1,'(Global Namespace)'],['../df/d5e/_u_i_window_8cpp.html',1,'(Global Namespace)']]],
-  ['uiwindow_2eh',['UIWindow.h',['../d3/d30/_u_i_window_8h.html',1,'']]],
-  ['unogpiopinmap_2eh',['UnoGpioPinMap.h',['../d2/dff/_uno_gpio_pin_map_8h.html',1,'']]]
+  ['uiwindow_2ecpp',['UIWindow.cpp',['../df/d5e/_u_i_window_8cpp.html',1,'']]],
+  ['uiwindow_2eh',['UIWindow.h',['../d3/d30/_u_i_window_8h.html',1,'']]]
 ];

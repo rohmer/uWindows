@@ -1,7 +1,6 @@
 var searchData=
 [
   ['bargraph',['BarGraph',['../dc/d7a/class_u_i_element_graph.html#a6a8defc6368459c07cd5bf1c71361b47afab73c0f0cd3396149992cebec9d1a25',1,'UIElementGraph']]],
-  ['beg',['beg',['../d4/dc1/classios__base.html#ab01103ba35f6ba93a704b3ec0c86191ea6639b4dd9e9b57ffef4a176cd1a1e7bb',1,'ios_base']]],
   ['beige',['Beige',['../d9/ddd/class_color.html#abf86de2edcb7562ef5c4eceb1253d320a6a348cf7db8dfa17041aa3d341e0d501',1,'Color']]],
   ['bisque',['Bisque',['../d9/ddd/class_color.html#abf86de2edcb7562ef5c4eceb1253d320aeeffd080a5976326888b42372e2d09d9',1,'Color']]],
   ['bitmapfont16',['BitmapFont16',['../de/d9a/_f_t8_x_x_2_fonts_8h.html#ac40d02428b51d23fc652423b588618f8a04faa9c634cdb6613516139376da64e1',1,'Fonts.h']]],

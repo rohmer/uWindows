@@ -1,10 +1,30 @@
 var class_window_manager =
 [
+    [ "WindowManager", "d2/d3b/class_window_manager.html#ab9974e1231d1104ad4dc394ec8ef398e", null ],
+    [ "~WindowManager", "d2/d3b/class_window_manager.html#a19fd6e41c42760af82460d9851780d82", null ],
+    [ "ClearElements", "d2/d3b/class_window_manager.html#a80d4d9f0e2758326fe88e35987534005", null ],
     [ "DeleteElement", "d2/d3b/class_window_manager.html#ac258d8dc8ee3811df72312bac910f076", null ],
     [ "GetDriver", "d2/d3b/class_window_manager.html#af4a0046271fb87d52f40f5d8b9980e14", null ],
+    [ "GetLastTouchEvent", "d2/d3b/class_window_manager.html#adc767e9fff8b60b9d4c2334efcd3aa96", null ],
+    [ "instance", "d2/d3b/class_window_manager.html#ad55038820a94dda6e99ca2a87b9c7c5c", null ],
+    [ "instance", "d2/d3b/class_window_manager.html#ab64a2e1344258a973b6cb0d65fe952f2", null ],
     [ "MoveControlToFront", "d2/d3b/class_window_manager.html#a3b55d6bdb2e1def7789382700e796ecc", null ],
+    [ "processTouch", "d2/d3b/class_window_manager.html#adf5df4ff4bb4de4d82d99bfde01dbb0b", null ],
     [ "RegisterElement", "d2/d3b/class_window_manager.html#af2b5ac76dd19495f62029b3a97aeb808", null ],
     [ "SetLowPowerTime", "d2/d3b/class_window_manager.html#af4fe15d9cc5149d3aaab0e5bcb6ac5e9", null ],
     [ "SetScreenOffTime", "d2/d3b/class_window_manager.html#a441d5cddbc4dd50d462f98dbd343ff9d", null ],
-    [ "Update", "d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb", null ]
+    [ "Update", "d2/d3b/class_window_manager.html#ab3fe67e0942bab78c79da066cf89d2eb", null ],
+    [ "updateOccluded", "d2/d3b/class_window_manager.html#ae6cf4080a251b15c6a82f18a00015da6", null ],
+    [ "updatePowerTriggerTime", "d2/d3b/class_window_manager.html#a62f72185a16ae2dcb0dea0aac7beb7de", null ],
+    [ "elementMap", "d2/d3b/class_window_manager.html#ad3dbf8e7b52b68404343319b9d28f99e", null ],
+    [ "elementOrder", "d2/d3b/class_window_manager.html#a2bb73a268d280d802eb2f32beeae0228", null ],
+    [ "lastTouchEvent", "d2/d3b/class_window_manager.html#ab8dfd5ce2fd3d2ab759d4bddf5aba53c", null ],
+    [ "lowPowerTime", "d2/d3b/class_window_manager.html#a9086376ca16eb64cfe1feff5500d6533", null ],
+    [ "lowPowerTrigger", "d2/d3b/class_window_manager.html#a232d3a47cc8dab07bc7a9324907fd6db", null ],
+    [ "powerState", "d2/d3b/class_window_manager.html#af438ac85df79b5161dd6f1486913ee04", null ],
+    [ "s_instance", "d2/d3b/class_window_manager.html#ad9982c07a77675bc429887327ab9575d", null ],
+    [ "screenOffTime", "d2/d3b/class_window_manager.html#a73058da039062d3b8b95ee7fd01888f7", null ],
+    [ "screenOffTrigger", "d2/d3b/class_window_manager.html#aca38df9bb647e8ebcc31ebb76b2432a7", null ],
+    [ "tft", "d2/d3b/class_window_manager.html#a99bbe44d9aa5c507ecee9f8c9b128681", null ],
+    [ "wmCanvas", "d2/d3b/class_window_manager.html#a3b5ab0083ec95e9e90fbe0bbb87eb86f", null ]
 ];

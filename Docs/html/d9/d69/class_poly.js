@@ -5,5 +5,14 @@ var class_poly =
     [ "finish", "d9/d69/class_poly.html#a3bcb54c9e37aecb7d560ecd09a7fb10c", null ],
     [ "outline", "d9/d69/class_poly.html#aea14dd3713f87549a6cc8e309db073e5", null ],
     [ "paint", "d9/d69/class_poly.html#a33e5287826976b100e6bc351de93095e", null ],
-    [ "v", "d9/d69/class_poly.html#ac9724b980191f0caaa7d1d8a236ec287", null ]
+    [ "perim", "d9/d69/class_poly.html#a5760f25d5cdac03f7691765e068ed653", null ],
+    [ "restart", "d9/d69/class_poly.html#a2e9fc678a4a3b44f8c09f2d78a7cb4cc", null ],
+    [ "v", "d9/d69/class_poly.html#ac9724b980191f0caaa7d1d8a236ec287", null ],
+    [ "n", "d9/d69/class_poly.html#a0928c64a590eb821ae817fce6ac6818c", null ],
+    [ "x", "d9/d69/class_poly.html#a2d100f6cb720e5866bdc259fa9b02ef4", null ],
+    [ "x0", "d9/d69/class_poly.html#a85f9f98ec135d49db8916be23a7f30de", null ],
+    [ "x1", "d9/d69/class_poly.html#a0c5d1e49acfe73424edfaa01d0f63569", null ],
+    [ "y", "d9/d69/class_poly.html#ae1b69b50786d559c1232e6c3d6d772f3", null ],
+    [ "y0", "d9/d69/class_poly.html#a46a11c7c28c3aa9d015e8236af59ee28", null ],
+    [ "y1", "d9/d69/class_poly.html#a82908e9ac8e94880c9bc587abcc63d76", null ]
 ];

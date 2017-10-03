@@ -9,5 +9,7 @@ var _f_t81_x___desplazamiento___h_2_dark1_8h =
     [ "N2_CELLS", "dc/d00/_f_t81_x___desplazamiento___h_2_dark1_8h.html#a2d633431377f798e433f7ab791133bcb", null ],
     [ "N2_HANDLE", "dc/d00/_f_t81_x___desplazamiento___h_2_dark1_8h.html#a0a5d88c1d062fd130cdfca70e2714281", null ],
     [ "N2_HEIGHT", "dc/d00/_f_t81_x___desplazamiento___h_2_dark1_8h.html#a49445ab3adcbe892d58fe7a7670b74ac", null ],
-    [ "N2_WIDTH", "dc/d00/_f_t81_x___desplazamiento___h_2_dark1_8h.html#a4e698ffd35fd975c34091526cdbdc5a1", null ]
+    [ "N2_WIDTH", "dc/d00/_f_t81_x___desplazamiento___h_2_dark1_8h.html#a4e698ffd35fd975c34091526cdbdc5a1", null ],
+    [ "N1_SHAPE", "dc/d00/_f_t81_x___desplazamiento___h_2_dark1_8h.html#a8b04e9d0bd54020137e5eea9a0773fdf", null ],
+    [ "N2_SHAPE", "dc/d00/_f_t81_x___desplazamiento___h_2_dark1_8h.html#a615f90c9d6e6d20fe761e3be7db2d137", null ]
 ];

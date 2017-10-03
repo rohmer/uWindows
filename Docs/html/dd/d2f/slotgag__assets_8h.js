@@ -9,5 +9,7 @@ var slotgag__assets_8h =
     [ "GAMEDUINO_HANDLE", "dd/d2f/slotgag__assets_8h.html#a92507beb13ae0e16cf3aedcd0d31e850", null ],
     [ "GAMEDUINO_HEIGHT", "dd/d2f/slotgag__assets_8h.html#abed9e2468b3d5a0cb4f1d0d047096445", null ],
     [ "GAMEDUINO_WIDTH", "dd/d2f/slotgag__assets_8h.html#af6fc1139c11cbee07b335566f070d42e", null ],
-    [ "LOAD_ASSETS", "dd/d2f/slotgag__assets_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ]
+    [ "LOAD_ASSETS", "dd/d2f/slotgag__assets_8h.html#a57ad40b9eb9a2afaf3579fd492920a31", null ],
+    [ "BACKGROUND_SHAPE", "dd/d2f/slotgag__assets_8h.html#a5efcab73e76b7c3f6812b0ac79b1463f", null ],
+    [ "GAMEDUINO_SHAPE", "dd/d2f/slotgag__assets_8h.html#a5a8a03e224f332d726e54209af921036", null ]
 ];
