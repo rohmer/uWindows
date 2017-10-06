@@ -30,7 +30,7 @@ Rectangle BatteryIcon::Draw(DriverBase &tft, Rectangle location, uint8_t pctChar
 	tft.fillRoundRect(mainBox.x1 + 3, mainBox.y1 + 3, mainBox.width - 6, mainBox.height - 6, 3, bgColor);
 	//Now time for the pct bars
 	uint16_t barWidth = (mainBox.width/ barColors.size())-6;
-	uint8_t numBarsToShow = ((float)(pctCharged / 100)*barColors.size()) + 1;
+	uint8_t numBarsToShow = ((float)((float)pctCharged / 100.0f)*barColors.size()) + 1;
 	if (numBarsToShow > barColors.size())
 		numBarsToShow = barColors.size();
 	numBarsToShow=Max(1, numBarsToShow);

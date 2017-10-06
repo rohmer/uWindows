@@ -63,6 +63,7 @@ public:
 	virtual void fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint32_t color)=0;
 	virtual void fillScreen(uint32_t color)=0;
 	virtual void drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint32_t color)=0;
+	virtual void drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint32_t color, uint8_t lineWidth) = 0;
 	virtual void drawCircle(int16_t x0, int16_t y0, int16_t r, uint32_t color)=0;
 	virtual void fillCircle(int16_t x0, int16_t y0, int16_t r, uint32_t color)=0;
 	virtual void drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1,
